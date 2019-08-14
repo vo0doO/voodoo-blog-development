@@ -9,4 +9,3 @@
 # User files
 venv/**
 *.pyc
-staticfiles

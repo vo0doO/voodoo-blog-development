@@ -1,4 +1,5 @@
-from whitenoise import django as wnd
+from django.core.wsgi import get_wsgi_application
+from whitenoise.django import DjangoWhiteNoise
 
-
-application = wnd.DjangoWhiteNoise(application)
+application = get_wsgi_application()
+application = DjangoWhiteNoise(application)
