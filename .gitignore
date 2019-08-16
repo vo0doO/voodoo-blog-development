@@ -9,3 +9,4 @@
 # User files
 venv/**
 *.pyc
+!/.vscode/
