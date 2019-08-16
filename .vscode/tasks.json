@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "virtual edit",
+            "command": "cp ${file} ${file}~",
+            "type": "shell",
+            "args": ["-y", "--force"],
+            "runOptions": {"reevaluateOnRerun": true, "runOn": "folderOpen"},
+            "problemMatcher": [
+                "$tsc"
+            ],
+            "presentation": {
+                "reveal": "always"
+            },
+            "group": "build"
+        }
+    ]
+}
