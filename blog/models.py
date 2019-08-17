@@ -19,3 +19,14 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class Client(models.Model):
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    ip = models.CharField(max_length=200)
+
+    def write(self):
+        self.save()
+
+    def __str__(self):
+        return self.title
