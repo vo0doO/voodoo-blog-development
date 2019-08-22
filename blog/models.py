@@ -23,10 +23,31 @@ class Post(models.Model):
 
 class Client(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    ip = models.CharField(max_length=200)
+    ip = models.CharField(max_length=500)
+    request_time = models.DateTimeField(default=timezone.now)
 
     def write(self):
         self.save()
 
     def __str__(self):
-        return self.title
+        return self.ip, self.request_time
+
+
+class Answer(models.Model):
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    author = models.CharField(max_length=2000)
+    step_1 = models.CharField(max_length=2000)
+    step_2 = models.CharField(max_length=2000)
+    step_3 = models.CharField(max_length=2000)
+    step_4 = models.CharField(max_length=10)
+    step_5 = models.CharField(max_length=250)
+    step_6 = models.IntegerField()
+    created_time = models.DateTimeField(default=timezone.now)
+
+    def write(self):
+        self.save()
+
+    def __str__(self):
+        return f"Author: {self.author}; Кому вы должны: {self.step_1}; " \
+               f"Сколько: {self.step_2}; Просрочки: {self.step_3}; " \
+               f"Залог: {self.step_4}; Имя: {self.step_5}; Телефон: {self.step_6}"

@@ -1,0 +1,22 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+  <header class="masthead mb-auto">
+    <div class="inner">
+      <h3 class="masthead-brand">Банкрот</h3>
+      <nav class="nav nav-masthead justify-content-center">
+        <a class="nav-link active" href="#">Главна</a>
+        <a class="nav-link" href="#">Функия</a>
+        <a class="nav-link" href="#">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main role="main" class="inner cover">
+    <h1 class="cover-heading">Узнай стоимость банкротства.</h1>
+    <p class="lead"> Пройдите короткий тест. Узнай стоимость. Загрузи документы в электронном виде и получи скидку 30%</p>
+    <p class="lead">
+      <a href="{% url 'answer_new' %}" class="btn btn-lg btn-secondary">Пройти тест</a>
+    </p>
+  </main>
+{% endblock %}

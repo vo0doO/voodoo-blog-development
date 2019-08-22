@@ -1,8 +1,9 @@
 from django.urls import path
 from . import views
+import uuid
 
 urlpatterns = [
-    path('', views.post_list, name='post_list'),
-    path('', views.get_client_ip, name='get_client_ip'),
-    path('client-ip/', views.get_client_ip, name='get_client_ip')
+    path('', views.landing_page, name='landing_page'),
+    path('answer/<pk>', views.answer_detail, name='answer_detail'),
+    path('answer/new/', views.answer_new, name='answer_new')
 ]

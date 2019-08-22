@@ -1,0 +1,22 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+  <header class="masthead mb-auto">
+    <div class="inner">
+      <h3 class="masthead-brand">Банкрот</h3>
+      <nav class="nav nav-masthead justify-content-center">
+        <a class="nav-link active" href="#">Главна</a>
+        <a class="nav-link" href="#">Функия</a>
+        <a class="nav-link" href="#">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main role="main" class="inner cover">
+    <h1 class="cover-heading">Благодарим за ваши ответы.</h1>
+    <p class="lead"> Наши специалисты незамедлительно с вами свяжутся.</p>
+      <p class="lead"> {{ f"Ваши ответы: Кому вы должны: {answer.step_1}; " \
+               f"Сколько: {answer.step_2}; Просрочки: {answer.step_3}; " \
+               f"Залог: {answer.step_4}; Имя: {answer.step_5}; Телефон: {answer.step_6}" }} </p>
+  </main>
+{% endblock %}
