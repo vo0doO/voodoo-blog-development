@@ -50,4 +50,4 @@ class Answer(models.Model):
     def __str__(self):
         return f"Author: {self.author}; Кому вы должны: {self.step_1}; " \
                f"Сколько: {self.step_2}; Просрочки: {self.step_3}; " \
-               f"Залог: {self.step_4}; Имя: {self.step_5}; Телефон: {self.step_6}"
+               f"Залог: {self.step_4}; Имя: {self.step_5}; Телефон: {self.step_6}; ID: {self.id}"

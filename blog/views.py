@@ -6,7 +6,7 @@ from .forms import AnswerForm
 def landing_page(request):
     posts = Post.objects.filter(created_date__lte=timezone.now()).order_by('created_date')
     ip, req_time = get_client_ip(request)
-    return render(request, 'blog/landing_page.html', {'posts': posts, 'ip': ip, 'req_time': req_time})
+    return render(request, 'blog/landing_page.html', {'ip': ip, 'req_time': req_time})
 
 def get_client_ip(request):
     x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
@@ -30,8 +30,12 @@ def answer_new(request):
             return redirect('answer_detail', pk=answer.pk)
     else:
         form = AnswerForm()
-        return render(request, 'blog/answer_edit.html', {'form': form})
+        return render(request, 'blog/answer_new.html', {'form': form})
 
 def answer_detail(request, pk):
     answer = get_object_or_404(Answer, pk=pk)
-    return render(request, 'blog/final.html', {'answer': answer})
+    id = f"Номер вашей заявки: {answer.id}"
+    answer = f"Кому вы должны: {answer.step_1}; " \
+               f"Сколько: {answer.step_2}; Просрочки: {answer.step_3}; " \
+               f"Залог: {answer.step_4}; Имя: {answer.step_5}; Телефон: {answer.step_6}"
+    return render(request, 'blog/final.html', {'id': id, 'answer': answer})

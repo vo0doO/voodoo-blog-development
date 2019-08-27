@@ -1,6 +1,7 @@
 {% extends 'blog/base.html' %}
 
 {% block content %}
+
   <header class="masthead mb-auto">
     <div class="inner">
       <h3 class="masthead-brand">Банкрот</h3>
@@ -12,11 +13,14 @@
     </div>
   </header>
 
-  <main role="main" class="inner cover">
-    <h1 class="cover-heading">Благодарим за ваши ответы.</h1>
-    <p class="lead"> Наши специалисты незамедлительно с вами свяжутся.</p>
-      <p class="lead"> {{ f"Ваши ответы: Кому вы должны: {answer.step_1}; " \
-               f"Сколько: {answer.step_2}; Просрочки: {answer.step_3}; " \
-               f"Залог: {answer.step_4}; Имя: {answer.step_5}; Телефон: {answer.step_6}" }} </p>
-  </main>
+      <main role="main" class="inner cover">
+        <h1 class="cover-heading">Благодарим за ваши ответы.</h1>
+        <p class="lead"> {{ id }} </p>
+        <p class="lead"> Наши специалисты незамедлительно с вами свяжутся.</p>
+        <p class="lead">
+          <a href="https://sites.google.com/view/bankrotstvo/процедуры" class="btn btn-lg btn-secondary">Узнать о нас</a>
+        </p>
+
+      </main>
+
 {% endblock %}
