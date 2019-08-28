@@ -39,3 +39,6 @@ def answer_detail(request, pk):
                f"Сколько: {answer.step_2}; Просрочки: {answer.step_3}; " \
                f"Залог: {answer.step_4}; Имя: {answer.step_5}; Телефон: {answer.step_6}"
     return render(request, 'blog/final.html', {'id': id, 'answer': answer})
+
+def procedury(request):
+    return render(request, 'blog/procedury.html')
