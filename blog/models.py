@@ -17,22 +17,6 @@ class Client(models.Model):
         return self.ip, self.request_time
 
 
-class Question(models.Model):
-    question_text = models.CharField('description', null=True, max_length=300)
-
-    def __str__(self):
-        return f"{self.question_text}"
-
-
-class Choice(models.Model):
-    question = models.ForeignKey(Question, null=True, on_delete=models.CASCADE)
-    choice_text = models.CharField(null=True, max_length=300)
-    votes = models.IntegerField(default=0)
-
-    def __str__(self):
-        return f"{self.choice_text}"
-
-
 KOMU_CHOICES = (
     ('Банкам', _('Банкам')),
     ('Часным лица', _('Часным лица')),
@@ -55,8 +39,7 @@ class Answer(models.Model):
     author = models.CharField(max_length=2000)
     skolko = MultiSelectField('Сколько всего вы должны ?',
         choices=SKOLKO_CHOICES,
-        max_choices=1,
-        max_length=500,
+        blank=True
     )
     komu = MultiSelectField("Кому вы должны ?",
         choices=KOMU_CHOICES,

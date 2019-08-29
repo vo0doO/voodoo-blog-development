@@ -1,7 +1,7 @@
 {% extends 'blog/base.html' %}
 
 {% block content %}
-<form action="{% url 'blog:final' answer.id %}" method="POST" >
+<form  method="POST">
   {% csrf_token %}
   {{ form.as_p }}
   <button type="submit" class="btn btn-lg btn-secondary">Сохранить</button>
