@@ -19,4 +19,4 @@ sqlparse==0.3.0
 urllib3==1.25.3
 vk-api==11.5.0
 whitenoise==4.1.3
-multiselectfield==*
+multiselectfield
