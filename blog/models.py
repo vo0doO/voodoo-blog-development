@@ -5,6 +5,38 @@ from django.utils.translation import gettext as _
 from multiselectfield import MultiSelectField
 
 
+KOMU_CHOICES = (
+    ('Банкам', _('Банкам')),
+    ('Часным лица', _('Часным лица')),
+    ('Судебным приставам', _('Судебным приставам')),
+    ('Микрофинансовым организациям', _('Микрофинансовым организациям')),
+    ('Другое', _('Другое')),
+)
+
+
+SKOLKO_CHOICES = (
+    (1, _('До 200 000 руб')),
+    (2, _('От 200 000 руб до 500 000 руб')),
+    (3, _('От 500 000 руб до 1 000 000 руб')),
+    (4, _('Более 1 000 000 руб')),
+    (5, _('Более 5 000 000 руб')),
+)
+
+
+PROSROCHKY_CHOICES = (
+    (1, _('Нет')),
+    (2, _('Да, до месяца')),
+    (1, _('Да, от месяца до трёх')),
+    (1, _('Более трёх месяцев')),
+)
+
+
+ZALOGI_CHOICES = (
+    (1, _('Есть')),
+    (2, _('Нет'))
+)
+
+
 class Client(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     ip = models.CharField(max_length=500)
@@ -17,36 +49,35 @@ class Client(models.Model):
         return self.ip, self.request_time
 
 
-KOMU_CHOICES = (
-    ('Банкам', _('Банкам')),
-    ('Часным лица', _('Часным лица')),
-    ('Судебным приставам', _('Судебным приставам')),
-    ('МФО', _('МФО')),
-    ('Другое', _('Другое')),
-)
-
-SKOLKO_CHOICES = (
-    (1, _('До 200 000 руб')),
-    (2, _('От 200 000 руб до 500 000 руб')),
-    (3, _('От 500 000 руб до 1 000 000 руб')),
-    (4, _('Более 1 000 000 руб')),
-    (5, _('Более 5 000 000 руб')),
-)
-
-
 class Answer(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     author = models.CharField(max_length=2000)
-    skolko = MultiSelectField('Сколько всего вы должны ?',
+    created_time = models.DateTimeField(default=timezone.now)
+
+    skolko = MultiSelectField('Сколько всего Вы должны ?',
         choices=SKOLKO_CHOICES,
         blank=True
     )
-    komu = MultiSelectField("Кому вы должны ?",
+
+    komu = MultiSelectField("Кому Вы должны ?",
         choices=KOMU_CHOICES,
         blank=True
     )
-    created_time = models.DateTimeField(default=timezone.now)
 
+    prosrochky = MultiSelectField('Есть ли у Вас просрочки по кредитам ?',
+        choices=PROSROCHKY_CHOICES,
+        blank=True
+    )
+
+    zalogi = MultiSelectField('Есть ли у Вас имущество в залоге ? Например, ипотечная квартира или автомобиль купленный в автокредит.',
+        choices=ZALOGI_CHOICES,
+        blank=True
+    )
+
+    name = models.CharField("Как Вас зовут ?", max_length=200, default="")
+
+    phone = models.CharField('И последний шаг ! Введите Ваш телефон. Без этого мы не сможем расчитать стоимость.', max_length=15, default="")
+    
     def write(self):
         self.save()
 

@@ -1,8 +1,16 @@
 from django import forms
-from .models import Answer, Choice, Question
+from .models import Answer
 
 
 class AnswerForm(forms.ModelForm):
+
     class Meta:
         model = Answer
-        fields = ('skolko', 'komu')
+        fields = (
+            'skolko',
+            'komu',
+            'prosrochky',
+            'zalogi',
+            'name',
+            'phone',
+        )
