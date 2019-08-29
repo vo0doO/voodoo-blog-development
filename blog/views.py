@@ -37,3 +37,7 @@ def get_client_ip(request):
         client_ip = request.META.get('REMOTE_ADDR')
         Client.objects.create(ip=client_ip, request_time=request_time)
     return client_ip, request_time
+
+
+def procedury(request):
+    return render(request, 'blog/procedury.html')
