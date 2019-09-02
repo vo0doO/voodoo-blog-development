@@ -2,6 +2,11 @@ from django.shortcuts import render, get_object_or_404, redirect
 from .models import Client, Answer
 from django.utils import timezone
 from .forms import AnswerForm
+from django.http import HttpResponseRedirect
+
+def test(request):
+    return render(request, 'blog/test.html')
+
 
 def landing_page(request):
     ip, req_time = get_client_ip(request)
@@ -15,9 +20,14 @@ def answer_new(request):
             answer = form.save()
             answer.author = get_client_ip(request)[0]
             answer.save()
-            return redirect('blog:final', pk=answer.id)
+            ## TODO: Обновить на "HttpResponseRedirect(redirect(resolved('blog:final', pk=answer.id)))"
+            return redirect('blog:final', pk=answer.pk)
+            # return redirect('blog:final', pk=answer.id)
     else:
         form = AnswerForm()
+        fields_label = [form.fields.get(field).label for field in dict(form.fields.items())]
+        fields_name = [field for field in dict(form.fields.items())]
+        # context = { "form": form, "labels" : fields_label, "name": fields_name }
     return render(request, 'blog/answer_new.html', {'form': form })
 
 

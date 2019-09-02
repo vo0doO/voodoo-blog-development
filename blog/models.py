@@ -1,8 +1,11 @@
 import uuid
+
 from django.db import models
+from django.db.models import ManyToManyField
 from django.utils import timezone
 from django.utils.translation import gettext as _
 from multiselectfield import MultiSelectField
+from phonenumber_field.modelfields import PhoneNumberField
 
 
 KOMU_CHOICES = (
@@ -12,30 +15,23 @@ KOMU_CHOICES = (
     ('Микрофинансовым организациям', _('Микрофинансовым организациям')),
     ('Другое', _('Другое')),
 )
-
-
 SKOLKO_CHOICES = (
-    (1, _('До 200 000 руб')),
-    (2, _('От 200 000 руб до 500 000 руб')),
-    (3, _('От 500 000 руб до 1 000 000 руб')),
-    (4, _('Более 1 000 000 руб')),
-    (5, _('Более 5 000 000 руб')),
+    (1, 'До 200 000 руб'),
+    (2, 'От 200 000 руб до 500 000 руб'),
+    (3, 'От 500 000 руб до 1 000 000 руб'),
+    (4, 'Более 1 000 000 руб'),
+    (5, 'Более 5 000 000 руб'),
 )
-
-
 PROSROCHKY_CHOICES = (
-    (1, _('Нет')),
-    (2, _('Да, до месяца')),
-    (1, _('Да, от месяца до трёх')),
-    (1, _('Более трёх месяцев')),
+    (1, 'Нет'),
+    (2, 'Да, до месяца'),
+    (1, 'Да, от месяца до трёх'),
+    (1, 'Более трёх месяцев'),
 )
-
-
 ZALOGI_CHOICES = (
-    (1, _('Есть')),
-    (2, _('Нет'))
+    (1, 'Есть'),
+    (2, 'Нет')
 )
-
 
 class Client(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
@@ -48,6 +44,9 @@ class Client(models.Model):
     def __str__(self):
         return self.ip, self.request_time
 
+## TODO: Переписать часть модели
+## TODO: Добавить объект для каждого вопроса
+## TODO: Свазать с ответом через "ForeginKey" и "Answer.pk"
 
 class Answer(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
@@ -56,33 +55,40 @@ class Answer(models.Model):
 
     skolko = MultiSelectField('Сколько всего Вы должны ?',
         choices=SKOLKO_CHOICES,
-        blank=True
+        max_choices=1,
+        blank=False
     )
 
     komu = MultiSelectField("Кому Вы должны ?",
         choices=KOMU_CHOICES,
-        blank=True
+        blank=False
     )
 
     prosrochky = MultiSelectField('Есть ли у Вас просрочки по кредитам ?',
         choices=PROSROCHKY_CHOICES,
-        blank=True
+        max_choices=1,
+        blank=False
     )
 
     zalogi = MultiSelectField('Есть ли у Вас имущество в залоге ? Например, ипотечная квартира или автомобиль купленный в автокредит.',
         choices=ZALOGI_CHOICES,
-        blank=True
+        max_choices=1,
+        blank=False
     )
 
-    name = models.CharField("Как Вас зовут ?", max_length=200, default="")
+    name = models.CharField("Как Вас зовут ?", blank=False, max_length=200,  default="")
 
-    phone = models.CharField('И последний шаг ! Введите Ваш телефон. Без этого мы не сможем расчитать стоимость.', max_length=15, default="")
+    phone = PhoneNumberField("Введите ваш телефон", blank=False, unique=False)
     
     def write(self):
         self.save()
 
     def __str__(self):
-        return f"Автор: {self.author}, Сколько: {self.skolko}, Кому: {self.komu}"
+        return f"IP автора: {self.author}, Телефон: {self.phone}, Имя: {self.name} Сколько: {self.skolko}, Кому: {self.komu}, Залоги: {self.zalogi}"
 
     def __unicode__(self):
         return self.__str__()
+
+
+class Question(models.Model):
+    pass

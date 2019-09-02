@@ -38,10 +38,13 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'django_static_jquery',
     'blog',
-    'multiselectfield'
+    'phonenumber_field',
+    'multiselectfield',
 ]
-
+PHONENUMBER_DB_FORMAT = 'E164'
+PHONENUMBER_DEFAULT_REGION = 'RU'
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
