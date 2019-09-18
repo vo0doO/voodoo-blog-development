@@ -3,7 +3,7 @@ from blog.models import Client, Answer, Choice, Question
 from django.utils import timezone
 from blog.forms import AnswerForm
 from django.http import HttpResponseRedirect
-from django.views.generic import ( 
+from django.views.generic import( 
     CreateView, UpdateView,
     ListView, DetailView
     )
@@ -79,20 +79,20 @@ def answer_new(request):
     else:
         form = AnswerForm()
 
-    return render(request, 'blog/answer_new.html', {"form":form})
+    return render(request, 'blog/answer_new.html', {"form": form})
 
 
 def final(request, pk):
     answer = get_object_or_404(Answer, pk=pk)
     id = f"Номер вашей заявки: {answer.id}"
-    return render(request, 'blog/final.html', {'id': id })
+    return render(request, 'blog/final.html', {'id': id})
 
 
 def get_client_ip(request):
     x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
     request_time = timezone.now()
     if x_forwarded_for:
-        client_ip=x_forwarded_for.split(',')[-1]
+        client_ip = x_forwarded_for.split(',')[-1]
         Client.objects.create(ip=client_ip, request_time=request_time)
     else:
         client_ip = request.META.get('REMOTE_ADDR')

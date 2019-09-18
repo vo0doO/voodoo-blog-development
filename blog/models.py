@@ -48,9 +48,11 @@ class Answer(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     author = models.CharField(max_length=2000)
     created_time = models.DateTimeField(default=timezone.now)
-    # error_messages="Ответ на данный вопрос обезателен, без этого мы к сожалению не сможем расчитать стоимость..."
+    # error_messages="Ответ на данный вопрос обезателен, без этого 
+    # мы к сожалению не сможем расчитать стоимость..."
     komu = MultiSelectField(
-        "Кому Вы должны ?", choices=KOMU_CHOICES, blank=False, help_text="custom-control-label")
+        "Кому Вы должны ?", choices=KOMU_CHOICES,
+        blank=False, help_text="custom-control-label")
     skolko = MultiSelectField(
         'Сколько всего Вы должны ?', choices=SKOLKO_CHOICES,
         max_choices=1, blank=False)
@@ -60,7 +62,8 @@ class Answer(models.Model):
     zalogi = MultiSelectField(
         'Есть ли у Вас имущество в залоге ?',
         choices=ZALOGI_CHOICES, max_choices=1, blank=False,
-        help_text=" Например, ипотечная квартира или автомобиль купленный в автокредит.")
+        help_text=f"Например, ипотечная квартира или \
+            автомобиль купленный в автокредит.")
     name = models.CharField(
         "Как Вас зовут ?", blank=False, max_length=200, default="")
     phone = PhoneNumberField(
