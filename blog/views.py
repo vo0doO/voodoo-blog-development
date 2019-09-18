@@ -41,7 +41,10 @@ class AnswerUpdate(UpdateView):
         "name",
         "phone"
         ]
-    success_url = reverse_lazy("blog:answer_detail")
+    
+    def form_valid(self, form):
+        form.instance.author = get_client_ip(request=self.request)[0]
+        return super().form_valid(form)
 
 
 class AnswerListView(ListView):

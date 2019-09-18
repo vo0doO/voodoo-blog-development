@@ -9,9 +9,9 @@ from phonenumber_field.modelfields import PhoneNumberField
 
 KOMU_CHOICES = (
     ('Банкам', _('Банкам')),
-    ('Часным лица', _('Часным лица')),
-    ('Судебным приставам', _('Судебным приставам')),
-    ('Микрофинансовым организациям', _('Микрофинансовым организациям')),
+    ('Часным', _('Часным лица')),
+    ('Приставам', _('Судебным приставам')),
+    ('Микрофинансам', _('Микрофинансовым организациям')),
     ('Другое', _('Другое')),
 )
 SKOLKO_CHOICES = (
@@ -52,7 +52,7 @@ class Answer(models.Model):
     # error_messages="Ответ на данный вопрос обезателен, без этого 
     # мы к сожалению не сможем расчитать стоимость..."
     komu = MultiSelectField(
-        "Кому Вы должны ?", choices=KOMU_CHOICES,
+        "Кому Вы должны ?", choices=KOMU_CHOICES, max_choices=5,
         blank=False, help_text="Можете выбрать 1 или несколько ответов")
     skolko = MultiSelectField(
         'Сколько всего Вы должны ?', choices=SKOLKO_CHOICES,
