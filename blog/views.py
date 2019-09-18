@@ -3,7 +3,7 @@ from blog.models import Client, Answer, Choice, Question
 from django.utils import timezone
 from blog.forms import AnswerForm
 from django.http import HttpResponseRedirect
-from django.views.generic import( 
+from django.views.generic import ( 
     CreateView, UpdateView,
     ListView, DetailView
     )
