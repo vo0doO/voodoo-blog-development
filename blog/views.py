@@ -2,11 +2,17 @@ from django.shortcuts import render, get_object_or_404, redirect
 from blog.models import Client, Answer, Choice, Question
 from django.utils import timezone
 from blog.forms import AnswerForm
+from django.urls import reverse_lazy
 from django.http import HttpResponseRedirect
 from django.views.generic import ( 
     CreateView, UpdateView,
     ListView, DetailView
     )
+
+
+class AnswerDetail(DetailView):
+    model = Answer
+    template_name = 'blog/answer_detail.html'
 
 
 class AnswerCreate(CreateView):
@@ -19,6 +25,10 @@ class AnswerCreate(CreateView):
         "name",
         "phone"
         ]
+    
+    def form_valid(self, form):
+        form.instance.author = get_client_ip(request=self.request)[0]
+        return super().form_valid(form)
 
 
 class AnswerUpdate(UpdateView):
@@ -31,6 +41,7 @@ class AnswerUpdate(UpdateView):
         "name",
         "phone"
         ]
+    success_url = reverse_lazy("blog:answer_detail")
 
 
 class AnswerListView(ListView):
@@ -46,11 +57,6 @@ class AnswerListView(ListView):
     def get_context_data(self, **kwargs):
         context = super(AnswerListView, self).get_context_data(**kwargs)
         return context
-
-
-class AnswerResult(DetailView):
-    model = Answer
-    template_name = 'blog/answer_result.html'
 
 
 def landing_page(request):

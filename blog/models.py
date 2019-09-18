@@ -1,5 +1,6 @@
 import uuid
 from django.db import models
+from django.urls import reverse
 from django.utils import timezone as timezone
 from django.utils.translation import gettext as _
 from multiselectfield import MultiSelectField
@@ -52,7 +53,7 @@ class Answer(models.Model):
     # мы к сожалению не сможем расчитать стоимость..."
     komu = MultiSelectField(
         "Кому Вы должны ?", choices=KOMU_CHOICES,
-        blank=False, help_text="custom-control-label")
+        blank=False, help_text="Можете выбрать 1 или несколько ответов")
     skolko = MultiSelectField(
         'Сколько всего Вы должны ?', choices=SKOLKO_CHOICES,
         max_choices=1, blank=False)
@@ -69,8 +70,8 @@ class Answer(models.Model):
     phone = PhoneNumberField(
         "Введите ваш телефон", blank=False, unique=False)
 
-    def write(self):
-        self.save()
+    def get_absolute_url(self):
+        return reverse("blog:answer_detail", kwargs={"pk": self.pk})
 
     def __str__(self):
         return f"""

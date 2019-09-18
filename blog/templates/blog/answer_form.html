@@ -17,7 +17,9 @@
                         <nav class="nav">
                             <ul class="nav justify-content-left">
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="#carouselExampleCaptions" role="button" data-slide="prev"><button type="button" class="btn btn-secondary btn-sm">Назад</button></a>
+                                    <a class="nav-link active" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                                        <button type="button" class="btn btn-secondary btn-sm">Назад</button>
+                                    </a>
                                 </li>
                             </ul>
                         </nav>
@@ -34,10 +36,6 @@
                                                     <input type="checkbox" class="custom-control-input" name={{field.name}} value={{choice.0}} id={{field.auto_id}}_{{ forloop.counter }}>
                                                     <label class="custom-control-label" for="{{field.auto_id}}_{{ forloop.counter }}"> {{choice.1}}</label>
                                                 </div>
-                                            {% elif field.name == 'name' %}
-                                                    <input type="text" class="form-control form-control-lg" name={{field.name}} value={{choice.0}} id={{field.auto_id}}_{{ forloop.counter }} placeholder="Ваше имя или никнейм">
-                                            {% elif field.name == 'phone' %}
-                                                  <input class="form-control form-control-lg" type="text" name={{field.name}} value={{choice.0}} id={{field.auto_id}}_{{ forloop.counter }} placeholder="9214447344">
                                             {% else %}
                                                 <div class="custom-control custom-radio">
                                                     <input class="custom-control-input" type="radio" name={{field.name}} value={{choice.0}} id={{field.auto_id}}_{{ forloop.counter }}>
@@ -47,13 +45,32 @@
                                         </td>
                                     </tr>
                                 {% endfor %}
-                                </table>
+                                {% if field.name == 'name' %}
+                                    <tr align="center" class="lead">
+                                        <td class="lead">
+                                            <input class="form-control" type="text" name="name" id="id_name" maxlength="200" placeholder="Данила">
+                                        </td>
+                                    </tr>
+                                {% elif field.name == 'phone' %}
+                                    <tr align="center" class="lead">
+                                        <td class="lead">
+                                            <input class="form-control" type="tel" name="phone" id="id_phone" placeholder="+79214447344">
+                                        </td>
+                                    </tr>
+                                {% endif %}
+                            </table>
                             <br>
                         </p>    
                     </div>
-                    <a href="#carouselExampleCaptions" role="button" data-slide="next">
-                        <button id="next-btn" class="btn btn-secondary btn-lg">Дальше</button>
-                    </a>
+                    {% if field.name == 'phone' %}
+                        <div class="btn btn-secondary btn-lg">
+                            <input type="submit" value="Сохранить">
+                        </div>
+                    {% else %}
+                        <a href="#carouselExampleCaptions" role="button" data-slide="next">
+                            <button id="next-btn" class="btn btn-secondary btn-lg">Дальше</button>
+                        </a>
+                    {% endif %}
                 </div>
 
                 <!-- Добавить в отображение текущей формы -->
