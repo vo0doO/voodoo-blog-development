@@ -11,3 +11,4 @@ venv/**
 *.pyc
 !/.vscode/
 staticfiles
+client/node_modules/

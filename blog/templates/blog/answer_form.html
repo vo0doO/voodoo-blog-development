@@ -1,0 +1,73 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+
+<main role="main" class="inner cover">
+    <form id="form" method="POST">
+        {% csrf_token %}
+        <div id="carouselExampleCaptions" class="carousel slide" data-cycle="false" data-interval="false">
+            <div class="carousel-inner">
+            {% for field in form %}
+                {% if forloop.counter == 1 %}
+                    <div class="carousel-item active">
+                {% else %}
+                    <div class="carousel-item">
+                {% endif %}
+                    <div id={{ field.name }} class="inner cover">
+                        <nav class="nav">
+                            <ul class="nav justify-content-left">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#carouselExampleCaptions" role="button" data-slide="prev"><button type="button" class="btn btn-secondary btn-sm">Назад</button></a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <h3 class="lead">Шаг {{forloop.counter}}/{{form.fields|length}} </h3>
+                        <p class="lead">
+                            <h1 class="cover-heading">{{field.field.label}}</h1>
+                            <br/>
+                            <table align="center" class="lead" id={{field.auto_id}}>
+                                {% for choice in field.field.choices %}
+                                <tr align="center" class="lead">
+                                    <td class="lead">
+                                            {% if field.name == 'komu' %}
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" name={{field.name}} value={{choice.0}} id={{field.auto_id}}_{{ forloop.counter }}>
+                                                    <label class="custom-control-label" for="{{field.auto_id}}_{{ forloop.counter }}"> {{choice.1}}</label>
+                                                </div>
+                                            {% elif field.name == 'name' %}
+                                                    <input type="text" class="form-control form-control-lg" name={{field.name}} value={{choice.0}} id={{field.auto_id}}_{{ forloop.counter }} placeholder="Ваше имя или никнейм">
+                                            {% elif field.name == 'phone' %}
+                                                  <input class="form-control form-control-lg" type="text" name={{field.name}} value={{choice.0}} id={{field.auto_id}}_{{ forloop.counter }} placeholder="9214447344">
+                                            {% else %}
+                                                <div class="custom-control custom-radio">
+                                                    <input class="custom-control-input" type="radio" name={{field.name}} value={{choice.0}} id={{field.auto_id}}_{{ forloop.counter }}>
+                                                    <label class="custom-control-label" for="{{field.auto_id}}_{{ forloop.counter }}"> {{choice.1}}</label>
+                                                </div>
+                                            {% endif %}
+                                        </td>
+                                    </tr>
+                                {% endfor %}
+                                </table>
+                            <br>
+                        </p>    
+                    </div>
+                    <a href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <button id="next-btn" class="btn btn-secondary btn-lg">Дальше</button>
+                    </a>
+                </div>
+
+                <!-- Добавить в отображение текущей формы -->
+            <div id='alert' style="display: none" class="alert alert-dark" role="alert">
+                Ответ на данный вопрос обезателен для определения стоимости банкротства !
+              Если вы затрудняетесь ответить - воспользуйтесь нашим бесплатным сервисом проверки долгов !
+                <button id="alert-close-btn" type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+</main>
+{% load staticfiles %}
+<script type="text/javascript" src="{% static 'blog/js/form.js' %}"></script>
+{% endblock %}

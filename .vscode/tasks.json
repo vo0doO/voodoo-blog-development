@@ -14,6 +14,10 @@
                 "reveal": "always"
             },
             "group": "build"
+        },
+        {
+            "label": "django reload",
+            "runOptions": {"reevaluateOnRerun": true}
         }
     ]
 }

@@ -1,6 +1,9 @@
 {
     "version": "0.2.0",
     "configurations": [
+
+    {"type": "chrome", "request": "attach", "name": "Attach Chrome", "port":9222, "url": "http://localhost:8000",
+        "webRoot": "${workspaceFolder}"},
     {
         "type": "chrome",
         "request": "launch",
@@ -27,9 +30,10 @@
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}\\manage.py",
+            "console": "internalConsole",
             "args": [
                 "runserver",
-                "127.0.0.1:8000"
+                "--noreload"
             ],
             "django": true
         }
