@@ -19,7 +19,6 @@ let html = {
 
 let view = {
   init: function () {
-    
     view.render()
   },
 
@@ -37,18 +36,59 @@ let controller = {
 
 controller.init()
 
+$(function() {
+  'use strict';
+  
+  window.addEventListener('load', function() {
+    
+    var forms = document.getElementsByClassName('needs-validation');
+    
+    var validation = Array.prototype.filter.call(forms, function(form){
+      form.addEventListener('submit', function(event){
+        if (form.checkValidity() == false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+    
+
+  }, false);
+});
+
 /**
- * 
+ * Отобразить форму "Сколько вы должны ?"
+ * отслеживть изменения ввода
+ * если выбран ответ
+ * Кнопка "Дальше" не отключенна
+ * иначе кнопка выключена
+ */
+
+$(function () {
+   
+  html.form.skolko.find('input').on('change', function () {
+    
+    if ($(this).prop('checked')) {
+      
+      html.btn.skolko.attr('disabled', false)
+      
+    } else {
+
+      html.btn.skolko.attr('disabled', true)
+    }
+  })
+})
+
+/**
  * Отобразить форму "Кому вы долны ?"
  * отслеживть изменения ввода
  * если выбран ответ
  * Кнопка "Дальше" не отключенна
  * иначе кнопка выключена
- * 
  */
-
  // TODO: Пройти по объекту html в цикле и записать все дальнейшее дейсто в 2-3 функциях
-$(function () {
+ $(function () {
    
   html.form.komu.find('input').on('change', function () {
     
@@ -59,26 +99,6 @@ $(function () {
     } else {
 
       html.btn.komu.attr('disabled', true)
-    }
-  })
-})
-
-/**
- * 
- * Отобразить форму "Сколько вы должны ?"
- * отслеживть изменения ввода
- * если выбран ответ
- * Кнопка "Дальше" не отключенна
- * иначе кнопка выключена
- * 
- */
-$(function () {
-  let input = html.form.skolko.find('input').on('change', function (
-  ) {
-    if ($(this).prop('checked')) {
-      html.btn.skolko.attr('disabled', false)
-    } else {
-      html.btn.skolko.attr('disabled', true)
     }
   })
 })
@@ -100,6 +120,7 @@ $(function () {
     }
   })
 })
+
 /**
  * 
  * Отобразить форму "Залоги ?"
@@ -118,6 +139,7 @@ $(function () {
     }
   })
 })
+
 /**
  * 
  * Отобразить форму "Имя"
