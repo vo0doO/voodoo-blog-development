@@ -17,9 +17,15 @@
                         <nav class="nav">
                             <ul class="nav justify-content-left">
                                 <li class="nav-item">
+                                {% if field.name == 'skolko' %}
+                                    <a class="nav-link active" href="/" role="button">
+                                        <button type="button" class="btn btn-secondary btn-sm">На главную</button>
+                                    </a>
+                                {% else %}
                                     <a class="nav-link active" href="#carouselExampleCaptions" role="button" data-slide="prev">
                                         <button type="button" class="btn btn-secondary btn-sm">Назад</button>
                                     </a>
+                                {% endif %}
                                 </li>
                             </ul>
                         </nav>
@@ -48,7 +54,7 @@
                                 {% if field.name == 'name' %}
                                     <tr align="center" class="lead">
                                         <td class="lead">
-                                            <input class="form-control" type="text" name="name" id="id_name" maxlength="200" placeholder="Данила">
+                                            <input class="form-control" type="text" name="name" id="id_name_input" maxlength="200" placeholder="Данила">
                                         </td>
                                     </tr>
                                 {% elif field.name == 'phone' %}
@@ -64,11 +70,11 @@
                     </div>
                     {% if field.name == 'phone' %}
                         <div>
-                            <button class="btn btn-secondary btn-lg" type="submit">Сохранить</button>
+                            <button id="send-form-btn" class="btn btn-secondary btn-lg" type="submit" disabled="true">Сохранить</button>
                         </div>
                     {% else %}
                         <a href="#carouselExampleCaptions" role="button" data-slide="next">
-                            <button id="next-btn" class="btn btn-secondary btn-lg">Дальше</button>
+                            <button id="next-{{ field.name }}-btn" class="btn btn-secondary btn-lg" disabled="true">Дальше</button>
                         </a>
                     {% endif %}
                 </div>

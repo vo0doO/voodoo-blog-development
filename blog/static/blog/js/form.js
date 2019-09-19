@@ -8,45 +8,14 @@ let html = {
     phone: $('#phone')
   },
   btn: {
-    komu: $('#next-btn'),
-    skolko: $('#skolko-btn'),
-    prosrochky: $('#prosrochky-btn'),
-    zalogi: $('#zalogi-btn'),
-    name: $('#name-btn'),
+    komu: $('#next-komu-btn'),
+    skolko: $('#next-skolko-btn'),
+    prosrochky: $('#next-prosrochky-btn'),
+    zalogi: $('#next-zalogi-btn'),
+    name: $('#next-name-btn'),
     sendFormBtn: $('#send-form-btn')
   }
 };
-
-let flow = {
-  'komu': {
-    step: 1,
-    value: null,
-  },
-  "skolko": {
-    step: 2,
-    value: null,
-  },
-  "prosrochky": {
-    step: 3,
-    value: null,
-  },
-  "zalogi": {
-    step: 4,
-    value: null,
-  },
-  "name": {
-    step: 5,
-    value: null,
-  },
-  "phone": {
-    step: 6,
-    value: null,
-  },
-  "state": {
-    step: null
-  }
-
-}
 
 let view = {
   init: function () {
@@ -55,41 +24,11 @@ let view = {
   },
 
   render: function () {
-//     html.btn.komu.click(function (event) {
-//       html.form.komu.fadeToggle("slow", function () {
-//         html.form.skolko.fadeToggle("slow", function () {
-//           html.btn.skolko.click(function () {
-//             html.form.skolko.fadeToggle("slow", function () {
-//               html.form.prosrochky.fadeToggle("slow", function () {
-//                 html.btn.prosrochky.click(function () {
-//                   html.form.prosrochky.fadeToggle("slow", function () {
-//                     html.form.zalogi.fadeToggle("slow", function () {
-//                       html.btn.zalogi.click(function () {
-//                         html.form.zalogi.fadeToggle("slow", function () {
-//                           html.form.name.fadeToggle("slow", function () {
-//                             html.btn.name.click(function () {
-//                               html.form.name.fadeToggle("slow", function () {
-//                                 html.form.phone.fadeToggle("slow")
-//                               })
 
-//                             })
-//                           })
-//                         })
-
-//                       })
-//                     })
-//                   })
-//                 })
-//               })
-//             })
-//           })
-//         })
-//       })
-//     })
-//   }
-  return
+    return
  }
 }
+
 let controller = {
   init: function () {
     return view.init()
@@ -188,8 +127,36 @@ $(function () {
  * иначе кнопка выключена
  * 
  */
+$(function(){
+  html.form.name.find('input').on('change', function(event){
+    event.preventDefault();
+    if (event) {
+      html.btn.name.attr('disabled', false)
+    } else {
+      html.btn.name.attr('disabled', true)
+    }
+  })
+})
 
-
+/**
+ * 
+ * Отобразить форму "Имя"
+ * отслеживть изменения ввода
+ * если выбран ответ
+ * Кнопка "Дальше" не отключенна
+ * иначе кнопка выключена
+ * 
+ */
+$(function(){
+  html.form.phone.find('input').on('change', function(event){
+    event.preventDefault();
+    if (event) {
+      html.btn.sendFormBtn.attr('disabled', false)
+    } else {
+      html.btn.sendFormBtn.attr('disabled', true)
+    }
+  })
+})
 /**
  * 
  * Отслеживать нажатия выключенной кнопки дальше
