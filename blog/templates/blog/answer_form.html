@@ -18,9 +18,11 @@
                             <ul class="nav justify-content-left">
                                 <li class="nav-item">
                                 {% if field.name == 'skolko' %}
+                                    <p class="lead">
                                     <a class="nav-link active" href="/" role="button">
                                         <button type="button" class="btn btn-secondary btn-sm">На главную</button>
                                     </a>
+                                    </p>
                                 {% else %}
                                     <a class="nav-link active" href="#carouselExampleCaptions" role="button" data-slide="prev">
                                         <button type="button" class="btn btn-secondary btn-sm">Назад</button>
@@ -62,6 +64,9 @@
                                     <tr align="center" class="lead">
                                         <td class="lead">
                                             <input class="form-control" type="tel" name="phone" id="id_phone" placeholder="+79214447344" required>
+                                            <div class="invalid-feedback">
+                                                Без этого, к сожалению, мы не сможем рассчитать стоимость...
+                                            </div>
                                         </td>
                                     </tr>
                                 {% endif %}
@@ -74,9 +79,22 @@
                             <button id="send-form-btn" class="btn btn-secondary btn-lg" type="submit" disabled="true">Сохранить</button>
                         </div>
                     {% else %}
-                        <a href="#carouselExampleCaptions" role="button" data-slide="next">
-                            <button id="next-{{ field.name }}-btn" class="btn btn-secondary btn-lg" disabled="true">Дальше</button>
-                        </a>
+                            <span id="{{ field.name }}-next-popover"
+                            data-container="body" data-toggle="popover" data-placement="top"
+                            data-content="Для перехода к следующему шагу, необходимо ответить на этот вопрос"
+                            >
+                                <button
+                                    type="button"
+                                    href="#carouselExampleCaptions"
+                                    style="pointer-events: none;"
+                                    data-slide="next"
+                                    id="next-{{ field.name }}-btn"
+                                    class="btn btn-secondary btn-lg" 
+                                    disabled
+                                    >
+                                    Дальше
+                                </button>
+                            </span>
                     {% endif %}
                 </div>
 

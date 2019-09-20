@@ -52,8 +52,6 @@ $(function() {
         form.classList.add('was-validated');
       }, false);
     });
-    
-
   }, false);
 });
 
@@ -64,21 +62,30 @@ $(function() {
  * Кнопка "Дальше" не отключенна
  * иначе кнопка выключена
  */
+$(function () {
+  $('[data-toggle="popover"]').popover({
+    trigger: "hover",
+    delay: { "show": 700, "hide": 100 }
+  })
+})
 
 $(function () {
    
   html.form.skolko.find('input').on('change', function () {
     
     if ($(this).prop('checked')) {
-      
-      html.btn.skolko.attr('disabled', false)
+      html.btn.skolko.attr('disabled', false);
+      html.btn.skolko.css("pointer-events", "unset");
+      $("#skolko-next-popover").popover('dispose');
       
     } else {
-
-      html.btn.skolko.attr('disabled', true)
+      html.btn.skolko.css("pointer-events", "none");
+      html.btn.skolko.attr('disabled', true);
+      $("#skolko-next-popover").popover();
     }
   })
 })
+
 
 /**
  * Отобразить форму "Кому вы долны ?"
@@ -93,11 +100,12 @@ $(function () {
   html.form.komu.find('input').on('change', function () {
     
     if ($(this).prop('checked')) {
-      
       html.btn.komu.attr('disabled', false)
-      
+      html.btn.komu.css("pointer-events", "unset");
+      $("#komu-next-popover").popover('dispose');
     } else {
-
+      html.btn.komu.css("pointer-events", "none");
+      $("#komu-next-popover").popover({trigger: "hover", container: 'body'});
       html.btn.komu.attr('disabled', true)
     }
   })
@@ -115,8 +123,12 @@ $(function () {
   html.form.prosrochky.find('input').on('change', function () {
     if ($(this).prop('checked')) {
       html.btn.prosrochky.attr('disabled', false)
+      html.btn.prosrochky.css("pointer-events", "unset");
+      $("#prosrochky-next-popover").popover('dispose');
     } else {
-      html.btn.prosrochky.attr('disabled', true)
+      html.btn.prosrochky.css("pointer-events", "none");
+      html.btn.prosrochky.attr('disabled', true);
+      $("#prosrochky-next-popover").popover('enable');
     }
   })
 })
@@ -134,7 +146,11 @@ $(function () {
   html.form.zalogi.find('input').on('change', function () {
     if ($(this).prop('checked')) {
       html.btn.zalogi.attr('disabled', false)
+      html.btn.zalogi.css("pointer-events", "unset");
+      $("#zalogi-next-popover").popover('dispose');
     } else {
+      html.btn.zalogi.css("pointer-events", "none");
+      $("#zalogi-next-popover").popover('enable');
       html.btn.zalogi.attr('disabled', true)
     }
   })
@@ -154,7 +170,11 @@ $(function(){
     event.preventDefault();
     if (event) {
       html.btn.name.attr('disabled', false)
+      html.btn.name.css("pointer-events", "unset");
+      $("#name-next-popover").popover('dispose');
     } else {
+      html.btn.name.css("pointer-events", "none");
+      $("#name-next-popover").popover('enable');
       html.btn.name.attr('disabled', true)
     }
   })
@@ -207,3 +227,4 @@ $('#alert-close-btn').click(function () {
     html.form.komu.fadeToggle()
   })
 });
+

@@ -108,11 +108,10 @@ class Answer(models.Model):
         )
     
     phone = PhoneNumberField(
-        "Введите Ваш телефон",
+        "Вот и последний шаг.",
         blank=False,
         unique=False,
-        help_text=f"Это последний шаг, \
-             без этого, к сожалению, мы не сможем рассчитать стоимость.",
+        help_text=f"Введите Ваш номер телефона",
         error_messages={
             'required': 'Обязательное поле.'
             }
