@@ -3,20 +3,24 @@
 {% block content %}
   <header class="masthead mb-auto">
     <div class="inner">
-      <h3 class="masthead-brand">Банкрот</h3>
-      <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link active" href="#">Главна</a>
-        <a class="nav-link" href="#">Функия</a>
-        <a class="nav-link" href="#">Контакты</a>
+      <h3 class="masthead-brand">StepChange</h3>
+      <nav class="nav nav-masthead justify-content-end">
+        <a class="nav-link disabled" href="#">Позвоните нам: 8-800-808-08-80</a>
       </nav>
     </div>
   </header>
 
   <main role="main" class="inner cover">
-    <h1 class="cover-heading">Узнай стоимость банкротства.</h1>
-    <p class="lead"> Пройдите короткий тест. Узнай стоимость. Загрузи документы в электронном виде и получи скидку 30%</p>
+    <h1 class="cover-heading">Узнайте цену банкротства.</h1>
+    <p class="lead">Пройдите короткий тест. Узнайте стоимость юридического сопровождения. Загружайте документы для подготовки заявления в электронном виде - получите скидку от 30% до 50%</p>
     <p class="lead">
-      <a href="{% url 'answer_new' %}" class="btn btn-lg btn-secondary">Пройти тест</a>
+      <a href="{% url 'blog:answer_add' %}" class="btn btn-lg btn-secondary">Пройти тест</a>
     </p>
   </main>
+
+  <footer class="mastfoot mt-auto">
+        <div class="inner">
+        <p>Раскрытие иформации о нашей <a href="https://sites.google.com/view/bankrotstvo/">Работе</a>,  power by <a href="https://twitter.com/MasterInManage">@kdo</a>.</p>
+        </div>
+    </footer>
 {% endblock %}

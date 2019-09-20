@@ -1,0 +1,43 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+    {"type": "chrome", "request": "attach", "name": "Attach Chrome", "port":9222, "url": "http://localhost:8000",
+        "webRoot": "${workspaceFolder}"},
+    {
+        "type": "chrome",
+        "request": "launch",
+        "name": "Launch Chrome",
+        "url": "http://localhost:8000",
+        "webRoot": "${workspaceFolder}"
+    },
+        {
+            "name": "Python: Подключить отладчик",
+            "type": "python",
+            "request": "attach",
+            "port": 5678,
+            "host": "localhost",
+            "pathMappings": [
+                {
+                    "localRoot": "${workspaceFolder}",
+                    "remoteRoot": "."
+                }
+            ]
+        },
+        {
+            "name": "Python: Django",
+            "logToFile": true,
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\manage.py",
+            "console": "internalConsole",
+            "args": [
+                "runserver",
+                "--noreload"
+            ],
+            "django": true
+        }
+    ],
+    "compounds": [],
+    
+}

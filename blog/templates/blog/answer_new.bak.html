@@ -1,0 +1,335 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+
+<main role="main" class="inner cover">
+    <form id="form" method="POST">
+        {% csrf_token %}
+        
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-cycle="false" data-interval="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div id="komu" class="inner cover">
+                        <nav class="nav">
+                            <ul class="nav justify-content-left">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#carouselExampleCaptions" role="button" data-slide="prev">Назад</a>
+                                </li>
+                        </nav>
+                        <h3 class="lead">Шаг 1/6 </h3>
+                        <p class="lead">
+                        <h1 class="cover-heading">Кому Вы должны ?
+                        </h1>
+                        <br/>
+                        <table align="center" class="lead" id="id_komu">
+                            <tr align="center" class="lead">
+                                <td class="lead">
+                                    <label class="lead" for="id_komu_0">
+                                        <input type="checkbox" name="komu" value="Банкам" id="id_komu_0"> Банкам
+                                    
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr align="center" class="lead">
+                                <td>
+                                    <label class="lead" for="id_komu_1">
+                                        <input type="checkbox" name="komu" value="Часным лица" id="id_komu_1"> Часным лицам
+                                    
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr align="center" class="lead">
+                                <td>
+                                    <label class="lead" for="id_komu_2">
+                                        <input type="checkbox" name="komu" value="Судебным приставам" id="id_komu_2"> Судебным приставам
+                                    
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr align="center" class="lead">
+                                <td>
+                                    <label class="lead" for="id_komu_3">
+                                        <input type="checkbox" name="komu" value="Микрофинансовым организациям" id="id_komu_3"> Микрофинансовым организациям
+                                    
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr align="center" class="lead">
+                                <td>
+                                    <label class="lead" for="id_komu_4">
+                                        <input type="checkbox" name="komu" value="Другое" id="id_komu_4"> Другое
+                                    
+                                    </label>
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+</p></div>
+<a href="#carouselExampleCaptions" role="button" data-slide="next">
+    <button id="komu-btn" disabled="true" class="btn btn-lg btn-secondary">Дальше</button>
+</a>
+</div>
+
+
+<div class="carousel-item">
+    <div id="skolko" class="inner cover">
+        <nav class="nav">
+            <ul class="nav justify-content-left">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#carouselExampleCaptions" role="button" data-slide="prev">Назад</a>
+                </li>
+        </nav>
+        <h3 class="lead" align="center">Шаг 2/6 </h3>
+        <p class="lead">
+        <h1 class="cover-heading">Сколько всего Вы должны ?</h1>
+        </br>
+        <table align="center" class="lead" id="id_skolko">
+            <tr align="center" class="lead">
+                <td class="lead">
+                    <label class="lead" for="id_skolko_0">
+                        <input type="radio" name="skolko" value="1" id="id_skolko_0"> До 200 000 руб
+                                              
+                    </label>
+                </td>
+            </tr>
+            <tr align="center" class="lead">
+                <td class="lead">
+                    <label class="lead" for="id_skolko_1">
+                        <input type="radio" name="skolko" value="2" id="id_skolko_1"> От 200 000 руб до 500 000 руб            
+                                              
+                    </label>
+                </td>
+            </tr>
+            <tr align="center" class="lead">
+                <td class="lead">
+                    <label class="lead" for="id_skolko_2">
+                        <input type="radio" name="skolko" value="3" id="id_skolko_2"> От 500 000 руб до 1 000 000 руб   
+                                              
+                    </label>
+                </td>
+            </tr>
+            <tr align="center" class="lead">
+                <td class="lead">
+                    <label class="lead" for="id_skolko_3">
+                        <input type="radio" name="skolko" value="4" id="id_skolko_3"> Более 1 000 000 руб               
+                                              
+                    </label>
+                </td>
+            </tr>
+            <tr align="center" class="lead">
+                <td class="lead">
+                    <label class="lead" for="id_skolko_4">
+                        <input type="radio" name="skolko" value="5" id="id_skolko_4"> Более 5 000 000 руб  
+                                              
+                    </label>
+                </td>
+            </tr>
+        </table>
+        <br/>
+</p></div>
+            <a href="#carouselExampleCaptions" role="button" data-slide="next">
+                <button id="skolko-btn" class="btn btn-lg btn-secondary">Дальше</button>
+            </a>
+</div></div></form>
+
+
+
+<!-- Добавить в отображение текущей формы -->
+<div id='alert' style="display: none" class="alert alert-dark" role="alert">
+    Ответ на данный вопрос обезателен, без этого мы к сожалению не сможем расчитать стоимость...
+  Если вы затрудняетесь ответить - воспользуйтесь нашим бесплатным сервисом проверки долгов !
+    <button id="alert-close-btn" type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+</main>{% load staticfiles %}
+<script type="text/javascript" src="{% static 'blog/js/form.js' %}"></script>
+{% endblock %}
+
+
+
+
+
+{% extends 'blog/base.html' %}
+
+{% block content %}
+
+<header class="masthead mb-auto">
+    <div class="inner">
+      <h3 class="masthead-brand">Шаг 1/6</h3>
+      <nav class="nav nav-masthead justify-content-center">
+        <button id="prev-btn" class="btn btn-lg btn-secondary">Назад</button>
+        <a class="nav-link" href="/procedury">Процедуры</a>
+        <a class="nav-link" href="#">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+<form id="form" method="POST">
+  {% csrf_token %}
+  <div id="komu" role="main" class="lead">
+        <p class="lead"><label><h1 class="cover-heading">
+        
+        Кому Вы должны ?</h1></label><br/>
+
+
+          <table align="center" class="lead" id="id_komu">
+            <tr align="center" class="lead"><td class="lead">
+
+              <label class="lead" for="id_komu_0">
+                    <input type="checkbox" name="komu" value="Банкам" id="id_komu_0"
+                    > Банкам
+                  </label>
+            </td>
+          </tr>
+          <tr align="center" class="lead">
+            <td>
+                <label class="lead" for="id_komu_1">
+                    <input type="checkbox" name="komu" value="Часным лица" id="id_komu_1"
+                    > Часным лицам
+                  </label>
+            </td>
+          </tr>
+          <tr align="center" class="lead">
+            <td>
+              <label class="lead" for="id_komu_2">
+                <input type="checkbox" name="komu" value="Судебным приставам" id="id_komu_2"
+                > Судебным приставам
+              </label>
+            </td>
+          </tr>
+          <tr align="center" class="lead">
+            <td>
+              <label class="lead" for="id_komu_3"><input type="checkbox" name="komu" value="Микрофинансовым организациям"
+                  id="id_komu_3"
+                  > Микрофинансовым организациям
+              </label>  
+            </td>
+          </tr>
+          <tr align="center" class="lead">
+            <td>
+                <label class="lead" for="id_komu_4">
+                    <input type="checkbox" name="komu" value="Другое" id="id_komu_4"
+                    > Другое
+                </label>
+            </td>
+          </tr>
+        </table>
+        <br>
+        <p class="lead">
+            <button id="komu-btn" disabled=true class="btn btn-lg btn-secondary"><div id="errorMessage">Дальше</div></button>
+          </p>
+        </p></div>
+  <div id="skolko" role="main" class="lead" style="display: none">
+    <p class="lead">
+      <label><h1 class="cover-heading">Сколько всего Вы должны ?</h1></label><br/>
+      <table align="center" class="lead" id="id_skolko">
+        <tr align="center" class="lead"><td class="lead">
+          <label class="lead" for="id_skolko_0">
+            <input type="radio" name="skolko" value="1" id="id_skolko_0"> До 200 000 руб
+          </label>
+        </td></tr>
+        <tr align="center" class="lead"><td class="lead">
+          <label class="lead" for="id_skolko_1">
+            <input type="radio" name="skolko" value="2" id="id_skolko_1"> От 200 000 руб до 500 000 руб
+          </label>
+        </td></tr>
+        <tr align="center" class="lead"><td class="lead">
+          <label class="lead" for="id_skolko_2">
+            <input type="radio" name="skolko" value="3" id="id_skolko_2"> От 500 000 руб до 1 000 000 руб
+          </label>
+        </td></tr>
+        <tr align="center" class="lead"><td class="lead">
+          <label class="lead" for="id_skolko_3">
+            <input type="radio" name="skolko" value="4" id="id_skolko_3"> Более 1 000 000 руб
+          </label>
+        </td></tr>
+        <tr align="center" class="lead"><td class="lead">
+          <label class="lead" for="id_skolko_4">
+            <input type="radio" name="skolko" value="5" id="id_skolko_4"> Более 5 000 000 руб
+          </label>
+        </td></tr>
+      </table>
+      <br/><p class="lead"><button id="skolko-btn" disabled=true class="btn btn-lg btn-secondary">Дальше</button>
+    </p>
+      </p></div>
+  <div id="prosrochky" style="display: none">
+    <p>
+      <label><h1 class="cover-heading">Есть ли у Вас просрочки по кредитам ?</h1></label><br/>
+
+      <table align="center" class="lead" id="id_prosrochky">
+        <tr align="center" class="lead"><td class="lead">
+          <label class="lead" for="id_prosrochky_0">
+            <input type="radio" name="prosrochky" value="1" id="id_prosrochky_0">Нет
+          </label>
+        </td></tr>
+        <tr align="center" class="lead"><td class="lead">
+          <label class="lead" for="id_prosrochky_1">
+            <input type="radio" name="prosrochky" value="2" id="id_prosrochky_1"> Да, до месяца
+          </label>
+        </td></tr>
+        <tr align="center" class="lead"><td class="lead">
+          <label class="lead" for="id_prosrochky_2">
+            <input type="radio" name="prosrochky" value="1" id="id_prosrochky_2"> Да, от месяца до трёх
+          </label>
+        </td></tr>
+        <tr align="center" class="lead"><td class="lead">
+          <label class="lead" for="id_prosrochky_3">
+            <input type="radio" name="prosrochky" value="1" id="id_prosrochky_3">Более трёх месяцев
+          </label>
+        </td></tr>
+      </table>
+      <br/><button id="prosrochky-btn" disabled=true class="btn btn-lg btn-secondary">Дальше</button>
+    </p></p></div>
+  <div id="zalogi" style="display: none">
+    <p>
+      <label><h1 class="cover-heading">Есть ли у Вас имущество в залоге ?</h1></label>
+      <p class="lead">Например, ипотечная квартира или автомобиль купленный в
+          автокредит.</p>
+      <br/>
+      <table align="center" class="lead" id="id_zalogi">
+        <tr align="center" class="lead"><td class="lead">
+          <label class="lead" for="id_zalogi_0">
+            <input type="radio" name="zalogi" value="1" id="id_zalogi_0">Есть
+          </label>
+        </td></tr>
+        <tr align="center" class="lead"><td class="lead">
+          <label class="lead" for="id_zalogi_1">
+            <input type="radio" name="zalogi" value="2" id="id_zalogi_1">Нет
+          </label>
+        </td></tr>
+      </table>
+      <br/><button id="zalogi-btn" disabled=true class="btn btn-lg btn-secondary">Дальше</button>
+    </p></p></div>
+  <div id="name" style="display: none">
+    <p class="lead">
+      <label class="lead" for="id_name"><h1 class="cover-heading">Как Вас зовут ?</h1></label>
+      <input type="text" name="name" maxlength="200">
+    </p>
+    <br/><p class="lead">
+        <button id="name-btn" class="btn btn-lg btn-secondary">Дальше</button>
+    </p></div>
+  <div id="phone" style="display: none">
+    <p class="lead">
+      <label class="lead" for="id_phone"><h1 class="cover-heading">Телефон</h1></label>
+      <input type="tel" name="phone" required id="id_phone">
+      <br/>
+     </p> 
+     <p class="lead">
+       <br/>
+       <button id="send-form-btn" type="submit" class="btn btn-lg btn-secondary">Сохранить</button>
+    </p></div>
+</form>
+
+<div id='alert' style="display: none" class="alert alert-dark" role="alert">
+    Ответ на данный вопрос обезателен для определения стоимости банкротства ! \n
+    Если вы затрудняетесь ответить - воспользуйтесь нашим бесплатным сервисом проверки долгов !
+    <button id="alert-close-btn" type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button></div>
+
+
+
+{% load staticfiles %}
+<script type="text/javascript" src="{% static 'blog/js/form.js' %}"></script>
+{% endblock %}

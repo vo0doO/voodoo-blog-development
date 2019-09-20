@@ -1,10 +1,19 @@
 from django import forms
-
 from .models import Answer
+from phonenumber_field.formfields import PhoneNumberField
 
 
 class AnswerForm(forms.ModelForm):
+    phone = PhoneNumberField
 
     class Meta:
+
         model = Answer
-        fields = ('step_1', 'step_2', 'step_3', 'step_4', 'step_5', 'step_6',)
+        fields = (
+            'skolko',
+            'komu',
+            'prosrochky',
+            'zalogi',
+            'name',
+            'phone',
+        )

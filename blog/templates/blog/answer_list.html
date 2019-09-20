@@ -1,0 +1,14 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+
+{% if answer_list %}
+    <ul>
+    {% for answer in answer_list %}
+        <li><a href="{% url 'blog:answer-result' answer.pk %}">{{ answer }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
+{% endblock %}
