@@ -3,7 +3,7 @@
 {% block content %}
 
 <main role="main" class="inner cover">
-    <form id="form" method="POST">
+    <form id="form" class="needs-validation" method="POST" novalidate>
         {% csrf_token %}
         <div id="carouselExampleCaptions" class="carousel slide" data-cycle="false" data-interval="false">
             <div class="carousel-inner">
@@ -17,28 +17,37 @@
                         <nav class="nav">
                             <ul class="nav justify-content-left">
                                 <li class="nav-item">
+                                {% if field.name == 'skolko' %}
+                                    <p class="lead">
+                                    <a class="nav-link active" href="/" role="button">
+                                        <button type="button" class="btn btn-secondary btn-sm">На главную</button>
+                                    </a>
+                                    </p>
+                                {% else %}
                                     <a class="nav-link active" href="#carouselExampleCaptions" role="button" data-slide="prev">
                                         <button type="button" class="btn btn-secondary btn-sm">Назад</button>
                                     </a>
+                                {% endif %}
                                 </li>
                             </ul>
                         </nav>
-                        <h3 class="lead">Шаг {{forloop.counter}}/{{form.fields|length}} </h3>
+                        <h2 class="lead">Шаг {{forloop.counter}}/{{form.fields|length}}</h2>
                         <p class="lead">
                             <h1 class="cover-heading">{{field.field.label}}</h1>
+                            <h5 class="form-text text-muted">{{ field.help_text }}</h5>
                             <br/>
                             <table align="center" class="lead" id={{field.auto_id}}>
                                 {% for choice in field.field.choices %}
                                 <tr align="center" class="lead">
                                     <td class="lead">
                                             {% if field.name == 'komu' %}
-                                                <div class="custom-control custom-checkbox">
+                                                <div class="custom-control custom-checkbox" required>
                                                     <input type="checkbox" class="custom-control-input" name={{field.name}} value={{choice.0}} id={{field.auto_id}}_{{ forloop.counter }}>
                                                     <label class="custom-control-label" for="{{field.auto_id}}_{{ forloop.counter }}"> {{choice.1}}</label>
                                                 </div>
                                             {% else %}
                                                 <div class="custom-control custom-radio">
-                                                    <input class="custom-control-input" type="radio" name={{field.name}} value={{choice.0}} id={{field.auto_id}}_{{ forloop.counter }}>
+                                                    <input class="custom-control-input" type="radio" name={{field.name}} value={{choice.0}} id={{field.auto_id}}_{{ forloop.counter }} required>
                                                     <label class="custom-control-label" for="{{field.auto_id}}_{{ forloop.counter }}"> {{choice.1}}</label>
                                                 </div>
                                             {% endif %}
@@ -48,13 +57,16 @@
                                 {% if field.name == 'name' %}
                                     <tr align="center" class="lead">
                                         <td class="lead">
-                                            <input class="form-control" type="text" name="name" id="id_name" maxlength="200" placeholder="Данила">
+                                            <input class="form-control" type="text" name="name" id="id_name_input" maxlength="200" placeholder="Данила" required>
                                         </td>
                                     </tr>
                                 {% elif field.name == 'phone' %}
                                     <tr align="center" class="lead">
                                         <td class="lead">
-                                            <input class="form-control" type="tel" name="phone" id="id_phone" placeholder="+79214447344">
+                                            <input class="form-control" type="tel" name="phone" id="id_phone" placeholder="+79214447344" required>
+                                            <div class="invalid-feedback">
+                                                Без этого, к сожалению, мы не сможем рассчитать стоимость...
+                                            </div>
                                         </td>
                                     </tr>
                                 {% endif %}
@@ -64,12 +76,25 @@
                     </div>
                     {% if field.name == 'phone' %}
                         <div>
-                            <button class="btn btn-secondary btn-lg" type="submit">Сохранить</button>
+                            <button id="send-form-btn" class="btn btn-secondary btn-lg" type="submit" disabled="true">Сохранить</button>
                         </div>
                     {% else %}
-                        <a href="#carouselExampleCaptions" role="button" data-slide="next">
-                            <button id="next-btn" class="btn btn-secondary btn-lg">Дальше</button>
-                        </a>
+                            <span id="{{ field.name }}-next-popover"
+                            data-container="body" data-toggle="popover" data-placement="top"
+                            data-content="Для перехода к следующему шагу, необходимо ответить на этот вопрос"
+                            >
+                                <button
+                                    type="button"
+                                    href="#carouselExampleCaptions"
+                                    style="pointer-events: none;"
+                                    data-slide="next"
+                                    id="next-{{ field.name }}-btn"
+                                    class="btn btn-secondary btn-lg" 
+                                    disabled
+                                    >
+                                    Дальше
+                                </button>
+                            </span>
                     {% endif %}
                 </div>
 
@@ -81,10 +106,17 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-        {% endfor %}
+            {% endfor %}
         </div>
     </div>
 </main>
+
+<footer class="mastfoot mt-auto">
+    <div class="inner">
+    <p>Заполняя формы вы принимаете<a href="/regulation"> Положение</a> о конфидециальности и <a href="https://twitter.com/MasterInManage">Согласие</a> на обработку персональных данных</p>
+    </div>
+</footer>
+
 {% load staticfiles %}
 <script type="text/javascript" src="{% static 'blog/js/form.js' %}"></script>
 {% endblock %}

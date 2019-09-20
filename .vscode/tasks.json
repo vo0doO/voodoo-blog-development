@@ -17,7 +17,8 @@
         },
         {
             "label": "django reload",
-            "runOptions": {"reevaluateOnRerun": true}
+            "runOptions": {"reevaluateOnRerun": true},
+            ""
         }
     ]
 }

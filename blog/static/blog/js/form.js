@@ -8,88 +8,26 @@ let html = {
     phone: $('#phone')
   },
   btn: {
-    komu: $('#next-btn'),
-    skolko: $('#skolko-btn'),
-    prosrochky: $('#prosrochky-btn'),
-    zalogi: $('#zalogi-btn'),
-    name: $('#name-btn'),
+    komu: $('#next-komu-btn'),
+    skolko: $('#next-skolko-btn'),
+    prosrochky: $('#next-prosrochky-btn'),
+    zalogi: $('#next-zalogi-btn'),
+    name: $('#next-name-btn'),
     sendFormBtn: $('#send-form-btn')
   }
 };
 
-let flow = {
-  'komu': {
-    step: 1,
-    value: null,
-  },
-  "skolko": {
-    step: 2,
-    value: null,
-  },
-  "prosrochky": {
-    step: 3,
-    value: null,
-  },
-  "zalogi": {
-    step: 4,
-    value: null,
-  },
-  "name": {
-    step: 5,
-    value: null,
-  },
-  "phone": {
-    step: 6,
-    value: null,
-  },
-  "state": {
-    step: null
-  }
-
-}
-
 let view = {
   init: function () {
-    
     view.render()
   },
 
   render: function () {
-//     html.btn.komu.click(function (event) {
-//       html.form.komu.fadeToggle("slow", function () {
-//         html.form.skolko.fadeToggle("slow", function () {
-//           html.btn.skolko.click(function () {
-//             html.form.skolko.fadeToggle("slow", function () {
-//               html.form.prosrochky.fadeToggle("slow", function () {
-//                 html.btn.prosrochky.click(function () {
-//                   html.form.prosrochky.fadeToggle("slow", function () {
-//                     html.form.zalogi.fadeToggle("slow", function () {
-//                       html.btn.zalogi.click(function () {
-//                         html.form.zalogi.fadeToggle("slow", function () {
-//                           html.form.name.fadeToggle("slow", function () {
-//                             html.btn.name.click(function () {
-//                               html.form.name.fadeToggle("slow", function () {
-//                                 html.form.phone.fadeToggle("slow")
-//                               })
 
-//                             })
-//                           })
-//                         })
-
-//                       })
-//                     })
-//                   })
-//                 })
-//               })
-//             })
-//           })
-//         })
-//       })
-//     })
-//   }
-  return
+    return
  }
 }
+
 let controller = {
   init: function () {
     return view.init()
@@ -98,48 +36,77 @@ let controller = {
 
 controller.init()
 
-/**
- * 
- * Отобразить форму "Кому вы долны ?"
- * отслеживть изменения ввода
- * если выбран ответ
- * Кнопка "Дальше" не отключенна
- * иначе кнопка выключена
- * 
- */
-
- // TODO: Пройти по объекту html в цикле и записать все дальнейшее дейсто в 2-3 функциях
-$(function () {
-   
-  html.form.komu.find('input').on('change', function () {
+$(function() {
+  'use strict';
+  
+  window.addEventListener('load', function() {
     
-    if ($(this).prop('checked')) {
-      
-      html.btn.komu.attr('disabled', false)
-      
-    } else {
-
-      html.btn.komu.attr('disabled', true)
-    }
-  })
-})
+    var forms = document.getElementsByClassName('needs-validation');
+    
+    var validation = Array.prototype.filter.call(forms, function(form){
+      form.addEventListener('submit', function(event){
+        if (form.checkValidity() == false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+});
 
 /**
- * 
  * Отобразить форму "Сколько вы должны ?"
  * отслеживть изменения ввода
  * если выбран ответ
  * Кнопка "Дальше" не отключенна
  * иначе кнопка выключена
- * 
  */
 $(function () {
-  let input = html.form.skolko.find('input').on('change', function (
-  ) {
+  $('[data-toggle="popover"]').popover({
+    trigger: "hover",
+    delay: { "show": 700, "hide": 100 }
+  })
+})
+
+$(function () {
+   
+  html.form.skolko.find('input').on('change', function () {
+    
     if ($(this).prop('checked')) {
-      html.btn.skolko.attr('disabled', false)
+      html.btn.skolko.attr('disabled', false);
+      html.btn.skolko.css("pointer-events", "unset");
+      $("#skolko-next-popover").popover('dispose');
+      
     } else {
-      html.btn.skolko.attr('disabled', true)
+      html.btn.skolko.css("pointer-events", "none");
+      html.btn.skolko.attr('disabled', true);
+      $("#skolko-next-popover").popover();
+    }
+  })
+})
+
+
+/**
+ * Отобразить форму "Кому вы долны ?"
+ * отслеживть изменения ввода
+ * если выбран ответ
+ * Кнопка "Дальше" не отключенна
+ * иначе кнопка выключена
+ */
+ // TODO: Пройти по объекту html в цикле и записать все дальнейшее дейсто в 2-3 функциях
+ $(function () {
+   
+  html.form.komu.find('input').on('change', function () {
+    
+    if ($(this).prop('checked')) {
+      html.btn.komu.attr('disabled', false)
+      html.btn.komu.css("pointer-events", "unset");
+      $("#komu-next-popover").popover('dispose');
+    } else {
+      html.btn.komu.css("pointer-events", "none");
+      $("#komu-next-popover").popover({trigger: "hover", container: 'body'});
+      html.btn.komu.attr('disabled', true)
     }
   })
 })
@@ -156,11 +123,16 @@ $(function () {
   html.form.prosrochky.find('input').on('change', function () {
     if ($(this).prop('checked')) {
       html.btn.prosrochky.attr('disabled', false)
+      html.btn.prosrochky.css("pointer-events", "unset");
+      $("#prosrochky-next-popover").popover('dispose');
     } else {
-      html.btn.prosrochky.attr('disabled', true)
+      html.btn.prosrochky.css("pointer-events", "none");
+      html.btn.prosrochky.attr('disabled', true);
+      $("#prosrochky-next-popover").popover('enable');
     }
   })
 })
+
 /**
  * 
  * Отобразить форму "Залоги ?"
@@ -174,11 +146,16 @@ $(function () {
   html.form.zalogi.find('input').on('change', function () {
     if ($(this).prop('checked')) {
       html.btn.zalogi.attr('disabled', false)
+      html.btn.zalogi.css("pointer-events", "unset");
+      $("#zalogi-next-popover").popover('dispose');
     } else {
+      html.btn.zalogi.css("pointer-events", "none");
+      $("#zalogi-next-popover").popover('enable');
       html.btn.zalogi.attr('disabled', true)
     }
   })
 })
+
 /**
  * 
  * Отобразить форму "Имя"
@@ -188,8 +165,40 @@ $(function () {
  * иначе кнопка выключена
  * 
  */
+$(function(){
+  html.form.name.find('input').on('change', function(event){
+    event.preventDefault();
+    if (event) {
+      html.btn.name.attr('disabled', false)
+      html.btn.name.css("pointer-events", "unset");
+      $("#name-next-popover").popover('dispose');
+    } else {
+      html.btn.name.css("pointer-events", "none");
+      $("#name-next-popover").popover('enable');
+      html.btn.name.attr('disabled', true)
+    }
+  })
+})
 
-
+/**
+ * 
+ * Отобразить форму "Имя"
+ * отслеживть изменения ввода
+ * если выбран ответ
+ * Кнопка "Дальше" не отключенна
+ * иначе кнопка выключена
+ * 
+ */
+$(function(){
+  html.form.phone.find('input').on('change', function(event){
+    event.preventDefault();
+    if (event) {
+      html.btn.sendFormBtn.attr('disabled', false)
+    } else {
+      html.btn.sendFormBtn.attr('disabled', true)
+    }
+  })
+})
 /**
  * 
  * Отслеживать нажатия выключенной кнопки дальше
@@ -218,3 +227,4 @@ $('#alert-close-btn').click(function () {
     html.form.komu.fadeToggle()
   })
 });
+

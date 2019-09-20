@@ -73,30 +73,6 @@ def landing_page(request):
         }
     )
 
-
-def answer_new(request):
-    ip, req_time = get_client_ip(request)
-    if request.method == 'POST':
-        form = AnswerForm(request.POST)
-        if form.is_valid():
-            answer = form.save()
-            answer.author = ip
-            answer.created_time = req_time
-            answer.save()
-            return redirect(request, 'blog:final', pk=answer.pk)
-
-    else:
-        form = AnswerForm()
-
-    return render(request, 'blog/answer_new.html', {"form": form})
-
-
-def final(request, pk):
-    answer = get_object_or_404(Answer, pk=pk)
-    id = f"Номер вашей заявки: {answer.id}"
-    return render(request, 'blog/final.html', {'id': id})
-
-
 def get_client_ip(request):
     x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
     request_time = timezone.now()
@@ -108,25 +84,14 @@ def get_client_ip(request):
         Client.objects.create(ip=client_ip, request_time=request_time)
     return client_ip, request_time
 
-
 def procedury(request):
     return render(request, 'blog/procedury.html')
 
+def regulation(request):
+    return render(request, 'blog/regulation.html')
 
-def vote(request, question_id):
-    question = get_object_or_404(Question, pk=question_id)
-    try:
-        selected_choice = question.choice_set.get(pk=request.POST['choice'])
-    except (KeyError, Choice.DoesNotExist):
-        # Redisplay the question voting form.
-        return render(request, 'blog/detail.html', {
-            'question': question,
-            'error_message': "You didn't select a choice.",
-        })
-    else:
-        selected_choice.votes += 1
-        selected_choice.save()
-        # Always return an HttpResponseRedirect after successfully dealing
-        # with POST data. This prevents data from being posted twice if a
-        # user hits the Back button.
-        return HttpResponseRedirect(reverse('blog:results', args=(question.id,)))
+def consent(request):
+    return render(request, 'blog/consent.html')
+
+def documents(request):
+    return render(request, 'blog/documents.html')
