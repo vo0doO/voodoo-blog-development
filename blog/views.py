@@ -73,7 +73,6 @@ def landing_page(request):
         }
     )
 
-
 def get_client_ip(request):
     x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
     request_time = timezone.now()
@@ -85,14 +84,14 @@ def get_client_ip(request):
         Client.objects.create(ip=client_ip, request_time=request_time)
     return client_ip, request_time
 
-
 def procedury(request):
     return render(request, 'blog/procedury.html')
-
 
 def regulation(request):
     return render(request, 'blog/regulation.html')
 
-
 def consent(request):
     return render(request, 'blog/consent.html')
+
+def documents(request):
+    return render(request, 'blog/documents.html')

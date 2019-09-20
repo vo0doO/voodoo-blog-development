@@ -11,5 +11,6 @@ urlpatterns = [
     path('answer/list/', views.AnswerListView.as_view(), name="answer_list"),
     path('procedury', views.procedury, name='procedury'),
     path('regulation', views.regulation, name='regulation'),
-    path('consent', views.consent, name='consent')
+    path('consent', views.consent, name='consent'),
+    path('documents', views.documents, name='documents')
 ]
