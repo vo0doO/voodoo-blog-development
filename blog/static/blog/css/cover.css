@@ -39,7 +39,7 @@ body {
 }
 
 .cover-container {
-  max-width: 42em;
+  max-width: 72em;
 }
 
 
@@ -89,7 +89,10 @@ body {
 /*
  * Cover
  */
-.cover {
+#landing-text {
+  padding: 0 1.5rem;
+}
+#main-detail {
   padding: 0 1.5rem;
 }
 .cover .btn-lg {
