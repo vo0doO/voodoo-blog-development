@@ -1,0 +1,612 @@
+Сейчас мы напишем 1 постов: 
+ПОСТ № 1  stop-believing-these-6-dinosaur-myths-curiosity/
+
+Ошибка на http://curiosity.com/topics/stop-believing-these-6-dinosaur-myths-curiosity/
+ посте
+Traceback (most recent call last):
+  File "/home/node/PycharmProjects/curiosity-to-vk/curiosity_one_post.py", line 358, in main
+    print("Художник намолевал")
+  File "/home/node/PycharmProjects/curiosity-to-vk/curiosity_one_post.py", line 358, in main
+    print("Художник намолевал")
+  File "/snap/pycharm-professional/107/helpers/pydev/_pydevd_bundle/pydevd_frame.py", line 621, in trace_dispatch
+    self.do_wait_suspend(thread, frame, event, arg)
+  File "/snap/pycharm-professional/107/helpers/pydev/_pydevd_bundle/pydevd_frame.py", line 125, in do_wait_suspend
+    self._args[0].do_wait_suspend(*args, **kwargs)
+  File "/snap/pycharm-professional/107/helpers/pydev/pydevd.py", line 877, in do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+Сейчас мы напишем 1 постов: 
+ПОСТ № 1  comet-46pwirtanen-will-grace-the-night-sky-this-december-and-you-can-see-it-curiosity/
+
+Сейчас мы напишем 1 постов: 
+ПОСТ № 1  the-best-ways-to-remove-pesticides-from-produce-curiosity/
+
+Ошибка на http://curiosity.com/topics/the-best-ways-to-remove-pesticides-from-produce-curiosity/
+ посте
+Traceback (most recent call last):
+  File "/home/node/PycharmProjects/curiosity-to-vk/curiosity_one_post.py", line 358, in main
+    print("Художник намолевал")
+  File "/home/node/PycharmProjects/curiosity-to-vk/curiosity_one_post.py", line 358, in main
+    print("Художник намолевал")
+  File "/snap/pycharm-professional/107/helpers/pydev/_pydevd_bundle/pydevd_frame.py", line 621, in trace_dispatch
+    self.do_wait_suspend(thread, frame, event, arg)
+  File "/snap/pycharm-professional/107/helpers/pydev/_pydevd_bundle/pydevd_frame.py", line 125, in do_wait_suspend
+    self._args[0].do_wait_suspend(*args, **kwargs)
+  File "/snap/pycharm-professional/107/helpers/pydev/pydevd.py", line 877, in do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+Сейчас мы напишем 0 постов: 
+Сейчас мы напишем 0 постов: 
+2018-12-16 04:08:19,828 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com
+2018-12-16 04:08:21,381 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None
+2018-12-16 04:08:21,754 INFO curiosity_one_post main Сейчас мы напишем 0 постов: 
+2018-12-16 04:12:05,758 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com
+2018-12-16 04:12:07,279 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None
+2018-12-16 04:12:07,489 INFO curiosity_one_post main Сейчас мы напишем 0 постов: 
+%(asctime)s %(levelname)s %(module)s %(funcName)s %(message)s
+%(asctime)s %(levelname)s %(module)s %(funcName)s %(message)s
+%(asctime)s %(levelname)s %(module)s %(funcName)s %(message)s
+2018-12-16 04:26:19,871 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com
+2018-12-16 04:26:20,811 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None
+2018-12-16 04:26:21,331 INFO curiosity_one_post main Сейчас мы напишем 0 постов: 
+==============================2018-12-16 04:27:42,028 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com==============================
+==============================2018-12-16 04:27:43,723 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None==============================
+==============================2018-12-16 04:27:44,086 INFO curiosity_one_post main Сейчас мы напишем 0 постов: ==============================
+2018-12-16 04:29:25,530 DEBUG curiosity_one_post <module> ====================================================================================================
+2018-12-16 04:29:25,544 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com
+2018-12-16 04:29:26,786 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None
+2018-12-16 04:29:27,339 INFO curiosity_one_post main Сейчас мы напишем 0 постов: 
+2018-12-16 04:29:27,340 DEBUG curiosity_one_post <module> ====================================================================================================
+2018-12-16 04:30:09,577 INFO curiosity_one_post <module> ====================================================================================================
+2018-12-16 04:30:09,592 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com
+2018-12-16 04:30:10,466 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None
+2018-12-16 04:30:10,845 INFO curiosity_one_post main Сейчас мы напишем 0 постов: 
+2018-12-16 04:30:10,845 INFO curiosity_one_post <module> ====================================================================================================
+2018-12-16 04:30:30,010 INFO curiosity_one_post <module> ====================================================================================================
+2018-12-16 04:30:30,025 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com
+2018-12-16 04:30:31,277 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None
+2018-12-16 04:30:31,788 INFO curiosity_one_post main Сейчас мы напишем 0 постов: 
+2018-12-16 04:30:31,788 INFO curiosity_one_post <module> ====================================================================================================
+2018-12-16 04:41:06,782 DEBUG curiosity_one_post <module> ====================================================================================================
+2018-12-16 04:41:06,796 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com
+2018-12-16 04:41:07,721 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None
+2018-12-16 04:41:08,266 INFO curiosity_one_post main Сейчас мы напишем 0 постов: 
+2018-12-16 04:41:08,266 DEBUG curiosity_one_post <module> ====================================================================================================
+2018-12-16 05:00:01,975 DEBUG curiosity_one_post <module> ====================================================================================================
+2018-12-16 05:00:01,981 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com
+2018-12-16 05:00:03,499 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None
+2018-12-16 05:00:03,887 INFO curiosity_one_post main Сейчас мы напишем 1 постов: 
+2018-12-16 05:00:03,887 INFO curiosity_one_post main ПОСТ № 1  the-best-ways-to-remove-pesticides-from-produce-curiosity/
+
+2018-12-16 05:00:03,889 DEBUG connectionpool _new_conn Starting new HTTP connection (1): curiosity.com
+2018-12-16 05:00:04,238 DEBUG connectionpool _make_request http://curiosity.com:80 "GET /topics/the-best-ways-to-remove-pesticides-from-produce-curiosity/%0A HTTP/1.1" 301 178
+2018-12-16 05:00:04,245 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com
+2018-12-16 05:00:05,009 DEBUG connectionpool _make_request https://curiosity.com:443 "GET /topics/the-best-ways-to-remove-pesticides-from-produce-curiosity/ HTTP/1.1" 200 None
+2018-12-16 05:00:05,272 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net
+2018-12-16 05:00:05,515 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=%0AFruits%0AVegetables%0A&lang=en-ru&format=plain HTTP/1.1" 200 67
+2018-12-16 05:00:05,523 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net
+2018-12-16 05:00:05,890 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170730T114755Z.994753b77b648f24.f3ed7d2f59fcb232c089a1a3328c0e0b900d4925&text=Food+%26+Culture.&lang=en-ru&format=plain HTTP/1.1" 200 74
+2018-12-16 05:00:05,901 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net
+2018-12-16 05:00:06,200 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=The+Best+Ways+to+Remove+Pesticides+From+Produce.&lang=en-ru&format=plain HTTP/1.1" 200 137
+2018-12-16 05:00:06,209 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net
+2018-12-16 05:00:07,269 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=Even+the+less-than-cautious+among+us+probably+give+their+fruits+and+vegetables+a+quick+rinse+under+the+tap+before+eating+them.+That%27s+in+an+effort+not+only+to+wash+off+dirt+and+debris+but+also+to+remove+any+pesticides.+You+might+go+even+further+by+using+a+vegetable+brush+or+a+store-bought+veggie+wash.+How+effective+is+all+of+that%2C+really%3F+More+importantly%2C+how+worried+should+you+be+about+pesticides+in+the+first+place%3F%0A%0ALucky+for+you%2C+science+has+tackled+this+problem+before.+Here%27s+how+effective+the+most+popular+produce-washing+methods+really+are%3A%0A%0A%0A%0AIt+should+be+mentioned+that+none+of+these+fixes+can+remove+pesticides+that+have+already+seeped+into+the+fruits+and+vegetables.+If+you%27re+really+worried+%28which+you+probably+shouldn%27t+be%29%2C+general+preparation+methods+like+peeling%2C+cooking%2C+and+canning+can+remove+a+substantial+amount+of+pesticides+throughout+the+produce.+Peeling+goes+further+than+washing+by+removing+the+layer+that+the+pesticides+have+reached%3B+cooking+and+canning+works+because+many+pesticides+degrade+in+heat.%0A%0AWhy+not+just+buy+organic%3F+you+might+ask.+Contrary+to+popular+belief%2C+organic+produce+is+grown+with+pesticides%2C+too.+The+pesticides+just+can%27t+be+synthetic+%28and+as+we%27ve+mentioned+before%2C+whether+a+chemical+is+synthesized+from+scratch+or+just+perfected+from+a+natural+source+doesn%27t+say+anything+about+its+safety%29.%0A%0AIn+2011%2C+researchers+at+UC+Davis+found+that+the+organic+versions+of+the+so-called+%22dirty+dozen%22+list+of+fruits+and+vegetables+that+pose+the+highest+pesticide+risk+aren%27t+any+safer.+They+also+say+that+pesticides+on+those+fruits+and+vegetables+were+way%2C+way+below+the+acceptable+limit+set+by+the+EPA%2C+and+that+the+list+%22lacks+scientific+credibility%22+to+boot.%0A%0ABut+if+you%27re+still+concerned%2C+take+a+few+precautions.+Keep+a+spray+bottle+of+diluted+vinegar+on+hand+for+quick+rinses+and+baking+soda+for+when+you+have+the+time.+Peel+or+cook+the+fruits+and+veggies+you%27re+most+worried+about.+But+don%27t+stop+eating+them.+The+science+is+in+on+that+front%2C+and+it+says+that+you+should+eat+your+fruits+and+veggies+if+you+want+to+live+a+healthy+life.%0A%0A.&lang=en-ru&format=plain HTTP/1.1" 200 None
+2018-12-16 05:00:07,273 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): dw8stlw9qt0iz.cloudfront.net
+2018-12-16 05:00:08,471 DEBUG connectionpool _make_request https://dw8stlw9qt0iz.cloudfront.net:443 "GET /KfsrYk3088golvnMCsjb4zxlWkA=/2800x600/filters:format(jpeg):quality(80):extract_focal()/curiosity-data.s3.amazonaws.com/images/content/hero/standard/0d7d8968-55f6-498d-e219-9653356bb2b9.png?b HTTP/1.1" 200 149375
+2018-12-16 05:00:08,726 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2018-12-16 05:00:08,727 DEBUG PngImagePlugin call STREAM b'iCCP' 41 311
+2018-12-16 05:00:08,727 DEBUG PngImagePlugin chunk_iCCP iCCP profile name b'Adobe RGB (1998)'
+2018-12-16 05:00:08,727 DEBUG PngImagePlugin chunk_iCCP Compression method 0
+2018-12-16 05:00:08,727 DEBUG PngImagePlugin call STREAM b'pHYs' 364 9
+2018-12-16 05:00:08,728 DEBUG PngImagePlugin call STREAM b'iTXt' 385 2881
+2018-12-16 05:00:08,728 DEBUG PngImagePlugin call STREAM b'IDAT' 3278 319742
+2018-12-16 05:00:08,931 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2018-12-16 05:00:08,931 DEBUG PngImagePlugin call STREAM b'IDAT' 41 1403
+2018-12-16 05:00:09,629 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2018-12-16 05:00:09,629 DEBUG PngImagePlugin call STREAM b'IDAT' 41 65536
+2018-12-16 05:00:10,501 INFO vk_api auth Auth with login: +79785754108
+2018-12-16 05:00:10,502 INFO vk_api check_sid Checking remixsid...
+2018-12-16 05:00:10,508 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): vk.com
+2018-12-16 05:00:10,704 DEBUG connectionpool _make_request https://vk.com:443 "GET /feed2.php HTTP/1.1" 200 170
+2018-12-16 05:00:10,729 INFO vk_api check_sid remixsid is valid
+2018-12-16 05:00:10,729 INFO vk_api _pass_security_check Checking security check request
+2018-12-16 05:00:10,870 DEBUG connectionpool _make_request https://vk.com:443 "GET /settings HTTP/1.1" 200 13730
+2018-12-16 05:00:10,896 INFO vk_api _pass_security_check Security check is not required
+2018-12-16 05:00:10,899 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): api.vk.com
+2018-12-16 05:00:11,062 DEBUG connectionpool _make_request https://api.vk.com:443 "POST /method/stats.trackVisitor HTTP/1.1" 200 34
+2018-12-16 05:00:11,063 INFO vk_api _auth_cookies access_token from config is valid
+2018-12-16 05:00:11,499 DEBUG connectionpool _make_request https://api.vk.com:443 "POST /method/photos.getUploadServer HTTP/1.1" 200 208
+2018-12-16 05:00:11,505 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): pu.vk.com
+2018-12-16 05:00:16,412 DEBUG connectionpool _make_request https://pu.vk.com:443 "POST /c850024/upload.php?act=do_add&mid=279286486&aid=248018572&gid=0&hash=39ceb2b43f4f0fb951b9fb57d7559fd8&rhash=5f02b96f5dfb380550d7e292fbde51d3&swfupload=1&api=1 HTTP/1.1" 200 412
+2018-12-16 05:00:16,487 DEBUG connectionpool _make_request https://api.vk.com:443 "POST /method/photos.save HTTP/1.1" 200 288
+2018-12-16 05:00:17,022 DEBUG connectionpool _make_request https://api.vk.com:443 "POST /method/wall.post HTTP/1.1" 200 49
+2018-12-16 05:00:47,049 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-07-03 08:28:35,632 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-07-03 08:28:35,649 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-07-03 08:28:36,699 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None
+2019-07-03 08:29:11,156 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-07-03 08:29:11,163 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-07-03 08:29:12,116 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None
+2019-07-03 08:31:03,227 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-07-03 08:31:03,234 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-07-03 08:31:04,143 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None
+2019-07-03 08:31:04,282 INFO curiosity_one_post main Сейчас мы напишем 1 постов: 
+2019-07-03 08:31:04,283 INFO curiosity_one_post main ПОСТ № 1  people-who-can-admit-what-they-dont-know-tend-to-know-more-curiosity/
+
+2019-07-03 08:31:04,288 DEBUG connectionpool _new_conn Starting new HTTP connection (1): curiosity.com:80
+2019-07-03 08:31:04,581 DEBUG connectionpool _make_request http://curiosity.com:80 "GET /topics/people-who-can-admit-what-they-dont-know-tend-to-know-more-curiosity/%0A HTTP/1.1" 301 178
+2019-07-03 08:31:04,586 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-07-03 08:31:06,065 DEBUG connectionpool _make_request https://curiosity.com:443 "GET /topics/people-who-can-admit-what-they-dont-know-tend-to-know-more-curiosity/ HTTP/1.1" 200 None
+2019-07-03 08:31:06,245 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 08:31:06,554 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=%0AIntelligence%0A&lang=en-ru&format=plain HTTP/1.1" 200 61
+2019-07-03 08:31:06,562 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 08:31:06,761 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170730T114755Z.994753b77b648f24.f3ed7d2f59fcb232c089a1a3328c0e0b900d4925&text=Mind+%26+Body.&lang=en-ru&format=plain HTTP/1.1" 200 56
+2019-07-03 08:31:06,769 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 08:31:07,016 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=People+Who+Can+Admit+What+They+Don%27t+Know+Tend+to+Know+More.&lang=en-ru&format=plain HTTP/1.1" 200 171
+2019-07-03 08:31:07,030 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 08:31:08,844 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=We%27ve+all+been+there.+You%27re+around+new+people+and+you+just+want+to+impress+them.+It+can+be+easy+to+pretend+you+know+about+movies%2C+politics%2C+or+science+just+to+get+through+an+awkward+situation.+But+contrary+to+what+feels+most+natural%2C+a+new+series+of+five+studies+from+Pepperdine+University+shows+that+those+who+can+admit+when+they+don%27t+know+something+tend+to+actually+have+more+knowledge.+If+you+want+to+make+those+people+think+you%27re+smart%2C+maybe+the+best+thing+to+say+is+%22I+don%27t+know.%22%0A%0AIntellectual+humility+%28IH%29+means+having+the+insight+and+honesty+to+admit+when+you%27re+ignorant+about+or+inexperienced+with+an+issue.+Scientists+have+long+associated+general+humility+%E2%80%94+defined+as+the+virtue+of+acknowledging+your+limitations+%E2%80%94+with+more+academic+learning+and+better+grades.+That%27s+likely+because+you+have+to+realize+you+have+things+to+learn+in+order+to+learn+successfully.%0A%0AFor+the+study%2C+which+was+led+by+Elizabeth+Krumrei-Mancuso%2C+the+team+of+researchers+had+one+question%3A+Is+there+a+knowledge+benefit+to+admitting+intellectual+fallibility%3F+To+find+out%2C+they+ran+not+one%2C+not+two%2C+but+five+separate+experiments.+They+engaged+nearly+1%2C200+participants+in+their+study%2C+and+evaluated+them+using+a+number+of+questionnaires+testing+their+cognitive+abilities%2C+measuring+their+own+predictions+of+their+cognitive+abilities%2C+and%2C+of+course%2C+rating+their+levels+of+intellectual+humility.+%0A%0AFor+that+last+part%2C+they+used+different+methods+in+different+studies+to+get+a+more+well-rounded+set+of+results.+One+IH+questionnaire+used+eight+questions+to+assess+participants+on+two+elements%3A+the+%22Knowing-It-All%22+subscale%2C+which+judged+their+attitudes+of+intellectual+superiority%2C+and+the+%22Intellectual+Openness%22+subscale%2C+which+assessed+how+open+they+were+to+learning+from+others.+In+other+studies%2C+they+used+the+22-question+%22Comprehensive+Intellectual+Humility+Scale%2C%22+which+assesses+participants+on+four+elements%3A+independence+of+intellect+and+ego%2C+openness+to+revising+one%27s+viewpoint%2C+respect+for+others%27+viewpoints%2C+and+lack+of+intellectual+overconfidence.+The+five+studies+were+used+to+examine+past+learning%2C+thinking+styles%2C+traits%2C+and+motivations.+%0A%0AKrumrei-Manusco+and+her+team+found+that+IH+was+associated+with+more+general+knowledge%2C+though+not+greater+cognitive+ability.+That+is%2C+people+who+are+intellectually+humble+aren%27t+smarter%2C+but+they+do+tend+to+know+more+than+those+who+aren%27t.+The+researchers+believe+this+leg-up+on+knowledge+is+thanks+to+the+fact+that+IH+leads+directly+to+behaviors+that+can+lead+people+to+learn+more+%E2%80%94+specifically%2C+things+like+reflective+thinking%2C+intellectual+curiosity%2C+and+openness.+They+also+found+that+high+IH+correlated+with+less+%22social+vigilantism%2C%22+which+could+mean+that+intellectually+humble+people+work+better+with+others.+High+IH+was+also+associated+with+the+desire+to+learn+for+the+sake+of+learning.+%0A%0AThe+researchers+noted+that+past+studies+also+suggest+that+as+people+gain+knowledge%2C+they+see+an+increase+in+intellectual+humility.+Basically%2C+humility+and+knowledge+are+linked%2C+but+it%27s+hard+to+know+in+which+direction.+Maybe+the+more+you+learn%2C+the+more+you+realize+you+have+to+learn.+Or+maybe+knowing+that+makes+you+more+receptive+to+learning+anything+at+all.+%0A%0A.&lang=en-ru&format=plain HTTP/1.1" 200 None
+2019-07-03 08:31:08,854 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): dw8stlw9qt0iz.cloudfront.net:443
+2019-07-03 08:31:09,445 DEBUG connectionpool _make_request https://dw8stlw9qt0iz.cloudfront.net:443 "GET /lXC-Iate_cxFto8S_0SbU91EePE=/2800x600/filters:format(jpeg):quality(80):extract_focal()/curiosity-data.s3.amazonaws.com/images/content/hero/standard/1d059e10-2108-4c86-cc99-31be490ff553.png?b HTTP/1.1" 200 111802
+2019-07-03 08:31:09,920 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-07-03 08:31:09,921 DEBUG PngImagePlugin call STREAM b'iCCP' 41 311
+2019-07-03 08:31:09,921 DEBUG PngImagePlugin chunk_iCCP iCCP profile name b'Adobe RGB (1998)'
+2019-07-03 08:31:09,922 DEBUG PngImagePlugin chunk_iCCP Compression method 0
+2019-07-03 08:31:09,923 DEBUG PngImagePlugin call STREAM b'pHYs' 364 9
+2019-07-03 08:31:09,923 DEBUG PngImagePlugin call STREAM b'iTXt' 385 2881
+2019-07-03 08:31:09,924 DEBUG PngImagePlugin call STREAM b'IDAT' 3278 319742
+2019-07-03 08:31:10,230 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-07-03 08:31:10,231 DEBUG PngImagePlugin call STREAM b'IDAT' 41 1403
+2019-07-03 08:31:11,192 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-07-03 08:31:11,193 DEBUG PngImagePlugin call STREAM b'IDAT' 41 65536
+2019-07-03 08:31:12,376 INFO vk_api auth Auth with login: +79785754108
+2019-07-03 08:31:12,376 INFO vk_api check_sid Checking remixsid...
+2019-07-03 08:31:12,376 INFO vk_api check_sid No remixsid
+2019-07-03 08:31:12,377 INFO vk_api _auth_cookies remixsid from config is not valid: None
+2019-07-03 08:31:12,377 INFO vk_api _vk_login Logging in...
+2019-07-03 08:31:12,381 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): vk.com:443
+2019-07-03 08:31:12,556 DEBUG connectionpool _make_request https://vk.com:443 "GET / HTTP/1.1" 200 10962
+2019-07-03 08:31:12,575 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): login.vk.com:443
+2019-07-03 08:31:12,728 DEBUG connectionpool _make_request https://login.vk.com:443 "POST / HTTP/1.1" 302 20
+2019-07-03 08:31:12,843 DEBUG connectionpool _make_request https://vk.com:443 "GET /login.php?act=slogin&to=&s=1&__q_hash=f943c0247920e0ceccff245a5120249d HTTP/1.1" 200 370
+2019-07-03 08:31:12,847 INFO vk_api _vk_login Got remixsid
+2019-07-03 08:31:12,864 INFO vk_api _pass_security_check Checking security check request
+2019-07-03 08:31:12,864 INFO vk_api _pass_security_check Security check is not required
+2019-07-03 08:31:12,864 INFO vk_api _auth_cookies access_token from config is not valid: None
+2019-07-03 08:31:12,870 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): oauth.vk.com:443
+2019-07-03 08:31:13,017 DEBUG connectionpool _make_request https://oauth.vk.com:443 "GET /authorize?client_id=6009351&scope=140492191&response_type=token HTTP/1.1" 302 20
+2019-07-03 08:31:13,023 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): m.vk.com:443
+2019-07-03 08:31:13,183 DEBUG connectionpool _make_request https://m.vk.com:443 "GET /login?act=blocked&api_hash=fa1a65d0679947ebc2 HTTP/1.1" 200 4284
+2019-07-03 08:31:43,219 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-07-03 08:47:57,742 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-07-03 08:47:57,750 INFO vk_api auth Auth with login: +79214447344
+2019-07-03 08:47:57,752 INFO vk_api check_sid Checking remixsid...
+2019-07-03 08:47:57,754 INFO vk_api check_sid No remixsid
+2019-07-03 08:47:57,757 INFO vk_api _auth_cookies remixsid from config is not valid: None
+2019-07-03 08:47:57,758 INFO vk_api _vk_login Logging in...
+2019-07-03 08:47:57,786 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): vk.com:443
+2019-07-03 08:47:57,952 DEBUG connectionpool _make_request https://vk.com:443 "GET / HTTP/1.1" 200 10963
+2019-07-03 08:47:57,989 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): login.vk.com:443
+2019-07-03 08:47:58,155 DEBUG connectionpool _make_request https://login.vk.com:443 "POST / HTTP/1.1" 302 20
+2019-07-03 08:47:58,345 DEBUG connectionpool _make_request https://vk.com:443 "GET /login.php?act=slogin&to=&s=1&__q_hash=e95ea4a72112e29d00f33710badc980f HTTP/1.1" 200 392
+2019-07-03 08:47:58,360 INFO vk_api _vk_login Got remixsid
+2019-07-03 08:47:58,430 INFO vk_api _pass_security_check Checking security check request
+2019-07-03 08:47:58,433 INFO vk_api _pass_security_check Security check is not required
+2019-07-03 08:47:58,435 INFO vk_api _auth_cookies access_token from config is not valid: None
+2019-07-03 08:47:58,457 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): oauth.vk.com:443
+2019-07-03 08:47:58,590 DEBUG connectionpool _make_request https://oauth.vk.com:443 "GET /authorize?client_id=6990349&scope=140492191&response_type=token HTTP/1.1" 302 20
+2019-07-03 08:47:58,625 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): m.vk.com:443
+2019-07-03 08:47:58,779 DEBUG connectionpool _make_request https://m.vk.com:443 "GET /login?act=blocked&api_hash=9e184731a7d77eed71 HTTP/1.1" 200 4186
+2019-07-03 08:49:04,703 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-07-03 08:49:05,462 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None
+2019-07-03 08:49:06,066 INFO curiosity_one_post main Сейчас мы напишем 1 постов: 
+2019-07-03 08:49:06,071 INFO curiosity_one_post main ПОСТ № 1  why-do-you-need-goggles-to-see-underwater-curiosity/
+
+2019-07-03 08:49:06,097 DEBUG connectionpool _new_conn Starting new HTTP connection (1): curiosity.com:80
+2019-07-03 08:49:06,398 DEBUG connectionpool _make_request http://curiosity.com:80 "GET /topics/why-do-you-need-goggles-to-see-underwater-curiosity/%0A HTTP/1.1" 301 178
+2019-07-03 08:49:06,425 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-07-03 08:49:07,437 DEBUG connectionpool _make_request https://curiosity.com:443 "GET /topics/why-do-you-need-goggles-to-see-underwater-curiosity/ HTTP/1.1" 200 None
+2019-07-03 08:49:08,324 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 08:49:08,664 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=%0APhysics%0AWater%0A&lang=en-ru&format=plain HTTP/1.1" 200 65
+2019-07-03 08:49:08,694 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 08:49:08,897 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170730T114755Z.994753b77b648f24.f3ed7d2f59fcb232c089a1a3328c0e0b900d4925&text=Science+%26+Technology.&lang=en-ru&format=plain HTTP/1.1" 200 74
+2019-07-03 08:49:08,926 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 08:49:09,300 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=Why+Do+You+Need+Goggles+to+See+Underwater%3F.&lang=en-ru&format=plain HTTP/1.1" 200 112
+2019-07-03 08:49:09,345 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 08:49:11,891 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=Our+ancient+ancestors+may+have+started+in+the+water%2C+but+these+days%2C+we+rely+on+special+equipment+to+see+beneath+the+depths.+We%27ve+invented+contact+lenses+and+laser+technology+to+perfect+our+eyesight+on+land%2C+but+underwater%2C+we%27re+still+stuck+wearing+dorky+goggles.+What+is+it+about+water+that+makes+it+so+hard+to+see+through%3F%0A%0AWhether+on+land%2C+in+water%2C+or+even+in+a+giant+tub+of+jello%2C+your+eyes+work+by+bending+light+so+that+an+image+registers+in+your+brain.+One+of+those+places+works+better+than+the+others%2C+however.+The+human+eye+has+evolved+to+work+perfectly+on+land%2C+but+its+ability+relies+on+being+in+the+terrestrial+air+%E2%80%94+the+second+we+go+underwater%2C+everything+becomes+fuzzy.%0A%0AIf+you+recall+the+days+of+science+class%2C+you+might+remember+how+intricately+complex+the+human+eye+is.+The+three+main+parts+that+help+you+see+clearly+are+the+cornea+and+the+lens%2C+which+bend+and+focus+the+light+to+form+an+image%2C+and+the+retina%2C+which+sends+that+image+to+the+brain.+About+two-thirds+of+the+focusing+occurs+in+the+cornea+and+the+pillow+of+aqueous+humor+%28aka+water+liquid%29+behind+it%2C+with+the+lens+helping+out+with+the+final+third+of+the+work.+And+when+it+comes+to+the+cornea%27s+focusing+capabilities%2C+shape+really+matters%3A+The+human+cornea+is+pretty+round+in+comparison+to+other+creatures.+So+what+goes+wrong+when+we+take+the+plunge%3F%0A%0AOn+land%2C+the+cornea+and+lens+independently+refract%2C+or+bend%2C+light+so+that+a+collective+image+forms+for+your+brain+to+interpret.+But+underwater%2C+your+cornea+isn%27t+able+to+work+in+the+same+way.+When+submerged%2C+the+cornea+is+too+similar+in+consistency+to+water%2C+meaning+there+isn%27t+enough+of+a+difference+between+the+two+for+your+light-focusing+system+to+work+as+it+should.+Instead%2C+the+lens+has+to+jump+into+action+and+make+up+for+the+cornea%27s+loss+of+focusing+power.+The+result%3F+An+image+that%27s+sort+of+there%2C+but+often+too+blurry+to+be+of+much+help.%0A%0AAnimals+that+live+their+entire+lives+underwater+have+vastly+different+visual+systems+than+our+own.+The+eyes+of+fish%2C+for+example%2C+rely+solely+on+their+lens.+But+while+the+human+lens+is+biconvex+%28curved+on+both+sides%2C+like+the+lens+of+a+telescope%29%2C+a+fish%27s+lens+is+spherical%2C+which+better+helps+it+bend+light+underwater.+Because+they+don%27t+rely+on+the+cornea+%28or+aqueous+humor%29+to+see%2C+it+allows+their+underwater+vision+to+trump+ours+%E2%80%94+though+take+a+fish+out+of+the+water+and+their+vision+is+practically+useless.+But+many+creatures+can+see+clearly+both+below+water+and+above.+Seals+and+penguins+both+have+relatively+flat+corneas%2C+which+don%27t+lose+as+much+power+as+ours+do+when+they%27re+underwater.%0A%0AThere+are+documented+groups+of+people+who+can+see+underwater+better+than+most%2C+however.+The+Thai+Moken+people%2C+also+known+as+the+%22Sea+Nomads%2C%22+have+lived+as+a+coastal+culture+for+thousands+of+years+and+demonstrate+a+heightened+ability+to+see+underwater.+A+2003+study+of+Thai+Moken+children+suggested+they+achieved+this+feat+by+shrinking+their+pupils+to+an+extreme+degree.+Still%2C+if+you+don%27t+spend+your+days+diving+for+sea+cucumbers%2C+you%27re+unlikely+to+achieve+that+visual+adaptation.%0A%0ASo+if+you+want+to+explore+below+the+surface%2C+how+do+you+solve+the+problem+of+having+land-specific+eyes%3F+Easy%3A+goggles.+By+adding+a+layer+of+air+between+the+water+and+your+cornea%2C+your+visual+system+can+go+back+to+working+properly.+That+simple+pocket+of+air+lets+the+cornea+and+its+pillow+of+watery+liquid+go+back+to+bending+light+and+focusing+an+image%2C+just+like+it+does+on+land.+That%27s+humanity%27s+real+achievement+after+all%3A+We+might+not+have+the+strongest+muscles+or+the+sharpest+eyes+in+the+animal+kingdom%2C+but+we+can+invent+things+that+get+us+there+all+the+same.%0A%0A.&lang=en-ru&format=plain HTTP/1.1" 200 None
+2019-07-03 08:49:11,929 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): dw8stlw9qt0iz.cloudfront.net:443
+2019-07-03 08:49:12,480 DEBUG connectionpool _make_request https://dw8stlw9qt0iz.cloudfront.net:443 "GET /djh0nvDt022I1AL0s8CLr3HKmVo=/2800x600/filters:format(jpeg):quality(80):extract_focal()/curiosity-data.s3.amazonaws.com/images/content/hero/standard/259ff67d-b36b-4d0e-d840-00b28e4802ef.png?b HTTP/1.1" 200 109020
+2019-07-03 08:49:12,983 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-07-03 08:49:12,988 DEBUG PngImagePlugin call STREAM b'iCCP' 41 311
+2019-07-03 08:49:12,995 DEBUG PngImagePlugin chunk_iCCP iCCP profile name b'Adobe RGB (1998)'
+2019-07-03 08:49:13,001 DEBUG PngImagePlugin chunk_iCCP Compression method 0
+2019-07-03 08:49:13,007 DEBUG PngImagePlugin call STREAM b'pHYs' 364 9
+2019-07-03 08:49:13,009 DEBUG PngImagePlugin call STREAM b'iTXt' 385 2881
+2019-07-03 08:49:13,011 DEBUG PngImagePlugin call STREAM b'IDAT' 3278 319742
+2019-07-03 08:49:13,329 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-07-03 08:49:13,332 DEBUG PngImagePlugin call STREAM b'IDAT' 41 1403
+2019-07-03 08:49:14,582 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-07-03 08:49:14,588 DEBUG PngImagePlugin call STREAM b'IDAT' 41 65536
+2019-07-03 08:49:15,850 INFO vk_api auth Auth with login: +79214447344
+2019-07-03 08:49:15,853 INFO vk_api check_sid Checking remixsid...
+2019-07-03 08:49:15,874 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): vk.com:443
+2019-07-03 08:49:15,979 DEBUG connectionpool _make_request https://vk.com:443 "GET /feed2.php HTTP/1.1" 200 38
+2019-07-03 08:49:15,985 INFO vk_api check_sid remixsid is not valid
+2019-07-03 08:49:15,987 INFO vk_api _auth_cookies remixsid from config is not valid: 8c64d004212958650634368e0737146985697221c25a5a14554435148436b
+2019-07-03 08:49:15,988 INFO vk_api _vk_login Logging in...
+2019-07-03 08:49:16,042 DEBUG connectionpool _make_request https://vk.com:443 "GET / HTTP/1.1" 200 10964
+2019-07-03 08:49:16,074 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): login.vk.com:443
+2019-07-03 08:49:16,233 DEBUG connectionpool _make_request https://login.vk.com:443 "POST / HTTP/1.1" 302 20
+2019-07-03 08:49:16,345 DEBUG connectionpool _make_request https://vk.com:443 "GET /login.php?act=slogin&to=&s=1&__q_hash=5eb6927e88ede87cd2a728dd59874ed6 HTTP/1.1" 200 392
+2019-07-03 08:49:16,363 INFO vk_api _vk_login Got remixsid
+2019-07-03 08:49:16,434 INFO vk_api _pass_security_check Checking security check request
+2019-07-03 08:49:16,436 INFO vk_api _pass_security_check Security check is not required
+2019-07-03 08:49:16,438 INFO vk_api _auth_cookies access_token from config is not valid: None
+2019-07-03 08:49:16,461 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): oauth.vk.com:443
+2019-07-03 08:49:16,623 DEBUG connectionpool _make_request https://oauth.vk.com:443 "GET /authorize?client_id=6990349&scope=140492191&response_type=token HTTP/1.1" 302 20
+2019-07-03 08:49:16,655 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): m.vk.com:443
+2019-07-03 08:49:16,807 DEBUG connectionpool _make_request https://m.vk.com:443 "GET /login?act=blocked&api_hash=49ce15fe46d332b32a HTTP/1.1" 200 4181
+2019-07-03 08:49:16,835 ERROR curiosity_one_post main Ошибка на http://curiosity.com/topics/why-do-you-need-goggles-to-see-underwater-curiosity/
+ посте
+Traceback (most recent call last):
+  File "/home/vo0/Projects/vk47/curiosity_one_post.py", line 381, in main
+    post(text_1_ru, tags_ru, video_1_data_scr, title_ru)
+  File "/home/vo0/Projects/vk47/curiosity_one_post.py", line 278, in post
+    upload = vk_api.VkUpload(vk_session)
+NameError: name 'vk_session' is not defined
+2019-07-03 08:49:16,851 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-07-03 08:50:47,901 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-07-03 08:50:47,913 INFO vk_api auth Auth with login: +79214447344
+2019-07-03 08:50:47,919 INFO vk_api check_sid Checking remixsid...
+2019-07-03 08:50:47,955 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): vk.com:443
+2019-07-03 08:50:48,082 DEBUG connectionpool _make_request https://vk.com:443 "GET /feed2.php HTTP/1.1" 200 38
+2019-07-03 08:50:48,097 INFO vk_api check_sid remixsid is not valid
+2019-07-03 08:50:48,101 INFO vk_api _auth_cookies remixsid from config is not valid: 6dc38e955d591519a3345d9c53cbb3adb218f2851b903bceb32669e7bb288
+2019-07-03 08:50:48,107 INFO vk_api _vk_login Logging in...
+2019-07-03 08:50:48,164 DEBUG connectionpool _make_request https://vk.com:443 "GET / HTTP/1.1" 200 10968
+2019-07-03 08:50:48,199 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): login.vk.com:443
+2019-07-03 08:50:48,346 DEBUG connectionpool _make_request https://login.vk.com:443 "POST / HTTP/1.1" 302 20
+2019-07-03 08:50:48,442 DEBUG connectionpool _make_request https://vk.com:443 "GET /login.php?act=slogin&to=&s=1&__q_hash=d002485984b733f4594257f46ffc028d HTTP/1.1" 200 392
+2019-07-03 08:50:48,461 INFO vk_api _vk_login Got remixsid
+2019-07-03 08:50:48,537 INFO vk_api _pass_security_check Checking security check request
+2019-07-03 08:50:48,540 INFO vk_api _pass_security_check Security check is not required
+2019-07-03 08:50:48,545 INFO vk_api _auth_cookies access_token from config is not valid: None
+2019-07-03 08:50:48,574 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): oauth.vk.com:443
+2019-07-03 08:50:48,732 DEBUG connectionpool _make_request https://oauth.vk.com:443 "GET /authorize?client_id=6990349&scope=140492191&response_type=token HTTP/1.1" 302 20
+2019-07-03 08:50:48,766 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): m.vk.com:443
+2019-07-03 08:50:48,916 DEBUG connectionpool _make_request https://m.vk.com:443 "GET /login?act=blocked&api_hash=811724be77d44e8955 HTTP/1.1" 200 4186
+2019-07-03 08:50:58,677 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-07-03 08:51:00,510 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None
+2019-07-03 08:51:01,320 INFO curiosity_one_post main Сейчас мы напишем 1 постов: 
+2019-07-03 08:51:01,326 INFO curiosity_one_post main ПОСТ № 1  the-trolley-problem-is-a-50-year-old-moral-dilemma-curiosity/
+
+2019-07-03 08:51:01,348 DEBUG connectionpool _new_conn Starting new HTTP connection (1): curiosity.com:80
+2019-07-03 08:51:01,648 DEBUG connectionpool _make_request http://curiosity.com:80 "GET /topics/the-trolley-problem-is-a-50-year-old-moral-dilemma-curiosity/%0A HTTP/1.1" 301 178
+2019-07-03 08:51:01,672 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-07-03 08:51:03,094 DEBUG connectionpool _make_request https://curiosity.com:443 "GET /topics/the-trolley-problem-is-a-50-year-old-moral-dilemma-curiosity/ HTTP/1.1" 200 None
+2019-07-03 08:51:04,000 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 08:51:04,205 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=%0APhilosophy%0AThought+Experiments%0A&lang=en-ru&format=plain HTTP/1.1" 200 106
+2019-07-03 08:51:04,234 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 08:51:04,420 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170730T114755Z.994753b77b648f24.f3ed7d2f59fcb232c089a1a3328c0e0b900d4925&text=Mind+%26+Body.&lang=en-ru&format=plain HTTP/1.1" 200 56
+2019-07-03 08:51:04,449 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 08:51:04,714 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=The+Trolley+Problem+Is+a+50-Year-Old+Moral+Dilemma.&lang=en-ru&format=plain HTTP/1.1" 200 132
+2019-07-03 08:51:04,753 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 08:51:07,470 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=A+runaway+trolley+is+hurtling+toward+five+unsuspecting+rail+workers.+If+it+hits+them%2C+it+will+surely+kill+them.+You+happen+to+be+standing+next+to+a+switch+that+could+divert+the+train+onto+a+separate+track%2C+where+only+one+rail+worker+is+standing.+If+you+flip+the+switch%2C+the+five+workers+will+be+spared+and+the+single+worker+will+be+killed.+Would+you+flip+the+switch%3F+This+is+the+classic+trolley+problem%2C+and+though+it%27s+50+years+old%2C+it%27s+becoming+even+more+important+with+the+spread+of+artificial+intelligence.%0A%0AThe+trolley+problem+was+first+posed+in+1967+by+%22grand+dame+of+philosophy%22+Philippa+Foot+as+a+way+to+illustrate+the+conundrums+of+the+abortion+debate.+Foot+mentioned+the+problem+as+just+one+of+a+series+of+ethical+dilemmas%2C+however%2C+and+it+wasn%27t+until+a+few+years+later+when+MIT+philosopher+Judith+Thomson+took+up+the+issue+that+the+problem+got+its+name.+Thomson+devised+two+alternative+versions%2C+including+the+%22switch%22+version+we+posed+above.+That+led+to+a+flurry+of+variations+on+this+thought+experiment.%0A%0ASee+if+these+small+adjustments+change+your+answer%3A%0A%0AEach+of+these+scenarios+makes+a+slight+change+to+the+original%2C+even+though+the+choice+is+the+same+in+each%3A+five+people%27s+lives+versus+one+person%27s+life.+Still%2C+these+slight+changes+end+up+being+very%2C+very+important%3A+Whereas+you%27re+an+impartial+observer+in+the+classic+version%2C+%231+makes+you+a+passenger+on+the+train.%0A%0AWhile+the+classic+version+has+you+flip+a+switch%2C+the+two+footbridge+variants+have+you+physically+push+another+human+being.+In+one+footbridge+version%2C+you%27re+pushing+a+stranger+who+appears+to+be+innocent%3B+in+the+other%2C+you%27re+pushing+the+villain+who+caused+this+whole+mess+in+the+first+place.%0A%0ADilemma+%234+is+even+stranger%3A+As+with+the+classic+version%2C+you%27re+still+flipping+a+switch+to+choose+whether+to+kill+one+person+or+five%2C+but+it%27s+the+killing+of+the+one+person%2C+not+the+flip+of+the+switch%2C+that+directly+saves+the+five+people.%0A%0AAround+the+turn+of+the+21st+century%2C+philosopher+Joshua+Greene+decided+to+put+a+modern+spin+on+the+old+problem%3A+He+put+people+in+an+fMRI+machine+to+measure+their+brain+activity+while+they+pondered+various+trolley-problem+scenarios.+The+results+he+published+in+2001+showed+that+a+person%27s+answer+correlated+with+their+level+of+emotional+engagement+in+the+scenario+and+that+varied+based+on+whether+the+decision+was+impersonal+%28flipping+a+switch%29+or+personal+%28pushing+a+human+being%29.%0A%0AWhen+participants+were+deciding+whether+or+not+to+flip+a+switch%2C+there+was+increased+activity+in+the+prefrontal+cortex%2C+which+is+associated+with+logic%2C+reason%2C+and+problem-solving.+When+deciding+whether+or+not+to+push+the+large+stranger%2C+conversely%2C+there+was+increased+activity+in+the+amygdala%2C+which+plays+an+important+role+in+fear+and+the+fight-or-flight+response%2C+among+other+emotional+processes.+It%27s+clear+that+while+the+decision+to+flip+a+switch+was+cool+and+rational+for+most+people%2C+the+decision+to+push+a+person+was+fraught+with+emotion%2C+and+far+more+people+choose+to+flip+the+switch+than+to+push+the+person.%0A%0AFurther+studies+found+that+there+are+two+groups+of+people+who+don%27t+have+an+emotional+response+to+the+trolley+problem.+Those+groups%3F+Psychopaths+and+Buddhist+monks.+A+Harvard+undergraduate+named+Xin+Xiang+posed+the+footbridge+variation+to+practicing+Buddhist+monks.+When+he+compared+their+answers+to+those+of+average+Han+Chinese+and+American+people%2C+he+found+that+the+monks+were+much+more+likely+to+decide+to+push+the+stranger+off+the+footbridge.+That%27s+probably+because+the+monks+were+able+to+cooly+analyze+what+benefitted+the+greater+good.+Psychopaths%2C+however%2C+also+have+no+issue+pushing+the+man+off+of+the+bridge%2C+but+that%27s+because+a+defining+trait+of+psychopaths+is+a+lack+of+empathy+for+others.%0A%0AMost+people+will+never+have+to+make+a+decision+like+the+one+in+the+trolley+problem.+But+self-driving+cars+will.+When+faced+with+a+lethal+crash%2C+do+we+want+them+to+make+the+cool%2C+calculated+decision+to+kill+fewer+people+in+every+scenario+%E2%80%94+even+if+that+includes+you%2C+the+driver+%E2%80%94+or+do+we+want+them+to+take+other+elements+into+account%3F+In+fact%2C+you+may+be+able+to+choose+who+survives+in+the+crash+of+a+self-driving+car.+The+life-or-death+issue+is+a+conundrum+engineers+face+today%2C+and+it%27s+not+clear+that+we%27ll+ever+have+the+right+answer.%0A%0A.&lang=en-ru&format=plain HTTP/1.1" 200 None
+2019-07-03 08:51:07,503 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): dw8stlw9qt0iz.cloudfront.net:443
+2019-07-03 08:51:08,593 DEBUG connectionpool _make_request https://dw8stlw9qt0iz.cloudfront.net:443 "GET /QEbOKKdNy0CgbvjDcjqMJNKdkXo=/2800x600/filters:format(jpeg):quality(80):extract_focal()/curiosity-data.s3.amazonaws.com/images/content/hero/standard/17d12cf1-fabb-45e7-ce05-babdfcb3d8e9.png?b HTTP/1.1" 200 186812
+2019-07-03 08:51:09,307 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-07-03 08:51:09,313 DEBUG PngImagePlugin call STREAM b'iCCP' 41 311
+2019-07-03 08:51:09,317 DEBUG PngImagePlugin chunk_iCCP iCCP profile name b'Adobe RGB (1998)'
+2019-07-03 08:51:09,325 DEBUG PngImagePlugin chunk_iCCP Compression method 0
+2019-07-03 08:51:09,335 DEBUG PngImagePlugin call STREAM b'pHYs' 364 9
+2019-07-03 08:51:09,341 DEBUG PngImagePlugin call STREAM b'iTXt' 385 2881
+2019-07-03 08:51:09,344 DEBUG PngImagePlugin call STREAM b'IDAT' 3278 319742
+2019-07-03 08:51:09,667 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-07-03 08:51:09,675 DEBUG PngImagePlugin call STREAM b'IDAT' 41 1403
+2019-07-03 08:51:11,099 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-07-03 08:51:11,103 DEBUG PngImagePlugin call STREAM b'IDAT' 41 65536
+2019-07-03 08:51:12,911 INFO vk_api auth Auth with login: +79214447344
+2019-07-03 08:51:12,914 INFO vk_api check_sid Checking remixsid...
+2019-07-03 08:51:12,938 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): vk.com:443
+2019-07-03 08:51:13,032 DEBUG connectionpool _make_request https://vk.com:443 "GET /feed2.php HTTP/1.1" 200 38
+2019-07-03 08:51:13,039 INFO vk_api check_sid remixsid is not valid
+2019-07-03 08:51:13,046 INFO vk_api _auth_cookies remixsid from config is not valid: 5ab6f341ef80f6a76b387a73df8eb5789ca262fc2cb069f0f815f8c520293
+2019-07-03 08:51:13,049 INFO vk_api _vk_login Logging in...
+2019-07-03 08:51:13,101 DEBUG connectionpool _make_request https://vk.com:443 "GET / HTTP/1.1" 200 10963
+2019-07-03 08:51:13,138 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): login.vk.com:443
+2019-07-03 08:51:13,275 DEBUG connectionpool _make_request https://login.vk.com:443 "POST / HTTP/1.1" 302 20
+2019-07-03 08:51:13,363 DEBUG connectionpool _make_request https://vk.com:443 "GET /login.php?act=slogin&to=&s=1&__q_hash=a866e9b091c4da56474ba3fcceae0c22 HTTP/1.1" 200 392
+2019-07-03 08:51:13,381 INFO vk_api _vk_login Got remixsid
+2019-07-03 08:51:13,459 INFO vk_api _pass_security_check Checking security check request
+2019-07-03 08:51:13,463 INFO vk_api _pass_security_check Security check is not required
+2019-07-03 08:51:13,469 INFO vk_api _auth_cookies access_token from config is not valid: None
+2019-07-03 08:51:13,496 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): oauth.vk.com:443
+2019-07-03 08:51:13,632 DEBUG connectionpool _make_request https://oauth.vk.com:443 "GET /authorize?client_id=6990349&scope=140492191&response_type=token HTTP/1.1" 302 20
+2019-07-03 08:51:13,680 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): m.vk.com:443
+2019-07-03 08:51:13,825 DEBUG connectionpool _make_request https://m.vk.com:443 "GET /login?act=blocked&api_hash=75da2e4b4686521e5c HTTP/1.1" 200 4184
+2019-07-03 08:51:13,851 ERROR curiosity_one_post main Ошибка на http://curiosity.com/topics/the-trolley-problem-is-a-50-year-old-moral-dilemma-curiosity/
+ посте
+Traceback (most recent call last):
+  File "/home/vo0/Projects/vk47/curiosity_one_post.py", line 382, in main
+    post(text_1_ru, tags_ru, video_1_data_scr, title_ru)
+  File "/home/vo0/Projects/vk47/curiosity_one_post.py", line 279, in post
+    upload = vk_api.VkUpload(vk_session)
+NameError: name 'vk_session' is not defined
+2019-07-03 08:51:13,855 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-07-03 08:52:25,492 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-07-03 08:52:25,502 INFO vk_api auth Auth with login: +79214447344
+2019-07-03 08:52:25,505 INFO vk_api check_sid Checking remixsid...
+2019-07-03 08:52:25,538 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): vk.com:443
+2019-07-03 08:52:25,676 DEBUG connectionpool _make_request https://vk.com:443 "GET /feed2.php HTTP/1.1" 200 38
+2019-07-03 08:52:25,686 INFO vk_api check_sid remixsid is not valid
+2019-07-03 08:52:25,694 INFO vk_api _auth_cookies remixsid from config is not valid: af4bf472bdff398a2b37ef21185828b9d3e074b4f7d43428bf29e5cf50cdb
+2019-07-03 08:52:25,698 INFO vk_api _vk_login Logging in...
+2019-07-03 08:52:25,754 DEBUG connectionpool _make_request https://vk.com:443 "GET / HTTP/1.1" 200 10965
+2019-07-03 08:52:25,790 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): login.vk.com:443
+2019-07-03 08:52:25,928 DEBUG connectionpool _make_request https://login.vk.com:443 "POST / HTTP/1.1" 302 20
+2019-07-03 08:52:26,017 DEBUG connectionpool _make_request https://vk.com:443 "GET /login.php?act=slogin&to=&s=1&__q_hash=cb7a2ef9363a6a5cfc95ed4e47cbb5d3 HTTP/1.1" 200 392
+2019-07-03 08:52:26,035 INFO vk_api _vk_login Got remixsid
+2019-07-03 08:52:26,110 INFO vk_api _pass_security_check Checking security check request
+2019-07-03 08:52:26,113 INFO vk_api _pass_security_check Security check is not required
+2019-07-03 08:52:26,114 INFO vk_api _auth_cookies access_token from config is not valid: None
+2019-07-03 08:52:26,139 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): oauth.vk.com:443
+2019-07-03 08:52:26,248 DEBUG connectionpool _make_request https://oauth.vk.com:443 "GET /authorize?client_id=6990349&scope=140492191&response_type=token HTTP/1.1" 302 20
+2019-07-03 08:52:26,284 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): m.vk.com:443
+2019-07-03 08:52:26,476 DEBUG connectionpool _make_request https://m.vk.com:443 "GET /login?act=blocked&api_hash=09d6b5befe327b3c13 HTTP/1.1" 200 4184
+2019-07-03 08:52:26,520 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-07-03 08:52:27,525 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None
+2019-07-03 08:52:28,001 INFO curiosity_one_post main Сейчас мы напишем 1 постов: 
+2019-07-03 08:52:28,002 INFO curiosity_one_post main ПОСТ № 1  how-did-the-first-meteorites-form-scientists-cant-agree-curiosity/
+
+2019-07-03 08:52:28,037 DEBUG connectionpool _new_conn Starting new HTTP connection (1): curiosity.com:80
+2019-07-03 08:52:28,358 DEBUG connectionpool _make_request http://curiosity.com:80 "GET /topics/how-did-the-first-meteorites-form-scientists-cant-agree-curiosity/%0A HTTP/1.1" 301 178
+2019-07-03 08:52:28,383 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-07-03 08:52:30,120 DEBUG connectionpool _make_request https://curiosity.com:443 "GET /topics/how-did-the-first-meteorites-form-scientists-cant-agree-curiosity/ HTTP/1.1" 200 None
+2019-07-03 08:52:31,039 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 08:52:31,242 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=%0AMeteorites%0AOuter+Space%0A&lang=en-ru&format=plain HTTP/1.1" 200 112
+2019-07-03 08:52:31,268 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 08:52:31,483 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170730T114755Z.994753b77b648f24.f3ed7d2f59fcb232c089a1a3328c0e0b900d4925&text=Science+%26+Technology.&lang=en-ru&format=plain HTTP/1.1" 200 74
+2019-07-03 08:52:31,511 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 08:52:31,738 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=How+Did+the+First+Meteorites+Form%3F+Scientists+Can%27t+Agree.&lang=en-ru&format=plain HTTP/1.1" 200 161
+2019-07-03 08:52:31,775 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 08:52:33,883 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=April+26%2C+1803+was+an+unusual+day+in+the+small+town+of+L%27Aigle+in+Normandy%2C+France+%E2%80%94+it+rained+rocks.%0A%0ADespite+decades+of+intense+study+by+thousands+of+scientists%2C+there+is+no+general+consensus+on+how+most+meteorites+formed.+As+an+astronomer+and+a+geologist%2C+we+have+recently+developed+a+new+theory+of+what+happened+during+the+formation+of+the+solar+system+to+create+these+valuable+relics+of+our+past.+Since+planets+form+out+of+collisions+of+these+first+rocks%2C+this+is+an+important+part+of+the+history+of+the+Earth.%0A%0AAbout+10+percent+of+meteorites+are+pure+iron.+These+form+through+a+multi-step+process+in+which+a+large+molten+asteroid+has+enough+gravity+to+cause+iron+to+sink+to+its+center.+This+builds+an+iron+core+just+like+the+Earth%27s.+After+this+asteroid+solidifies%2C+it+can+be+shattered+into+meteorites+by+collisions+with+other+objects.+Iron+meteorites+are+as+old+as+the+solar+system+itself%2C+proving+that+large+asteroids+formed+quickly+and+fully+molten+ones+were+once+abundant.%0A%0AResearchers+have+come+up+with+many+hypotheses+through+the+last+40+years.+But+no+consensus+has+been+reached+on+how+this+brief+flash+of+heating+happened.%0A%0AOur+idea+is+quite+simple.+Radioactive+dating+of+hundreds+of+chondrules+shows+that+they+formed+between+1.8+and+4+million+years+after+the+beginning+of+the+solar+system+%E2%80%94+some+4.6+billion+years+ago.+During+this+time%2C+fully+molten+asteroids%2C+the+parent+bodies+of+the+iron+meteorites%2C+were+abundant.+Volcanic+eruptions+on+these+asteroids+released+tremendous+amounts+of+heat+into+the+space+around+them.+Any+smaller+objects+passing+by+during+an+eruption+would+experience+a+short%2C+intense+blast+of+heat.%0A%0AWe+put+some+fine+dust+from+Earth+rocks+with+compositions+resembling+space+dust+into+a+small+capsule%2C+placed+it+in+our+furnace%2C+and+cycled+the+temperature+through+the+predicted+range.+Out+came+a+nice-looking+synthetic+chondrule.+Case+closed%3F+Not+so+fast.%0A%0ATo+address+these+issues%2C+we+extended+our+initial+model+to+consider+flyby+heating+of+a+larger+object%2C+up+to+a+few+miles+across.+As+this+material+approaches+a+hot+asteroid%2C+parts+of+it+will+vaporize+like+a+comet%2C+resulting+in+an+atmosphere+rich+in+oxygen+and+other+volatile+elements.+This+turns+out+to+be+just+the+kind+of+atmosphere+in+which+chondrules+form%2C+based+on+previous+detailed+chemical+studies.%0A%0AWe+also+expect+the+heat+and+gas+pressure+to+harden+the+flyby+object+into+a+whole+meteorite+through+a+process+known+as+hot+isostatic+pressing%2C+which+is+used+commercially+to+make+metal+alloys.+As+the+chondrules+melt+into+little+spheres%2C+they+will+release+gas+to+the+matrix%2C+which+traps+those+elements+as+the+meteorite+hardens.+If+chondrules+and+chondrites+form+together+in+this+manner%2C+we+expect+the+matrix+to+be+enhanced+in+exactly+the+same+elements+that+the+chondrules+are+depleted.+This+phenomenon%2C+known+as+complementarity%2C+has%2C+in+fact%2C+been+observed+for+decades%2C+and+our+model+provides+a+plausible+explanation+for+it.%0A%0APerhaps+the+most+novel+feature+of+our+model+is+that+it+links+chondrule+formation+directly+to+the+hardening+of+meteorites.+Since+only+well-hardened+objects+from+space+can+make+it+through+the+Earth%27s+atmosphere%2C+we+would+expect+the+meteorites+in+our+museums+to+be+full+of+chondrules%2C+as+they+are.+But+hardened+meteorites+full+of+chondrules+would+be+the+exception%2C+not+the+rule%2C+in+space%2C+since+they+form+by+a+relatively+chancy+process+%E2%80%94+the+hot+flyby.+We+should+know+soon+enough+if+this+idea+holds+water%2C+since+it+predicts+that+chondrules+will+be+rare+on+asteroids.+Both+Japan+and+the+United+States+have+ongoing+missions+to+nearby+asteroids+that+will+return+samples+over+the+next+few+years.%0A%0AIf+those+asteroids+are+full+of+chondrules%2C+like+the+hardened+meteorites+that+make+it+to+the+Earth%27s+surface%2C+then+our+model+can+be+discarded+and+the+search+for+a+solution+to+the+famous+chondrule+problem+can+go+on.+If%2C+on+the+other+hand%2C+chondrules+are+rare+on+asteroids%2C+then+the+flyby+model+will+have+passed+an+important+test.%0A%0A.&lang=en-ru&format=plain HTTP/1.1" 200 None
+2019-07-03 08:52:33,915 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): dw8stlw9qt0iz.cloudfront.net:443
+2019-07-03 08:52:34,382 DEBUG connectionpool _make_request https://dw8stlw9qt0iz.cloudfront.net:443 "GET /s2f4frL__l5hZdGTSQjAZNUgSJE=/2800x600/filters:format(jpeg):quality(80):extract_focal()/curiosity-data.s3.amazonaws.com/images/content/hero/standard/ad561897-a4ad-47bc-ab91-c47ae6ada624.png?b HTTP/1.1" 200 71009
+2019-07-03 08:52:34,847 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-07-03 08:52:34,850 DEBUG PngImagePlugin call STREAM b'iCCP' 41 311
+2019-07-03 08:52:34,851 DEBUG PngImagePlugin chunk_iCCP iCCP profile name b'Adobe RGB (1998)'
+2019-07-03 08:52:34,858 DEBUG PngImagePlugin chunk_iCCP Compression method 0
+2019-07-03 08:52:34,868 DEBUG PngImagePlugin call STREAM b'pHYs' 364 9
+2019-07-03 08:52:34,873 DEBUG PngImagePlugin call STREAM b'iTXt' 385 2881
+2019-07-03 08:52:34,878 DEBUG PngImagePlugin call STREAM b'IDAT' 3278 319742
+2019-07-03 08:52:35,210 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-07-03 08:52:35,215 DEBUG PngImagePlugin call STREAM b'IDAT' 41 1403
+2019-07-03 08:52:36,093 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-07-03 08:52:36,096 DEBUG PngImagePlugin call STREAM b'IDAT' 41 65536
+2019-07-03 08:52:37,212 INFO vk_api auth Auth with login: +79214447344
+2019-07-03 08:52:37,214 INFO vk_api check_sid Checking remixsid...
+2019-07-03 08:52:37,237 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): vk.com:443
+2019-07-03 08:52:37,341 DEBUG connectionpool _make_request https://vk.com:443 "GET /feed2.php HTTP/1.1" 200 38
+2019-07-03 08:52:37,347 INFO vk_api check_sid remixsid is not valid
+2019-07-03 08:52:37,350 INFO vk_api _auth_cookies remixsid from config is not valid: 1425fab381ffda95e8907b78acec1d2530297a94c56a14f1ebc1764f22043
+2019-07-03 08:52:37,352 INFO vk_api _vk_login Logging in...
+2019-07-03 08:52:37,408 DEBUG connectionpool _make_request https://vk.com:443 "GET / HTTP/1.1" 200 10965
+2019-07-03 08:52:37,441 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): login.vk.com:443
+2019-07-03 08:52:37,563 DEBUG connectionpool _make_request https://login.vk.com:443 "POST / HTTP/1.1" 302 20
+2019-07-03 08:52:37,657 DEBUG connectionpool _make_request https://vk.com:443 "GET /login.php?act=slogin&to=&s=1&__q_hash=c22b79045d94f670cd047d926f3f1c5b HTTP/1.1" 200 392
+2019-07-03 08:52:37,675 INFO vk_api _vk_login Got remixsid
+2019-07-03 08:52:37,753 INFO vk_api _pass_security_check Checking security check request
+2019-07-03 08:52:37,757 INFO vk_api _pass_security_check Security check is not required
+2019-07-03 08:52:37,760 INFO vk_api _auth_cookies access_token from config is not valid: None
+2019-07-03 08:52:37,793 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): oauth.vk.com:443
+2019-07-03 08:52:37,917 DEBUG connectionpool _make_request https://oauth.vk.com:443 "GET /authorize?client_id=6990349&scope=140492191&response_type=token HTTP/1.1" 302 20
+2019-07-03 08:52:37,951 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): m.vk.com:443
+2019-07-03 08:52:38,095 DEBUG connectionpool _make_request https://m.vk.com:443 "GET /login?act=blocked&api_hash=ec0d9db79593372f37 HTTP/1.1" 200 4186
+2019-07-03 08:52:38,125 ERROR curiosity_one_post main Ошибка на http://curiosity.com/topics/how-did-the-first-meteorites-form-scientists-cant-agree-curiosity/
+ посте
+Traceback (most recent call last):
+  File "/home/vo0/Projects/vk47/curiosity_one_post.py", line 382, in main
+    post(text_1_ru, tags_ru, video_1_data_scr, title_ru)
+  File "/home/vo0/Projects/vk47/curiosity_one_post.py", line 277, in post
+    vk_session, vk_api = login()
+TypeError: 'NoneType' object is not iterable
+2019-07-03 08:52:38,137 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-07-03 08:55:58,758 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-07-03 08:56:31,121 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-07-03 08:57:02,567 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-07-03 08:57:02,592 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-07-03 08:57:03,566 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None
+2019-07-03 08:57:04,582 INFO curiosity_one_post main Сейчас мы напишем 1 постов: 
+2019-07-03 08:57:04,590 INFO curiosity_one_post main ПОСТ № 1  bet-you-didnt-know-these-10-words-were-named-after-people-curiosity/
+
+2019-07-03 08:57:04,613 DEBUG connectionpool _new_conn Starting new HTTP connection (1): curiosity.com:80
+2019-07-03 08:57:04,921 DEBUG connectionpool _make_request http://curiosity.com:80 "GET /topics/bet-you-didnt-know-these-10-words-were-named-after-people-curiosity/%0A HTTP/1.1" 301 178
+2019-07-03 08:57:04,948 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-07-03 08:57:05,846 DEBUG connectionpool _make_request https://curiosity.com:443 "GET /topics/bet-you-didnt-know-these-10-words-were-named-after-people-curiosity/ HTTP/1.1" 200 None
+2019-07-03 08:57:06,777 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 08:57:07,015 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=%0AHistory%0ALanguage%0A&lang=en-ru&format=plain HTTP/1.1" 200 67
+2019-07-03 08:57:07,041 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 08:57:07,317 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170730T114755Z.994753b77b648f24.f3ed7d2f59fcb232c089a1a3328c0e0b900d4925&text=Etymology.&lang=en-ru&format=plain HTTP/1.1" 200 60
+2019-07-03 08:57:07,345 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 08:57:07,576 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=Bet+You+Didn%27t+Know+These+10+Words+Were+Named+After+People.&lang=en-ru&format=plain HTTP/1.1" 200 142
+2019-07-03 08:57:07,620 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 08:57:11,084 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=Some+people+make+such+a+big+impression+that+we+can%27t+stop+naming+things+after+them.+George+Washington+got+a+city%2C+a+state%2C+and+a+monument.+And+his+home+state+of+Virginia%3F+Also+named+after+a+person%3A+the+virgin+queen%2C+Elizabeth+I.+But+if+you%27re+a+really+big+deal%2C+you+get+to+add+a+whole+new+word+to+the+dictionary.+It%27s+happened+more+often+than+you+think.+Here+are+the+strange+origins+of+some+of+the+words+you+might+use+every+day.%0A%0AYou+probably+know+a+couple+of+words+that+are+named+after+people.+%22Pasteurization%2C%22+%22Morse+code%2C%22+and+%22Casanova%22+are+all+words+named+for+the+people+who+invented+them+or+best+embodied+them.+But+there+are+a+few+very+common+words+that+might+shock+%28or+should+we+say+galvanize%3F%29+you.+Here+are+our+10+favorites.%0A%0ASometime+around+1762%2C+the+English+nobleman+John+Montagu+was+sitting+at+the+gambling+table+when+he+began+to+feel+a+bit+peckish.+He+didn%27t+want+to+go+all+the+way+to+the+dining+room%2C+and+he+certainly+didn%27t+want+to+get+his+hands+and+his+cards+all+greasy.+So+he+summoned+a+servant+and+asked+for+some+meat+between+two+pieces+of+bread.+Montagu%27s+title%3F+The+Earl+of+Sandwich.+Fun+fact%3A+For+a+short+time%2C+Hawaii+was+known+to+the+English-speaking+world+as+%22the+Sandwich+Isles%2C%22+named+for+the+same+man.%0A%0AYou+might+think+that+boycotts+were+named+after+a+political+activist+from+centuries+past%2C+perhaps+the+first+person+to+swear+off+a+product+they+disagreed+with.+You%27d+be+wrong.+Captain+Charles+C.+Boycott+was+the+object+of+protests%2C+a+landlord+demanding+unfair+rents+and+evicting+those+who+couldn%27t+pay.+Area+farmers+shunned+both+Boycott+and+anyone+who+worked+for+him.+By+1888%2C+eight+years+after+the+protest%2C+the+word+had+entered+the+dictionary+%E2%80%94+and+it+even+followed+Boycott+to+America%2C+where+he+went+by+a+different+name+until+the+newspapers+exposed+his+true+identity.%0A%0AWhether+you+know+it+or+not%2C+the+%22decibel%22+was+named+after+a+pretty+famous+person+that+you%27ve+almost+certainly+heard+of.+Another+clue%3A+%22deci%2C%22+in+this+case%2C+is+used+as+a+prefix%2C+meaning+%22one-tenth.%22+Give+up%3F+The+engineers+at+Bell+Telephone+Laboratory+named+the+%22bel%22+after+their+company%27s+founder%2C+Alexander+Graham+Bell%2C+and+today%2C+most+people+just+use+that+smaller+unit.%0A%0AA+sort+of+precursor+to+hypnotism%2C+mesmerism+was+developed+by+the+German+doctor+Franz+Mesmer+on+the+%28mistaken%29+belief+that+all+living+things+are+governed+in+part+by+a+magnetic+fluid.+Mesmer+began+addressing+his+patients%27+ailments+with+a+combination+of+magnets+and+the+power+of+suggestion+until+a+scientific+commission+including+Ben+Franklin+and+Joseph-Ignace+Guillotin+%28who+could+have+earned+his+own+bloody+place+on+this+list%29+proved+the+magnets+added+virtually+nothing+to+the+process.+Today%2C+the+word+is+generally+used+as+a+synonym+for+hypnotism.%0A%0ABorn+in+1530%2C+French+diplomat+Jean+Nicot+never+even+visited+the+Americas%2C+where+the+plant+that+would+bear+his+name+originally+hailed.+Instead%2C+he+was+an+ambassador+to+Portugal%2C+where+the+tobacco+plant+had+already+been+brought+back+due+to+the+country%27s+brutal+and+aggressive+colonial+actions.+But+Nicot+was+the+one+to+send+seeds+back+to+Paris%2C+where+snuff+became+all+the+rage.+More+than+200+years+later%2C+the+ur-taxonomist+Carolus+Linnaeus+gave+tobacco+its+scientific+name%3A+Nicotiana.%0A%0AThe+name+%22shrapnel%22+evokes+the+chaos+and+violence+of+an+artillery+shell+exploding+into+hundreds+of+high-velocity+shards.+It%27s+almost+hard+to+believe+it%27s+also+somebody%27s+name.+We%27re+not+sure+what+more+needs+to+be+said+about+a+man+who+dedicated+nearly+two+decades+of+his+life+to+devising+a+better+way+to+blow+other+people+up%2C+but+it%27s+probably+worth+mentioning+that+despite+the+fact+that+Henry+Shrapnel%27s+work+%28which+he+voluntarily+took+on+in+his+spare+time%29+was+done+mostly+in+his+20s+and+30s%2C+he+wouldn%27t+receive+recognition+or+compensation+until+much+later+in+life.%0A%0ASilhouettes+are+as+old+as+the+act+of+turning+sideways.+Even+the+art+form+of+tracing+someone%27s+profile+might+date+back+as+far+as+the+ancient+Greeks.+But+they+got+their+name+from+a+French+minister+of+finance+in+the+18th+century.+After+enacting+a+tax+code+that+targeted+the+wealthy+%28the+horror%21%29%2C+%C3%89tienne+de+Silhouette+developed+a+reputation+as+a+cheapskate.+Soon%2C+everything+frugal+or+penny-pinching+began+to+be+labeled+%22a+la+Silhouette%22+%28%22like+Silhouette+does%22%29%2C+including+the+much+more+economical+form+of+portraiture.%0A%0AA+contemporary+of+Silhouette%27s+%28who+adored+the+art+form+of+silhouettes+so+much+that%2C+for+a+time%2C+they+were+called+%22a+la+Pompadour%22%29%2C+Madame+de+Pompadour+was+a+friend%2C+political+advisor%2C+and+courtesan+to+King+Louis+XV.+But+she+also+had+a+very+iconic+head+of+hair.+The+pompadour+would+fade+in+and+out+of+popularity+several+times+in+the+centuries+to+follow%2C+before+being+most+perfectly+expressed+on+John+Travolta%27s+head+in+%22Grease.%22%0A%0ABefore+there+was+such+a+thing+as+a+mausoleum%2C+there+was+the+Mausoleum+%E2%80%94+the+tomb+of+Mausolus%2C+built+by+his+widow+as+the+greatest+tomb+in+the+known+world.+The+exact+fate+of+the+Mausoleum+is+unknown%2C+but+it+was+probably+destroyed+between+the+11th+and+15th+centuries+C.E.%2C+and+its+stone+reused+in+other+buildings.+However%2C+you+can+still+visit+the+mausoleum+after+a+fashion%2C+since+friezes+taken+from+the+wreckage+are+now+kept+safe+at+the+British+Museum.%0A%0AHere%27s+irony+for+you%3A+Before+a+bastardization+of+his+name+became+synonymous+with+ignorance%2C+John+Duns+Scotus+was+respected+as+one+of+the+most+intelligent+thinkers+of+his+generation.+A+theologian+in+the+Franciscan+tradition%2C+Scotus+made+many+bold+claims+on+a+wide+range+of+subjects%2C+from+language+to+divinity+to+the+nature+of+morality.+In+the+16th+century%2C+however%2C+about+two+and+a+half+centuries+after+his+death%2C+his+ideas+began+falling+out+of+favor+and+those+who+still+believed+them+were+derided+as+%22Dunsmen%22+or+%22Duns.%22+As+for+the+hat%3F+Well%2C+Scotus+really+did+wear+a+pointy+hat%2C+and+so+did+many+of+his+followers.+We+may+not+give+much+thought+to+him+today%2C+but+the+image+has+lasted+more+than+800+years.%0A%0A.&lang=en-ru&format=plain HTTP/1.1" 200 None
+2019-07-03 08:57:11,113 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): dw8stlw9qt0iz.cloudfront.net:443
+2019-07-03 08:57:11,560 DEBUG connectionpool _make_request https://dw8stlw9qt0iz.cloudfront.net:443 "GET /sLO2Nf-_3_tUmA0yAK2jFz04daY=/2800x600/filters:format(jpeg):quality(80):extract_focal()/curiosity-data.s3.amazonaws.com/images/content/hero/standard/225054d5-fb3c-4fc8-b9b2-ddf7bf291ddd.png?b HTTP/1.1" 200 137505
+2019-07-03 08:57:12,090 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-07-03 08:57:12,096 DEBUG PngImagePlugin call STREAM b'iCCP' 41 311
+2019-07-03 08:57:12,098 DEBUG PngImagePlugin chunk_iCCP iCCP profile name b'Adobe RGB (1998)'
+2019-07-03 08:57:12,102 DEBUG PngImagePlugin chunk_iCCP Compression method 0
+2019-07-03 08:57:12,105 DEBUG PngImagePlugin call STREAM b'pHYs' 364 9
+2019-07-03 08:57:12,107 DEBUG PngImagePlugin call STREAM b'iTXt' 385 2881
+2019-07-03 08:57:12,109 DEBUG PngImagePlugin call STREAM b'IDAT' 3278 319742
+2019-07-03 08:57:12,438 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-07-03 08:57:12,440 DEBUG PngImagePlugin call STREAM b'IDAT' 41 1403
+2019-07-03 08:57:13,351 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-07-03 08:57:13,354 DEBUG PngImagePlugin call STREAM b'IDAT' 41 65536
+2019-07-03 08:57:14,503 INFO vk_api auth Auth with login: +79214447344
+2019-07-03 08:57:14,509 INFO vk_api check_sid Checking remixsid...
+2019-07-03 08:57:14,535 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): vk.com:443
+2019-07-03 08:57:14,647 DEBUG connectionpool _make_request https://vk.com:443 "GET /feed2.php HTTP/1.1" 200 38
+2019-07-03 08:57:14,656 INFO vk_api check_sid remixsid is not valid
+2019-07-03 08:57:14,659 INFO vk_api _auth_cookies remixsid from config is not valid: e4bde048eb9ec7d9a66ff75ad5152415859af8f832fb23eceaee2ab5934cb
+2019-07-03 08:57:14,665 INFO vk_api _vk_login Logging in...
+2019-07-03 08:57:14,728 DEBUG connectionpool _make_request https://vk.com:443 "GET / HTTP/1.1" 200 10963
+2019-07-03 08:57:14,763 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): login.vk.com:443
+2019-07-03 08:57:14,895 DEBUG connectionpool _make_request https://login.vk.com:443 "POST / HTTP/1.1" 302 20
+2019-07-03 08:57:14,991 DEBUG connectionpool _make_request https://vk.com:443 "GET /login.php?act=slogin&to=&s=1&__q_hash=6416ddb6a341e872a500ec49f8390072 HTTP/1.1" 200 392
+2019-07-03 08:57:15,006 INFO vk_api _vk_login Got remixsid
+2019-07-03 08:57:15,086 INFO vk_api _pass_security_check Checking security check request
+2019-07-03 08:57:15,090 INFO vk_api _pass_security_check Security check is not required
+2019-07-03 08:57:15,092 INFO vk_api _auth_cookies access_token from config is not valid: None
+2019-07-03 08:57:15,119 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): oauth.vk.com:443
+2019-07-03 08:57:15,258 DEBUG connectionpool _make_request https://oauth.vk.com:443 "GET /authorize?client_id=6990349&scope=140492191&response_type=token HTTP/1.1" 302 20
+2019-07-03 08:57:15,299 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): m.vk.com:443
+2019-07-03 08:57:15,430 DEBUG connectionpool _make_request https://m.vk.com:443 "GET /login?act=blocked&api_hash=3451940d64d5fb5cbf HTTP/1.1" 200 4184
+2019-07-03 08:57:45,475 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-07-03 08:59:11,133 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-07-03 08:59:11,154 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-07-03 08:59:12,126 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None
+2019-07-03 08:59:12,731 INFO curiosity_one_post main Сейчас мы напишем 0 постов: 
+2019-07-03 08:59:12,733 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-07-03 09:00:07,597 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-07-03 09:00:07,625 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-07-03 09:00:08,584 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None
+2019-07-03 09:00:09,189 INFO curiosity_one_post main Сейчас мы напишем 1 постов: 
+2019-07-03 09:00:09,192 INFO curiosity_one_post main ПОСТ № 1  the-trolley-problem-is-a-50-year-old-moral-dilemma-curiosity/
+
+2019-07-03 09:00:09,212 DEBUG connectionpool _new_conn Starting new HTTP connection (1): curiosity.com:80
+2019-07-03 09:00:09,508 DEBUG connectionpool _make_request http://curiosity.com:80 "GET /topics/the-trolley-problem-is-a-50-year-old-moral-dilemma-curiosity/%0A HTTP/1.1" 301 178
+2019-07-03 09:00:09,537 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-07-03 09:00:10,991 DEBUG connectionpool _make_request https://curiosity.com:443 "GET /topics/the-trolley-problem-is-a-50-year-old-moral-dilemma-curiosity/ HTTP/1.1" 200 None
+2019-07-03 09:00:11,941 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 09:00:12,216 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=%0APhilosophy%0AThought+Experiments%0A&lang=en-ru&format=plain HTTP/1.1" 200 106
+2019-07-03 09:00:12,242 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 09:00:12,577 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170730T114755Z.994753b77b648f24.f3ed7d2f59fcb232c089a1a3328c0e0b900d4925&text=Mind+%26+Body.&lang=en-ru&format=plain HTTP/1.1" 200 56
+2019-07-03 09:00:12,605 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 09:00:12,815 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=The+Trolley+Problem+Is+a+50-Year-Old+Moral+Dilemma.&lang=en-ru&format=plain HTTP/1.1" 200 132
+2019-07-03 09:00:12,855 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 09:00:15,459 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=A+runaway+trolley+is+hurtling+toward+five+unsuspecting+rail+workers.+If+it+hits+them%2C+it+will+surely+kill+them.+You+happen+to+be+standing+next+to+a+switch+that+could+divert+the+train+onto+a+separate+track%2C+where+only+one+rail+worker+is+standing.+If+you+flip+the+switch%2C+the+five+workers+will+be+spared+and+the+single+worker+will+be+killed.+Would+you+flip+the+switch%3F+This+is+the+classic+trolley+problem%2C+and+though+it%27s+50+years+old%2C+it%27s+becoming+even+more+important+with+the+spread+of+artificial+intelligence.%0A%0AThe+trolley+problem+was+first+posed+in+1967+by+%22grand+dame+of+philosophy%22+Philippa+Foot+as+a+way+to+illustrate+the+conundrums+of+the+abortion+debate.+Foot+mentioned+the+problem+as+just+one+of+a+series+of+ethical+dilemmas%2C+however%2C+and+it+wasn%27t+until+a+few+years+later+when+MIT+philosopher+Judith+Thomson+took+up+the+issue+that+the+problem+got+its+name.+Thomson+devised+two+alternative+versions%2C+including+the+%22switch%22+version+we+posed+above.+That+led+to+a+flurry+of+variations+on+this+thought+experiment.%0A%0ASee+if+these+small+adjustments+change+your+answer%3A%0A%0AEach+of+these+scenarios+makes+a+slight+change+to+the+original%2C+even+though+the+choice+is+the+same+in+each%3A+five+people%27s+lives+versus+one+person%27s+life.+Still%2C+these+slight+changes+end+up+being+very%2C+very+important%3A+Whereas+you%27re+an+impartial+observer+in+the+classic+version%2C+%231+makes+you+a+passenger+on+the+train.%0A%0AWhile+the+classic+version+has+you+flip+a+switch%2C+the+two+footbridge+variants+have+you+physically+push+another+human+being.+In+one+footbridge+version%2C+you%27re+pushing+a+stranger+who+appears+to+be+innocent%3B+in+the+other%2C+you%27re+pushing+the+villain+who+caused+this+whole+mess+in+the+first+place.%0A%0ADilemma+%234+is+even+stranger%3A+As+with+the+classic+version%2C+you%27re+still+flipping+a+switch+to+choose+whether+to+kill+one+person+or+five%2C+but+it%27s+the+killing+of+the+one+person%2C+not+the+flip+of+the+switch%2C+that+directly+saves+the+five+people.%0A%0AAround+the+turn+of+the+21st+century%2C+philosopher+Joshua+Greene+decided+to+put+a+modern+spin+on+the+old+problem%3A+He+put+people+in+an+fMRI+machine+to+measure+their+brain+activity+while+they+pondered+various+trolley-problem+scenarios.+The+results+he+published+in+2001+showed+that+a+person%27s+answer+correlated+with+their+level+of+emotional+engagement+in+the+scenario+and+that+varied+based+on+whether+the+decision+was+impersonal+%28flipping+a+switch%29+or+personal+%28pushing+a+human+being%29.%0A%0AWhen+participants+were+deciding+whether+or+not+to+flip+a+switch%2C+there+was+increased+activity+in+the+prefrontal+cortex%2C+which+is+associated+with+logic%2C+reason%2C+and+problem-solving.+When+deciding+whether+or+not+to+push+the+large+stranger%2C+conversely%2C+there+was+increased+activity+in+the+amygdala%2C+which+plays+an+important+role+in+fear+and+the+fight-or-flight+response%2C+among+other+emotional+processes.+It%27s+clear+that+while+the+decision+to+flip+a+switch+was+cool+and+rational+for+most+people%2C+the+decision+to+push+a+person+was+fraught+with+emotion%2C+and+far+more+people+choose+to+flip+the+switch+than+to+push+the+person.%0A%0AFurther+studies+found+that+there+are+two+groups+of+people+who+don%27t+have+an+emotional+response+to+the+trolley+problem.+Those+groups%3F+Psychopaths+and+Buddhist+monks.+A+Harvard+undergraduate+named+Xin+Xiang+posed+the+footbridge+variation+to+practicing+Buddhist+monks.+When+he+compared+their+answers+to+those+of+average+Han+Chinese+and+American+people%2C+he+found+that+the+monks+were+much+more+likely+to+decide+to+push+the+stranger+off+the+footbridge.+That%27s+probably+because+the+monks+were+able+to+cooly+analyze+what+benefitted+the+greater+good.+Psychopaths%2C+however%2C+also+have+no+issue+pushing+the+man+off+of+the+bridge%2C+but+that%27s+because+a+defining+trait+of+psychopaths+is+a+lack+of+empathy+for+others.%0A%0AMost+people+will+never+have+to+make+a+decision+like+the+one+in+the+trolley+problem.+But+self-driving+cars+will.+When+faced+with+a+lethal+crash%2C+do+we+want+them+to+make+the+cool%2C+calculated+decision+to+kill+fewer+people+in+every+scenario+%E2%80%94+even+if+that+includes+you%2C+the+driver+%E2%80%94+or+do+we+want+them+to+take+other+elements+into+account%3F+In+fact%2C+you+may+be+able+to+choose+who+survives+in+the+crash+of+a+self-driving+car.+The+life-or-death+issue+is+a+conundrum+engineers+face+today%2C+and+it%27s+not+clear+that+we%27ll+ever+have+the+right+answer.%0A%0A.&lang=en-ru&format=plain HTTP/1.1" 200 None
+2019-07-03 09:00:15,492 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): dw8stlw9qt0iz.cloudfront.net:443
+2019-07-03 09:00:15,940 DEBUG connectionpool _make_request https://dw8stlw9qt0iz.cloudfront.net:443 "GET /QEbOKKdNy0CgbvjDcjqMJNKdkXo=/2800x600/filters:format(jpeg):quality(80):extract_focal()/curiosity-data.s3.amazonaws.com/images/content/hero/standard/17d12cf1-fabb-45e7-ce05-babdfcb3d8e9.png?b HTTP/1.1" 200 186812
+2019-07-03 09:00:16,532 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-07-03 09:00:16,537 DEBUG PngImagePlugin call STREAM b'iCCP' 41 311
+2019-07-03 09:00:16,542 DEBUG PngImagePlugin chunk_iCCP iCCP profile name b'Adobe RGB (1998)'
+2019-07-03 09:00:16,550 DEBUG PngImagePlugin chunk_iCCP Compression method 0
+2019-07-03 09:00:16,555 DEBUG PngImagePlugin call STREAM b'pHYs' 364 9
+2019-07-03 09:00:16,565 DEBUG PngImagePlugin call STREAM b'iTXt' 385 2881
+2019-07-03 09:00:16,571 DEBUG PngImagePlugin call STREAM b'IDAT' 3278 319742
+2019-07-03 09:00:16,899 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-07-03 09:00:16,905 DEBUG PngImagePlugin call STREAM b'IDAT' 41 1403
+2019-07-03 09:00:18,441 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-07-03 09:00:18,444 DEBUG PngImagePlugin call STREAM b'IDAT' 41 65536
+2019-07-03 09:00:20,149 INFO vk_api auth Auth with login: 89214447344
+2019-07-03 09:00:20,152 INFO vk_api check_sid Checking remixsid...
+2019-07-03 09:00:20,173 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): vk.com:443
+2019-07-03 09:00:20,268 DEBUG connectionpool _make_request https://vk.com:443 "GET /feed2.php HTTP/1.1" 200 38
+2019-07-03 09:00:20,276 INFO vk_api check_sid remixsid is not valid
+2019-07-03 09:00:20,281 INFO vk_api _auth_cookies remixsid from config is not valid: 6ed47ccc7142a1f72c31d1215bfc473a6ab2075c0deefb045b18ea240babf
+2019-07-03 09:00:20,286 INFO vk_api _vk_login Logging in...
+2019-07-03 09:00:20,335 DEBUG connectionpool _make_request https://vk.com:443 "GET / HTTP/1.1" 200 10966
+2019-07-03 09:00:20,368 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): login.vk.com:443
+2019-07-03 09:00:20,491 DEBUG connectionpool _make_request https://login.vk.com:443 "POST / HTTP/1.1" 302 20
+2019-07-03 09:00:20,574 DEBUG connectionpool _make_request https://vk.com:443 "GET /login.php?act=slogin&to=&s=1&__q_hash=a4991d1460cc9959cc0033a4141f46dd HTTP/1.1" 200 392
+2019-07-03 09:00:20,591 INFO vk_api _vk_login Got remixsid
+2019-07-03 09:00:20,696 INFO vk_api _pass_security_check Checking security check request
+2019-07-03 09:00:20,699 INFO vk_api _pass_security_check Security check is not required
+2019-07-03 09:00:20,700 INFO vk_api _auth_cookies access_token from config is not valid: None
+2019-07-03 09:00:20,723 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): oauth.vk.com:443
+2019-07-03 09:00:20,854 DEBUG connectionpool _make_request https://oauth.vk.com:443 "GET /authorize?client_id=6990349&scope=140492191&response_type=token HTTP/1.1" 302 20
+2019-07-03 09:00:20,887 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): m.vk.com:443
+2019-07-03 09:00:21,013 DEBUG connectionpool _make_request https://m.vk.com:443 "GET /login?act=blocked&api_hash=6dd830a6b466df01e3 HTTP/1.1" 200 4186
+2019-07-03 09:01:27,025 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-07-03 09:01:27,050 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-07-03 09:01:28,068 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None
+2019-07-03 09:01:28,724 INFO curiosity_one_post main Сейчас мы напишем 1 постов: 
+2019-07-03 09:01:28,726 INFO curiosity_one_post main ПОСТ № 1  people-who-can-admit-what-they-dont-know-tend-to-know-more-curiosity/
+
+2019-07-03 09:01:28,746 DEBUG connectionpool _new_conn Starting new HTTP connection (1): curiosity.com:80
+2019-07-03 09:01:29,037 DEBUG connectionpool _make_request http://curiosity.com:80 "GET /topics/people-who-can-admit-what-they-dont-know-tend-to-know-more-curiosity/%0A HTTP/1.1" 301 178
+2019-07-03 09:01:29,064 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-07-03 09:01:29,817 DEBUG connectionpool _make_request https://curiosity.com:443 "GET /topics/people-who-can-admit-what-they-dont-know-tend-to-know-more-curiosity/ HTTP/1.1" 200 None
+2019-07-03 09:01:31,005 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 09:01:31,210 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=%0AIntelligence%0A&lang=en-ru&format=plain HTTP/1.1" 200 61
+2019-07-03 09:01:31,241 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 09:01:31,426 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170730T114755Z.994753b77b648f24.f3ed7d2f59fcb232c089a1a3328c0e0b900d4925&text=Mind+%26+Body.&lang=en-ru&format=plain HTTP/1.1" 200 56
+2019-07-03 09:01:31,455 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 09:01:31,729 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=People+Who+Can+Admit+What+They+Don%27t+Know+Tend+to+Know+More.&lang=en-ru&format=plain HTTP/1.1" 200 171
+2019-07-03 09:01:31,766 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 09:01:33,708 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=We%27ve+all+been+there.+You%27re+around+new+people+and+you+just+want+to+impress+them.+It+can+be+easy+to+pretend+you+know+about+movies%2C+politics%2C+or+science+just+to+get+through+an+awkward+situation.+But+contrary+to+what+feels+most+natural%2C+a+new+series+of+five+studies+from+Pepperdine+University+shows+that+those+who+can+admit+when+they+don%27t+know+something+tend+to+actually+have+more+knowledge.+If+you+want+to+make+those+people+think+you%27re+smart%2C+maybe+the+best+thing+to+say+is+%22I+don%27t+know.%22%0A%0AIntellectual+humility+%28IH%29+means+having+the+insight+and+honesty+to+admit+when+you%27re+ignorant+about+or+inexperienced+with+an+issue.+Scientists+have+long+associated+general+humility+%E2%80%94+defined+as+the+virtue+of+acknowledging+your+limitations+%E2%80%94+with+more+academic+learning+and+better+grades.+That%27s+likely+because+you+have+to+realize+you+have+things+to+learn+in+order+to+learn+successfully.%0A%0AFor+the+study%2C+which+was+led+by+Elizabeth+Krumrei-Mancuso%2C+the+team+of+researchers+had+one+question%3A+Is+there+a+knowledge+benefit+to+admitting+intellectual+fallibility%3F+To+find+out%2C+they+ran+not+one%2C+not+two%2C+but+five+separate+experiments.+They+engaged+nearly+1%2C200+participants+in+their+study%2C+and+evaluated+them+using+a+number+of+questionnaires+testing+their+cognitive+abilities%2C+measuring+their+own+predictions+of+their+cognitive+abilities%2C+and%2C+of+course%2C+rating+their+levels+of+intellectual+humility.+%0A%0AFor+that+last+part%2C+they+used+different+methods+in+different+studies+to+get+a+more+well-rounded+set+of+results.+One+IH+questionnaire+used+eight+questions+to+assess+participants+on+two+elements%3A+the+%22Knowing-It-All%22+subscale%2C+which+judged+their+attitudes+of+intellectual+superiority%2C+and+the+%22Intellectual+Openness%22+subscale%2C+which+assessed+how+open+they+were+to+learning+from+others.+In+other+studies%2C+they+used+the+22-question+%22Comprehensive+Intellectual+Humility+Scale%2C%22+which+assesses+participants+on+four+elements%3A+independence+of+intellect+and+ego%2C+openness+to+revising+one%27s+viewpoint%2C+respect+for+others%27+viewpoints%2C+and+lack+of+intellectual+overconfidence.+The+five+studies+were+used+to+examine+past+learning%2C+thinking+styles%2C+traits%2C+and+motivations.+%0A%0AKrumrei-Manusco+and+her+team+found+that+IH+was+associated+with+more+general+knowledge%2C+though+not+greater+cognitive+ability.+That+is%2C+people+who+are+intellectually+humble+aren%27t+smarter%2C+but+they+do+tend+to+know+more+than+those+who+aren%27t.+The+researchers+believe+this+leg-up+on+knowledge+is+thanks+to+the+fact+that+IH+leads+directly+to+behaviors+that+can+lead+people+to+learn+more+%E2%80%94+specifically%2C+things+like+reflective+thinking%2C+intellectual+curiosity%2C+and+openness.+They+also+found+that+high+IH+correlated+with+less+%22social+vigilantism%2C%22+which+could+mean+that+intellectually+humble+people+work+better+with+others.+High+IH+was+also+associated+with+the+desire+to+learn+for+the+sake+of+learning.+%0A%0AThe+researchers+noted+that+past+studies+also+suggest+that+as+people+gain+knowledge%2C+they+see+an+increase+in+intellectual+humility.+Basically%2C+humility+and+knowledge+are+linked%2C+but+it%27s+hard+to+know+in+which+direction.+Maybe+the+more+you+learn%2C+the+more+you+realize+you+have+to+learn.+Or+maybe+knowing+that+makes+you+more+receptive+to+learning+anything+at+all.+%0A%0A.&lang=en-ru&format=plain HTTP/1.1" 200 None
+2019-07-03 09:01:33,751 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): dw8stlw9qt0iz.cloudfront.net:443
+2019-07-03 09:01:34,452 DEBUG connectionpool _make_request https://dw8stlw9qt0iz.cloudfront.net:443 "GET /lXC-Iate_cxFto8S_0SbU91EePE=/2800x600/filters:format(jpeg):quality(80):extract_focal()/curiosity-data.s3.amazonaws.com/images/content/hero/standard/1d059e10-2108-4c86-cc99-31be490ff553.png?b HTTP/1.1" 200 111802
+2019-07-03 09:01:35,051 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-07-03 09:01:35,055 DEBUG PngImagePlugin call STREAM b'iCCP' 41 311
+2019-07-03 09:01:35,060 DEBUG PngImagePlugin chunk_iCCP iCCP profile name b'Adobe RGB (1998)'
+2019-07-03 09:01:35,064 DEBUG PngImagePlugin chunk_iCCP Compression method 0
+2019-07-03 09:01:35,072 DEBUG PngImagePlugin call STREAM b'pHYs' 364 9
+2019-07-03 09:01:35,077 DEBUG PngImagePlugin call STREAM b'iTXt' 385 2881
+2019-07-03 09:01:35,080 DEBUG PngImagePlugin call STREAM b'IDAT' 3278 319742
+2019-07-03 09:01:35,399 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-07-03 09:01:35,405 DEBUG PngImagePlugin call STREAM b'IDAT' 41 1403
+2019-07-03 09:01:36,436 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-07-03 09:01:36,440 DEBUG PngImagePlugin call STREAM b'IDAT' 41 65536
+2019-07-03 09:01:37,670 INFO vk_api auth Auth with login: 89214447344
+2019-07-03 09:01:37,675 INFO vk_api check_sid Checking remixsid...
+2019-07-03 09:01:37,700 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): vk.com:443
+2019-07-03 09:01:37,822 DEBUG connectionpool _make_request https://vk.com:443 "GET /feed2.php HTTP/1.1" 200 163
+2019-07-03 09:01:37,832 INFO vk_api check_sid remixsid is valid
+2019-07-03 09:01:37,838 INFO vk_api _pass_security_check Checking security check request
+2019-07-03 09:01:37,968 DEBUG connectionpool _make_request https://vk.com:443 "GET /settings HTTP/1.1" 200 16940
+2019-07-03 09:01:37,984 INFO vk_api _pass_security_check Security check is not required
+2019-07-03 09:01:37,987 INFO vk_api _auth_cookies access_token from config is not valid: None
+2019-07-03 09:01:38,015 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): oauth.vk.com:443
+2019-07-03 09:01:38,142 DEBUG connectionpool _make_request https://oauth.vk.com:443 "GET /authorize?client_id=6990349&scope=140492191&response_type=token HTTP/1.1" 200 2636
+2019-07-03 09:01:38,192 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): login.vk.com:443
+2019-07-03 09:01:38,301 DEBUG connectionpool _make_request https://login.vk.com:443 "GET /?act=grant_access&client_id=6990349&settings=140492191&redirect_uri=&response_type=token&group_ids=&token_type=0&v=&state=&display=page&ip_h=f7ee7e500ce5093b71&hash=1562144498_b8479fba5c1c11a54f&https=1 HTTP/1.1" 302 20
+2019-07-03 09:01:38,364 DEBUG connectionpool _make_request https://oauth.vk.com:443 "GET /error?err=9 HTTP/1.1" 401 100
+2019-07-03 09:03:07,366 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-07-03 09:03:07,385 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-07-03 09:03:08,823 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None
+2019-07-03 09:03:09,428 INFO curiosity_one_post main Сейчас мы напишем 1 постов: 
+2019-07-03 09:03:09,431 INFO curiosity_one_post main ПОСТ № 1  how-did-the-first-meteorites-form-scientists-cant-agree-curiosity/
+
+2019-07-03 09:03:09,453 DEBUG connectionpool _new_conn Starting new HTTP connection (1): curiosity.com:80
+2019-07-03 09:03:09,739 DEBUG connectionpool _make_request http://curiosity.com:80 "GET /topics/how-did-the-first-meteorites-form-scientists-cant-agree-curiosity/%0A HTTP/1.1" 301 178
+2019-07-03 09:03:09,760 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-07-03 09:03:11,488 DEBUG connectionpool _make_request https://curiosity.com:443 "GET /topics/how-did-the-first-meteorites-form-scientists-cant-agree-curiosity/ HTTP/1.1" 200 None
+2019-07-03 09:03:12,381 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 09:03:12,595 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=%0AMeteorites%0AOuter+Space%0A&lang=en-ru&format=plain HTTP/1.1" 200 112
+2019-07-03 09:03:12,625 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 09:03:12,867 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170730T114755Z.994753b77b648f24.f3ed7d2f59fcb232c089a1a3328c0e0b900d4925&text=Science+%26+Technology.&lang=en-ru&format=plain HTTP/1.1" 200 74
+2019-07-03 09:03:12,892 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 09:03:13,201 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=How+Did+the+First+Meteorites+Form%3F+Scientists+Can%27t+Agree.&lang=en-ru&format=plain HTTP/1.1" 200 161
+2019-07-03 09:03:13,237 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-07-03 09:03:15,977 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=April+26%2C+1803+was+an+unusual+day+in+the+small+town+of+L%27Aigle+in+Normandy%2C+France+%E2%80%94+it+rained+rocks.%0A%0ADespite+decades+of+intense+study+by+thousands+of+scientists%2C+there+is+no+general+consensus+on+how+most+meteorites+formed.+As+an+astronomer+and+a+geologist%2C+we+have+recently+developed+a+new+theory+of+what+happened+during+the+formation+of+the+solar+system+to+create+these+valuable+relics+of+our+past.+Since+planets+form+out+of+collisions+of+these+first+rocks%2C+this+is+an+important+part+of+the+history+of+the+Earth.%0A%0AAbout+10+percent+of+meteorites+are+pure+iron.+These+form+through+a+multi-step+process+in+which+a+large+molten+asteroid+has+enough+gravity+to+cause+iron+to+sink+to+its+center.+This+builds+an+iron+core+just+like+the+Earth%27s.+After+this+asteroid+solidifies%2C+it+can+be+shattered+into+meteorites+by+collisions+with+other+objects.+Iron+meteorites+are+as+old+as+the+solar+system+itself%2C+proving+that+large+asteroids+formed+quickly+and+fully+molten+ones+were+once+abundant.%0A%0AResearchers+have+come+up+with+many+hypotheses+through+the+last+40+years.+But+no+consensus+has+been+reached+on+how+this+brief+flash+of+heating+happened.%0A%0AOur+idea+is+quite+simple.+Radioactive+dating+of+hundreds+of+chondrules+shows+that+they+formed+between+1.8+and+4+million+years+after+the+beginning+of+the+solar+system+%E2%80%94+some+4.6+billion+years+ago.+During+this+time%2C+fully+molten+asteroids%2C+the+parent+bodies+of+the+iron+meteorites%2C+were+abundant.+Volcanic+eruptions+on+these+asteroids+released+tremendous+amounts+of+heat+into+the+space+around+them.+Any+smaller+objects+passing+by+during+an+eruption+would+experience+a+short%2C+intense+blast+of+heat.%0A%0AWe+put+some+fine+dust+from+Earth+rocks+with+compositions+resembling+space+dust+into+a+small+capsule%2C+placed+it+in+our+furnace%2C+and+cycled+the+temperature+through+the+predicted+range.+Out+came+a+nice-looking+synthetic+chondrule.+Case+closed%3F+Not+so+fast.%0A%0ATo+address+these+issues%2C+we+extended+our+initial+model+to+consider+flyby+heating+of+a+larger+object%2C+up+to+a+few+miles+across.+As+this+material+approaches+a+hot+asteroid%2C+parts+of+it+will+vaporize+like+a+comet%2C+resulting+in+an+atmosphere+rich+in+oxygen+and+other+volatile+elements.+This+turns+out+to+be+just+the+kind+of+atmosphere+in+which+chondrules+form%2C+based+on+previous+detailed+chemical+studies.%0A%0AWe+also+expect+the+heat+and+gas+pressure+to+harden+the+flyby+object+into+a+whole+meteorite+through+a+process+known+as+hot+isostatic+pressing%2C+which+is+used+commercially+to+make+metal+alloys.+As+the+chondrules+melt+into+little+spheres%2C+they+will+release+gas+to+the+matrix%2C+which+traps+those+elements+as+the+meteorite+hardens.+If+chondrules+and+chondrites+form+together+in+this+manner%2C+we+expect+the+matrix+to+be+enhanced+in+exactly+the+same+elements+that+the+chondrules+are+depleted.+This+phenomenon%2C+known+as+complementarity%2C+has%2C+in+fact%2C+been+observed+for+decades%2C+and+our+model+provides+a+plausible+explanation+for+it.%0A%0APerhaps+the+most+novel+feature+of+our+model+is+that+it+links+chondrule+formation+directly+to+the+hardening+of+meteorites.+Since+only+well-hardened+objects+from+space+can+make+it+through+the+Earth%27s+atmosphere%2C+we+would+expect+the+meteorites+in+our+museums+to+be+full+of+chondrules%2C+as+they+are.+But+hardened+meteorites+full+of+chondrules+would+be+the+exception%2C+not+the+rule%2C+in+space%2C+since+they+form+by+a+relatively+chancy+process+%E2%80%94+the+hot+flyby.+We+should+know+soon+enough+if+this+idea+holds+water%2C+since+it+predicts+that+chondrules+will+be+rare+on+asteroids.+Both+Japan+and+the+United+States+have+ongoing+missions+to+nearby+asteroids+that+will+return+samples+over+the+next+few+years.%0A%0AIf+those+asteroids+are+full+of+chondrules%2C+like+the+hardened+meteorites+that+make+it+to+the+Earth%27s+surface%2C+then+our+model+can+be+discarded+and+the+search+for+a+solution+to+the+famous+chondrule+problem+can+go+on.+If%2C+on+the+other+hand%2C+chondrules+are+rare+on+asteroids%2C+then+the+flyby+model+will+have+passed+an+important+test.%0A%0A.&lang=en-ru&format=plain HTTP/1.1" 200 None
+2019-07-03 09:03:16,021 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): dw8stlw9qt0iz.cloudfront.net:443
+2019-07-03 09:03:16,458 DEBUG connectionpool _make_request https://dw8stlw9qt0iz.cloudfront.net:443 "GET /s2f4frL__l5hZdGTSQjAZNUgSJE=/2800x600/filters:format(jpeg):quality(80):extract_focal()/curiosity-data.s3.amazonaws.com/images/content/hero/standard/ad561897-a4ad-47bc-ab91-c47ae6ada624.png?b HTTP/1.1" 200 71009
+2019-07-03 09:03:16,915 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-07-03 09:03:16,920 DEBUG PngImagePlugin call STREAM b'iCCP' 41 311
+2019-07-03 09:03:16,922 DEBUG PngImagePlugin chunk_iCCP iCCP profile name b'Adobe RGB (1998)'
+2019-07-03 09:03:16,926 DEBUG PngImagePlugin chunk_iCCP Compression method 0
+2019-07-03 09:03:16,931 DEBUG PngImagePlugin call STREAM b'pHYs' 364 9
+2019-07-03 09:03:16,933 DEBUG PngImagePlugin call STREAM b'iTXt' 385 2881
+2019-07-03 09:03:16,938 DEBUG PngImagePlugin call STREAM b'IDAT' 3278 319742
+2019-07-03 09:03:17,259 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-07-03 09:03:17,261 DEBUG PngImagePlugin call STREAM b'IDAT' 41 1403
+2019-07-03 09:03:18,137 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-07-03 09:03:18,140 DEBUG PngImagePlugin call STREAM b'IDAT' 41 65536
+2019-07-03 09:03:19,205 INFO vk_api auth Auth with login: 89214447344
+2019-07-03 09:03:19,208 INFO vk_api check_sid Checking remixsid...
+2019-07-03 09:03:19,230 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): vk.com:443
+2019-07-03 09:03:19,332 DEBUG connectionpool _make_request https://vk.com:443 "GET /feed2.php HTTP/1.1" 200 297
+2019-07-03 09:03:19,337 INFO vk_api check_sid remixsid is valid
+2019-07-03 09:03:19,339 INFO vk_api _pass_security_check Checking security check request
+2019-07-03 09:03:19,487 DEBUG connectionpool _make_request https://vk.com:443 "GET /settings HTTP/1.1" 200 16942
+2019-07-03 09:03:19,500 INFO vk_api _pass_security_check Security check is not required
+2019-07-03 09:03:19,503 INFO vk_api _auth_cookies access_token from config is not valid: None
+2019-07-03 09:03:19,528 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): oauth.vk.com:443
+2019-07-03 09:03:19,655 DEBUG connectionpool _make_request https://oauth.vk.com:443 "GET /authorize?client_id=6990349&scope=140492191&response_type=token HTTP/1.1" 200 2634
+2019-07-03 09:03:19,688 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): login.vk.com:443
+2019-07-03 09:03:19,804 DEBUG connectionpool _make_request https://login.vk.com:443 "GET /?act=grant_access&client_id=6990349&settings=140492191&redirect_uri=&response_type=token&group_ids=&token_type=0&v=&state=&display=page&ip_h=f7ee7e500ce5093b71&hash=1562144599_dfea092da09af95c25&https=1 HTTP/1.1" 302 20
+2019-07-03 09:03:19,857 DEBUG connectionpool _make_request https://oauth.vk.com:443 "GET /error?err=9 HTTP/1.1" 401 100
+2019-09-23 06:12:10,996 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-09-23 06:12:11,090 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-09-23 06:12:11,997 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None

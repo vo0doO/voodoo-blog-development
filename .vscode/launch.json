@@ -1,6 +1,7 @@
 {
     "version": "0.2.0",
     "configurations": [
+    {"name":"Python: Текущий файл","type":"python","request":"launch","program":"${file}","console": "internalConsole",},
 
     {"type": "chrome", "request": "attach", "name": "Attach Chrome", "port":9222, "url": "http://localhost:8000",
         "webRoot": "${workspaceFolder}"},
@@ -26,7 +27,7 @@
         },
         {
             "name": "Python: Django",
-            "logToFile": true,
+            "logToFile": "true",
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}\\manage.py",
