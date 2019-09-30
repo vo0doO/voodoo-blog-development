@@ -12,23 +12,23 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 
 import os
 import django_heroku
-# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+# Пути сборки внутри проекта, как это: os.path.join (base_dir, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-# Quick-start development settings - unsuitable for production
+# Быстрый запуск настроек развития - непригодно для производства
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
+# ПРЕДУПРЕЖДЕНИЕ О БЕЗОПАСНОСТИ: хранить секретный ключ, используемый в производстве секрет!
 SECRET_KEY = 'q#fb!8@ina1#l-^3@ll85gtta7w&4d%mm&jxdsz4#hhi6_sofh'
 
-# SECURITY WARNING: don't run with debug turned on in production!
+# ПРЕДУПРЕЖДЕНИЕ О БЕЗОПАСНОСТИ: не работает с отладкой включено в производстве!
 DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'voodoo-blog-development.herokuapp.com']
 
 
-# Application definition
+# определение приложений
 
 INSTALLED_APPS = [
     'whitenoise.runserver_nostatic',
@@ -38,13 +38,18 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+
     'django_static_jquery',
-    'blog',
     'phonenumber_field',
     'multiselectfield',
+
+    'blog',
+    'curiosity'
 ]
+
 PHONENUMBER_DB_FORMAT = 'E164'
 PHONENUMBER_DEFAULT_REGION = 'RU'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
@@ -69,6 +74,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.media',
             ],
         },
     },
@@ -76,8 +82,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'myblog.wsgi.application'
 
-
-# Database
+# База данных
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
@@ -93,7 +98,7 @@ DATABASES = {
 }
 
 
-# Password validation
+# проверка пароля
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
@@ -112,7 +117,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
-# Internationalization
+# интернационализация
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
 LANGUAGE_CODE = 'ru-ru'
@@ -134,14 +139,17 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
+# # Медиа
+MEDIA_ROOT = 'media'
+MEDIA_URL = '/media/'
+
 # # Дополнительные места для collectstatic для поиска статических файлов.
-#
 STATICFILES_DIRS = (
    os.path.join(BASE_DIR, 'static'),
 )
 
 # # Обслуживание статических файлов
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-# Активация Django-heroku
 
+# # Активация Django-heroku
 django_heroku.settings(locals())

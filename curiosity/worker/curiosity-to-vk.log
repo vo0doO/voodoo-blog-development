@@ -610,3 +610,1457 @@ TypeError: 'NoneType' object is not iterable
 2019-09-23 06:12:10,996 DEBUG curiosity_one_post <module> ====================================================================================================
 2019-09-23 06:12:11,090 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
 2019-09-23 06:12:11,997 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None
+2019-09-23 06:21:05,355 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-09-23 06:21:05,410 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-09-23 06:21:06,129 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None
+2019-09-23 06:24:26,311 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-09-23 06:24:26,419 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-09-23 06:24:27,372 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None
+2019-09-23 06:24:29,273 INFO curiosity_one_post main Сейчас мы напишем 1 постов: 
+2019-09-23 06:25:24,398 INFO curiosity_one_post main ПОСТ № 1  when-youre-trying-to-persuade-storytelling-can-backfire-curiosity/
+
+2019-09-23 06:25:40,479 DEBUG connectionpool _new_conn Starting new HTTP connection (1): curiosity.com:80
+2019-09-23 06:25:40,824 DEBUG connectionpool _make_request http://curiosity.com:80 "GET /topics/when-youre-trying-to-persuade-storytelling-can-backfire-curiosity/%0A HTTP/1.1" 301 178
+2019-09-23 06:25:40,902 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-09-23 06:25:42,127 DEBUG connectionpool _make_request https://curiosity.com:443 "GET /topics/when-youre-trying-to-persuade-storytelling-can-backfire-curiosity/ HTTP/1.1" 200 None
+2019-09-23 06:26:50,978 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-09-23 06:26:51,317 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=%0ACommunication%0A&lang=en-ru&format=plain HTTP/1.1" 200 57
+2019-09-23 06:26:51,410 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-09-23 06:26:51,725 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170730T114755Z.994753b77b648f24.f3ed7d2f59fcb232c089a1a3328c0e0b900d4925&text=Mind+%26+Body.&lang=en-ru&format=plain HTTP/1.1" 200 56
+2019-09-23 06:26:51,842 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-09-23 06:26:52,171 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=When+You%27re+Trying+to+Persuade%2C+Storytelling+Can+Backfire.&lang=en-ru&format=plain HTTP/1.1" 200 171
+2019-09-23 06:26:52,307 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-09-23 06:26:54,936 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=How+often+%E2%80%94+on+the+debate+stage%2C+in+the+classroom%2C+or+at+the+dinner+table+%E2%80%94+do+we+use+stories+to+convince+others+to+see+things+our+way%3F+Whether+it%27s+a+politician%27s+tale+of+a+constituent+done+wrong+by+a+political+policy%2C+a+teacher+showing+their+class+a+shocking+video+about+the+dangers+of+drugs%2C+or+a+teen+recounting+a+friend%27s+amazing+time+at+a+concert+her+parents+let+her+attend%2C+stories+seem+to+add+a+personal+touch+to+cold%2C+hard+facts+in+order+to+make+those+facts+more+persuasive.+But+a+new+study+suggests+that%27s+only+true+in+certain+circumstances+%E2%80%94+specifically%2C+when+the+facts+you+have+are+weak.+Most+of+the+time%2C+it%27s+best+to+cut+straight+to+the+numbers.+%0A%0ABefore+now%2C+psychological+research+showed+that+adding+storytelling+to+facts+was+a+good+persuasive+strategy.+But+the+reasoning+was+always+less+clear.+Could+good+storytelling+distract+from+the+facts%3F+Or+is+it+that+stories+highlight+the+strongest+facts+available%3F+Thanks+to+researchers+Rebecca+Krause+and+Derek+Rucker+from+Northwestern+University%2C+we+know+that+it%27s+not+a+question+of+if+stories+work%2C+but+when+they+do.%0A%0ATo+find+out+about+the+interaction+between+facts%2C+stories%2C+and+belief%2C+Krause+and+Rucker+conducted+three+experiments.+The+first+experiment+had+participants+read+about+a+fake+cell+phone+brand%2C+%22Moonstone%2C%22+via+either+a+list+of+attributes+or+a+story.+Both+types+of+descriptions+were+peppered+with+either+strong+facts+%28something+like+%22The+phone+can+withstand+a+fall+of+up+to+30+feet%22%29+or+weak+facts+%28like+%22The+phone+can+withstand+a+fall+of+up+to+3+feet%22%29.+Then%2C+the+participants+rated+the+phone+on+a+scale+from+1+to+9.++As+you+might+expect%2C+when+facts+were+weak%2C+people+were+more+persuaded+by+the+story+than+by+those+facts+alone.+However%2C+when+the+facts+were+strong%2C+the+opposite+happened%3A+People+thought+more+highly+of+the+phone+when+it+was+accompanied+by+simple+facts+than+when+they+read+those+same+facts+in+a+story.+%0A%0AIn+the+next+experiment%2C+Krause+and+Rucker+replicated+the+same+process%2C+but+this+time+they+asked+the+participants+how+likely+they+were+to+try+the+Moonstone+cell+phone.+They+got+the+same+results%2C+but+also+discovered+something+deeper%3A+When+facts+were+weak%2C+embedding+them+in+a+story+seemed+to+reduce+people%27s+negative+thoughts+and+made+them+more+likely+to+try+the+new+phone.+Here%27s+where+it+gets+interesting%3A+The+story+worked+against+the+phone+when+facts+were+strong.+Yet+again%2C+the+exact+opposite+thing+happened+when+facts+were+strong%3A+The+story+appeared+to+reduce+people%27s+positive+thoughts+about+the+phone+and+made+them+less+likely+to+try+it.+%0A%0AJust+for+good+measure%2C+Krause+and+Rucker+conducted+a+third+experiment+with+a+totally+different+product+and+a+less+hypothetical+request.+Here%2C+they+told+participants+about+a+pretend+flu+medication%2C+%22TruFlu.%22+The+participants+either+got+the+facts+on+their+own+or+heard+them+in+a+story+about+a+sick+child.+Then%2C+they+were+asked+for+their+email+addresses+in+order+to+join+a+mailing+list+about+the+medication.+%0A%0AThese+results+don%27t+just+explain+why+some+email+newsletters+are+beefier+than+others.+They+also+suggest+how+our+brains+respond+to+information.+Stories+direct+our+thoughts+away+from+information%27s+weaknesses+%E2%80%94+that+may+be+one+reason+people+are+so+ready+to+use+them+when+they+want+to+persuade+%E2%80%94+but+they+also+reduce+our+understanding+of+information+altogether.+%0A%0AIn+this+case%2C+stories+act+a+bit+like+an+Instagram+filter%3A+When+you%27ve+got+a+picture+of+a+dreary+afternoon+sky%2C+a+filter+can+make+it+look+artistic+and+dreamlike%3B+when+you%27ve+got+a+picture+of+a+blazing+sunrise%2C+a+filter+can+dull+the+fiery+colors+that+make+it+so+beautiful.+Likewise%2C+when+the+facts+aren%27t+on+your+side%2C+stories+can+make+them+more+compelling%3B+when+the+facts+are+compelling+on+their+own%2C+stories+just+serve+as+a+distraction.%0A%0AAccording+to+Dr.+Krause%2C+this+research+has+some+serious+implications+for+our+current+times.+%22Knowing+that+stories+may+provide+the+most+persuasive+benefit+to+those+with+the+least+compelling+arguments+could+be+important+given+concerns+about+%27fake+news%2C%22+said+Krause.+%0A%0A.&lang=en-ru&format=plain HTTP/1.1" 200 None
+2019-09-23 06:27:51,679 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): dw8stlw9qt0iz.cloudfront.net:443
+2019-09-23 06:27:52,166 DEBUG connectionpool _make_request https://dw8stlw9qt0iz.cloudfront.net:443 "GET /07I7qFaGaULeMPHRB2ohgo2u0II=/2800x600/filters:format(jpeg):quality(80):extract_focal()/curiosity-data.s3.amazonaws.com/images/content/hero/standard/5e87ad7d-5d2d-4df1-c518-35af2271ab7e.png?b HTTP/1.1" 200 187568
+2019-09-23 06:28:14,279 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-09-23 06:28:14,283 DEBUG PngImagePlugin call STREAM b'iCCP' 41 311
+2019-09-23 06:28:14,287 DEBUG PngImagePlugin chunk_iCCP iCCP profile name b'Adobe RGB (1998)'
+2019-09-23 06:28:14,293 DEBUG PngImagePlugin chunk_iCCP Compression method 0
+2019-09-23 06:28:14,299 DEBUG PngImagePlugin call STREAM b'pHYs' 364 9
+2019-09-23 06:28:14,304 DEBUG PngImagePlugin call STREAM b'iTXt' 385 2881
+2019-09-23 06:28:14,309 DEBUG PngImagePlugin call STREAM b'IDAT' 3278 319742
+2019-09-23 06:28:15,019 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-09-23 06:28:15,021 DEBUG PngImagePlugin call STREAM b'IDAT' 41 1403
+2019-09-23 06:28:19,084 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-09-23 06:28:19,087 DEBUG PngImagePlugin call STREAM b'IDAT' 41 65536
+2019-09-23 06:29:01,594 INFO vk_api auth Auth with login: 89214447344
+2019-09-23 06:29:01,601 INFO vk_api check_sid Checking remixsid...
+2019-09-23 06:29:01,716 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): vk.com:443
+2019-09-23 06:29:01,938 DEBUG connectionpool _make_request https://vk.com:443 "GET /feed2.php HTTP/1.1" 200 163
+2019-09-23 06:29:01,951 INFO vk_api check_sid remixsid is valid
+2019-09-23 06:29:01,954 INFO vk_api _pass_security_check Checking security check request
+2019-09-23 06:29:02,187 DEBUG connectionpool _make_request https://vk.com:443 "GET /settings HTTP/1.1" 200 17867
+2019-09-23 06:29:02,205 INFO vk_api _pass_security_check Security check is not required
+2019-09-23 06:29:02,210 INFO vk_api _auth_cookies access_token from config is not valid: None
+2019-09-23 06:29:02,286 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): oauth.vk.com:443
+2019-09-23 06:29:02,575 DEBUG connectionpool _make_request https://oauth.vk.com:443 "GET /authorize?client_id=6990349&scope=140492191&response_type=token HTTP/1.1" 200 2642
+2019-09-23 06:29:02,667 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): login.vk.com:443
+2019-09-23 06:29:02,886 DEBUG connectionpool _make_request https://login.vk.com:443 "GET /?act=grant_access&client_id=6990349&settings=140492191&redirect_uri=&response_type=token&group_ids=&token_type=0&v=&state=&display=page&ip_h=f7ee7e500ce5093b71&hash=1569209341_fa2a257eaa49afe118&https=1 HTTP/1.1" 302 20
+2019-09-23 06:29:02,981 DEBUG connectionpool _make_request https://oauth.vk.com:443 "GET /error?err=9 HTTP/1.1" 401 100
+2019-09-23 07:12:05,148 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-09-23 07:12:05,244 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-09-23 07:12:06,025 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None
+2019-09-23 07:12:07,909 INFO curiosity_one_post main Сейчас мы напишем 1 постов: 
+2019-09-23 07:12:07,913 INFO curiosity_one_post main ПОСТ № 1  brain-scans-of-people-reading-and-listening-to-podcasts-look-the-same-curiosity/
+
+2019-09-23 07:12:19,445 DEBUG connectionpool _new_conn Starting new HTTP connection (1): curiosity.com:80
+2019-09-23 07:12:19,751 DEBUG connectionpool _make_request http://curiosity.com:80 "GET /topics/brain-scans-of-people-reading-and-listening-to-podcasts-look-the-same-curiosity/%0A HTTP/1.1" 301 178
+2019-09-23 07:12:19,848 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-09-23 07:12:20,606 DEBUG connectionpool _make_request https://curiosity.com:443 "GET /topics/brain-scans-of-people-reading-and-listening-to-podcasts-look-the-same-curiosity/ HTTP/1.1" 200 None
+2019-09-23 07:12:22,464 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-09-23 07:12:22,909 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=%0ANeuroscience%0AReading%0A&lang=en-ru&format=plain HTTP/1.1" 200 77
+2019-09-23 07:12:22,990 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-09-23 07:12:23,342 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170730T114755Z.994753b77b648f24.f3ed7d2f59fcb232c089a1a3328c0e0b900d4925&text=Mind+%26+Body.&lang=en-ru&format=plain HTTP/1.1" 200 56
+2019-09-23 07:12:23,426 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-09-23 07:12:23,833 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=Brain+Scans+of+People+Reading+and+Listening+to+Podcasts+Look+the+Same.&lang=en-ru&format=plain HTTP/1.1" 200 170
+2019-09-23 07:12:23,924 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-09-23 07:12:25,337 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=Listening+to+a+book+likely+stimulates+the+same+cognitive+and+emotional+parts+of+the+brain+as+reading+it%2C+new+research+shows.%0A%0A%22At+a+time+when+more+people+are+absorbing+information+via+audiobooks%2C+podcasts%2C+and+even+audio+texts%2C+our+study+shows+that%2C+whether+they%27re+listening+to+or+reading+the+same+materials%2C+they+are+processing+semantic+information+similarly%2C%22+says+study+lead+author+Fatma+Deniz%2C+a+postdoctoral+researcher+in+neuroscience+in+the+Gallant+Lab+at+University+of+California%2C+Berkeley+and+former+fellow+with+the+Berkeley+Institute+for+Data+Science.%0A%0AFor+this+latest+brain+mapping+study%2C+people+listened+to+stories+from+%22The+Moth+Radio+Hour%2C%22+a+popular+podcast+series%2C+and+then+read+those+same+stories.+Using+functional+MRI%2C+researchers+scanned+their+brains+in+both+the+listening+and+reading+conditions%2C+compared+their+listening-versus-reading+brain+activity+data%2C+and+found+the+maps+they+created+from+both+datasets+were+virtually+identical.%0A%0AAs+for+clinical+applications%2C+the+maps+could+compare+language+processing+in+healthy+people+and+in+those+with+stroke%2C+epilepsy%2C+and+brain+injuries+that+impair+speech.+Understanding+such+differences+can+aid+recovery+efforts%2C+Deniz+says.%0A%0ANine+volunteers+each+spent+a+couple+of+hours+inside+functional+MRI+scanners%2C+listening+and+then+reading+stories+from+%22The+Moth+Radio+Hour%22+as+researchers+measured+their+cerebral+blood+flow.%0A%0AThe+maps%2C+which+covered+at+least+one-third+of+the+cerebral+cortex%2C+enabled+the+researchers+to+predict+with+accuracy+which+words+would+activate+which+parts+of+the+brain.%0A%0AHer+study+is+a+follow-up+to+a+2016+Gallant+Lab+study+that+recorded+the+brain+activity+of+seven+study+subjects+as+they+listened+to+stories+from+%22The+Moth+Radio+Hour.%22+That+online+brain+viewer+is+available+here.%0A%0A.&lang=en-ru&format=plain HTTP/1.1" 200 None
+2019-09-23 07:12:25,453 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): dw8stlw9qt0iz.cloudfront.net:443
+2019-09-23 07:12:25,934 DEBUG connectionpool _make_request https://dw8stlw9qt0iz.cloudfront.net:443 "GET /mOwogkiZ_TOmJEOv6kpG3hkuQOc=/2800x600/filters:format(jpeg):quality(80):extract_focal()/curiosity-data.s3.amazonaws.com/images/content/hero/standard/408c6cd9-af69-4bfc-8f51-becc362b433c.png?b HTTP/1.1" 200 163809
+2019-09-23 07:12:26,927 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-09-23 07:12:26,932 DEBUG PngImagePlugin call STREAM b'iCCP' 41 311
+2019-09-23 07:12:26,937 DEBUG PngImagePlugin chunk_iCCP iCCP profile name b'Adobe RGB (1998)'
+2019-09-23 07:12:26,943 DEBUG PngImagePlugin chunk_iCCP Compression method 0
+2019-09-23 07:12:26,951 DEBUG PngImagePlugin call STREAM b'pHYs' 364 9
+2019-09-23 07:12:26,957 DEBUG PngImagePlugin call STREAM b'iTXt' 385 2881
+2019-09-23 07:12:26,961 DEBUG PngImagePlugin call STREAM b'IDAT' 3278 319742
+2019-09-23 07:12:27,819 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-09-23 07:12:27,823 DEBUG PngImagePlugin call STREAM b'IDAT' 41 1403
+2019-09-23 07:12:32,186 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-09-23 07:12:32,191 DEBUG PngImagePlugin call STREAM b'IDAT' 41 65536
+2019-09-23 07:12:36,918 INFO vk_api auth Auth with login: 89214447344
+2019-09-23 07:12:36,923 INFO vk_api check_sid Checking remixsid...
+2019-09-23 07:12:37,010 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): vk.com:443
+2019-09-23 07:12:37,263 DEBUG connectionpool _make_request https://vk.com:443 "GET /feed2.php HTTP/1.1" 200 297
+2019-09-23 07:12:37,275 INFO vk_api check_sid remixsid is valid
+2019-09-23 07:12:37,279 INFO vk_api _pass_security_check Checking security check request
+2019-09-23 07:12:37,509 DEBUG connectionpool _make_request https://vk.com:443 "GET /settings HTTP/1.1" 200 17864
+2019-09-23 07:12:37,526 INFO vk_api _pass_security_check Security check is not required
+2019-09-23 07:12:37,610 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): api.vk.com:443
+2019-09-23 07:12:37,841 DEBUG connectionpool _make_request https://api.vk.com:443 "POST /method/stats.trackVisitor HTTP/1.1" 200 34
+2019-09-23 07:12:37,853 INFO vk_api _auth_cookies access_token from config is valid
+2019-09-23 07:12:38,317 DEBUG connectionpool _make_request https://api.vk.com:443 "POST /method/photos.getUploadServer HTTP/1.1" 200 207
+2019-09-23 07:12:38,431 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): pu.vk.com:443
+2019-09-23 07:12:40,445 DEBUG connectionpool _make_request https://pu.vk.com:443 "POST /c850132/upload.php?act=do_add&mid=420341478&aid=266719496&gid=0&hash=6893f850a21e85e1b6872c90e510cbd7&rhash=68a7077e887fa71c5e9b4c4102648d91&swfupload=1&api=1 HTTP/1.1" 200 416
+2019-09-23 07:12:40,616 DEBUG connectionpool _make_request https://api.vk.com:443 "POST /method/photos.save HTTP/1.1" 200 312
+2019-09-23 07:12:41,212 DEBUG connectionpool _make_request https://api.vk.com:443 "POST /method/wall.post HTTP/1.1" 200 47
+2019-09-23 07:13:11,239 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-09-23 07:28:54,026 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-09-23 07:28:54,218 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-09-23 07:28:55,185 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None
+2019-09-23 07:28:56,317 INFO curiosity_one_post main Сейчас мы напишем 1 постов: 
+2019-09-23 07:28:56,320 INFO curiosity_one_post main ПОСТ № 1  youre-not-normal-because-nobody-is-according-to-yale-research-curiosity/
+
+2019-09-23 07:28:56,390 DEBUG connectionpool _new_conn Starting new HTTP connection (1): curiosity.com:80
+2019-09-23 07:28:56,716 DEBUG connectionpool _make_request http://curiosity.com:80 "GET /topics/youre-not-normal-because-nobody-is-according-to-yale-research-curiosity/%0A HTTP/1.1" 301 178
+2019-09-23 07:28:56,782 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-09-23 07:28:57,508 DEBUG connectionpool _make_request https://curiosity.com:443 "GET /topics/youre-not-normal-because-nobody-is-according-to-yale-research-curiosity/ HTTP/1.1" 200 None
+2019-09-23 07:28:59,281 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-09-23 07:28:59,760 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=%D0%9B%D1%8E%D0%B1%D0%BE%D0%BF%D1%8B%D1%82%D0%BD%D0%BE&lang=en-ru&format=plain HTTP/1.1" 200 57
+2019-09-23 07:28:59,838 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-09-23 07:29:00,158 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170730T114755Z.994753b77b648f24.f3ed7d2f59fcb232c089a1a3328c0e0b900d4925&text=Mind+%26+Body.&lang=en-ru&format=plain HTTP/1.1" 200 56
+2019-09-23 07:29:00,259 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-09-23 07:29:00,637 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=You%27re+Not+Normal+Because+Nobody+Is%2C+According+to+Yale+Research.&lang=en-ru&format=plain HTTP/1.1" 200 221
+2019-09-23 07:29:00,796 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-09-23 07:29:02,795 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=Ever+felt+like+a+total+weirdo%3F+Turns+out%2C+there%27s+nothing+weird+about+that+at+all.+Feeling+different+is+normal+because+there+is+no+normal.+In+a+2018+study%2C+Yale+researchers+confirmed+what+we%27ve+known+to+be+true+all+along%3A+Humans+are+just+a+bunch+of+freaks.+And%2C+fortunately%2C+that%27s+exactly+the+way+it+should+be.%0A%0AChances+are+you%27ve+Googled+things+like%3A+What%27s+a+normal+bedtime%3F+Is+it+normal+to+talk+to+your+dog%3F+Is+it+normal+to+sleep+with+a+teddy+bear%3F+According+to+a+study+published+in+February+2018%2C+all+of+our+Googling+is+for+naught.+The+study%2C+conducted+by+Yale+researchers+Avram+J.+Holmes+and+Lauren+M.+Patrick+and+published+in+Trends+in+Cognitive+Sciences%2C+notes+that+there+is+no+normalcy+%E2%80%94+not+for+people%2C+and+not+for+people%27s+brains.+%22Optimality+in+clinical+neuroscience%22+is+a+myth%2C+they+say%2C+and+change%2C+range%2C+and+variety+is+much+more+common+%E2%80%94+normal%3F+%E2%80%94+for+life%2C+and+necessary+for+the+evolutionary+progress+of+a+species.%0A%0ABut+this+isn%27t+just+about+taking+solace+in+your+weirdness.+Their+research+has+implications+for+psychiatry+and+how+mental+illness+should+be+perceived+and+treated.+The+team+concluded%2C+%22%5BT%5Dhere+is+no+universally+optimal+profile+of+brain+functioning.+The+evolutionary+forces+that+shape+our+species+select+for+a+staggering+diversity+of+human+behaviors+%5B...%5D+We+propose+that%2C+instead+of+examining+behaviors+in+isolation%2C+psychiatric+illnesses+can+be+best+understood+through+the+study+of+domains+of+functioning+and+associated+%5Bcomplex%5D+patterns+of+variation+across+distributed+brain+systems.%22%0A%0ASo+you+may+have+some+questions+at+this+point.+If+there%27s+no+such+thing+as+normal%2C+then+there+shouldn%27t+be+anything+weird+about+eating+23+hot+dogs+first+thing+in+the+morning%2C+right%3F+Well%2C+you%27re+not+asking+the+right+question.+There+is+no+right+or+wrong+way+to+be+a+human%2C+and+normal+is+a+relative+term+that+depends+on+time%2C+place%2C+and+circumstance.+Downing+two+dozen+hot+dogs+alone+at+your+kitchen+table+at+6+a.m.%3F+Whether+or+not+it%27s+%22normal%2C%22+it%27s+probably+not+a+healthy+behavior%2C+mentally+or+otherwise.+Doing+the+same+at+a+hotdog+eating+competition+at+the+state+fair%3F+That%27s+more+logical+%28though+still+not+physically+healthy%29.+This+circumstantial+consideration+should+be+applied+to+psychiatry%2C+argues+Holmes.+In+our+colorful+example%2C+eating+a+ton+of+hotdogs+in+a+single+sitting+shouldn%27t+automatically+place+someone+into+the+bucket+of+%22mental+illness.%22+Other+individual+factors+need+to+be+taken+into+account.%0A%0AHolmes+explained+this+approach+to+Quartz%3A+%22The+point+we+argue+is+that+there+is+no+universal%2C+unconditionally+optimal+pattern+of+brain+structure+or+function.+So+the+border+separating+health+from+disease+cannot+be+cleanly+drawn+through+a+single+behavior+or+aspect+of+brain+function.+In+isolation%2C+any+given+behavioral%2C+psychological%2C+or+neurobiological+trait+is+typically+neither+good+nor+bad.+Rather%2C+the+context+a+person+is+in%2C+their+age%2C+social+network%2C+and+environment%2C+can+have+a+huge+influence+on+the+costs+and+benefits+of+particular+traits.%22%0A%0A.&lang=en-ru&format=plain HTTP/1.1" 200 None
+2019-09-23 07:29:02,859 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): dw8stlw9qt0iz.cloudfront.net:443
+2019-09-23 07:29:03,432 DEBUG connectionpool _make_request https://dw8stlw9qt0iz.cloudfront.net:443 "GET /RJmb81u4BL9jV0_MTLpWqFbeE7Q=/2800x600/filters:format(jpeg):quality(80):extract_focal()/curiosity-data.s3.amazonaws.com/images/content/hero/standard/a8e74a9a-a283-4a99-e21a-66f086ca94ed.png?b HTTP/1.1" 200 230771
+2019-09-23 07:29:04,344 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-09-23 07:29:04,347 DEBUG PngImagePlugin call STREAM b'iCCP' 41 311
+2019-09-23 07:29:04,351 DEBUG PngImagePlugin chunk_iCCP iCCP profile name b'Adobe RGB (1998)'
+2019-09-23 07:29:04,356 DEBUG PngImagePlugin chunk_iCCP Compression method 0
+2019-09-23 07:29:04,362 DEBUG PngImagePlugin call STREAM b'pHYs' 364 9
+2019-09-23 07:29:04,367 DEBUG PngImagePlugin call STREAM b'iTXt' 385 2881
+2019-09-23 07:29:04,372 DEBUG PngImagePlugin call STREAM b'IDAT' 3278 319742
+2019-09-23 07:29:05,052 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-09-23 07:29:05,055 DEBUG PngImagePlugin call STREAM b'IDAT' 41 1403
+2019-09-23 07:29:08,255 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-09-23 07:29:08,258 DEBUG PngImagePlugin call STREAM b'IDAT' 41 65536
+2019-09-23 07:29:41,994 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-09-23 07:30:52,173 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-09-23 07:30:52,362 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-09-23 07:30:53,350 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None
+2019-09-23 07:30:55,072 INFO curiosity_one_post main Сейчас мы напишем 1 постов: 
+2019-09-23 07:30:55,075 INFO curiosity_one_post main ПОСТ № 1  heres-why-you-should-praise-kids-for-their-work-ethic-not-their-smarts-curiosity/
+
+2019-09-23 07:30:55,144 DEBUG connectionpool _new_conn Starting new HTTP connection (1): curiosity.com:80
+2019-09-23 07:30:55,425 DEBUG connectionpool _make_request http://curiosity.com:80 "GET /topics/heres-why-you-should-praise-kids-for-their-work-ethic-not-their-smarts-curiosity/%0A HTTP/1.1" 301 178
+2019-09-23 07:30:55,497 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-09-23 07:30:56,222 DEBUG connectionpool _make_request https://curiosity.com:443 "GET /topics/heres-why-you-should-praise-kids-for-their-work-ethic-not-their-smarts-curiosity/ HTTP/1.1" 200 None
+2019-09-23 07:30:58,699 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-09-23 07:30:59,032 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=%0ACurious+Parents%0APsychology%0A&lang=en-ru&format=plain HTTP/1.1" 200 102
+2019-09-23 07:30:59,141 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-09-23 07:30:59,499 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170730T114755Z.994753b77b648f24.f3ed7d2f59fcb232c089a1a3328c0e0b900d4925&text=Mind+%26+Body.&lang=en-ru&format=plain HTTP/1.1" 200 56
+2019-09-23 07:30:59,621 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-09-23 07:31:00,028 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=Here%27s+Why+You+Should+Praise+Kids+for+Their+Work+Ethic%2C+Not+Their+Smarts.&lang=en-ru&format=plain HTTP/1.1" 200 153
+2019-09-23 07:31:00,244 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-09-23 07:31:02,504 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=From+refrigerators+plastered+with+A%2B+papers+to+cars+bearing+%22honor+student%22+bumper+stickers%2C+there+are+many+ways+parents+like+to+show+off+how+whip-smart+their+kids+are.+But+while+Mom+and+Dad+mean+well%2C+some+types+of+praise+could+be+doing+their+children+a+disservice.+Science+says+that+praising+your+kids+for+being+smart+can+backfire+%E2%80%94+it%27s+a+safer+bet+to+praise+them+for+being+hard+workers.%0A%0AHow+could+praising+a+child+for+something+as+valuable+as+intelligence+be+bad%3F+By+making+children+think+that+their+achievement+was+a+result+of+something+they+are%2C+rather+than+something+they+did.+Repeatedly%2C+studies+going+as+far+back+as+the+1980s+have+shown+that+when+children+are+praised+for+intelligence+instead+of+effort%2C+they+do+worse+on+academic+tasks.+%0A%0AMore+recently%2C+a+2006+study+published+in+the+journal+Social+Cognitive+and+Affective+Neuroscience+bore+this+out.+Jennifer+A.+Mangels+and+her+research+team+recruited+undergraduate+students+and+determined+which+of+two+schools+of+thought+they+each+fell+into+by+asking+questions+about+intelligence+such+as+%22You+have+a+certain+amount+of+intelligence+and+you+can%27t+do+much+to+change+it.%22+Those+who+agreed+with+statements+like+that+one+aligned+with+what%27s+known+as+the+%22entity%22+or+%22fixed%22+perspective%2C+or+the+idea+that+intelligence+can%27t+be+changed.+Those+who+disagreed+aligned+with+the+%22incremental%22+or+%22growth%22+view%2C+or+the+perspective+that+intelligence+can+be+improved.%0A%0AWith+that+established%2C+the+students+sat+at+a+computer+and+answered+questions+on+a+variety+of+academic+subjects.+They+also+indicated+how+confident+they+were+in+their+answers.+After+every+answer%2C+the+computer+told+them+whether+they+were+right+or+wrong%2C+and+what+the+correct+answer+was.+Then+they+took+the+test+again%2C+but+this+time+only+faced+the+questions+they+had+gotten+wrong+the+first+time.+All+the+while%2C+researchers+measured+their+brain+activity.%0A%0AThe+results%3F+Both+the+%22fixed%22+and+%22growth%22+belief+groups+did+equally+well+and+were+equally+confident+on+the+first+test%2C+but+on+the+second+test%2C+the+%22growth%22+students+were+more+likely+to+get+the+previously+incorrect+questions+correct.+Measures+of+brain+activity+showed+that+these+students%27+brains+seemed+to+show+deeper+attention+when+their+wrong+answer+was+corrected%2C+suggesting+that+they+were+learning+better+than+the+%22fixed%22+students.+This+says+big+things+about+the+power+of+perspective%3A+If+you+believe+that+intelligence+is+changeable%2C+you+actually+learn+better.%0A%0AIf+you+believe+intelligence+is+fixed%2C+you+may+be+thinking%2C+%22Beliefs+are+one+thing.+What%27s+the+value+in+believing+something+if+it+isn%27t+true%3F%22+Sorry%2C+folks%3A+The+science+is+on+the+side+of+malleable+intelligence.%0A%0AEven+IQ%2C+that+cold%2C+hard%2C+trusty+number%2C+changes+throughout+your+life.+Research+shows+that+children+with+autism+who+get+early+interventions+can+experience+large+IQ+gains%2C+that+more+years+of+schooling+equates+to+greater+IQ%2C+and+that+some+training+programs+can+even+improve+IQ+in+a+matter+of+months.+There%27s+also+plenty+of+research+showing+that+the+environment+you%27re+raised+in+has+a+big+impact+on+your+smarts+%E2%80%94+something+that+wouldn%27t+be+true+if+your+intelligence+were+fixed+at+birth.%0A%0ASo+what%27s+a+supportive+parent+to+do%3F+According+to+Parenting+Science%2C+the+first+step+is+convincing+yourself.+If+you+believe+intelligence+is+fixed%2C+you%27ll+probably+pass+that+on+to+your+kids.+Encourage+children+to+exercise+their+mind+like+a+muscle%2C+and+then+praise+them+for+their+persistence%2C+effort%2C+and+hard+work+rather+than+just+being+smart.%0A%0A.&lang=en-ru&format=plain HTTP/1.1" 200 None
+2019-09-23 07:31:02,579 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): dw8stlw9qt0iz.cloudfront.net:443
+2019-09-23 07:31:03,037 DEBUG connectionpool _make_request https://dw8stlw9qt0iz.cloudfront.net:443 "GET /D1NAiHpS7wLCVKGD-zzz6t8FcaA=/2800x600/filters:format(jpeg):quality(80):extract_focal()/curiosity-data.s3.amazonaws.com/images/content/hero/standard/12bb4229-43ca-4005-fac6-30155b94cbe9.png?b HTTP/1.1" 200 110470
+2019-09-23 07:31:03,840 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-09-23 07:31:03,845 DEBUG PngImagePlugin call STREAM b'iCCP' 41 311
+2019-09-23 07:31:03,852 DEBUG PngImagePlugin chunk_iCCP iCCP profile name b'Adobe RGB (1998)'
+2019-09-23 07:31:03,857 DEBUG PngImagePlugin chunk_iCCP Compression method 0
+2019-09-23 07:31:03,863 DEBUG PngImagePlugin call STREAM b'pHYs' 364 9
+2019-09-23 07:31:03,867 DEBUG PngImagePlugin call STREAM b'iTXt' 385 2881
+2019-09-23 07:31:03,873 DEBUG PngImagePlugin call STREAM b'IDAT' 3278 319742
+2019-09-23 07:31:04,558 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-09-23 07:31:04,561 DEBUG PngImagePlugin call STREAM b'IDAT' 41 1403
+2019-09-23 07:31:07,833 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-09-23 07:31:07,836 DEBUG PngImagePlugin call STREAM b'IDAT' 41 65536
+2019-09-23 07:31:41,847 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-09-23 07:33:07,423 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-09-23 07:33:07,501 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-09-23 07:33:08,708 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None
+2019-09-23 07:33:09,701 INFO curiosity_one_post main Сейчас мы напишем 1 постов: 
+2019-09-23 07:33:09,703 INFO curiosity_one_post main ПОСТ № 1  why-do-so-many-classic-diners-look-like-train-cars-curiosity/
+
+2019-09-23 07:33:09,749 DEBUG connectionpool _new_conn Starting new HTTP connection (1): curiosity.com:80
+2019-09-23 07:33:10,031 DEBUG connectionpool _make_request http://curiosity.com:80 "GET /topics/why-do-so-many-classic-diners-look-like-train-cars-curiosity/%0A HTTP/1.1" 301 178
+2019-09-23 07:33:10,094 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-09-23 07:33:10,852 DEBUG connectionpool _make_request https://curiosity.com:443 "GET /topics/why-do-so-many-classic-diners-look-like-train-cars-curiosity/ HTTP/1.1" 200 None
+2019-09-23 07:33:12,523 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-09-23 07:33:12,933 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=%0AHistory%0A&lang=en-ru&format=plain HTTP/1.1" 200 57
+2019-09-23 07:33:13,007 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-09-23 07:33:13,440 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170730T114755Z.994753b77b648f24.f3ed7d2f59fcb232c089a1a3328c0e0b900d4925&text=Food+%26+Culture.&lang=en-ru&format=plain HTTP/1.1" 200 66
+2019-09-23 07:33:13,506 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-09-23 07:33:13,985 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=Why+Do+So+Many+Classic+Diners+Look+Like+Train+Cars%3F.&lang=en-ru&format=plain HTTP/1.1" 200 137
+2019-09-23 07:33:14,073 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): translate.yandex.net:443
+2019-09-23 07:33:16,328 DEBUG connectionpool _make_request https://translate.yandex.net:443 "GET /api/v1.5/tr.json/translate?key=trnsl.1.1.20170514T220842Z.5b2c14ecd7990670.3ccb355751262f1359f3c3ff0b9b7d5447ce39a1&text=There%27s+nothing+quite+like+your+local+diner.+Whatever+side+of+the+breakfast-lunch+divide+you+fall+on%2C+that%27s+the+place+to+get+it+done+deliciously+right.+But+depending+on+where+you+live+%28or+how+many+old+movies+you%27ve+seen%29%2C+you+may+have+noticed+that+a+lot+of+those+restaurants+bear+a+striking+resemblance+to+train+cars%2C+plucked+off+the+rails+and+placed+on+a+city+street.+Why%3F+Well%2C+that%27s+exactly+what+happened+to+them.%0A%0AThese+days%2C+there%27s+a+broad+spectrum+of+eating+establishments+that+might+claim+the+name+%22diner.%22+There+are+greasy+spoons+staffed+by+mom+%27n%27+pop+proprietors+and+there+are+national+chains+with+menus+full+of+cutesy+names.+There+are+even+hipster+diners+that+charge+an+arm+and+a+leg+for+what%27s+really+just+glorified+mayonnaise.+But+one+word+that+isn%27t+associated+with+diners+very+often+is+%22mobile.%22%0A%0AThat+wasn%27t+always+the+case.+Before+diners+lost+their+wheels%2C+they+were+primarily+portable.+And+before+they+were+shaped+like+train+cars%2C+they+were+shaped+like+horse+carts.+The+very+first+of+these+eateries+that+would+eventually+take+on+so+many+different+forms+was+the+brainchild+of+a+Providence%2C+Rhode+Island+entrepreneur+named+Walter+Scott.+A+printer+by+trade%2C+in+1872+he+found+himself+with+a+spare+horse+cart+and+struck+on+a+brilliant+idea.+He%27d+fit+the+cart+with+the+bare+essentials+he+needed+for+food+preparation+and+storage+and+roll+it+out+at+dusk+as+a+%22night+lunch+wagon%22+for+night-shift+workers%2C+theatergoers%2C+and+anyone+else+who+happened+to+be+out+late+and+hungry.+Serving+coffee%2C+pies%2C+eggs%2C+and+sandwiches%2C+his+little+horse-drawn+venture+was+so+successful+that+he+was+able+to+quit+the+printing+business.%0A%0AAs+you+might+expect%2C+other+mobile+lunch+carts+soon+began+to+follow+suit%2C+and+people+began+building+the+establishments+to+sell+to+others.+By+the+early+20th+century%2C+the+market+was+ruled+by+three+manufacturers%3A+Worcester+Lunch+Car+Company%2C+Tierney%2C+and+O%27Mahony.+Of+course%2C+because+they+were+gaining+popularity+all+around+the+country+%28especially+the+Atlantic+seaboard%29%2C+these+new+%22dining+cars%22+weren%27t+pulled+from+their+factories+by+horses.+They+were+hooked+onto+cargo+trains+and+sent+along+the+rails+to+the+enterprising+short-order+chefs+who+purchased+them.%0A%0AThese+dining+carts+would+have+their+wheels+removed+once+they+reached+their+destination%2C+forgoing+the+mobility+of+their+predecessors+but+usually+retaining+their+all-night+hours.+By+the+1920s%2C+%22dining+car%22+was+shortened+to+%22diner%2C%22+and+by+the+1930s%2C+the+art+deco+stylings+popular+in+train+cars+began+to+creep+into+brick-and-mortar+diners%2C+as+well.+%0A%0AThis+was+the+era+when+the+diner+really+took+off%2C+and+it%27s+the+version+of+the+diner+that%27s+probably+most+firmly+cemented+in+the+popular+consciousness.+This+is+the+sleekly+contoured+diner+of+Edward+Hopper%27s+%22Nighthawks%2C%22+at+once+elegant+and+blue-collar.+If+you+want+to+find+some+real-life+relics+of+this+age%2C+you+probably+can+in+your+home+state.+But+to+really+make+sure%2C+you+should+plan+a+trip+to+the+diner+capital+of+the+world%2C+New+Jersey%2C+where+more+than+600+of+these+sleek+eateries+are+still+in+operation+today.%0A%0A.&lang=en-ru&format=plain HTTP/1.1" 200 None
+2019-09-23 07:33:16,404 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): dw8stlw9qt0iz.cloudfront.net:443
+2019-09-23 07:33:17,019 DEBUG connectionpool _make_request https://dw8stlw9qt0iz.cloudfront.net:443 "GET /VeiY6XRWLjy5PM9TDRqLhixy_Ko=/2800x600/filters:format(jpeg):quality(80):extract_focal()/curiosity-data.s3.amazonaws.com/images/content/hero/standard/2c4d8054-94d7-48a5-8f19-00d7d66187aa.png?b HTTP/1.1" 200 215357
+2019-09-23 07:33:18,201 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-09-23 07:33:18,205 DEBUG PngImagePlugin call STREAM b'iCCP' 41 311
+2019-09-23 07:33:18,216 DEBUG PngImagePlugin chunk_iCCP iCCP profile name b'Adobe RGB (1998)'
+2019-09-23 07:33:18,220 DEBUG PngImagePlugin chunk_iCCP Compression method 0
+2019-09-23 07:33:18,226 DEBUG PngImagePlugin call STREAM b'pHYs' 364 9
+2019-09-23 07:33:18,231 DEBUG PngImagePlugin call STREAM b'iTXt' 385 2881
+2019-09-23 07:33:18,236 DEBUG PngImagePlugin call STREAM b'IDAT' 3278 319742
+2019-09-23 07:33:18,857 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-09-23 07:33:18,860 DEBUG PngImagePlugin call STREAM b'IDAT' 41 1403
+2019-09-23 07:33:22,871 DEBUG PngImagePlugin call STREAM b'IHDR' 16 13
+2019-09-23 07:33:22,873 DEBUG PngImagePlugin call STREAM b'IDAT' 41 65536
+2019-09-23 07:33:27,558 INFO vk_api auth Auth with login: 89214447344
+2019-09-23 07:33:27,563 INFO vk_api check_sid Checking remixsid...
+2019-09-23 07:33:27,622 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): vk.com:443
+2019-09-23 07:33:27,844 DEBUG connectionpool _make_request https://vk.com:443 "GET /feed2.php HTTP/1.1" 200 297
+2019-09-23 07:33:27,856 INFO vk_api check_sid remixsid is valid
+2019-09-23 07:33:27,859 INFO vk_api _pass_security_check Checking security check request
+2019-09-23 07:33:28,075 DEBUG connectionpool _make_request https://vk.com:443 "GET /settings HTTP/1.1" 200 17875
+2019-09-23 07:33:28,092 INFO vk_api _pass_security_check Security check is not required
+2019-09-23 07:33:28,179 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): api.vk.com:443
+2019-09-23 07:33:28,386 DEBUG connectionpool _make_request https://api.vk.com:443 "POST /method/stats.trackVisitor HTTP/1.1" 200 34
+2019-09-23 07:33:28,393 INFO vk_api _auth_cookies access_token from config is valid
+2019-09-23 07:33:28,845 DEBUG connectionpool _make_request https://api.vk.com:443 "POST /method/photos.getUploadServer HTTP/1.1" 200 208
+2019-09-23 07:33:28,927 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): pu.vk.com:443
+2019-09-23 07:33:31,330 DEBUG connectionpool _make_request https://pu.vk.com:443 "POST /c851324/upload.php?act=do_add&mid=420341478&aid=266719496&gid=0&hash=da170250b4c6e9b628420372631703d4&rhash=88e8ac45b99bdea020937262125a760a&swfupload=1&api=1 HTTP/1.1" 200 414
+2019-09-23 07:33:31,469 DEBUG connectionpool _make_request https://api.vk.com:443 "POST /method/photos.save HTTP/1.1" 200 309
+2019-09-23 07:33:32,100 DEBUG connectionpool _make_request https://api.vk.com:443 "POST /method/wall.post HTTP/1.1" 200 47
+2019-09-23 07:34:02,123 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-09-23 07:36:40,521 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-09-23 07:36:40,606 DEBUG connectionpool _new_conn Starting new HTTPS connection (1): curiosity.com:443
+2019-09-23 07:36:41,475 DEBUG connectionpool _make_request https://curiosity.com:443 "GET / HTTP/1.1" 200 None
+2019-09-23 07:36:42,463 INFO curiosity_one_post main Сейчас мы напишем 0 постов: 
+2019-09-23 07:36:42,466 DEBUG curiosity_one_post <module> ====================================================================================================
+2019-09-25 10:40:42,766 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 10:40:42,776 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 10:40:47,126 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 10:40:51,065 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 10:40:52,187 INFO curiosity_one_post img_1_downloader Скачены изображениея
+2019-09-25 10:41:40,279 ERROR curiosity_one_post django_db Ошибка в посте http://curiosity.com/topics/how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity/ (2, 'No such file or directory')
+2019-09-25 10:41:44,965 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 97, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-09-25 10:41:48,271 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 10:41:49,000 INFO curiosity_one_post img_1_downloader Скачены изображениея
+2019-09-25 10:41:57,189 ERROR curiosity_one_post django_db Ошибка в посте http://curiosity.com/topics/medical-science-has-answered-this-300-year-old-philosophy-question-curiosity/ (2, 'No such file or directory')
+2019-09-25 10:45:36,353 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 97, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-09-25 10:45:39,688 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 10:45:41,082 INFO curiosity_one_post img_1_downloader Скачены изображениея
+2019-09-25 10:45:51,650 ERROR curiosity_one_post django_db Ошибка в посте http://curiosity.com/topics/for-better-productivity-work-in-90-minute-spurts-curiosity/ (2, 'No such file or directory')
+2019-09-25 10:45:55,676 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 10:45:59,407 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 10:46:00,200 INFO curiosity_one_post img_1_downloader Скачены изображениея
+2019-09-25 10:46:29,162 ERROR curiosity_one_post django_db Ошибка в посте http://curiosity.com/topics/the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity/ (2, 'No such file or directory')
+2019-09-25 10:46:33,289 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 10:47:50,203 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 10:47:51,274 INFO curiosity_one_post img_1_downloader Скачены изображениея
+2019-09-25 10:48:39,269 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 10:48:39,277 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 10:48:43,273 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 10:48:46,328 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 10:48:47,074 INFO curiosity_one_post img_1_downloader Скачены изображениея
+2019-09-25 10:49:03,646 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 9, in updatedb
+    post_slug, tags_ru, channel_ru, title_ru, text_ru = django_db()
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 376, in django_db
+    draw(channel_ru, title_ru, post_slug)
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 261, in draw
+    img_composite.save(f"{os.getcwd()}\\curiosity\\static\\curiosity\\img\\{post_slug}.png")
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\PIL\Image.py", line 2085, in save
+    fp = builtins.open(filename, "w+b")
+FileNotFoundError: [Errno 2] No such file or directory: 'd:\\Projects\\py\\myblog-development\\curiosity\\static\\curiosity\\img\\how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity.png'
+2019-09-25 10:58:14,051 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 10:58:14,068 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 10:58:19,515 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 10:58:23,245 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 10:58:37,103 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 9, in updatedb
+    post_slug, tags_ru, channel_ru, title_ru, text_ru = django_db()
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 374, in django_db
+    img_1_downloader(img_1_href)
+TypeError: img_1_downloader() missing 1 required positional argument: 'post_slug'
+2019-09-25 10:59:56,946 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 10:59:56,960 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 11:00:01,241 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 11:00:04,734 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 11:00:17,371 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 9, in updatedb
+    post_slug, tags_ru, channel_ru, title_ru, text_ru = django_db()
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 374, in django_db
+    img_1_downloader(img_1_href, post_slug)
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 177, in img_1_downloader
+    with open(f"{os.getcwd()}\\curiosity\\static\\curiosity\\img\\{post_slug}.png", 'wb') as zero:
+FileNotFoundError: [Errno 2] No such file or directory: 'd:\\Projects\\py\\myblog-development\\curiosity\\static\\curiosity\\img\\how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity.png'
+2019-09-25 13:04:19,917 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 13:04:19,928 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 13:04:24,405 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 13:04:28,644 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 13:04:56,685 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "curiosity_tag_name_32bd3ebd_uniq"
+DETAIL:  Key (name)=() already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 26, in updatedb
+    otag = Tag.objects.create()
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "curiosity_tag_name_32bd3ebd_uniq"
+DETAIL:  Key (name)=() already exists.
+
+2019-09-25 13:22:07,056 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 13:22:07,068 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 13:22:11,476 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 13:22:15,226 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 13:22:39,485 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=() already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 14, in updatedb
+    post = Post.objects.create()
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=() already exists.
+
+2019-09-25 13:24:09,569 ERROR log log_response Internal Server Error: /admin/curiosity/post/36/change/
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\options.py", line 705, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\forms\models.py", line 551, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\forms\models.py", line 256, in __new__
+    apply_limit_choices_to=False,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\forms\models.py", line 149, in fields_for_model
+    f.name, model.__name__)
+django.core.exceptions.FieldError: 'pubdate' cannot be specified for Post model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\options.py", line 606, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\options.py", line 1637, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\options.py", line 1522, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\options.py", line 1551, in _changeform_view
+    ModelForm = self.get_form(request, obj, change=not add)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\options.py", line 709, in get_form
+    % (e, self.__class__.__name__)
+django.core.exceptions.FieldError: 'pubdate' cannot be specified for Post model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class AdminPost.
+2019-09-25 13:24:17,819 ERROR log log_response Internal Server Error: /admin/curiosity/post/36/change/
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\options.py", line 705, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\forms\models.py", line 551, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\forms\models.py", line 256, in __new__
+    apply_limit_choices_to=False,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\forms\models.py", line 149, in fields_for_model
+    f.name, model.__name__)
+django.core.exceptions.FieldError: 'pubdate' cannot be specified for Post model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\options.py", line 606, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\options.py", line 1637, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\options.py", line 1522, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\options.py", line 1551, in _changeform_view
+    ModelForm = self.get_form(request, obj, change=not add)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\options.py", line 709, in get_form
+    % (e, self.__class__.__name__)
+django.core.exceptions.FieldError: 'pubdate' cannot be specified for Post model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class AdminPost.
+2019-09-25 13:25:40,111 ERROR log log_response Internal Server Error: /admin/curiosity/post/35/change/
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\options.py", line 705, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\forms\models.py", line 551, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\forms\models.py", line 256, in __new__
+    apply_limit_choices_to=False,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\forms\models.py", line 149, in fields_for_model
+    f.name, model.__name__)
+django.core.exceptions.FieldError: 'pubdate' cannot be specified for Post model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\options.py", line 606, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\options.py", line 1637, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\options.py", line 1522, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\options.py", line 1551, in _changeform_view
+    ModelForm = self.get_form(request, obj, change=not add)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\options.py", line 709, in get_form
+    % (e, self.__class__.__name__)
+django.core.exceptions.FieldError: 'pubdate' cannot be specified for Post model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class AdminPost.
+2019-09-25 13:34:25,089 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 13:34:25,096 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 13:34:29,531 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 13:34:33,198 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 13:34:54,375 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=() already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 14, in updatedb
+    post = Post.objects.create()
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=() already exists.
+
+2019-09-25 13:35:48,969 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 13:35:48,969 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 13:35:48,977 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 13:35:48,977 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 13:36:02,226 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 13:36:02,226 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 13:36:05,855 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 13:36:05,855 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 13:39:06,879 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 13:39:06,893 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 13:45:49,978 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 13:45:53,943 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 14:13:54,135 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "curiosity_channel_name_f4855142_uniq"
+DETAIL:  Key (name)=(Еда И Культура.) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 24, in updatedb
+    channel.save()
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 851, in _save_table
+    forced_update)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 900, in _do_update
+    return filtered._update(values) > 0
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 760, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1429, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1100, in execute_sql
+    cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "curiosity_channel_name_f4855142_uniq"
+DETAIL:  Key (name)=(Еда И Культура.) already exists.
+
+2019-09-25 14:26:26,395 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 14:26:26,407 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 14:26:38,088 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 14:26:42,405 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 14:31:00,926 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 14:31:00,934 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 14:31:09,966 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 14:31:14,106 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 14:48:40,716 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 14:48:40,716 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 14:48:40,725 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 14:48:40,725 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 14:48:47,514 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 14:48:47,514 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 14:48:52,575 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 14:48:52,575 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 15:09:55,309 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 15:09:55,363 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 15:10:02,192 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 15:10:06,693 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 15:26:49,956 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 15:26:49,969 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 15:26:54,120 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 15:26:58,269 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 15:27:21,808 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view curiosity.views.updatedb didn't return an HttpResponse object. It returned None instead.
+2019-09-25 15:32:00,780 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 15:32:00,790 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 15:32:05,175 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 15:32:09,341 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 15:56:41,383 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 15:56:41,394 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 15:56:49,801 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 12, in updatedb
+    img_1_href, post_slug, tags_ru, channel_ru, title_ru, text_ru = django_db()
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 366, in django_db
+    my_posts = Post.objects.get.all()
+AttributeError: 'function' object has no attribute 'all'
+2019-09-25 15:58:31,153 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 15:58:31,163 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 15:58:36,893 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 12, in updatedb
+    img_1_href, post_slug, tags_ru, channel_ru, title_ru, text_ru = django_db()
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 365, in django_db
+    my_posts = Post.objects.get.all()
+AttributeError: 'function' object has no attribute 'all'
+2019-09-25 16:00:04,052 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 16:00:04,062 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 16:00:30,413 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 16:05:14,880 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 16:05:14,889 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 16:05:14,903 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 16:08:25,303 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 97, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-09-25 16:08:32,454 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 16:18:12,101 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 16:18:12,101 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 16:18:12,112 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 16:18:12,112 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 16:18:12,128 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 16:18:12,128 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 16:19:06,167 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 97, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-09-25 16:19:06,167 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 97, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-09-25 16:21:40,365 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 16:21:40,365 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 16:21:40,365 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 16:21:40,378 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 16:21:40,378 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 16:21:40,378 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 16:21:40,403 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 16:21:40,403 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 16:21:40,403 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 16:21:54,273 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 16:21:54,273 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 16:21:54,273 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 16:21:59,163 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 97, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-09-25 16:21:59,163 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 97, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-09-25 16:21:59,163 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 97, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-09-25 16:28:44,592 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 16:28:44,610 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 16:28:44,626 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 16:29:19,539 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 97, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-09-25 16:29:25,775 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 16:29:52,510 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 14, in updatedb
+    if Post.objects.get(title=title_ru):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+curiosity.models.Post.DoesNotExist: Post matching query does not exist.
+2019-09-25 16:59:34,559 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 16:59:34,570 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 16:59:34,583 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 16:59:56,416 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 97, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-09-25 17:00:12,455 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 17:00:29,156 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 14, in updatedb
+    Post.objects.get(title=title_ru)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+curiosity.models.Post.DoesNotExist: Post matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 16, in updatedb
+    except Exception(Post.DoesNotExist) as err:
+TypeError: catching classes that do not inherit from BaseException is not allowed
+2019-09-25 17:07:34,097 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 17:07:34,107 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 17:07:34,120 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 17:07:40,350 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 97, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-09-25 17:07:43,944 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 17:11:36,072 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 14, in updatedb
+    Post.objects.get(title=title_ru)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+curiosity.models.Post.DoesNotExist: Post matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 21, in updatedb
+    if Channel.objects.get(name=channel_ru):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+curiosity.models.Channel.DoesNotExist: Channel matching query does not exist.
+2019-09-25 17:34:31,980 INFO views updatedb ====================================================================================================
+2019-09-25 17:34:31,989 INFO views updatedb ====================================================================================================
+2019-09-25 17:34:40,319 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 17:34:40,319 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 17:34:40,330 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 17:34:40,330 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 17:34:40,404 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 17:34:40,404 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 17:35:08,665 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 17:35:08,665 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 17:35:12,500 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 17:35:12,500 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 17:39:08,733 INFO views updatedb ====================================================================================================
+2019-09-25 17:39:08,743 INFO views updatedb ====================================================================================================
+2019-09-25 17:39:27,613 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 17:39:27,613 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 17:39:27,625 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 17:39:27,625 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 17:39:27,658 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 17:39:27,658 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 17:39:34,993 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 97, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-09-25 17:39:34,993 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 97, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-09-25 17:39:38,621 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 17:39:38,621 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 17:40:30,156 INFO views updatedb ====================================================================================================
+2019-09-25 17:40:30,156 INFO views updatedb ====================================================================================================
+2019-09-25 17:40:30,156 INFO views updatedb ====================================================================================================
+2019-09-25 17:40:30,172 INFO views updatedb ====================================================================================================
+2019-09-25 17:40:30,172 INFO views updatedb ====================================================================================================
+2019-09-25 17:40:30,172 INFO views updatedb ====================================================================================================
+2019-09-25 17:40:30,186 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 17:40:30,186 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 17:40:30,186 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 17:40:30,186 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 17:40:30,198 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 17:40:30,198 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 17:40:30,198 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 17:40:30,198 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 17:40:30,245 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 17:40:30,245 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 17:40:30,245 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 17:40:30,245 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 17:40:47,041 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 97, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-09-25 17:40:47,041 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 97, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-09-25 17:40:47,041 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 97, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-09-25 17:40:47,041 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 97, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-09-25 17:40:51,615 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 17:40:51,615 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 17:40:51,615 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 17:40:51,615 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 20:35:30,509 INFO views updatedb ====================================================================================================
+2019-09-25 20:35:34,474 INFO views updatedb ====================================================================================================
+2019-09-25 20:35:38,409 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 20:35:38,409 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 20:35:38,429 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 20:35:38,429 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 20:35:38,449 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 20:35:38,449 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 20:35:43,613 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 20:35:43,613 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 20:35:47,616 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 20:35:47,616 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 20:40:15,121 INFO views updatedb Ошибка при создании поста: int() argument must be a string, a bytes-like object or a number, not 'Channel'
+2019-09-25 20:40:15,121 INFO views updatedb Ошибка при создании поста: int() argument must be a string, a bytes-like object or a number, not 'Channel'
+2019-09-25 20:41:19,775 INFO views updatedb ====================================================================================================
+2019-09-25 20:41:19,783 INFO views updatedb ====================================================================================================
+2019-09-25 20:41:19,792 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 20:41:19,792 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 20:41:19,807 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 20:41:19,807 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 20:41:19,823 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 20:41:19,823 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 20:41:26,858 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 20:41:26,858 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 20:41:31,097 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 20:41:31,097 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 21:33:04,212 INFO views updatedb ====================================================================================================
+2019-09-25 21:33:04,224 INFO views updatedb ====================================================================================================
+2019-09-25 21:33:04,233 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:33:04,233 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:33:04,244 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:33:04,244 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:33:04,262 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 21:33:04,262 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 21:33:10,954 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 21:33:10,954 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 21:33:15,621 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 21:33:15,621 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 21:35:01,483 INFO views updatedb ====================================================================================================
+2019-09-25 21:35:01,492 INFO views updatedb ====================================================================================================
+2019-09-25 21:35:01,500 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:35:01,500 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:35:01,509 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:35:01,509 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:35:01,523 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 21:35:01,523 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 21:35:06,612 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 21:35:06,612 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 21:35:10,578 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 21:35:10,578 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 21:38:14,043 INFO views updatedb ====================================================================================================
+2019-09-25 21:38:14,051 INFO views updatedb ====================================================================================================
+2019-09-25 21:38:14,070 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:38:14,070 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:38:14,078 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:38:14,078 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:38:14,110 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 21:38:14,110 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 21:38:19,897 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 21:38:19,897 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 21:38:23,603 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 21:38:23,603 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 21:49:22,324 INFO views updatedb ====================================================================================================
+2019-09-25 21:49:22,334 INFO views updatedb ====================================================================================================
+2019-09-25 21:49:22,350 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:49:22,350 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:49:22,365 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:49:22,365 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:49:22,381 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 21:49:22,381 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 21:49:28,211 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 21:49:28,211 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 21:49:31,711 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 21:49:31,711 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 21:50:35,406 INFO views updatedb Ошибка при создании поста: too many values to unpack (expected 2)
+2019-09-25 21:50:35,406 INFO views updatedb Ошибка при создании поста: too many values to unpack (expected 2)
+2019-09-25 21:50:49,531 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view curiosity.views.updatedb didn't return an HttpResponse object. It returned None instead.
+2019-09-25 21:50:49,531 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view curiosity.views.updatedb didn't return an HttpResponse object. It returned None instead.
+2019-09-25 21:50:52,943 WARNING log log_response Not Found: /favicon.ico
+2019-09-25 21:50:52,943 WARNING log log_response Not Found: /favicon.ico
+2019-09-25 21:52:29,773 INFO views updatedb ====================================================================================================
+2019-09-25 21:52:29,782 INFO views updatedb ====================================================================================================
+2019-09-25 21:52:29,789 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:52:29,789 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:52:29,803 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:52:29,803 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:52:29,820 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 21:52:29,820 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 21:52:34,989 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 21:52:34,989 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 21:52:38,587 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 21:52:38,587 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 21:52:43,958 INFO views updatedb Ошибка при создании поста: Cannot assign "35": "Post.channel" must be a "Channel" instance.
+2019-09-25 21:52:43,958 INFO views updatedb Ошибка при создании поста: Cannot assign "35": "Post.channel" must be a "Channel" instance.
+2019-09-25 21:52:47,556 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view curiosity.views.updatedb didn't return an HttpResponse object. It returned None instead.
+2019-09-25 21:52:47,556 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view curiosity.views.updatedb didn't return an HttpResponse object. It returned None instead.
+2019-09-25 21:54:39,899 INFO views updatedb ====================================================================================================
+2019-09-25 21:54:39,910 INFO views updatedb ====================================================================================================
+2019-09-25 21:54:39,920 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:54:39,920 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:54:39,927 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:54:39,927 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:54:39,941 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 21:54:39,941 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 21:54:45,513 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 21:54:45,513 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 21:54:49,199 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 21:54:49,199 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 21:54:55,227 INFO views updatedb Ошибка при создании поста: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Как вы претендовать на зимние Олимпийские игры, если это не снег, не где вы живете?.) already exists.
+
+2019-09-25 21:54:55,227 INFO views updatedb Ошибка при создании поста: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Как вы претендовать на зимние Олимпийские игры, если это не снег, не где вы живете?.) already exists.
+
+2019-09-25 21:54:58,612 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view curiosity.views.updatedb didn't return an HttpResponse object. It returned None instead.
+2019-09-25 21:54:58,612 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view curiosity.views.updatedb didn't return an HttpResponse object. It returned None instead.
+2019-09-25 21:57:42,038 INFO views updatedb ====================================================================================================
+2019-09-25 21:57:42,047 INFO views updatedb ====================================================================================================
+2019-09-25 21:57:42,064 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:57:42,064 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:57:42,076 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:57:42,076 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 21:57:42,100 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 21:57:42,100 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 21:57:50,080 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 21:57:50,080 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 96, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-25 21:57:54,865 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 21:57:54,865 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-25 21:58:17,703 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 538, in get_or_create
+    return self.get(**kwargs), False
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+curiosity.models.Post.DoesNotExist: Post matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Как вы претендовать на зимние Олимпийские игры, если это не снег, не где вы живете?.) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 21, in updatedb
+    text = text_ru, channel=Channel.objects.get(name=channel_ru))
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 541, in get_or_create
+    return self._create_object_from_params(kwargs, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 583, in _create_object_from_params
+    raise e
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 575, in _create_object_from_params
+    obj = self.create(**params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Как вы претендовать на зимние Олимпийские игры, если это не снег, не где вы живете?.) already exists.
+
+2019-09-25 21:58:17,703 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 538, in get_or_create
+    return self.get(**kwargs), False
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+curiosity.models.Post.DoesNotExist: Post matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Как вы претендовать на зимние Олимпийские игры, если это не снег, не где вы живете?.) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 21, in updatedb
+    text = text_ru, channel=Channel.objects.get(name=channel_ru))
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 541, in get_or_create
+    return self._create_object_from_params(kwargs, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 583, in _create_object_from_params
+    raise e
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 575, in _create_object_from_params
+    obj = self.create(**params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Как вы претендовать на зимние Олимпийские игры, если это не снег, не где вы живете?.) already exists.
+
+2019-09-25 22:05:33,432 INFO views updatedb ====================================================================================================
+2019-09-25 22:05:33,432 INFO views updatedb ====================================================================================================
+2019-09-25 22:05:33,432 INFO views updatedb ====================================================================================================
+2019-09-25 22:05:33,444 INFO views updatedb ====================================================================================================
+2019-09-25 22:05:33,444 INFO views updatedb ====================================================================================================
+2019-09-25 22:05:33,444 INFO views updatedb ====================================================================================================
+2019-09-25 22:05:33,456 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 22:05:33,456 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 22:05:33,456 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 22:05:33,456 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 22:05:33,482 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 22:05:33,482 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 22:05:33,482 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 22:05:33,482 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-25 22:05:33,511 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 22:05:33,511 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 22:05:33,511 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 22:05:33,511 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-25 22:05:39,781 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 19, in updatedb
+    img_1_href, post_slug, tags_ru, channel_ru, title_ru, text_ru = django_db()
+TypeError: cannot unpack non-iterable NoneType object
+2019-09-25 22:05:39,781 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 19, in updatedb
+    img_1_href, post_slug, tags_ru, channel_ru, title_ru, text_ru = django_db()
+TypeError: cannot unpack non-iterable NoneType object
+2019-09-25 22:05:39,781 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 19, in updatedb
+    img_1_href, post_slug, tags_ru, channel_ru, title_ru, text_ru = django_db()
+TypeError: cannot unpack non-iterable NoneType object
+2019-09-25 22:05:39,781 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 19, in updatedb
+    img_1_href, post_slug, tags_ru, channel_ru, title_ru, text_ru = django_db()
+TypeError: cannot unpack non-iterable NoneType object

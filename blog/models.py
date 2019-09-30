@@ -15,21 +15,21 @@ KOMU_CHOICES = (
     ('Другое', _('Другое')),
 )
 SKOLKO_CHOICES = (
-    (1, 'До 200 000 руб'),
-    (2, 'От 200 000 руб до 500 000 руб'),
-    (3, 'От 500 000 руб до 1 000 000 руб'),
-    (4, 'Более 1 000 000 руб'),
-    (5, 'Более 5 000 000 руб'),
+    ('До 200 000 руб', _('До 200 000 руб')),
+    ('От 200 000 руб до 500 000 руб', _('От 200 000 руб до 500 000 руб')),
+    ('От 500 000 руб до 1 000 000 руб', _('От 500 000 руб до 1 000 000 руб')),
+    ('Более 1 000 000 руб', _('Более 1 000 000 руб')),
+    ('Более 5 000 000 руб', _('Более 5 000 000 руб')),
 )
 PROSROCHKY_CHOICES = (
-    (1, 'Нет'),
-    (2, 'Да, до месяца'),
-    (1, 'Да, от месяца до трёх'),
-    (1, 'Более трёх месяцев'),
+    ('Нет', _('Нет')),
+    ('Да, до месяца', _('Да, до месяца')),
+    ('Да, от месяца до трёх', _('Да, от месяца до трёх')),
+    ('Более трёх месяцев', _('Более трёх месяцев')),
 )
 ZALOGI_CHOICES = (
-    (1, 'Есть'),
-    (2, 'Нет')
+    ('Есть', _('Есть')),
+    ('Нет', _('Нет'))
 )
 
 
@@ -49,9 +49,9 @@ class Answer(models.Model):
 
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
 
-    author = models.CharField(max_length=2000)
+    author = models.CharField("Автор", max_length=2000)
 
-    created_time = models.DateTimeField(default=timezone.now)
+    created_time = models.DateTimeField("Время создания", default=timezone.now)
 
     komu = MultiSelectField(
         "Кому Вы должны ?", choices=KOMU_CHOICES, max_choices=5,
@@ -116,6 +116,10 @@ class Answer(models.Model):
             'required': 'Обязательное поле.'
             }
         )
+
+    class Meta:
+        ordering = ["author", "-created_time"]
+
 
     def get_absolute_url(self):
         return reverse("blog:answer_detail", kwargs={"pk": self.pk})

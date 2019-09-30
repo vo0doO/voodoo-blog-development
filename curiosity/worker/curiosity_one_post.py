@@ -7,21 +7,22 @@ import vk_api
 from PIL import Image, ImageFont, ImageDraw, ImageFilter, ImageOps
 from bs4 import BeautifulSoup
 import logging
+from curiosity.models import Post, Tag, Channel
 
 
 # ПЕРЕМЕННЫЕ
-HOW_POST_TO_PRINT = 1
+HOW_POST_TO_PRINT = 5
 VK_TOKEN = "9bfae56722ff872d603c6b0aa10c9c47f42fa00de836de4e47217e44c7f06259767efb6ee95c494303a8e"
-PATH_TO_LOG = os.path.dirname(os.path.abspath(__file__)) + "/curiosity-to-vk.log"
-PATH_MY_HREF = os.path.dirname(os.path.abspath(__file__)) + "/my_href.db"
-PATH_TO_POST = os.path.dirname(os.path.abspath(__file__)) + "/href-to-post.db"
-PATH_TO_IMG_RESIZE = os.path.dirname(os.path.abspath(__file__)) + "/topics/IMG_RESIZE.png"
-PATH_TO_IMG_ORIGINAL = os.path.dirname(os.path.abspath(__file__)) + "/topics/IMG_ORIGINAL.png"
-PATH_TO_IMG_1_COMPOSITE = os.path.dirname(os.path.abspath(__file__)) + "/topics/IMG_COMPOSITE.png"
-PATH_TO_IMG_LOGO_PAINTER = os.path.dirname(os.path.abspath(__file__)) + "/desing/logo-painter.png"
-PATH_TO_FONTS = os.path.dirname(os.path.abspath(__file__)) + "/topics/Roboto-Fonts/Roboto-Bold.ttf"
-PATH_TO_IMG_BUTTON = os.path.dirname(os.path.abspath(__file__)) + "/Button.png"
-
+PATH_TO_LOG = os.path.dirname(os.path.abspath(__file__)) + "\\curiosity-to-vk.log"
+PATH_MY_HREF = os.path.dirname(os.path.abspath(__file__)) + "\\my_href.db"
+PATH_TO_POST = os.path.dirname(os.path.abspath(__file__)) + "\\href-to-post.db"
+PATH_TO_IMG_RESIZE = os.path.dirname(os.path.abspath(__file__)) + "\\topics\\IMG_RESIZE.png"
+PATH_TO_IMG_ORIGINAL = os.path.dirname(os.path.abspath(__file__)) + "\\topics\\IMG_ORIGINAL.png"
+# PATH_TO_IMG_1_COMPOSITE = os.path.dirname(os.path.abspath(__file__)) + "\\topics\\IMG_COMPOSITE.png"
+PATH_TO_IMG_LOGO_PAINTER = os.path.dirname(os.path.abspath(__file__)) + "\\desing\\logo-painter.png"
+PATH_TO_FONTS = os.path.dirname(os.path.abspath(__file__)) + "\\topics\\Roboto-Fonts\\Roboto-Bold.ttf"
+PATH_TO_IMG_BUTTON = os.path.dirname(os.path.abspath(__file__)) + "\\Button.png"
+VK_GROUP_ID = 181925964
 
 # СОЗДАЕМ ЛОГГЕР
 logger = logging.getLogger(__name__)
@@ -94,9 +95,9 @@ def parser(href):
             video_1_data_scr = \
                 contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
                     "class": "js-media-player"})["data-src"]
-        except:
+        except Exception as e:
+            logger.exception(msg=f"Ошибка парсера: ссылка на видео не найдена - {e}")
             video_1_data_scr = None
-            print("ссылка на видео не найдена")
         # условия прохода если HTML топика с багами
         if item.find("div", {"class": "header-content"}).find('a') != None:
             # название канала
@@ -107,13 +108,11 @@ def parser(href):
             channel = item.find("div", {"class": "header-content"}).find('h5').text
             title = item.find("div", {"class": "header-content"}).find('h1').text
 
-
     try:
-        CACHE = [href, img_1_href, channel, title, text_1, video_1_data_scr, tags]
         return img_1_href, channel, title, text_1, video_1_data_scr, tags
-    except:
-        return img_1_href, channel, title, text_1, video_1_data_scr, tags
-        logger.exception(msg='Ошибка парсера:')
+    except Exception as e:
+        logger.exception(msg=f"Ошибка парсера: {e}")
+        return img_1_href, channel, title, text_1, video_1_data_scr, tags, html
 
 
 # ПЕРЕВОДЧИК ДАННЫХ
@@ -167,23 +166,25 @@ def translater(channel, title, text_1, tags):
     title_ru = title_ru['text'][0]
     text_1_ru = text_1_ru['text'][0]
     tags_ru = tags_ru['text'][0]
-    print("Переводчик выполнил свою работу")
+    logger.info("Переводчик выполнил свою работу")
     return tags_ru, channel_ru, title_ru, text_1_ru
 
 
 # КРАУЛЕР ИЗОБРАЖЕНИЙ
-def img_1_downloader(img_1_href):
+def img_1_downloader(img_1_href, post_slug):
     if img_1_href is not None:
+        img_url = "https://dw8stlw9qt0iz.cloudfront.net/" + img_1_href[35] + ".png"
+        name = post_slug + ".png"
         res = requests.get("https://dw8stlw9qt0iz.cloudfront.net/" + img_1_href[35] + ".png", "b")
-        with open(PATH_TO_IMG_ORIGINAL, 'wb') as zero:
+        with open(f"{os.getcwd()}\\curiosity\\static\\curiosity\\img\\{post_slug}.png", 'wb') as zero:
             zero.write(res.content)
     else:
-        print("Ошибка загрузки изображения")
-    print("Скачены изображениея")
+        logger.info("Ошибка загрузки изображения")
+    logger.info("Скачены изображениея")
 
 
 # ХУДОЖНИК
-def draw(channel_ru, title_ru):
+def draw(channel_ru, title_ru, post_slug):
     # НАЗВАНИЕ КАНАЛА
     channel = channel_ru.upper()
     # ЗАГОЛОВОК
@@ -258,7 +259,8 @@ def draw(channel_ru, title_ru):
     img_composite = Image.open(PATH_TO_IMG_RESIZE, mode='r').convert("RGBA")
     img_composite = Image.alpha_composite(img_composite, logo_painter)
     # СОХРАНЯЕМ РЕЗУЛЬТАТ - ГОТОВУЮ ОБЛОЖКУ ПОСТА в файл
-    img_composite.save(PATH_TO_IMG_1_COMPOSITE)
+    # img_composite.save(PATH_TO_IMG_1_COMPOSITE)
+    img_composite.save(f"{os.getcwd()}\\curiosity\\static\\curiosity\\img\\{post_slug}.png")
 
 
 # ЖУРНАЛИСТ
@@ -266,25 +268,23 @@ def post(text_1_ru, tags_ru, video_1_data_scr, title_ru):
     # Аутинтификация
     # логин
     login, password = '89214447344', 'e31f567b'
-    vk_session = vk_api.VkApi(login, password, api_version="5.67", app_id="6990349", client_secret="28fa7dcc28fa7dcc28fa7dcc692890d7c1228fa28fa7dcc74181bea3d7444b948bf5c47", scope=140492191)
+    vk_session = vk_api.VkApi(login, password, api_version="5.67", app_id="6990349", client_secret="28fa7dcc28fa7dcc28fa7dcc692890d7c1228fa28fa7dcc74181bea3d7444b948bf5c47", scope=140488159)
+    #vk_session = vk_api.VkApi(token=VK_TOKEN, scope=140488159)
     # проверка сессиии
     try:
         vk_session.auth()  # token_only=True
     except vk_api.AuthError as error_msg:
-        print(error_msg)
+        logger.info(error_msg)
         return
     # получаем объект API
     vk = vk_session.get_api()
     # получаем файловый объект сессии используемый для загрузки
     upload = vk_api.VkUpload(vk_session)
     # получаем объект конкретной фотографии
-    try:
-        photo = upload.photo(
-            PATH_TO_IMG_1_COMPOSITE,
-            album_id=248018572)
-    except:
-        photo = None
-        print("Фото не загруженно")
+    photo = upload.photo(
+        PATH_TO_IMG_1_COMPOSITE,
+        album_id=266719496 #266719496
+        )
     # ССЫЛКА НА САЙТ
     #  ☀☀☀☀☀☀☀ 🌈🌈🌈🌈🌈🌈 ✨✨✨✨✨🇷🇺 💡 🇷🇺
     # ПОДГОТОВКА ПЕРЕМЕННЫХ ДЛЯ ПОСТА
@@ -302,44 +302,12 @@ def post(text_1_ru, tags_ru, video_1_data_scr, title_ru):
     else:
         link = ""
     vk.wall.post(
-        owner_id=279286486,
+        owner_id=420341478, #vo0dooid 420341478
         friends_only=0,
         from_group=0,
         message=str(post_message[:]),
         attachments=f'photo{photo[0]["owner_id"]}_{photo[0]["id"]}, {link}')
-    print(f"НАЗВАНИЕ: {title_ru}" + "\n")
-
-
-# TODO: НАСТРОИТЬ работу с базой данных FIREBASE !!!!!!!!!!!
-def database():
-    """
-    config = {
-        "apiKey": "AIzaSyD6EzxDobegHGvkorLEle6OBt_RNedkD0g",
-        "authDomain": "project-3931781304531690229.firebaseapp.com",
-        "databaseURL": "https://project-3931781304531690229.firebaseio.com",
-        "projectId": "project-3931781304531690229",
-        "storageBucket": "project-3931781304531690229.appspot.com",
-        "type": "service_account",
-        "project_id": "project-3931781304531690229",
-        "private_key_id": "fa36c163c3267295a17d6c34a7bbfb9fbb7fb860",
-        "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDH+ULfO0USH5/e\n8W274zuSjKMySBIJxU14tB1C+Sl4QREeMbndzflcnJ+HnRDNyvDL5Y9iaiHC+5Ao\nqdPJigr4ggR/jXZ7BMsAEcVVqyzzFZmnqhAdX//uxzjJQZFe8EdANdArhUHMWNr5\nWqY3zG27IqpxRb/75UevY3rWhiWiaIjSyCprNOhs1n16FG1Tjlgi1tG9C8F335qK\nAYiW1FhEZKYqDe82AZSTWwqx/hVl4D+m4BRpmvwbVdJY6cNqWKYUn7HcptmdpSon\nNLX5YxB02ATj1N9jjxzYxaw+msL0oN9ad1/2uzwl1CwdBVRpRGVl3gw6qAxgkTiR\ntExt33T5AgMBAAECggEBAJHiE5jKok7gZz67HfSNhu4YTw3ladNa7nN54kbzgf9K\naHSAjjlzg9C+KdtDB/k5bYUxyPJgvpSB9N7VVb2XSP2VzDZJOv/vtTAtxqoCoF4N\nifS4qdzkJc9J4vFfNe/ulewP1feJ1UCAKe7y5IOcTQjR90l/OtlGoI8goYJShq39\nDoEvp7oSQ3yy3WXSj+WwFrLPz79eLpFymw3WdJ1PRi2y2/ls+wLe5ostEG+FD3kq\ndGDOXXB+FJPJuJrODf6m9qPlxTQkWEXhMYMpMgfKWiAOKhNYYJQ4IpJLSXu4H3WY\ncVPaGRE1df9lrq1yBS35aWzeortebhWrlNKLHSUS4gECgYEA5D28n3NtSNYYhJhO\nLbvXvt7k80RyB+n/bZnX3U42NFrLdMt2yrB59MuDKkgKZubBZMBAZu6FDo6wC/6r\nSRbB30a3KoNlXhLeOGNGRqYLrJBL76Oxt0Ekm68nRdQEGbUUKza5hNoKJLnwBzdD\nazgUBc2gdncfw0xYdrKZ8QNhwpkCgYEA4EtrYk6b3ll2hVaWyZEYXA7upz+24A4k\neafLKMNP3tr0HU9V6VVcZRK72mRrAeBGAoSDm5/Mgvk8XQwr52/zvuV8yim1wmGd\nR1mpYGGSWBFaMxPwSgaBIOhDG0a3HSzfoTGXbUig0WaquMXXOrLk1b8HSBHPMWwR\n5Dm5LJAXIWECgYBS1ZkkYXbzLUh+ruwIqxjU2/5Jz7h26NTcCS6P0ffYLm+Sttkp\nHL1WO5oh+T1VNUBQ+XkmIkDGFMENyWKOxySbjQWi90cNylk+K8FwmIi6GzCEC2vP\nL2RC4GGndRf74H0uZdEUxzFRPO5BICxmuFaD+KnY9MjhT0733UADeY+8WQKBgQDG\nEnRTTV4ifljHKY9hk6uyaFFjC0YhGPwnHwGvDsPy5uLbG1ugAgzlCSUxmKpS7s6E\nnKdogDbnltgyx3PiHyBefWS1Vx42+WMeRlToU2IcOb6xCrORe6r+932DkfBVaHJY\ndGXoUVILeiHbqIMISEEDbX4tq+SQHYKzTDJ14w06IQKBgDZFDIVgk4v81yH0M+oe\nJ1oDUpFj//wVWfuOjalR/+udBIIVJXILchm6rVHOnTEWmvxFZCcD7Zxhy5pEGSDg\nHM/pHOPth8vh5qquEH+Ji613bp/VXVysN37xkpa23fhxSgankqbFiJoxpqOhgWYe\nxgKAzkt34Fug8XYO+hDAbL3X\n-----END PRIVATE KEY-----\n",
-        "client_email": "firebase-adminsdk-alb7j@project-3931781304531690229.iam.gserviceaccount.com",
-        "client_id": "105042264485843483839",
-        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-        "token_uri": "https://accounts.google.com/o/oauth2/token",
-        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-alb7j%40project-3931781304531690229.iam.gserviceaccount.com",
-        "serviceAccount": "E:/fo_DESK/curiosity-to-vk/kirsanov-dot-com-e615c6a21595.json"
-    }
-    # инициализация базы
-    firebase = pyrebase.initialize_app(config)
-    # Получить ссылку на службу авторизации
-    auth = firebase.auth()  # uid = 'some-uid'; custom_token = auth.create_custom_token(uid)
-    # Зарегистрировать пользователя в базе
-    user = auth.sign_in_with_email_and_password("danilakirsanovspb@gmail.com", "Nhb1,e2yfk3$")
-    # Получить ссылку на службу базы данных
-    return firebase.database()
-"""
+    logger.info(f"НАЗВАНИЕ: {title_ru}" + "\n")
 
 
 # ПОЛУЧЕНИЕ ЛОГОВ
@@ -357,54 +325,79 @@ def get_logs():
     root_logger.addHandler(file_handler)
     root_logger.addHandler(stream_handler)
 
-    root_logger.setLevel(logging.DEBUG)
+    root_logger.setLevel(logging.INFO)
     return root_logger
 
 
 # Запуск скриптов
-def main():
-
+# def main():
     change_href()
-    # db = database()  ##TODO: НАСТРОИТЬ FIREBASE !!!!!!!!!!!
     hrefs = read_db(PATH_TO_POST)
     logger.info(f"Сейчас мы напишем {len(hrefs)} постов: ")
     for count in hrefs:
 
         try:
-            logger.info(msg=f"ПОСТ № {len(hrefs) - hrefs.index(str(count))}  {count.replace('http://curiosity.com/topics/', '')}")
+            logger.info(msg=f"ПОСТ № {len(hrefs) - hrefs.index(str(count))}  {count.replace('http://curiosity.com/topics/', '').replace('/', '')}")
+            post_slug = count.replace('http://curiosity.com/topics/', '').replace('/', '')
             img_1_href, channel, title, text_1, video_1_data_scr, tags = parser(count)
-            print("Сканирование адреса законченно")
+            logger.info("Сканирование адреса законченно")
             tags_ru, channel_ru, title_ru, text_1_ru = translater(channel, title, text_1, tags)
             img_1_downloader(img_1_href)
-            draw(channel_ru, title_ru)
-            print("Художник намолевал")
+            draw(channel_ru, title_ru, post_slug)
+            logger.info("Художник намолевал")
             post(text_1_ru, tags_ru, video_1_data_scr, title_ru)
-            print("Пост опубликован")
+            logger.info("Пост опубликован")
             with open("number_post.txt", 'w') as n:
                 n.write(str(count))
         except:
             logger.exception(f"Ошибка на {count} посте")
             continue
-        #try:
-        #    Topic = collections.namedtuple("Topic", f"id img_1_href channel title text_1 video_1_data_scr tags channel_ru title_ru tags_ru text_1_ru")
-        #    TOPIC = Topic(db.generate_key(), img_1_href[-1], channel, title, text_1, video_1_data_scr, tags, channel_ru, title_ru, tags_ru, text_1_ru)
-        #    json.dump(json.dumps(TOPIC._asdict()), open('posts-firebase.json', 'a+b'), indent=4)
-        #    data = {"curiosity/topics/"+str(count.replace('http://curiosity.com/topics/', '').replace('/\n', '')):
-        #            json.dumps(TOPIC._asdict(), indent=4)
-        #            };
-        #    db.update(data);
-        #    print(f"Информация записана в базу данных")
-        # except: print(f"Ошиюка при записи в базу данных")
         time.sleep(30);
 
 
-if __name__ == "__main__":
-    post("del", "del", "del", "del")
+def django_db():
     # ПОЛУЧАЕМ ЛОГЕРА
     root_logger = get_logs()
     # ДЕКОРИРУЕМ ЛОГИ
-    root_logger.debug('='*100)
-    # ВЫПОЛНЯЕМ ГЛАВНЫЙ СКРИПТ
-    main()
+    root_logger.info('='*100)
     # ДЕКОРИРУЕМ ЛОГИ
-    root_logger.debug('='*100)
+    root_logger.info('='*100)
+    my_posts = Post.objects.all()
+    hrefs = read_db("D:\\Projects\\py\\myblog-development\\curiosity\\worker\\my_href_backup.db")
+    logger.info(f"Сейчас мы напишем {len(hrefs)} постов:")
+    for href in hrefs:
+        for post in my_posts:
+            if str(post.slug) not in str(href).split('/'):
+                href = href.replace('\n', "")
+                post_slug = href.replace('http://curiosity.com/topics/', '').replace('/', '')
+
+                img_1_href, channel, title, text_1, video_1_data_scr, tags = parser(href)
+
+                tags_ru, channel_ru, title_ru, text_ru = translater(channel, title, text_1, tags)
+
+                # img_1_downloader(img_1_href, post_slug)
+
+                # draw(channel_ru, title_ru, post_slug)
+
+                tags_ru = tags_ru.replace(" ", "")
+                tags_ru = tags_ru.split("\n")
+                tags_ru = [tag for tag in tags_ru if len(tag) >= 2]
+                text_ru = text_ru.replace("\n\n\n", "\n", 1)
+
+                time.sleep(5)
+
+                return img_1_href, post_slug, tags_ru, channel_ru, title_ru, text_ru
+            else:
+                continue
+        # pt Exception as e:
+        # logger.error(f"Ошибка в посте {href} %s", e.args)
+        # continue
+    return
+
+# if __name__ == "__main__":
+#     # ПОЛУЧАЕМ ЛОГЕРА
+#     root_logger = get_logs()
+#     # ДЕКОРИРУЕМ ЛОГИ
+#     root_logger.info('='*100)
+#     # ДЕКОРИРУЕМ ЛОГИ
+#     root_logger.info('='*100)
