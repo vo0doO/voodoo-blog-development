@@ -75,7 +75,7 @@ class Image(models.Model):
         return self.url_prefix + path_list[size] + self.url_sufix
         
     def __str__(self):
-        return self.id
+        return str(self.id)
 
 
 class Post(models.Model):
