@@ -147,7 +147,7 @@ STATICFILES_DIRS = (
 
 # # Медиа
 MEDIA_ROOT = os.path.join(PROJECT_ROOT, 'static', 'media')
-MEDIA_URL = '/static/media/'
+MEDIA_URL = '/media/'
 
 
 # # Обслуживание статических файлов
