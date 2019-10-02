@@ -142,11 +142,10 @@ STATIC_URL = '/static/'
 # # Дополнительные места для collectstatic для поиска статических файлов.
 STATICFILES_DIRS = (
    os.path.join(BASE_DIR, 'static'),
-   os.path.join(BASE_DIR, 'media'),
 )
 
 # # Медиа
-MEDIA_ROOT = os.path.join(PROJECT_ROOT, 'static', 'media')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 
