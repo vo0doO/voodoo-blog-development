@@ -8,7 +8,6 @@ from django.core.files import File
 import logging
 
 
-
 def get_logs():
     PATH_TO_LOG = 'curiosity/static/curiosity/more-more-sting.log'
     fmt = logging.Formatter('%(asctime)s %(levelname)s %(module)s %(funcName)s %(message)s')
@@ -28,7 +27,7 @@ def get_logs():
     return root_logger
 
 
-l = get_logs()
+logger= get_logs()
 
 
 def check_channel(channel):
@@ -73,15 +72,15 @@ def add_image(post, img_href, channel, title):
     draw_img_temp_path = draw(channel, title, img_path=content[0])
 
     file = File(open(draw_img_temp_path, "rb"))
-    l.info(f"Путь к временному изображению: {post.img.path}")
+    logger.info(f"Путь к временному изображению: {post.img.path}")
     post.img.save(name, file, save=True)
     try:
-        l.info(f"Облась в памяти для хранилища: {post.img.storage.location}")
+        logger.info(f"Облась в памяти для хранилища: {post.img.storage.location}")
     except Exception as err:
-        l.error(f"{err}")
+        logger.error(f"{err}")
 
     post.save()
-    l.info(f"Путь к сохраненному изображению: {post.img.path}")
+    logger.info(f"Путь к сохраненному изображению: {post.img.path}")
     file.close()
 
 

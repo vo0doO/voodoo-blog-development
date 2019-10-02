@@ -23,7 +23,7 @@ class AdminTag(admin.ModelAdmin):
 @admin.register(Post)
 class AdminPost(admin.ModelAdmin):
     fields = [('title'), ('channel', 'img'), ('text',  'tags')]
-    list_display = ('title', 'channel', 'display_tag', 'pubdate', 'display_image', 'display_img_path', 'rewritedate',)
+    list_display = ('title', 'channel', 'display_tag', 'pubdate', 'display_image', 'rewritedate',)
     list_filter = ('pubdate', 'channel', 'title', 'rewritedate',)
 
 

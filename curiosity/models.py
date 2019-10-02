@@ -47,7 +47,7 @@ class Post(models.Model):
     pubdate = models.DateTimeField("Дата публикации", auto_now_add=True)
     rewritedate = models.DateTimeField("Дата редактирования", auto_now=True)
     slug = models.CharField(max_length=1000, null=True)
-    img = models.ImageField(storage=get_storage(unix_pref='~/', windows_pref='d:/'), null=True, blank=True, verbose_name='Изображение')
+    img = models.ImageField(storage=get_storage(unix_pref='', windows_pref='d:/'), null=True, blank=True, verbose_name='Изображение')
 
     class Meta:
         ordering = ["-pubdate"]
@@ -70,13 +70,13 @@ class Post(models.Model):
     display_image.short_description = 'Изображение'
     display_image.allow_tags = True
 
-    def display_img_path(self):
-        if self.img:
-            return mark_safe(str(self.img.path))
-        else:
-            return 'none'
-    display_img_path.short_description = 'Путь к изображению'
-    display_img_path.allow_tags = True
+    # def display_img_path(self):
+    #     if self.img:
+    #         return mark_safe(str(self.img.path))
+    #     else:
+    #         return 'none'
+    # display_img_path.short_description = 'Путь к изображению'
+    # display_img_path.allow_tags = True
 
 
 class Image(models.Model):
