@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 # Register your models here.
-from .models import Channel, Tag, Post
+from .models import Channel, Tag, Post, Image
 
 
 class PostInline(admin.TabularInline):
@@ -22,7 +22,12 @@ class AdminTag(admin.ModelAdmin):
 
 @admin.register(Post)
 class AdminPost(admin.ModelAdmin):
-    fields = [('channel', 'title', 'tags'), ('text', 'image')]
-    list_display = ('pubdate', 'channel', 'title', 'display_tag', 'rewritedate', 'display_image',)
+    fields = [('title'), ('channel', 'img'), ('text',  'tags')]
+    list_display = ('title', 'channel', 'display_tag', 'pubdate', 'display_image', 'rewritedate',)
     list_filter = ('pubdate', 'channel', 'title', 'rewritedate',)
-    
+
+
+@admin.register(Image)
+class AdminImage(admin.ModelAdmin):
+    list_display = ('post', 'created_time', 'id',)
+    list_filter = ('created_time',)

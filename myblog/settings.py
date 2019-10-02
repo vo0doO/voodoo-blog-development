@@ -140,12 +140,14 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
 # # Медиа
-MEDIA_ROOT = 'media'
+MEDIA_ROOT = os.path.join(os.getcwd(), 'media')
 MEDIA_URL = '/media/'
 
 # # Дополнительные места для collectstatic для поиска статических файлов.
 STATICFILES_DIRS = (
    os.path.join(BASE_DIR, 'static'),
+   os.path.join(BASE_DIR, 'media'),
+   '/media/',
 )
 
 # # Обслуживание статических файлов

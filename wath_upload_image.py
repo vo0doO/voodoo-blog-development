@@ -1,9 +1,7 @@
-import os
+import os, sys, time
 import shutil
-import time
-from watchdog.observer import Observer
+from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
-from django.conf import settings
 import logging
 
 
@@ -14,7 +12,14 @@ logger = logging.getLogger(__name__)
 # PATH_TO_USER_UPLOAD_DIR
 SRC = os.getcwd() + '\\media\\images\\'
 # PATH_TO_SERVE_MEDIA_WIN10 
-DST = 'D:\\media\\images\\'
+DST = 'd:\\media\\images\\'
+# PATH_TO_LOGS
+PATH_TO_LOGS = os.getcwd()+'\\media_files.log'
+
+
+def get_ignore_files(s, n):
+    ignored_names = set(n).difference(set(os.listdir(s)))
+    return ignored_names.split
 
 
 def checkmedia():
@@ -28,14 +33,14 @@ def checkmedia():
 class ImageHandler(FileSystemEventHandler):
     def on_modified(self, event):
         if checkmedia()[0]:
-            shutil.copytree(SRC, DST)
+            shutil.copytree(src=SRC, dst=DST)
 
 
 # ПОЛУЧЕНИЕ ЛОГОВ
 def get_logs():
     fmt = logging.Formatter('%(asctime)s %(levelname)s %(module)s %(funcName)s %(message)s')
 
-    file_handler = logging.FileHandler(filename=PATH_TO_LOG)
+    file_handler = logging.FileHandler(filename=PATH_TO_LOGS)
     file_handler.setFormatter(fmt)
 
     stream_handler = logging.StreamHandler(sys.stdout)
@@ -56,7 +61,7 @@ if __name__ == "__main__":
     
     event_handler = ImageHandler()
     observer = Observer()
-    observer.schedule(event_handler, path=SRC, recursive=False)
+    observer.schedule(event_handler, path=SRC, recursive=True)
     observer.start()
 
     try:

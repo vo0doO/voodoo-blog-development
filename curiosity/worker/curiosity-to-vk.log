@@ -2064,3 +2064,1576 @@ Traceback (most recent call last):
   File "D:\Projects\py\myblog-development\curiosity\views.py", line 19, in updatedb
     img_1_href, post_slug, tags_ru, channel_ru, title_ru, text_ru = django_db()
 TypeError: cannot unpack non-iterable NoneType object
+2019-09-30 15:36:20,185 INFO views updatedb ====================================================================================================
+2019-09-30 15:36:20,189 INFO views updatedb ====================================================================================================
+2019-09-30 15:36:20,196 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-30 15:36:20,196 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-30 15:36:20,206 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-30 15:36:20,206 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-30 15:36:20,227 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-30 15:36:20,227 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-30 15:36:23,667 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 19, in updatedb
+    img_1_href, post_slug, tags_ru, channel_ru, title_ru, text_ru = django_db()
+TypeError: cannot unpack non-iterable NoneType object
+2019-09-30 15:36:23,667 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 19, in updatedb
+    img_1_href, post_slug, tags_ru, channel_ru, title_ru, text_ru = django_db()
+TypeError: cannot unpack non-iterable NoneType object
+2019-09-30 15:40:04,326 INFO views updatedb ====================================================================================================
+2019-09-30 15:40:04,326 INFO views updatedb ====================================================================================================
+2019-09-30 15:40:04,326 INFO views updatedb ====================================================================================================
+2019-09-30 15:40:34,655 INFO views updatedb ====================================================================================================
+2019-09-30 15:40:34,655 INFO views updatedb ====================================================================================================
+2019-09-30 15:40:34,655 INFO views updatedb ====================================================================================================
+2019-09-30 15:40:38,941 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-30 15:40:38,941 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-30 15:40:38,941 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-30 15:40:38,941 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-30 15:40:38,964 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-30 15:40:38,964 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-30 15:40:38,964 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-30 15:40:38,964 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-30 15:40:38,988 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-30 15:40:38,988 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-30 15:40:38,988 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-30 15:40:38,988 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-30 15:40:44,694 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 19, in updatedb
+    tag = Tag.objects.get(name=tag)
+TypeError: cannot unpack non-iterable NoneType object
+2019-09-30 15:40:44,694 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 19, in updatedb
+    tag = Tag.objects.get(name=tag)
+TypeError: cannot unpack non-iterable NoneType object
+2019-09-30 15:40:44,694 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 19, in updatedb
+    tag = Tag.objects.get(name=tag)
+TypeError: cannot unpack non-iterable NoneType object
+2019-09-30 15:40:44,694 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 19, in updatedb
+    tag = Tag.objects.get(name=tag)
+TypeError: cannot unpack non-iterable NoneType object
+2019-09-30 15:41:14,842 INFO views updatedb ====================================================================================================
+2019-09-30 15:41:14,842 INFO views updatedb ====================================================================================================
+2019-09-30 15:41:14,842 INFO views updatedb ====================================================================================================
+2019-09-30 15:41:14,842 INFO views updatedb ====================================================================================================
+2019-09-30 15:41:14,842 INFO views updatedb ====================================================================================================
+2019-09-30 15:41:41,118 INFO views updatedb ====================================================================================================
+2019-09-30 15:41:41,118 INFO views updatedb ====================================================================================================
+2019-09-30 15:41:41,118 INFO views updatedb ====================================================================================================
+2019-09-30 15:41:41,118 INFO views updatedb ====================================================================================================
+2019-09-30 15:41:41,118 INFO views updatedb ====================================================================================================
+2019-09-30 15:45:32,917 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-30 15:45:32,925 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-30 15:45:32,936 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-30 15:45:43,511 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 13, in updatedb
+    img_1_href, post_slug, tags_ru, channel_ru, title_ru, text_ru = django_db()
+TypeError: cannot unpack non-iterable NoneType object
+2019-09-30 16:09:57,048 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-30 16:09:57,057 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-30 16:09:57,069 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-30 16:10:08,423 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 13, in updatedb
+    img_1_href, post_slug, tags_ru, channel_ru, title_ru, text_ru = django_db()
+TypeError: cannot unpack non-iterable NoneType object
+2019-09-30 16:11:35,773 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-30 16:11:35,773 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-30 16:11:37,224 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-30 16:11:37,224 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-30 16:11:51,419 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-30 16:11:51,419 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-30 16:22:50,160 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-30 16:23:07,031 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-30 16:23:07,092 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-30 16:23:34,706 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 13, in updatedb
+    img_1_href, post_slug, tags_ru, channel_ru, title_ru, text_ru = django_db()
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 369, in django_db
+    if str(post.slug) not in str(href).split('/'):
+AttributeError: 'function' object has no attribute 'slug'
+2019-09-30 16:45:19,493 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-30 16:45:20,926 INFO curiosity_one_post django_db Сейчас мы напишем 458 постов:
+2019-09-30 16:45:26,844 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 97, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-30 16:45:30,761 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-09-30 17:03:19,761 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 20, in updatedb
+    tag = Tag.objects.get(name=tag)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+curiosity.models.Tag.DoesNotExist: Tag matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 25, in updatedb
+    post.tags.add(otag)
+AttributeError: 'tuple' object has no attribute 'tags'
+2019-09-30 21:06:03,331 INFO curiosity_one_post django_db ====================================================================================================
+2019-09-30 21:06:03,883 INFO curiosity_one_post django_db Сейчас мы напишем 1831 постов:
+2019-09-30 21:06:07,247 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 97, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-09-30 21:06:10,523 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 01:32:29,317 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 01:32:30,270 INFO curiosity_one_post django_db Сейчас мы напишем: 457 постов.
+2019-10-01 01:32:33,267 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 98, in parser
+    img_1_href = re.findall(regexp_img_1, item.find('style').text)
+TypeError: 'NoneType' object is not subscriptable
+2019-10-01 01:32:36,639 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 06:19:40,515 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 06:19:41,862 INFO curiosity_one_post django_db Доступно 457 новых постов.
+2019-10-01 06:19:47,894 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 103, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-10-01 06:19:50,887 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 06:19:56,766 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 73, in updatedb
+    tags=tags_ru
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 40, in add_tags
+    post.tags.add(tag)
+AttributeError: 'tuple' object has no attribute 'tags'
+2019-10-01 06:24:31,709 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 06:24:33,551 INFO curiosity_one_post django_db Доступно 458 новых постов.
+2019-10-01 06:24:37,658 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 102, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-01 06:24:41,441 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 06:24:50,081 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 71, in updatedb
+    post.save()
+AttributeError: 'tuple' object has no attribute 'save'
+2019-10-01 06:30:10,058 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 06:30:12,064 INFO curiosity_one_post django_db Доступно 458 новых постов.
+2019-10-01 06:30:16,005 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 102, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-01 06:30:19,241 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 06:30:42,936 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 538, in get_or_create
+    return self.get(**kwargs), False
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+curiosity.models.Post.DoesNotExist: Post matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Как вы претендовать на зимние Олимпийские игры, если это не снег, не где вы живете?.) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 63, in updatedb
+    post = Post.objects.get_or_create(title=title_ru, html=html, slug=post_slug, text=text_ru, channel=check_channel(channel_ru))
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 541, in get_or_create
+    return self._create_object_from_params(kwargs, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 583, in _create_object_from_params
+    raise e
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 575, in _create_object_from_params
+    obj = self.create(**params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Как вы претендовать на зимние Олимпийские игры, если это не снег, не где вы живете?.) already exists.
+
+2019-10-01 06:34:26,239 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 06:34:28,170 INFO curiosity_one_post django_db Доступно 458 новых постов.
+2019-10-01 06:34:31,817 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 102, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-01 06:34:35,395 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 06:34:56,219 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 538, in get_or_create
+    return self.get(**kwargs), False
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+curiosity.models.Post.DoesNotExist: Post matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Как вы претендовать на зимние Олимпийские игры, если это не снег, не где вы живете?.) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 63, in updatedb
+    post = Post.objects.get_or_create(title=title_ru, html=html, slug=post_slug, text=text_ru, channel=check_channel(channel_ru))[0]
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 541, in get_or_create
+    return self._create_object_from_params(kwargs, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 583, in _create_object_from_params
+    raise e
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 575, in _create_object_from_params
+    obj = self.create(**params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Как вы претендовать на зимние Олимпийские игры, если это не снег, не где вы живете?.) already exists.
+
+2019-10-01 06:38:04,249 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 06:38:04,249 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 06:38:05,082 INFO curiosity_one_post django_db Доступно 458 новых постов.
+2019-10-01 06:38:05,082 INFO curiosity_one_post django_db Доступно 458 новых постов.
+2019-10-01 06:38:09,038 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 102, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-01 06:38:09,038 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 102, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-01 06:38:11,895 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 06:38:11,895 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 06:38:30,528 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 538, in get_or_create
+    return self.get(**kwargs), False
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+curiosity.models.Post.DoesNotExist: Post matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Как вы претендовать на зимние Олимпийские игры, если это не снег, не где вы живете?.) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 63, in updatedb
+    post = Post.objects.get_or_create(title=title_ru, html=html, slug=post_slug, text=text_ru, channel=check_channel(channel_ru))[0]
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 541, in get_or_create
+    return self._create_object_from_params(kwargs, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 583, in _create_object_from_params
+    raise e
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 575, in _create_object_from_params
+    obj = self.create(**params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Как вы претендовать на зимние Олимпийские игры, если это не снег, не где вы живете?.) already exists.
+
+2019-10-01 06:38:30,528 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 538, in get_or_create
+    return self.get(**kwargs), False
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+curiosity.models.Post.DoesNotExist: Post matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Как вы претендовать на зимние Олимпийские игры, если это не снег, не где вы живете?.) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 63, in updatedb
+    post = Post.objects.get_or_create(title=title_ru, html=html, slug=post_slug, text=text_ru, channel=check_channel(channel_ru))[0]
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 541, in get_or_create
+    return self._create_object_from_params(kwargs, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 583, in _create_object_from_params
+    raise e
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 575, in _create_object_from_params
+    obj = self.create(**params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Как вы претендовать на зимние Олимпийские игры, если это не снег, не где вы живете?.) already exists.
+
+2019-10-01 06:50:00,503 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 06:50:00,742 INFO curiosity_one_post django_db Доступно 457 новых постов.
+2019-10-01 06:50:06,381 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 103, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-10-01 06:50:10,236 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 06:50:20,984 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 75, in updatedb
+    title=title_ru
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 44, in add_image
+    img_url = "https://dw8stlw9qt0iz.cloudfront.net/" + img_1_href[35] + ".png"
+NameError: name 'img_1_href' is not defined
+2019-10-01 06:53:52,206 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 06:53:54,069 INFO curiosity_one_post django_db Доступно 457 новых постов.
+2019-10-01 06:53:58,425 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 102, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-01 06:54:02,072 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 06:54:23,133 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\PIL\Image.py", line 2068, in save
+    format = EXTENSION[ext]
+KeyError: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 75, in updatedb
+    title=title_ru
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 49, in add_image
+    draw_img_temp_path = draw(channel, title, img_path=content[0])
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 271, in draw
+    img_composite.save(path_from_save)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\PIL\Image.py", line 2070, in save
+    raise ValueError("unknown file extension: {}".format(ext))
+ValueError: unknown file extension: 
+2019-10-01 07:13:09,651 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 07:13:11,741 INFO curiosity_one_post django_db Доступно 457 новых постов.
+2019-10-01 07:13:15,768 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 103, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-10-01 07:13:19,142 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 07:13:41,585 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 538, in get_or_create
+    return self.get(**kwargs), False
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+curiosity.models.Post.DoesNotExist: Post matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Медицинская Наука Ответила На Этот 300-Летний Вопрос Философии.) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 63, in updatedb
+    post = Post.objects.get_or_create(title=title_ru, html=html, slug=post_slug, text=text_ru, channel=check_channel(channel_ru))[0]
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 541, in get_or_create
+    return self._create_object_from_params(kwargs, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 583, in _create_object_from_params
+    raise e
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 575, in _create_object_from_params
+    obj = self.create(**params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Медицинская Наука Ответила На Этот 300-Летний Вопрос Философии.) already exists.
+
+2019-10-01 07:27:01,796 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 07:27:04,021 INFO curiosity_one_post checkposts The post published: Как вы претендовать на зимние Олимпийские игры, если это не снег, не где вы живете?.
+2019-10-01 07:27:04,024 INFO curiosity_one_post checkposts The post published: Мой блог
+2019-10-01 07:27:04,030 INFO curiosity_one_post checkposts The post published: Медицинская Наука Ответила На Этот 300-Летний Вопрос Философии.
+2019-10-01 07:27:04,188 INFO curiosity_one_post django_db Доступно 1371 новых постов.
+2019-10-01 07:27:09,709 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 102, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-01 07:27:12,922 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 07:27:36,576 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 538, in get_or_create
+    return self.get(**kwargs), False
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+curiosity.models.Post.DoesNotExist: Post matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Как вы претендовать на зимние Олимпийские игры, если это не снег, не где вы живете?.) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 63, in updatedb
+    post = Post.objects.get_or_create(title=title_ru, html=html, slug=post_slug, text=text_ru, channel=check_channel(channel_ru))[0]
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 541, in get_or_create
+    return self._create_object_from_params(kwargs, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 583, in _create_object_from_params
+    raise e
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 575, in _create_object_from_params
+    obj = self.create(**params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Как вы претендовать на зимние Олимпийские игры, если это не снег, не где вы живете?.) already exists.
+
+2019-10-01 07:30:09,784 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 07:30:11,849 INFO curiosity_one_post checkposts The post published: Как вы претендовать на зимние Олимпийские игры, если это не снег, не где вы живете?.
+2019-10-01 07:32:58,742 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 07:33:00,737 INFO curiosity_one_post checkposts The post published: Как вы претендовать на зимние Олимпийские игры, если это не снег, не где вы живете?.
+2019-10-01 07:46:42,030 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 07:48:21,595 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 61, in updatedb
+    img_1_href, post_slug, tags_ru, channel_ru, title_ru, text_ru, html = django_db()
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 364, in django_db
+    hrefs = checkposts(Post.objects.all(), read_db(PATH_TO_BACKUP_HREF))
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 354, in checkposts
+    logger.info(f"The post published: {post.title}")
+AttributeError: 'function' object has no attribute 'title'
+2019-10-01 07:49:59,360 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 07:50:15,721 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-01 07:50:25,925 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-01 07:51:03,871 INFO curiosity_one_post django_db Доступно 456 новых постов.
+2019-10-01 07:51:08,529 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 103, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-10-01 07:51:11,510 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 07:51:29,953 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\PIL\Image.py", line 2068, in save
+    format = EXTENSION[ext]
+KeyError: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 75, in updatedb
+    title=title_ru
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 49, in add_image
+    draw_img_temp_path = draw(channel, title, img_path=content[0])
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 250, in draw
+    img_composit.save(img_path_resize)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\PIL\Image.py", line 2070, in save
+    raise ValueError("unknown file extension: {}".format(ext))
+ValueError: unknown file extension: 
+2019-10-01 07:55:47,001 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 07:55:49,253 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-01 07:55:49,257 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-01 07:55:49,261 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-01 07:55:49,542 INFO curiosity_one_post django_db Доступно 455 новых постов.
+2019-10-01 07:55:53,161 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 102, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-01 07:55:56,559 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 08:00:30,466 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view curiosity.views.updatedb didn't return an HttpResponse object. It returned None instead.
+2019-10-01 08:00:40,984 WARNING log log_response Not Found: /media/images/88878b01-8613-4263-91e6-672221b49fc1.png
+2019-10-01 08:18:31,745 WARNING log log_response Not Found: /media/images/88878b01-8613-4263-91e6-672221b49fc1.png
+2019-10-01 10:54:29,717 WARNING log log_response Not Found: /media/images/6f2c3045-3a40-4eba-f597-e93fea36e707_X4pGfMO.png
+2019-10-01 11:37:21,610 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 11:37:21,610 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 11:37:23,922 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-01 11:37:23,922 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-01 11:37:23,928 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-01 11:37:23,928 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-01 11:37:23,935 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-01 11:37:23,935 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-01 11:37:23,941 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-01 11:37:23,941 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-01 11:37:24,199 INFO curiosity_one_post django_db Доступно 454 новых постов.
+2019-10-01 11:37:24,199 INFO curiosity_one_post django_db Доступно 454 новых постов.
+2019-10-01 11:37:28,730 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 102, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-01 11:37:28,730 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 102, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-01 11:37:32,303 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 11:37:32,303 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 12:07:25,755 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view curiosity.views.updatedb didn't return an HttpResponse object. It returned None instead.
+2019-10-01 12:07:25,755 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view curiosity.views.updatedb didn't return an HttpResponse object. It returned None instead.
+2019-10-01 12:09:20,132 WARNING log log_response Not Found: /media/images/cca9d29f-f5d5-4edf-e498-3f44ec8e76d0.png
+2019-10-01 12:09:20,132 WARNING log log_response Not Found: /media/images/cca9d29f-f5d5-4edf-e498-3f44ec8e76d0.png
+2019-10-01 12:21:41,440 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 12:21:41,440 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 12:21:41,440 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 12:21:43,681 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-01 12:21:43,681 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-01 12:21:43,681 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-01 12:21:43,693 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-01 12:21:43,693 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-01 12:21:43,693 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-01 12:21:43,712 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-01 12:21:43,712 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-01 12:21:43,712 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-01 12:21:43,727 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-01 12:21:43,727 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-01 12:21:43,727 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-01 12:21:43,740 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-01 12:21:43,740 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-01 12:21:43,740 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-01 12:21:44,306 INFO curiosity_one_post django_db Доступно 453 новых постов.
+2019-10-01 12:21:44,306 INFO curiosity_one_post django_db Доступно 453 новых постов.
+2019-10-01 12:21:44,306 INFO curiosity_one_post django_db Доступно 453 новых постов.
+2019-10-01 12:21:50,337 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 102, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-01 12:21:50,337 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 102, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-01 12:21:50,337 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 102, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-01 12:21:53,620 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 12:21:53,620 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 12:21:53,620 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 12:22:27,480 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 1317, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 966, in send
+    self.connect()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1414, in connect
+    server_hostname=server_hostname)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 75, in updatedb
+    title=title_ru
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 47, in add_image
+    content = urllib.request.urlretrieve(img_url)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 543, in _open
+    '_open', req)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 503, in _call_chain
+    result = func(*args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 1360, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 1319, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2019-10-01 12:22:27,480 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 1317, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 966, in send
+    self.connect()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1414, in connect
+    server_hostname=server_hostname)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 75, in updatedb
+    title=title_ru
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 47, in add_image
+    content = urllib.request.urlretrieve(img_url)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 543, in _open
+    '_open', req)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 503, in _call_chain
+    result = func(*args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 1360, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 1319, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2019-10-01 12:22:27,480 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 1317, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 966, in send
+    self.connect()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1414, in connect
+    server_hostname=server_hostname)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 75, in updatedb
+    title=title_ru
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 47, in add_image
+    content = urllib.request.urlretrieve(img_url)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 247, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 543, in _open
+    '_open', req)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 503, in _call_chain
+    result = func(*args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 1360, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.7_3.7.1264.0_x64__qbz5n2kfra8p0\lib\urllib\request.py", line 1319, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10054] Удаленный хост принудительно разорвал существующее подключение>
+2019-10-01 12:24:53,920 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 12:24:53,920 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 12:24:53,920 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 12:24:53,920 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 12:24:58,839 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-01 12:24:58,839 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-01 12:24:58,839 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-01 12:24:58,839 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-01 12:24:58,854 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-01 12:24:58,854 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-01 12:24:58,854 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-01 12:24:58,854 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-01 12:24:58,876 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-01 12:24:58,876 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-01 12:24:58,876 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-01 12:24:58,876 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-01 12:24:58,891 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-01 12:24:58,891 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-01 12:24:58,891 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-01 12:24:58,891 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-01 12:24:58,920 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-01 12:24:58,920 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-01 12:24:58,920 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-01 12:24:58,920 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-01 12:24:58,937 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-01 12:24:58,937 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-01 12:24:58,937 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-01 12:24:58,937 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-01 12:24:59,297 INFO curiosity_one_post django_db Доступно 452 новых постов.
+2019-10-01 12:24:59,297 INFO curiosity_one_post django_db Доступно 452 новых постов.
+2019-10-01 12:24:59,297 INFO curiosity_one_post django_db Доступно 452 новых постов.
+2019-10-01 12:24:59,297 INFO curiosity_one_post django_db Доступно 452 новых постов.
+2019-10-01 12:25:05,473 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 102, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-01 12:25:05,473 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 102, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-01 12:25:05,473 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 102, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-01 12:25:05,473 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 102, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-01 12:25:08,822 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 12:25:08,822 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 12:25:08,822 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 12:25:08,822 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 12:25:50,289 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view curiosity.views.updatedb didn't return an HttpResponse object. It returned None instead.
+2019-10-01 12:25:50,289 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view curiosity.views.updatedb didn't return an HttpResponse object. It returned None instead.
+2019-10-01 12:25:50,289 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view curiosity.views.updatedb didn't return an HttpResponse object. It returned None instead.
+2019-10-01 12:25:50,289 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view curiosity.views.updatedb didn't return an HttpResponse object. It returned None instead.
+2019-10-01 12:26:14,722 WARNING log log_response Not Found: /media/images/3e830def-7f2e-407f-ef78-c440bdd27fe1.png
+2019-10-01 12:26:14,722 WARNING log log_response Not Found: /media/images/3e830def-7f2e-407f-ef78-c440bdd27fe1.png
+2019-10-01 12:26:14,722 WARNING log log_response Not Found: /media/images/3e830def-7f2e-407f-ef78-c440bdd27fe1.png
+2019-10-01 12:26:14,722 WARNING log log_response Not Found: /media/images/3e830def-7f2e-407f-ef78-c440bdd27fe1.png
+2019-10-01 12:26:14,799 WARNING log log_response Not Found: /media/images/cca9d29f-f5d5-4edf-e498-3f44ec8e76d0.png
+2019-10-01 12:26:14,799 WARNING log log_response Not Found: /media/images/cca9d29f-f5d5-4edf-e498-3f44ec8e76d0.png
+2019-10-01 12:26:14,799 WARNING log log_response Not Found: /media/images/cca9d29f-f5d5-4edf-e498-3f44ec8e76d0.png
+2019-10-01 12:26:14,799 WARNING log log_response Not Found: /media/images/cca9d29f-f5d5-4edf-e498-3f44ec8e76d0.png
+2019-10-01 13:19:40,254 WARNING log log_response Not Found: /media/images/3e830def-7f2e-407f-ef78-c440bdd27fe1.png
+2019-10-01 13:19:40,273 WARNING log log_response Not Found: /media/images/cca9d29f-f5d5-4edf-e498-3f44ec8e76d0.png
+2019-10-01 13:19:40,254 WARNING log log_response Not Found: /media/images/3e830def-7f2e-407f-ef78-c440bdd27fe1.png
+2019-10-01 13:19:40,273 WARNING log log_response Not Found: /media/images/cca9d29f-f5d5-4edf-e498-3f44ec8e76d0.png
+2019-10-01 13:19:40,254 WARNING log log_response Not Found: /media/images/3e830def-7f2e-407f-ef78-c440bdd27fe1.png
+2019-10-01 13:19:40,273 WARNING log log_response Not Found: /media/images/cca9d29f-f5d5-4edf-e498-3f44ec8e76d0.png
+2019-10-01 13:19:40,254 WARNING log log_response Not Found: /media/images/3e830def-7f2e-407f-ef78-c440bdd27fe1.png
+2019-10-01 13:19:40,273 WARNING log log_response Not Found: /media/images/cca9d29f-f5d5-4edf-e498-3f44ec8e76d0.png
+2019-10-01 13:19:47,949 WARNING log log_response Not Found: /media/images/3e830def-7f2e-407f-ef78-c440bdd27fe1.png
+2019-10-01 13:19:47,949 WARNING log log_response Not Found: /media/images/3e830def-7f2e-407f-ef78-c440bdd27fe1.png
+2019-10-01 13:19:47,949 WARNING log log_response Not Found: /media/images/3e830def-7f2e-407f-ef78-c440bdd27fe1.png
+2019-10-01 13:19:47,949 WARNING log log_response Not Found: /media/images/3e830def-7f2e-407f-ef78-c440bdd27fe1.png
+2019-10-01 17:14:18,288 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 17:14:23,974 INFO curiosity_one_post django_db Доступно 458 новых постов.
+2019-10-01 17:14:30,454 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-01 17:14:34,798 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 20:17:43,347 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 20:17:45,552 INFO curiosity_one_post django_db Доступно 458 новых постов.
+2019-10-01 20:17:50,834 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-01 20:17:55,142 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 20:20:18,526 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 99, in updatedb
+    create_image(img_1_href, post)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 60, in create_image
+    img_url = "https://dw8stlw9qt0iz.cloudfront.net/" + img_href[0] + ".png"
+NameError: name 'img_href' is not defined
+2019-10-01 20:20:25,322 WARNING log log_response Not Found: /favicon.ico
+2019-10-01 20:21:50,771 WARNING log log_response Not Found: /media/d2e6b1ce-7b51-482b-e19f-4c6a41ae0618_dcBMbgS.png
+2019-10-01 20:22:02,424 WARNING log log_response Not Found: /media/d2e6b1ce-7b51-482b-e19f-4c6a41ae0618_dcBMbgS.png
+2019-10-01 20:31:23,649 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 20:31:23,649 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 20:31:25,905 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-01 20:31:25,905 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-01 20:31:26,445 INFO curiosity_one_post django_db Доступно 457 новых постов.
+2019-10-01 20:31:26,445 INFO curiosity_one_post django_db Доступно 457 новых постов.
+2019-10-01 20:31:32,815 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 105, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-10-01 20:31:32,815 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 105, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-10-01 20:31:36,906 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 20:31:36,906 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 20:32:50,965 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 99, in updatedb
+    create_image(img_1_href, post)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 60, in create_image
+    img_url = "https://dw8stlw9qt0iz.cloudfront.net/" + href[0] + ".png"
+NameError: name 'img_href' is not defined
+2019-10-01 20:32:50,965 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 99, in updatedb
+    create_image(img_1_href, post)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 60, in create_image
+    img_url = "https://dw8stlw9qt0iz.cloudfront.net/" + href[0] + ".png"
+NameError: name 'img_href' is not defined
+2019-10-01 20:35:57,551 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 20:36:01,222 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-01 20:36:01,229 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-01 20:36:01,882 INFO curiosity_one_post django_db Доступно 456 новых постов.
+2019-10-01 20:36:09,473 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 105, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-10-01 20:36:15,289 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 20:36:55,600 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 85, in updatedb
+    channel=check_channel(channel_ru))[0]
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 538, in get_or_create
+    return self.get(**kwargs), False
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 399, in get
+    clone = self.filter(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 892, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 910, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\query.py", line 1290, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in _add_q
+    split_subq=split_subq, simple_col=simple_col,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\query.py", line 1190, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\query.py", line 1049, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\query.py", line 1420, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'href' into field. Choices are: channel, channel_id, html, id, image, img, original_post, pubdate, rewritedate, slug, tags, text, title
+2019-10-01 21:02:07,851 WARNING log log_response Not Found: /media/6f2c3045-3a40-4eba-f597-e93fea36e707.png
+2019-10-01 21:02:20,656 WARNING log log_response Not Found: /media/6f2c3045-3a40-4eba-f597-e93fea36e707.png
+2019-10-01 21:25:17,017 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-01 21:25:19,137 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-01 21:25:19,143 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-01 21:25:20,073 INFO curiosity_one_post django_db Доступно 456 новых постов.
+2019-10-01 21:25:27,238 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 105, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-10-01 21:25:36,757 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-01 21:29:12,761 WARNING log log_response Not Found: /media/6f2c3045-3a40-4eba-f597-e93fea36e707.png
+2019-10-01 21:34:20,983 ERROR log log_response Internal Server Error: /admin/curiosity/image/
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\options.py", line 565, in get_field
+    return self.fields_map[field_name]
+KeyError: 'display_post'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\utils.py", line 262, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\utils.py", line 293, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\options.py", line 567, in get_field
+    raise FieldDoesNotExist("%s has no field named '%s'" % (self.object_name, field_name))
+django.core.exceptions.FieldDoesNotExist: Image has no field named 'display_post'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\templatetags\base.py", line 33, in render
+    return super().render(context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\library.py", line 214, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 339, in result_list
+    'results': list(results(cl)),
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 315, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 306, in __init__
+    super().__init__(*items)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 229, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\contrib\admin\utils.py", line 275, in lookup_field
+    value = attr()
+  File "D:\Projects\py\myblog-development\curiosity\models.py", line 99, in display_post
+    return ", ".join([post.title for post in self.post.all()[:]])
+AttributeError: 'Post' object has no attribute 'all'
+2019-10-02 09:39:22,839 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-02 09:39:25,207 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-02 09:39:25,212 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-02 09:39:25,217 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-02 09:39:25,829 INFO curiosity_one_post django_db Доступно 455 новых постов.
+2019-10-02 09:39:30,411 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-02 09:39:33,590 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-02 09:45:22,169 WARNING log log_response Not Found: /media/88878b01-8613-4263-91e6-672221b49fc1.png
+2019-10-02 10:37:18,638 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-02 10:37:21,213 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-02 10:37:21,220 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-02 10:37:21,227 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-02 10:37:21,235 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-02 10:37:22,306 INFO curiosity_one_post django_db Доступно 454 новых постов.
+2019-10-02 10:37:31,841 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-02 10:37:36,994 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-02 11:06:42,512 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-02 11:06:44,653 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-02 11:06:44,658 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-02 11:06:44,663 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-02 11:06:44,672 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-02 11:06:45,246 INFO curiosity_one_post django_db Доступно 454 новых постов.
+2019-10-02 11:06:48,222 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-02 11:06:48,222 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-02 11:06:50,469 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-02 11:06:50,469 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-02 11:06:50,552 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-02 11:06:50,552 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-02 11:06:50,576 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-02 11:06:50,576 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-02 11:06:50,606 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-02 11:06:50,606 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-02 11:06:50,614 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-02 11:06:50,614 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-02 11:06:51,170 INFO curiosity_one_post django_db Доступно 454 новых постов.
+2019-10-02 11:06:51,170 INFO curiosity_one_post django_db Доступно 454 новых постов.
+2019-10-02 11:06:54,592 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-02 11:06:54,592 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-02 11:06:56,407 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-02 11:06:56,407 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-02 11:07:00,547 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-02 11:07:00,547 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-02 11:08:18,456 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 538, in get_or_create
+    return self.get(**kwargs), False
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+curiosity.models.Post.DoesNotExist: Post matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Британское правительство использует эту загадку, чтобы вербовать молодых шпионов.) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 85, in updatedb
+    channel=check_channel(channel_ru))[0]
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 541, in get_or_create
+    return self._create_object_from_params(kwargs, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 583, in _create_object_from_params
+    raise e
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 575, in _create_object_from_params
+    obj = self.create(**params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Британское правительство использует эту загадку, чтобы вербовать молодых шпионов.) already exists.
+
+2019-10-02 11:08:18,456 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 538, in get_or_create
+    return self.get(**kwargs), False
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+curiosity.models.Post.DoesNotExist: Post matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Британское правительство использует эту загадку, чтобы вербовать молодых шпионов.) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 85, in updatedb
+    channel=check_channel(channel_ru))[0]
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 541, in get_or_create
+    return self._create_object_from_params(kwargs, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 583, in _create_object_from_params
+    raise e
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 575, in _create_object_from_params
+    obj = self.create(**params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Британское правительство использует эту загадку, чтобы вербовать молодых шпионов.) already exists.
+

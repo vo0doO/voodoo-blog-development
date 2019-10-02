@@ -118,7 +118,7 @@ class Answer(models.Model):
         )
 
     class Meta:
-        ordering = ["author", "-created_time"]
+        ordering = ["-created_time"]
 
 
     def get_absolute_url(self):
