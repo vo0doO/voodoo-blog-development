@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
 
     'django_static_jquery',
-    'phonenumber_field',
     'multiselectfield',
 
     'blog',
@@ -73,8 +72,7 @@ TEMPLATES = [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
-                'django.contrib.messages.context_processors.messages',
-                'django.template.context_processors.media',
+                'django.contrib.messages.context_processors.messages'
             ],
         },
     },
@@ -143,11 +141,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
    os.path.join(BASE_DIR, 'static'),
 )
-
-# # Медиа
-MEDIA_ROOT = '/home/media/'
-MEDIA_URL = '/media/'
-
 
 # # Обслуживание статических файлов
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'

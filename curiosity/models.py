@@ -22,7 +22,7 @@ class Channel(models.Model):
     name = models.CharField(max_length=250, unique=True)
 
     def __str__(self):
-        return self.name
+        return self.name.capitalize()
 
 
 class Tag(models.Model):
@@ -115,7 +115,7 @@ class Post(models.Model):
 
     def display_image(self):
         if self.img:
-            return mark_safe('<img src="%s" width="50"></img>' % self.img.nice_x300_url(size=0))
+            return mark_safe('<img src="%s" width="150" height="160"></img>' % self.img.nice_x300_url(size=0))
         else:
             return 'none'
     display_image.short_description = 'Изображение'
