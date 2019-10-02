@@ -3637,3 +3637,44 @@ Traceback (most recent call last):
 django.db.utils.IntegrityError: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
 DETAIL:  Key (title)=(Британское правительство использует эту загадку, чтобы вербовать молодых шпионов.) already exists.
 
+2019-10-02 13:28:22,967 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-02 13:28:25,379 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-02 13:28:25,380 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-02 13:28:25,382 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-02 13:28:25,384 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-02 13:28:25,385 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-02 13:28:25,471 INFO curiosity_one_post django_db Доступно 453 новых постов.
+2019-10-02 13:28:28,937 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-02 13:28:32,540 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-02 14:14:51,223 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-02 14:14:51,223 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-02 14:14:54,047 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-02 14:14:54,047 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-02 14:14:54,050 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-02 14:14:54,050 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-02 14:14:54,052 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-02 14:14:54,052 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-02 14:14:54,054 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-02 14:14:54,054 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-02 14:14:54,057 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-02 14:14:54,057 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-02 14:14:54,060 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-02 14:14:54,060 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-02 14:14:54,164 INFO curiosity_one_post django_db Доступно 452 новых постов.
+2019-10-02 14:14:54,164 INFO curiosity_one_post django_db Доступно 452 новых постов.
+2019-10-02 14:14:57,624 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-02 14:14:57,624 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-02 14:15:00,379 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-02 14:15:00,379 INFO curiosity_one_post translater Переводчик выполнил свою работу
