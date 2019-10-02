@@ -2,9 +2,33 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from .models import Post, Tag, Channel, Image
 from .worker.curiosity_one_post import django_db, draw
-import urllib
+import urllib, sys
 from urllib.parse import urlparse
 from django.core.files import File
+import logging
+
+
+
+def get_logs():
+    PATH_TO_LOG = 'curiosity/static/curiosity/more-more-sting.log'
+    fmt = logging.Formatter('%(asctime)s %(levelname)s %(module)s %(funcName)s %(message)s')
+
+    file_handler = logging.FileHandler(filename=PATH_TO_LOG)
+    file_handler.setFormatter(fmt)
+
+    stream_handler = logging.StreamHandler(sys.stdout)
+    stream_handler.setFormatter(fmt)
+
+    root_logger = logging.getLogger()
+
+    root_logger.addHandler(file_handler)
+    root_logger.addHandler(stream_handler)
+
+    root_logger.setLevel(logging.INFO)
+    return root_logger
+
+
+l = get_logs()
 
 
 def check_channel(channel):
@@ -49,10 +73,15 @@ def add_image(post, img_href, channel, title):
     draw_img_temp_path = draw(channel, title, img_path=content[0])
 
     file = File(open(draw_img_temp_path, "rb"))
-
+    l.info(f"Путь к временному изображению: {post.img.path}")
     post.img.save(name, file, save=True)
-    post.save()
+    try:
+        l.info(f"Облась в памяти для хранилища: {post.img.storage.location}")
+    except Exception as err:
+        l.error(f"{err}")
 
+    post.save()
+    l.info(f"Путь к сохраненному изображению: {post.img.path}")
     file.close()
 
 

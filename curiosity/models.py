@@ -70,6 +70,14 @@ class Post(models.Model):
     display_image.short_description = 'Изображение'
     display_image.allow_tags = True
 
+    def display_img_path(self):
+        if self.img:
+            return mark_safe(str(self.img.path))
+        else:
+            return 'none'
+    display_img_path.short_description = 'Путь к изображению'
+    display_img_path.allow_tags = True
+
 
 class Image(models.Model):
     id = models.UUIDField("Интификатор", primary_key=True, default=uuid.uuid4(), editable=True)
