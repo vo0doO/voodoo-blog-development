@@ -75,7 +75,7 @@ def add_image(post, img_href, channel, title):
     logger.info(f"Путь к временному изображению: {post.img.path}")
     post.img.save(name, file, save=True)
     try:
-        logger.info(f"Облась в памяти для хранилища: {post.img.storage.location}")
+        logger.info(f"Облась в памяти для хранилища: {post.img.storage}")
     except Exception as err:
         logger.error(f"{err}")
 

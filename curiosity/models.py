@@ -47,7 +47,7 @@ class Post(models.Model):
     pubdate = models.DateTimeField("Дата публикации", auto_now_add=True)
     rewritedate = models.DateTimeField("Дата редактирования", auto_now=True)
     slug = models.CharField(max_length=1000, null=True)
-    img = models.ImageField(storage=get_storage(unix_pref='', windows_pref='d:/'), null=True, blank=True, verbose_name='Изображение')
+    img = models.ImageField(upload_to='', null=True, blank=True, verbose_name='Изображение')
 
     class Meta:
         ordering = ["-pubdate"]

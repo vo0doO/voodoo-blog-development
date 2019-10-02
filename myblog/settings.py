@@ -139,16 +139,17 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
-# # Медиа
-MEDIA_ROOT = os.path.join(os.getcwd(), 'media')
-MEDIA_URL = '/media/'
-
 # # Дополнительные места для collectstatic для поиска статических файлов.
 STATICFILES_DIRS = (
    os.path.join(BASE_DIR, 'static'),
    os.path.join(BASE_DIR, 'media'),
-   '/media/',
+   os.path.join(BASE_DIR, 'static', 'media'),
 )
+
+# # Медиа
+MEDIA_ROOT = os.path.join(PROJECT_ROOT, 'static', 'media')
+MEDIA_URL = '/static/media/'
+
 
 # # Обслуживание статических файлов
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
