@@ -9,21 +9,21 @@ import logging
 
 
 def get_logs():
-    PATH_TO_LOG = 'curiosity/static/curiosity/more-more-sting.log'
+    # PATH_TO_LOG = 'curiosity/static/curiosity/more-more-sting.log'
     fmt = logging.Formatter('%(asctime)s %(levelname)s %(module)s %(funcName)s %(message)s')
 
-    file_handler = logging.FileHandler(filename=PATH_TO_LOG)
-    file_handler.setFormatter(fmt)
+    # file_handler = logging.FileHandler(filename=PATH_TO_LOG)
+    # file_handler.setFormatter(fmt)
 
     stream_handler = logging.StreamHandler(sys.stdout)
     stream_handler.setFormatter(fmt)
 
     root_logger = logging.getLogger()
 
-    root_logger.addHandler(file_handler)
+    # root_logger.addHandler(file_handler)
     root_logger.addHandler(stream_handler)
 
-    root_logger.setLevel(logging.INFO)
+    root_logger.setLevel(logging.DEBUG)
     return root_logger
 
 
