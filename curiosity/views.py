@@ -85,20 +85,18 @@ def add_image(post, img_href, channel, title):
 
 
 def create_image(href, post):
-    img_url = "https://dw8stlw9qt0iz.cloudfront.net/" + href[0] + ".png"
-    name = urlparse(img_url).path.split('/')[-1].replace(".png", "")
 
     image = Image.objects.get_or_create(
-        id=name,
+        id=href[0].split('/')[len(href[0].split('/'))-1],
         urls_x300=", ".join([hr for hr in href if str("x300") in hr]),
         urls_x600=", ".join([hr for hr in href if str("x600") in hr])
         )[0]
 
     image.save()
 
-    image.post = post
+    post.img = image
 
-    image.save()
+    post.save()
 
 
 def updatedb(request):
@@ -113,18 +111,17 @@ def updatedb(request):
                                       channel=check_channel(channel_ru))[0]
 
     post.save()
-
+    create_image(href=img_1_href, post=post)
     add_tags(post=post, tags=tags_ru)
 
-    post.save()
 
-    add_image(
-        post=post,
-        img_href=img_1_href,
-        channel=channel_ru,
-        title=title_ru
-        )
+    # add_image(
+    #     post=post,
+    #     img_href=img_1_href,
+    #     channel=channel_ru,
+    #     title=title_ru
+    #     )
 
-    create_image(href=img_1_href, post=post)
+    
 
     return HttpResponse("Опубликованн пост.")

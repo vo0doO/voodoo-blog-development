@@ -145,7 +145,7 @@ STATICFILES_DIRS = (
 )
 
 # # Медиа
-MEDIA_ROOT = '~/media/'
+MEDIA_ROOT = '/home/media/'
 MEDIA_URL = '/media/'
 
 

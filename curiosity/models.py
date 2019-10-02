@@ -32,66 +32,20 @@ class Tag(models.Model):
         return self.name
 
 
-class Post(models.Model):
-    title = models.TextField("Заголовок", max_length=500, unique=True)
-    html = models.TextField("ХТМЛ")
-    original_post = models.URLField(verbose_name="Источник", null=True) 
-    text = models.TextField("Русский текст")
-    channel = models.ForeignKey(
-        "Channel",
-        on_delete=models.SET_NULL,
-        null=True,
-        verbose_name="Рубрика"
-        )
-    tags = models.ManyToManyField(Tag, verbose_name="Хештеги")
-    pubdate = models.DateTimeField("Дата публикации", auto_now_add=True)
-    rewritedate = models.DateTimeField("Дата редактирования", auto_now=True)
-    slug = models.CharField(max_length=1000, null=True)
-    img = models.ImageField(upload_to='', null=True, blank=True, verbose_name='Изображение')
-
-    class Meta:
-        ordering = ["-pubdate"]
-
-    def __str__(self):
-        return self.title
-
-    def get_absolute_url(self):
-        return reverse("post-detail", args=[str(self.id)])
-
-    def display_tag(self):
-        return ', '.join([tag.name for tag in self.tags.all()[:]])
-    display_tag.short_description = "Хештеги"
-
-    def display_image(self):
-        if self.img:
-            return mark_safe('<img src="%s" width="50"></img>' % self.img.url)
-        else:
-            return 'none'
-    display_image.short_description = 'Изображение'
-    display_image.allow_tags = True
-
-    # def display_img_path(self):
-    #     if self.img:
-    #         return mark_safe(str(self.img.path))
-    #     else:
-    #         return 'none'
-    # display_img_path.short_description = 'Путь к изображению'
-    # display_img_path.allow_tags = True
-
-
 class Image(models.Model):
     id = models.UUIDField("Интификатор", primary_key=True, default=uuid.uuid4(), editable=True)
     created_time = models.DateTimeField("Время создания", default=timezone.now)
 
-    post = models.ForeignKey(
-        Post,
-        on_delete=models.SET_NULL,
-        verbose_name="Пост",
-        null=True
-        )
- 
+    # post = models.ForeignKey(
+    #     'Post',
+    #     on_delete=models.SET_NULL,
+    #     verbose_name="Пост",
+    #     null=True
+    #     )
+    url_prefix = models.CharField("Префикс", max_length=len("https://dw8stlw9qt0iz.cloudfront.net/"), default="https://dw8stlw9qt0iz.cloudfront.net/")
     urls_x300 = models.TextField(verbose_name="Размеры x300", default=None, null=True)
     urls_x600 = models.TextField(verbose_name="Размеры x600", default=None, null=True)
+    url_sufix = models.CharField("Суфикс", max_length=len(".png"), default=".png")
 
     ROLE = (
         ('о', 'Обложка'),
@@ -110,3 +64,69 @@ class Image(models.Model):
 
     class Meta:
         ordering = ['created_time']
+        
+        
+    def nice_x300_url(self, size):
+        path_list = self.urls_x300.split(', ')
+        return self.url_prefix + path_list[size] + self.url_sufix
+    
+    def nice_x600_url(self, size):
+        path_list = self.urls_x600.split(', ')
+        return self.url_prefix + path_list[size] + self.url_sufix
+        
+    def __str__(self):
+        return self.id
+
+
+class Post(models.Model):
+    title = models.TextField("Заголовок", max_length=500, unique=True)
+    html = models.TextField("ХТМЛ")
+    original_post = models.URLField(verbose_name="Источник", null=True) 
+    text = models.TextField("Русский текст")
+    channel = models.ForeignKey(
+        "Channel",
+        on_delete=models.SET_NULL,
+        null=True,
+        verbose_name="Рубрика"
+        )
+    tags = models.ManyToManyField(Tag, verbose_name="Хештеги")
+    pubdate = models.DateTimeField("Дата публикации", auto_now_add=True)
+    rewritedate = models.DateTimeField("Дата редактирования", auto_now=True)
+    slug = models.CharField(max_length=1000, null=True)
+    img = models.ForeignKey(
+        Image,
+        on_delete=models.SET_NULL,
+        null=True,
+        verbose_name="Первое изображение"
+        )
+
+    class Meta:
+        ordering = ["-pubdate"]
+
+    def __str__(self):
+        return self.title
+
+    def get_absolute_url(self):
+        return reverse("post-detail", args=[str(self.id)])
+
+    def display_tag(self):
+        return ', '.join([tag.name for tag in self.tags.all()[:]])
+    display_tag.short_description = "Хештеги"
+
+    def display_image(self):
+        if self.img:
+            return mark_safe('<img src="%s" width="50"></img>' % self.img.nice_x300_url(size=0))
+        else:
+            return 'none'
+    display_image.short_description = 'Изображение'
+    display_image.allow_tags = True
+
+    # def display_img_path(self):
+    #     if self.img:
+    #         return mark_safe(str(self.img.path))
+    #     else:
+    #         return 'none'
+    # display_img_path.short_description = 'Путь к изображению'
+    # display_img_path.allow_tags = True
+
+
