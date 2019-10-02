@@ -14,16 +14,16 @@ import re
 # ПЕРЕМЕННЫЕ
 HOW_POST_TO_PRINT = 5
 VK_TOKEN = "9bfae56722ff872d603c6b0aa10c9c47f42fa00de836de4e47217e44c7f06259767efb6ee95c494303a8e"
-PATH_TO_LOG = os.path.dirname(os.path.abspath(__file__)) + "\\curiosity-to-vk.log"
-PATH_MY_HREF = os.path.dirname(os.path.abspath(__file__)) + "\\my_href.db"
-PATH_TO_BACKUP_HREF = os.path.dirname(os.path.abspath(__file__)) + "\\my_href_backup.db"
-PATH_TO_POST = os.path.dirname(os.path.abspath(__file__)) + "\\href-to-post.db"
-PATH_TO_IMG_RESIZE = os.path.dirname(os.path.abspath(__file__)) + "\\topics\\IMG_RESIZE.png"
-PATH_TO_IMG_ORIGINAL = os.path.dirname(os.path.abspath(__file__)) + "\\topics\\IMG_ORIGINAL.png"
-# PATH_TO_IMG_1_COMPOSITE = os.path.dirname(os.path.abspath(__file__)) + "\\topics\\IMG_COMPOSITE.png"
-PATH_TO_IMG_LOGO_PAINTER = os.path.dirname(os.path.abspath(__file__)) + "\\desing\\logo-painter.png"
-PATH_TO_FONTS = os.path.dirname(os.path.abspath(__file__)) + "\\topics\\Roboto-Fonts\\Roboto-Bold.ttf"
-PATH_TO_IMG_BUTTON = os.path.dirname(os.path.abspath(__file__)) + "\\Button.png"
+PATH_TO_LOG = os.path.dirname(os.path.abspath(__file__)) + "/curiosity-to-vk.log"
+PATH_MY_HREF = os.path.dirname(os.path.abspath(__file__)) + "/my_href.db"
+PATH_TO_BACKUP_HREF = os.path.dirname(os.path.abspath(__file__)) + "/my_href_backup.db"
+PATH_TO_POST = os.path.dirname(os.path.abspath(__file__)) + "/href-to-post.db"
+PATH_TO_IMG_RESIZE = os.path.dirname(os.path.abspath(__file__)) + "/topics/IMG_RESIZE.png"
+PATH_TO_IMG_ORIGINAL = os.path.dirname(os.path.abspath(__file__)) + "/topics/IMG_ORIGINAL.png"
+# PATH_TO_IMG_1_COMPOSITE = os.path.dirname(os.path.abspath(__file__)) + "/topics/IMG_COMPOSITE.png"
+PATH_TO_IMG_LOGO_PAINTER = os.path.dirname(os.path.abspath(__file__)) + "/desing/logo-painter.png"
+PATH_TO_FONTS = os.path.dirname(os.path.abspath(__file__)) + "/topics/Roboto-Fonts/Roboto-Bold.ttf"
+PATH_TO_IMG_BUTTON = os.path.dirname(os.path.abspath(__file__)) + "/Button.png"
 VK_GROUP_ID = 181925964
 UUID4_HEX_REGEX = re.compile('[0-9a-f]{12}4[0-9a-f]{3}[89ab][0-9a-f]{15}\Z', re.I)
 
@@ -184,7 +184,7 @@ def img_1_downloader(img_1_href, post_slug):
         img_url = "https://dw8stlw9qt0iz.cloudfront.net/" + img_1_href[35] + ".png"
         name = post_slug + ".png"
         res = requests.get("https://dw8stlw9qt0iz.cloudfront.net/" + img_1_href[35] + ".png", "b")
-        with open(f"{os.getcwd()}\\curiosity\\static\\curiosity\\img\\{post_slug}.png", 'wb') as zero:
+        with open(f"{os.getcwd()}/curiosity/static/curiosity/img/{post_slug}.png", 'wb') as zero:
             zero.write(res.content)
     else:
         logger.info("Ошибка загрузки изображения")
