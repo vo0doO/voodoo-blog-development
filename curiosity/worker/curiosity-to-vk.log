@@ -3857,3 +3857,19 @@ DETAIL:  Key (title)=(Видео: Как вылечить икоту?.) already exists.
 
 2019-10-03 23:51:29,004 WARNING log log_response Not Found: /favicon.ico
 2019-10-03 23:51:29,004 WARNING log log_response Not Found: /favicon.ico
+2019-10-04 01:34:20,300 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-04 01:34:21,675 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-04 01:34:21,682 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-04 01:34:21,688 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-04 01:34:21,699 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-04 01:34:21,706 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-04 01:34:21,712 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-04 01:34:21,718 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-04 01:34:21,731 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-04 01:34:22,343 INFO curiosity_one_post django_db Доступно 450 новых постов.
+2019-10-04 01:34:30,519 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 105, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-10-04 01:34:34,772 INFO curiosity_one_post translater Переводчик выполнил свою работу
