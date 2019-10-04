@@ -3873,3 +3873,76 @@ Traceback (most recent call last):
     "class": "js-media-player"})["data-src"]
 TypeError: 'NoneType' object is not subscriptable
 2019-10-04 01:34:34,772 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-04 02:56:37,330 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-04 02:56:41,295 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-04 02:56:41,301 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-04 02:56:41,307 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-04 02:56:41,314 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-04 02:56:41,324 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-04 02:56:41,331 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-04 02:56:41,342 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-04 02:56:41,348 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-04 02:56:41,357 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-04 02:56:41,819 INFO curiosity_one_post django_db Доступно 449 новых постов.
+2019-10-04 02:56:48,139 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-04 02:56:52,276 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-04 05:57:31,059 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-04 05:57:34,531 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-04 05:57:34,538 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-04 05:57:34,545 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-04 05:57:34,552 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-04 05:57:34,558 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-04 05:57:34,590 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-04 05:57:34,608 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-04 05:57:34,622 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-04 05:57:34,628 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-04 05:57:34,636 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-04 05:57:35,542 INFO curiosity_one_post django_db Доступно 448 новых постов.
+2019-10-04 05:58:24,182 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-04 05:59:11,067 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-04 05:59:27,634 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-04 05:59:27,634 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-04 05:59:30,976 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-04 05:59:30,976 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-04 05:59:30,987 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-04 05:59:30,987 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-04 05:59:30,998 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-04 05:59:30,998 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-04 05:59:31,009 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-04 05:59:31,009 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-04 05:59:31,024 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-04 05:59:31,024 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-04 05:59:31,041 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-04 05:59:31,041 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-04 05:59:31,056 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-04 05:59:31,056 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-04 05:59:31,073 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-04 05:59:31,073 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-04 05:59:31,085 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-04 05:59:31,085 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-04 05:59:31,095 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-04 05:59:31,095 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-04 05:59:31,106 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-04 05:59:31,106 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-04 05:59:31,685 INFO curiosity_one_post django_db Доступно 447 новых постов.
+2019-10-04 05:59:31,685 INFO curiosity_one_post django_db Доступно 447 новых постов.
+2019-10-04 05:59:37,561 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-04 05:59:37,561 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-04 05:59:43,501 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-04 05:59:43,501 INFO curiosity_one_post translater Переводчик выполнил свою работу

@@ -8,16 +8,6 @@ from django.utils.safestring import mark_safe
 from django.core.files.storage import FileSystemStorage
 
 
-def get_storage(unix_pref, windows_pref):
-    plat = platform.system()
-    if plat == "Windows":
-        return FileSystemStorage(location=os.path.join(windows_pref, "media"))
-    elif plat != "Linux":
-        return FileSystemStorage(location=os.path.join(unix_pref, "media"))
-    else:
-        return FileSystemStorage(location="")
-
-
 class Channel(models.Model):
     name = models.CharField(max_length=250, unique=True)
 
@@ -70,10 +60,32 @@ class Image(models.Model):
         path_list = self.urls_x300.split(', ')
         return self.url_prefix + path_list[size] + self.url_sufix
     
+    
     def nice_x600_url(self, size):
         path_list = self.urls_x600.split(', ')
         return self.url_prefix + path_list[size] + self.url_sufix
-        
+    
+    
+    def get_storage(unix_pref, windows_pref):
+        plat = platform.system()
+        if plat == "Windows":
+            return FileSystemStorage(location=os.path.join(windows_pref, "media"))
+        elif plat != "Linux":
+            return FileSystemStorage(location=os.path.join(unix_pref, "media"))
+        else:
+            return FileSystemStorage(location="")
+
+
+    def get_path(self):
+        pass
+        #     if self.img:
+        #         return mark_safe(str(self.img.path))
+        #     else:
+        #         return 'none'
+        # display_img_path.short_description = 'Путь к изображению'
+        # display_img_path.allow_tags = True
+
+
     def __str__(self):
         return str(self.id)
 
@@ -115,18 +127,9 @@ class Post(models.Model):
 
     def display_image(self):
         if self.img:
-            return mark_safe('<img src="%s" width="150" height="128"></img>' % self.img.nice_x300_url(size=0))
+            return mark_safe('<img src="%s" width="96" height="96"></img>' % self.img.nice_x300_url(size=0))
         else:
             return 'none'
     display_image.short_description = 'Изображение'
     display_image.allow_tags = True
-
-    # def display_img_path(self):
-    #     if self.img:
-    #         return mark_safe(str(self.img.path))
-    #     else:
-    #         return 'none'
-    # display_img_path.short_description = 'Путь к изображению'
-    # display_img_path.allow_tags = True
-
 
