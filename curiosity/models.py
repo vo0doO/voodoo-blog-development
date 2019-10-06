@@ -133,3 +133,45 @@ class Post(models.Model):
     display_image.short_description = 'Изображение'
     display_image.allow_tags = True
 
+
+class Источник(models.Model):
+    дата_создания = models.DateTimeField("Дата создания", default=timezone.now)
+    дата_публикации = models.DateTimeField("Дата публикации", null=True)
+    PUBLISHED = "Опубликован"
+    CREATED = "Создан"
+    STATUS = (
+        (PUBLISHED, "PUBLISHED"),
+        (CREATED, "CREATED"),
+    )
+    ссылка = models.URLField("Ссылка")
+    powersubject = models.ForeignKey(
+        Subject,
+        on_delete=models.SET_NULL,
+        null=True,
+        verbose_name="Канал"
+        )
+    статус = models.CharField(
+        "Статус",
+        max_length=15,
+        choices=STATUS,
+        null=False,
+        default="Создан"    
+    )
+    
+    def обновить(self):
+        новые_ссылки = []
+        ссылки_в_базе = self.objects.all()
+        сслылки_для_добавления = []
+        r = requests.get("http://curiosity.com/trendings/likes/topics/")
+        text = r.text
+        soup = BeautifulSoup(text, 'lxml')
+        items = soup.find_all('a', {'class': 'topic-link'})
+        for item in items:
+            href = item.get('href')
+            новые_ссылки.append(str('http://curiosity.com' + href))
+        for сслыка in set(новые_ссылки).difference(ссылки_в_базе):
+            сслылки_для_добавления.append(ссылка)
+            self.objects.create(сслыка=сслыка)
+
+    def __str__(self):
+        return self.ссылка

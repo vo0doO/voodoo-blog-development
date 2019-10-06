@@ -31,3 +31,9 @@ class AdminPost(admin.ModelAdmin):
 class AdminImage(admin.ModelAdmin):
     list_display = ('created_time', 'id',)
     list_filter = ('created_time',)
+    
+
+@admin.register(Источник)
+class AdminNew(admin.ModelAdmin):
+    list_display = ("ссылка", "powersubject", "статус")
+    list_filter = ("powersubject", "статус")
