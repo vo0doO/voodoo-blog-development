@@ -19,10 +19,13 @@ from django.urls import path, include
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.conf.urls.static import static
 from django.conf import settings
+import django.contrib.auth.urls
+import curiosity.urls
 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('accounts/', include('django.contrib.auth.urls')),
+    path('admin/', admin.site.urls, name="voooo"),
     path('', include('blog.urls')),
-    path('curiosity/', include('curiosity.urls'))
+    path('curiosity/', include('curiosity.urls')),
 ]

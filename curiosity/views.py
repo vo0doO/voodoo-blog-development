@@ -1,35 +1,52 @@
-import sys
-import logging
-from urllib.parse import urlparse
-from django.core.files import File
-from django.shortcuts import render
+from django.utils import timezone
+from django.shortcuts import render, get_object_or_404
+from django.urls import reverse_lazy
 from django.http import HttpResponseRedirect
-from .models import Post, Tag, Channel, Image
-from .worker.curiosity_one_post import django_db, draw
+from curiosity.models import Post, Tag, Channel
+from django.views.generic import ListView, DetailView
+from django.contrib.auth.decorators import permission_required
+from django.views.generic.edit import CreateView, UpdateView, DeleteView
+from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMixin
 
 
-def get_logs():
-    # PATH_TO_LOG = 'curiosity/static/curiosity/more-more-sting.log'
-    fmt = logging.Formatter('%(asctime)s %(levelname)s %(module)s %(funcName)s %(message)s')
+class PostListView(ListView):
+    models = Post
+    fields = "__all__"
 
-    # file_handler = logging.FileHandler(filename=PATH_TO_LOG)
-    # file_handler.setFormatter(fmt)
-
-    stream_handler = logging.StreamHandler(sys.stdout)
-    stream_handler.setFormatter(fmt)
-
-    root_logger = logging.getLogger()
-
-    # root_logger.addHandler(file_handler)
-    root_logger.addHandler(stream_handler)
-
-    root_logger.setLevel(logging.DEBUG)
-    return root_logger
+    paginate_by=10
 
 
-logger = get_logs()
+class PostCreateView(CreateView):
+    models = Post
+    fields = "__all__"
 
 
+class PostUpdateView(UpdateView):
+    models = Post
+    fields = "__all__"
+
+
+class PostDetailView(DetailView):
+    models = Post
+    query_pk_and_slug = True
+    queryset = Post.objects.all()
+    fields = "__all__"
+
+    def get_queryset(self):
+        return self.queryset.filter(slug=self.kwargs.get('slug'))
+
+
+class PostDeleteView(DeleteView):
+    model = Post
+    fields = "__all__"
+
+
+class PostByAuthorListView(LoginRequiredMixin, ListView):
+    models = Post
+    query_pk_and_slug = True
+    queryset = Post.objects.all()
+    template_name = "curiosity/pubpost_list_author_user.html"
+    
 def index(request):
     """Просмотр функции для главной страницы сайта."""
 
@@ -58,96 +75,171 @@ def index(request):
 
     # Рендер шаблон HTML index.html с данными в переменном контексте
     return render(request, 'curiosity/index.html', context=context)
+    paginate_by=10
 
+    def get_queryset(self):
+        return self.queryset.filter(author=self.request.user)
+
+
+class PostAuthorListView(ListView):
+    models = PostAuthor
+    fields = "__all__"
+
+    def get_context_data(self, **kwargs):
+        context = super(PostAuthorListView, self).get_context_data(**kwargs)
+        context['author'] = get_object_or_404(PostAuthor, pk=self.kwargs['pk'])
+        return context
+    paginate_by=10
+
+class TagListView(ListView):
+    models = Post
+    fields = "__all__"
+
+    paginate_by=10
+
+
+class TagCreateView(CreateView):
+    models = Post
+    fields = "__all__"
+
+
+class TagUpdateView(UpdateView):
+    models = Post
+    fields = "__all__"
+
+
+class TagDetailView(DetailView):
+    models = Post
+    query_pk_and_slug = True
+    queryset = Post.objects.all()
+    fields = "__all__"
+
+    def get_queryset(self):
+        return self.queryset.filter(slug=self.kwargs.get('slug'))
+
+
+class TagDeleteView(DeleteView):
+    model = Post
+    fields = "__all__"
+
+
+class ChannelListView(ListView):
+    models = Post
+    fields = "__all__"
+
+    paginate_by=10
+
+
+class ChannelCreateView(CreateView):
+    models = Channel
+    fields = "__all__"
+
+
+class ChannelUpdateView(UpdateView):
+    models = Channel
+    fields = "__all__"
+
+
+class ChannelDetailView(DetailView):
+    models = Channel
+    query_pk_and_slug = True
+    queryset = Channel.objects.all()
+    fields = "__all__"
+
+    def get_queryset(self):
+        return self.queryset.filter(slug=self.kwargs.get('slug'))
+
+
+class ChannelDeleteView(DeleteView):
+    model = Channel
+    fields = "__all__"
+
+
+class UserListView(ListView):
+    models = User
+    fields = "__all__"
+
+    paginate_by=10
+
+
+class UserCreateView(CreateView):
+    models = User
+    fields = "__all__"
+
+
+class UserUpdateView(UpdateView):
+    models = User
+    fields = "__all__"
+
+
+class UserDetailView(DetailView):
+    models = User
+    query_pk_and_slug = True
+    queryset = User.objects.all()
+    fields = "__all__"
+
+    def get_queryset(self):
+        return self.queryset.filter(slug=self.kwargs.get('slug'))
+
+
+class UserDeleteView(DeleteView):
+    model = User
+    fields = "__all__"
+
+
+class PostAuthorCreateView(CreateView):
+    models = PostAuthor
+    fields = "__all__"
+
+
+class PostAuthorUpdateView(UpdateView):
+    models = PostAuthor
+    fields = "__all__"
+
+
+class PostAuthorDetailView(DetailView):
+    models = PostAuthor
+    queryset = PostAuthor.objects.all()
+    fields = "__all__"
+
+    def get_queryset(self):
+        return self.queryset.filter(user=self.kwargs.get('user'))
+
+
+class PostAuthorDeleteView(DeleteView):
+    model = PostAuthor
+    fields = "__all__"
+
+
+def index(request):
+
+def magic_publishe(self, request):
+    context = { "user" : request.user }
+    self.publish_post(self, request)
+    return HttpResponseRedirect('/curiosity/', context=context)
 
 def get_new_posts_of_file(request):
+    context = { "user" : request.user }
     Post.get_new_posts_of_file()
-    return HttpResponseRedirect('/curiosity/')
-
+    return HttpResponseRedirect('/curiosity/', context=context)
 
 def get_new_posts_of_network(request):
     Post.get_new_posts_of_network()
     return HttpResponseRedirect('/curiosity/')
 
-
-def check_channel(channel, channel_en):
-    if channel is None:
-        return
-    elif Channel.objects.get_or_create(name=channel, name_en=channel_en)[1]:
-        channel = Channel.objects.get_or_create(name=channel, name_en=channel_en)[0]
-        channel.save()
-        return channel
-    else:
-        channel = Channel.objects.get_or_create(name=channel, name_en=channel_en)[0]
-        return channel
-
-
-def check_tags(tags, tags_en):
-    tags_obj = []
-    if tags is None:
-        return
-    else:
-        for tag in tags and tag_en in tags_en:
-            if Tag.objects.get_or_create(name=tag, name_en=tag_en)[1]:
-                tag_obj = Tag.objects.get_or_create(name=tag, name_en=tag_en)[0]
-                tag_obj.save()
-                tags_obj.append(tag_obj)
-            else:
-                tag_obj = Tag.objects.get_or_create(name=tag, name_en=tag_en)[0]
-                tags_obj.append(tag_obj)
-    return tags_obj
-
- 
-def add_tags(post, tags):
-    for tag in check_tags(tags):
-        post.tags.add(tag)        
-
-
-def add_image(post, img_href, channel, title):
-    img_url = "https://dw8stlw9qt0iz.cloudfront.net/" + img_href[5] + ".png"
-    name = urlparse(img_url).path.split('/')[-1]
-    content = urllib.request.urlretrieve(img_url)
-    draw_img_temp_path = draw(channel, title, img_path=content[0])
-    file = File(open(draw_img_temp_path, "rb"))
-    logger.info(f"Путь к временному изображению: {post.img.path}")
-    post.img.save(name, file, save=True)
-    try:
-        logger.info(f"Облась в памяти для хранилища: {post.img.storage}")
-    except Exception as err:
-        logger.error(f"{err}")
-    post.save()
-    logger.info(f"Путь к сохраненному изображению: {post.img.path}")
-    file.close()
-
-
-def create_image(href, post):
-
-    image = Image.objects.get_or_create(
-        id=href[0].split('/')[len(href[0].split('/'))-1],
-        urls_x300=", ".join([hr for hr in href if str("x300") in hr]),
-        urls_x600=", ".join([hr for hr in href if str("x600") in hr])
-        )[0]
-
-    image.save()
-
-    post.img = image
-
-    post.save()
-
-
-def updatedb(request):
-
-    img_1_href, post_slug, tags_ru, channel_ru, title_ru, text_ru, html, href, channel, tags = django_db()
-
-    post = Post.objects.get_or_create(title=title_ru,
-                                      html=html,
-                                      url=href,
-                                      slug=post_slug,
-                                      text=text_ru,
-                                      channel=check_channel(channel=channel_ru, channel_en=channel),)[0]
-
-    post.save()
-    create_image(href=img_1_href, post=post)
-    add_tags(post=post, tags=tags_ru)
-
-    return HttpResponseRedirect('/curiosity/')
+def trash():
+    
+    HOW_POST_TO_PRINT = 5
+    VK_TOKEN = models.CharField(max_length=500, null=True, default="9bfae56722ff872d603c6b0aa10c9c47f42fa00de836de4e47217e44c7f06259767efb6ee95c494303a8e")
+    PATH_TO_LOG = models.CharField(max_length=500, null=True, default=os.path.dirname(os.path.abspath(__file__)) + "worker/curiosity-to-vk.log")
+    PATH_MY_HREF = models.CharField(max_length=500, null=True, default=os.path.dirname(os.path.abspath(__file__)) + "worker/my_href.db")
+    PATH_TO_BACKUP_HREF = models.CharField(max_length=500, null=True, default=os.path.dirname(os.path.abspath(__file__)) + "worker/my_href_backup.db")
+    PATH_TO_IMG_RESIZE = models.CharField(max_length=500, null=True, default=os.path.dirname(os.path.abspath(__file__)) + "worker/topics/IMG_RESIZE.png")
+    PATH_TO_IMG_ORIGINAL = models.CharField(max_length=500, null=True, default=os.path.dirname(os.path.abspath(__file__)) + "worker/topics/IMG_ORIGINAL.png")
+    # PATH_TO_IMG_1_COMPOSITE = models.CharField(max_length=500, null=True, default=os.path.dirname(os.path.abspath(__file__)) + "worker/topics/IMG_COMPOSITE.png")
+    PATH_TO_IMG_LOGO_PAINTER = models.CharField(max_length=500, null=True, default=os.path.dirname(os.path.abspath(__file__)) + "worker/desing/logo-painter.png")
+    PATH_TO_FONTS = models.CharField(max_length=500, null=True, default=os.path.dirname(os.path.abspath(__file__)) + "worker/topics/Roboto-Fonts/Roboto-Bold.ttf")
+    PATH_TO_IMG_BUTTON = models.CharField(max_length=500, null=True, default=os.path.dirname(os.path.abspath(__file__)) + "worker/Button.png")
+    VK_GROUP_ID = models.CharField(max_length=500, null=True, default=181925964)
+    UUID4_HEX_REGEX = models.CharField(max_length=500, null=True, default=re.compile('[0-9a-f]{12}4[0-9a-f]{3}[89ab][0-9a-f]{15}\Z', re.I))
+    return

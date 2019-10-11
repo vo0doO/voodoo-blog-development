@@ -25,14 +25,14 @@ class AdminTag(admin.ModelAdmin):
 @admin.register(Post)
 class AdminPost(admin.ModelAdmin):
     fieldsets = (
-        ('Даты', {'fields': ('created_date', 'pub_date',)}),
+        ('Действия', {'fields': ('author', 'created_date', 'pub_date',)}),
         ('Содержание', {'fields': ('title', 'text', 'img',)}),
         ("Связи", {'fields': ('channel', 'tags',)}),
         ("Свойства", {'fields': ('status', 'url', 'slug',)}),
         )
     search_fields = ('title', 'text',)
-    ordering = ('status',)
-    list_display = ('title', 'channel', 'display_tag', 'created_date', 'display_image',  'status',)
+    ordering = ('-status',)
+    list_display = ('title', 'channel', 'display_tag', 'created_date', 'display_image',  'status', 'author')
     list_filter = ('channel', 'tags', 'status', 'created_date', 'pub_date', 'rewrite_date',)
     filter_horizontal = ()
 

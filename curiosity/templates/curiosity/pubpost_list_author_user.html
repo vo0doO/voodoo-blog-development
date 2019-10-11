@@ -1,0 +1,19 @@
+{% extends 'curiosity/base_generic.html' %}
+
+{% block content %}
+
+<h1>Опубликованные посты</h1>
+
+{% if post_list %}
+<ul>
+    {% for post in post_list %}
+        <li class="{% if post.is_readypub %}text-danger {% endif %}">
+            <a href="{% url 'curiosity:post-detail' post.slug %}">{{ post.title }}</a>
+        </li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>У Вас не опубликованных постов</p>
+{% endif %}
+
+{% endblock  %}

@@ -1,14 +1,12 @@
 import os
 import re
-import time
 import sys
-import requests
+import time
 import vk_api
+import logging
+import requests
 from PIL import Image, ImageFont, ImageDraw, ImageFilter, ImageOps
 from bs4 import BeautifulSoup
-import logging
-from curiosity.models import Post, Tag, Channel
-import re
 
 
 # ПЕРЕМЕННЫЕ
@@ -260,7 +258,7 @@ def draw(channel_ru, title_ru, img_path):
 
 
 # ЖУРНАЛИСТ
-def post(text_1_ru, tags_ru, video_1_data_scr, title_ru):
+def social_post(text_1_ru, tags_ru, video_1_data_scr, title_ru):
     # Аутинтификация
     # логин
     login, password = '89214447344', 'e31f567b'
@@ -390,3 +388,7 @@ def django_db():
 #             logger.exception(f"Ошибка на {count} посте")
 #             continue
 #         time.sleep(30);
+
+
+if __name__ == "__main__":
+    pass

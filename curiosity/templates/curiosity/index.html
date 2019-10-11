@@ -17,10 +17,32 @@
     <li><strong>Тэги:</strong> {{ num_tags }}</li>
   </ul>
   <a href={% url 'curiosity:get_new_posts_of_file' %}>
-    <button class="btn btn-primary btn-lg">Получить новые посты из файла</button>
+    {% if user.is_superuser %}
+      <button 
+        class="btn btn-primary btn-lg"
+        >Получить новые посты из файла
+      </button>
+    {% else %}
+      <button 
+        class="btn btn-primary btn-lg"
+        disabled
+        >Получить новые посты из файла
+      </button>
+    {% endif %}
   </a>
   <a href={% url 'curiosity:get_new_posts_of_network' %}>
-    <button class="btn btn-primary btn-lg">Получить новые посты из интернета</button>
+    {% if user.is_superuser %}
+      <button 
+        class="btn btn-primary btn-lg"
+        >Получить новые посты из интернета
+      </button>
+    {% else %}
+      <button 
+        class="btn btn-primary btn-lg"
+        disabled
+        >Получить новые посты из интернета
+      </button>
+    {% endif %}
   </a>
-  <p id="num_visits">Вы посетили эту страницу {{num_visits}}{% if num_visits == 1 %} раз{% else %} раза{% endif %}.</p>
+  <p id="num_visits">Вы посетили эту страницу {{num_visits}}{% if num_visits <= 1 %} раз{% else %} раза{% endif %}.</p>
 {% endblock %}

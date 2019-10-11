@@ -1,0 +1,9 @@
+{% extends 'curiosity/base_generic.html' %}
+
+{% block content %}
+    {% if post.pk %}
+        <p>{{ post.title }}}</p>
+    {% else %}
+        <p>Ошибка в названии переменной</p>
+    {% endif %}
+{% endblock %}

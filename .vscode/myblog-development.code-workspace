@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "D:\\Projects\\py\\myblog-development"
+		},
+		{
+			"path": "D:\\Projects\\py\\myblog-development\\venv\\Lib\\site-packages\\django"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}

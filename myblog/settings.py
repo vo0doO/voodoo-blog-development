@@ -65,7 +65,7 @@ ROOT_URLCONF = 'myblog.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates'), os.path.dirname(os.path.abspath(__file__))],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -95,7 +95,6 @@ DATABASES = {
     }
 }
 
-
 # проверка пароля
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
 
@@ -114,6 +113,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+LOGIN_REDIRECT_URL = '/curiosity/'
 
 # интернационализация
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
@@ -144,6 +144,14 @@ STATICFILES_DIRS = (
 
 # # Обслуживание статических файлов
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+# E-mail сервер
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = "danilakirsanovspb@gmail.com"
+EMAIL_HOST_PASSWORD = "E31f567b$"
+EMAIL_USE_TLS = True
 
 # # Активация Django-heroku
 django_heroku.settings(locals())
