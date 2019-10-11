@@ -346,7 +346,7 @@ def django_db():
     # ДЕКОРИРУЕМ ЛОГИ
     root_logger.info('='*100)
 
-    hrefs = checkposts(Post.objects.all(), read_db(PATH_TO_BACKUP_HREF))
+    hrefs = [post for post in Post.objects.all() if post.status == "Обнаружен"]
 
     logger.info(f"Доступно {len(hrefs)} новых постов.")
 
@@ -360,7 +360,7 @@ def django_db():
         tags_ru = tags_ru.split("\n")
         tags_ru = [tag for tag in tags_ru if len(tag) >= 2]
         text_ru = text_ru.replace("\n\n\n", "\n", 1)
-        return img_1_href, post_slug, tags_ru, channel_ru, title_ru, text_ru, html, href
+        return img_1_href, post_slug, tags_ru, channel_ru, title_ru, text_ru, html, href, channel, tags
 
     return
 

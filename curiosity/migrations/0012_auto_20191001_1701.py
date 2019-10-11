@@ -17,11 +17,11 @@ class Migration(migrations.Migration):
             old_name='image',
             new_name='img',
         ),
-        migrations.AddField(
-            model_name='post',
-            name='original_post',
-            field=models.URLField(null=True, verbose_name='Источник'),
-        ),
+        # migrations.AddField(
+        #     model_name='post',
+        #     name='original_post',
+        #     field=models.URLField(null=True, verbose_name='Источник'),
+        # ),
         migrations.CreateModel(
             name='Image',
             fields=[

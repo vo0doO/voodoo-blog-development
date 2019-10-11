@@ -1,0 +1,26 @@
+{% extends "curiosity/base_generic.html" %}
+
+{% block title %}
+<title>Любопытство - информация</title>
+{% endblock%}
+
+{% block content %}
+  <h1>Это домашняя страница любопытства</h1>
+  <p>Добро пожаловать, <em>Любопытство делает Вас умнее</em>!</p>
+  <h2>Динамический контент</h2>
+  <p>Этот блог имеет следующие записи счетчиков:</p>
+  <ul>
+    <li><strong>Доступно постов для публикации:</strong> {{ num_new }}</li>
+    <li><strong>Постов опубликованно:</strong> {{ num_pub }}</li>
+    <li><strong>Всего постов:</strong> {{ num_posts }}</li>
+    <li><strong>Каналы:</strong> {{ num_channels }}</li>
+    <li><strong>Тэги:</strong> {{ num_tags }}</li>
+  </ul>
+  <a href={% url 'curiosity:get_new_posts_of_file' %}>
+    <button class="btn btn-primary btn-lg">Получить новые посты из файла</button>
+  </a>
+  <a href={% url 'curiosity:get_new_posts_of_network' %}>
+    <button class="btn btn-primary btn-lg">Получить новые посты из интернета</button>
+  </a>
+  <p id="num_visits">Вы посетили эту страницу {{num_visits}}{% if num_visits == 1 %} раз{% else %} раза{% endif %}.</p>
+{% endblock %}

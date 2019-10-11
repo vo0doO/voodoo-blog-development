@@ -10,30 +10,15 @@ logger = logging.getLogger(__name__)
 
 
 # PATH_TO_USER_UPLOAD_DIR
-SRC = os.getcwd() + '\\media\\images\\'
+SRC = 'd:\Projects\py\myblog-development\curiosity\models.py'
 # PATH_TO_SERVE_MEDIA_WIN10 
 DST = 'd:\\media\\images\\'
 # PATH_TO_LOGS
 PATH_TO_LOGS = os.getcwd()+'\\media_files.log'
 
-
-def get_ignore_files(s, n):
-    ignored_names = set(n).difference(set(os.listdir(s)))
-    return ignored_names.split
-
-
-def checkmedia():
-    try:
-        media_dir_idx = os.listdir(shutil._basename('d:\\') + '/').index('media')
-        return True, media_dir_idx
-    except ValueError as e:
-        return False, e
-
-
 class ImageHandler(FileSystemEventHandler):
     def on_modified(self, event):
-        if checkmedia()[0]:
-            shutil.copytree(src=SRC, dst=DST)
+        return ps.kill("python")
 
 
 # ПОЛУЧЕНИЕ ЛОГОВ

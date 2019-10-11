@@ -3946,3 +3946,1615 @@ Traceback (most recent call last):
 AttributeError: 'NoneType' object has no attribute 'find'
 2019-10-04 05:59:43,501 INFO curiosity_one_post translater Переводчик выполнил свою работу
 2019-10-04 05:59:43,501 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-05 22:55:27,623 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-05 22:55:30,706 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-05 22:55:30,719 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-05 22:55:30,730 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-05 22:55:30,739 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-05 22:55:30,746 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-05 22:55:30,753 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-05 22:55:30,761 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-05 22:55:30,770 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-05 22:55:30,792 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-05 22:55:30,800 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-05 22:55:30,809 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-05 22:55:30,818 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-05 22:55:30,827 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-05 22:55:31,135 INFO curiosity_one_post django_db Доступно 445 новых постов.
+2019-10-05 22:55:32,498 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-05 22:55:32,498 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-05 22:55:35,292 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-05 22:55:35,292 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-05 22:55:35,329 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-05 22:55:35,329 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-05 22:55:35,360 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-05 22:55:35,360 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-05 22:55:35,395 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-05 22:55:35,395 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-05 22:55:35,413 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-05 22:55:35,413 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-05 22:55:35,454 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-05 22:55:35,454 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-05 22:55:35,511 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-05 22:55:35,511 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-05 22:55:35,535 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-05 22:55:35,535 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-05 22:55:35,580 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-05 22:55:35,580 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-05 22:55:35,613 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-05 22:55:35,613 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-05 22:55:35,642 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-05 22:55:35,642 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-05 22:55:35,668 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-05 22:55:35,668 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-05 22:55:35,728 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-05 22:55:35,728 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-05 22:55:36,271 INFO curiosity_one_post django_db Доступно 445 новых постов.
+2019-10-05 22:55:36,271 INFO curiosity_one_post django_db Доступно 445 новых постов.
+2019-10-05 22:55:36,748 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 105, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-10-05 22:55:36,748 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 105, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-10-05 22:55:40,225 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 105, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-10-05 22:55:40,225 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 105, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-10-05 22:55:40,444 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-05 22:55:40,444 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-05 22:55:43,596 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-05 22:55:43,596 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-05 22:56:23,544 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 538, in get_or_create
+    return self.get(**kwargs), False
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+curiosity.models.Post.DoesNotExist: Post matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Сильный не значит, что вы думаете, что это значит.) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 126, in updatedb
+    channel=check_channel(channel_ru))[0]
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 541, in get_or_create
+    return self._create_object_from_params(kwargs, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 583, in _create_object_from_params
+    raise e
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 575, in _create_object_from_params
+    obj = self.create(**params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Сильный не значит, что вы думаете, что это значит.) already exists.
+
+2019-10-05 22:56:23,544 ERROR log log_response Internal Server Error: /curiosity/updatedb
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 538, in get_or_create
+    return self.get(**kwargs), False
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+curiosity.models.Post.DoesNotExist: Post matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Сильный не значит, что вы думаете, что это значит.) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 126, in updatedb
+    channel=check_channel(channel_ru))[0]
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 541, in get_or_create
+    return self._create_object_from_params(kwargs, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 583, in _create_object_from_params
+    raise e
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 575, in _create_object_from_params
+    obj = self.create(**params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Сильный не значит, что вы думаете, что это значит.) already exists.
+
+2019-10-05 22:56:25,579 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-05 22:56:25,579 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-05 22:56:25,579 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-05 22:56:27,451 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-05 22:56:27,451 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-05 22:56:27,451 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-05 22:56:27,469 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-05 22:56:27,469 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-05 22:56:27,469 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-05 22:56:27,488 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-05 22:56:27,488 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-05 22:56:27,488 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-05 22:56:27,504 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-05 22:56:27,504 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-05 22:56:27,504 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-05 22:56:27,525 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-05 22:56:27,525 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-05 22:56:27,525 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-05 22:56:27,539 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-05 22:56:27,539 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-05 22:56:27,539 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-05 22:56:27,554 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-05 22:56:27,554 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-05 22:56:27,554 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-05 22:56:27,575 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-05 22:56:27,575 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-05 22:56:27,575 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-05 22:56:27,589 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-05 22:56:27,589 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-05 22:56:27,589 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-05 22:56:27,611 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-05 22:56:27,611 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-05 22:56:27,611 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-05 22:56:27,628 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-05 22:56:27,628 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-05 22:56:27,628 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-05 22:56:27,646 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-05 22:56:27,646 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-05 22:56:27,646 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-05 22:56:27,668 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-05 22:56:27,668 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-05 22:56:27,668 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-05 22:56:27,683 INFO curiosity_one_post checkposts The post published: horsepower-doesnt-mean-what-you-think-it-means-curiosity
+2019-10-05 22:56:27,683 INFO curiosity_one_post checkposts The post published: horsepower-doesnt-mean-what-you-think-it-means-curiosity
+2019-10-05 22:56:27,683 INFO curiosity_one_post checkposts The post published: horsepower-doesnt-mean-what-you-think-it-means-curiosity
+2019-10-05 22:56:28,300 INFO curiosity_one_post django_db Доступно 444 новых постов.
+2019-10-05 22:56:28,300 INFO curiosity_one_post django_db Доступно 444 новых постов.
+2019-10-05 22:56:28,300 INFO curiosity_one_post django_db Доступно 444 новых постов.
+2019-10-05 22:56:33,227 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 105, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-10-05 22:56:33,227 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 105, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-10-05 22:56:33,227 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 105, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-10-05 22:56:37,507 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-05 22:56:37,507 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-05 22:56:37,507 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-05 22:56:45,540 WARNING log log_response Not Found: /favicon.ico
+2019-10-05 22:56:45,540 WARNING log log_response Not Found: /favicon.ico
+2019-10-05 22:56:45,540 WARNING log log_response Not Found: /favicon.ico
+2019-10-05 23:11:04,813 ERROR log log_response Internal Server Error: /curiosity/
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 41, in index
+    'num_channels': num_channels,
+NameError: name 'num_channels' is not defined
+2019-10-05 23:11:04,813 ERROR log log_response Internal Server Error: /curiosity/
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 41, in index
+    'num_channels': num_channels,
+NameError: name 'num_channels' is not defined
+2019-10-05 23:11:04,813 ERROR log log_response Internal Server Error: /curiosity/
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 41, in index
+    'num_channels': num_channels,
+NameError: name 'num_channels' is not defined
+2019-10-06 22:28:17,068 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-06 22:28:22,016 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-06 22:28:22,016 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-06 22:28:25,903 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-06 22:28:25,903 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-06 22:28:25,915 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-06 22:28:25,915 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-06 22:28:25,927 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-06 22:28:25,927 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-06 22:28:25,939 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-06 22:28:25,939 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-06 22:28:25,951 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-06 22:28:25,951 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-06 22:28:25,981 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-06 22:28:25,981 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-06 22:28:25,995 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-06 22:28:25,995 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-06 22:28:26,007 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-06 22:28:26,007 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-06 22:28:26,019 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-06 22:28:26,019 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-06 22:28:26,031 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-06 22:28:26,031 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-06 22:28:26,045 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-06 22:28:26,045 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-06 22:28:26,062 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-06 22:28:26,062 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-06 22:28:26,075 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-06 22:28:26,075 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-06 22:28:26,087 INFO curiosity_one_post checkposts The post published: horsepower-doesnt-mean-what-you-think-it-means-curiosity
+2019-10-06 22:28:26,087 INFO curiosity_one_post checkposts The post published: horsepower-doesnt-mean-what-you-think-it-means-curiosity
+2019-10-06 22:28:26,097 INFO curiosity_one_post checkposts The post published: the-elders-is-a-group-of-prominent-leaders-who-work-for-world-peace-curiosity
+2019-10-06 22:28:26,097 INFO curiosity_one_post checkposts The post published: the-elders-is-a-group-of-prominent-leaders-who-work-for-world-peace-curiosity
+2019-10-06 22:28:26,591 INFO curiosity_one_post django_db Доступно 443 новых постов.
+2019-10-06 22:28:26,591 INFO curiosity_one_post django_db Доступно 443 новых постов.
+2019-10-06 22:28:32,178 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-06 22:28:32,178 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-06 22:28:32,191 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-06 22:28:32,191 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-06 22:28:32,211 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-06 22:28:32,211 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-06 22:28:32,230 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-06 22:28:32,230 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-06 22:28:32,242 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-06 22:28:32,242 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-06 22:28:32,264 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-06 22:28:32,264 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-06 22:28:32,281 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-06 22:28:32,281 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-06 22:28:32,298 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-06 22:28:32,298 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-06 22:28:32,316 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-06 22:28:32,316 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-06 22:28:32,336 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-06 22:28:32,336 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-06 22:28:32,353 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-06 22:28:32,353 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-06 22:28:32,371 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-06 22:28:32,371 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-06 22:28:32,395 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-06 22:28:32,395 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-06 22:28:32,407 INFO curiosity_one_post checkposts The post published: horsepower-doesnt-mean-what-you-think-it-means-curiosity
+2019-10-06 22:28:32,407 INFO curiosity_one_post checkposts The post published: horsepower-doesnt-mean-what-you-think-it-means-curiosity
+2019-10-06 22:28:32,424 INFO curiosity_one_post checkposts The post published: the-elders-is-a-group-of-prominent-leaders-who-work-for-world-peace-curiosity
+2019-10-06 22:28:32,424 INFO curiosity_one_post checkposts The post published: the-elders-is-a-group-of-prominent-leaders-who-work-for-world-peace-curiosity
+2019-10-06 22:28:32,865 INFO curiosity_one_post django_db Доступно 443 новых постов.
+2019-10-06 22:28:32,865 INFO curiosity_one_post django_db Доступно 443 новых постов.
+2019-10-06 22:48:40,104 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 105, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-10-06 22:48:40,104 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 105, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-10-06 22:49:19,120 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 105, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-10-06 22:49:19,120 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 105, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-10-06 22:49:21,389 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-06 22:49:21,389 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-06 22:49:22,676 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-06 22:49:22,676 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-06 22:50:18,928 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-06 22:50:18,928 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-06 22:50:18,928 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-06 22:50:23,947 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-06 22:50:23,947 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-06 22:50:23,947 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-06 22:50:23,947 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-06 22:50:43,075 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-06 22:50:43,075 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-06 22:50:43,075 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-06 22:50:43,075 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-06 22:50:43,094 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-06 22:50:43,094 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-06 22:50:43,094 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-06 22:50:43,094 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-06 22:50:43,113 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-06 22:50:43,113 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-06 22:50:43,113 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-06 22:50:43,113 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-06 22:50:43,134 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-06 22:50:43,134 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-06 22:50:43,134 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-06 22:50:43,134 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-06 22:50:43,154 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-06 22:50:43,154 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-06 22:50:43,154 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-06 22:50:43,154 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-06 22:50:43,176 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-06 22:50:43,176 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-06 22:50:43,176 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-06 22:50:43,176 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-06 22:50:43,196 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-06 22:50:43,196 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-06 22:50:43,196 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-06 22:50:43,196 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-06 22:50:43,219 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-06 22:50:43,219 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-06 22:50:43,219 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-06 22:50:43,219 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-06 22:50:43,242 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-06 22:50:43,242 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-06 22:50:43,242 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-06 22:50:43,242 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-06 22:50:43,268 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-06 22:50:43,268 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-06 22:50:43,268 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-06 22:50:43,268 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-06 22:50:43,292 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-06 22:50:43,292 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-06 22:50:43,292 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-06 22:50:43,292 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-06 22:50:43,316 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-06 22:50:43,316 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-06 22:50:43,316 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-06 22:50:43,316 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-06 22:50:43,336 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-06 22:50:43,336 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-06 22:50:43,336 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-06 22:50:43,336 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-06 22:50:43,356 INFO curiosity_one_post checkposts The post published: horsepower-doesnt-mean-what-you-think-it-means-curiosity
+2019-10-06 22:50:43,356 INFO curiosity_one_post checkposts The post published: horsepower-doesnt-mean-what-you-think-it-means-curiosity
+2019-10-06 22:50:43,356 INFO curiosity_one_post checkposts The post published: horsepower-doesnt-mean-what-you-think-it-means-curiosity
+2019-10-06 22:50:43,356 INFO curiosity_one_post checkposts The post published: horsepower-doesnt-mean-what-you-think-it-means-curiosity
+2019-10-06 22:50:43,375 INFO curiosity_one_post checkposts The post published: the-elders-is-a-group-of-prominent-leaders-who-work-for-world-peace-curiosity
+2019-10-06 22:50:43,375 INFO curiosity_one_post checkposts The post published: the-elders-is-a-group-of-prominent-leaders-who-work-for-world-peace-curiosity
+2019-10-06 22:50:43,375 INFO curiosity_one_post checkposts The post published: the-elders-is-a-group-of-prominent-leaders-who-work-for-world-peace-curiosity
+2019-10-06 22:50:43,375 INFO curiosity_one_post checkposts The post published: the-elders-is-a-group-of-prominent-leaders-who-work-for-world-peace-curiosity
+2019-10-06 22:50:43,396 INFO curiosity_one_post checkposts The post published: facebook-has-invented-an-entirely-new-unit-of-time-curiosity
+2019-10-06 22:50:43,396 INFO curiosity_one_post checkposts The post published: facebook-has-invented-an-entirely-new-unit-of-time-curiosity
+2019-10-06 22:50:43,396 INFO curiosity_one_post checkposts The post published: facebook-has-invented-an-entirely-new-unit-of-time-curiosity
+2019-10-06 22:50:43,396 INFO curiosity_one_post checkposts The post published: facebook-has-invented-an-entirely-new-unit-of-time-curiosity
+2019-10-06 22:50:43,783 INFO curiosity_one_post django_db Доступно 442 новых постов.
+2019-10-06 22:50:43,783 INFO curiosity_one_post django_db Доступно 442 новых постов.
+2019-10-06 22:50:43,783 INFO curiosity_one_post django_db Доступно 442 новых постов.
+2019-10-06 22:50:43,783 INFO curiosity_one_post django_db Доступно 442 новых постов.
+2019-10-06 22:50:46,379 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-06 22:50:46,379 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-06 22:50:46,379 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-06 22:50:46,379 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-06 22:50:46,435 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-06 22:50:46,435 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-06 22:50:46,435 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-06 22:50:46,435 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-06 22:50:46,526 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-06 22:50:46,526 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-06 22:50:46,526 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-06 22:50:46,526 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-06 22:50:46,612 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-06 22:50:46,612 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-06 22:50:46,612 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-06 22:50:46,612 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-06 22:50:46,686 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-06 22:50:46,686 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-06 22:50:46,686 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-06 22:50:46,686 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-06 22:50:46,751 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-06 22:50:46,751 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-06 22:50:46,751 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-06 22:50:46,751 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-06 22:50:46,808 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-06 22:50:46,808 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-06 22:50:46,808 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-06 22:50:46,808 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-06 22:50:46,825 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-06 22:50:46,825 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-06 22:50:46,825 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-06 22:50:46,825 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-06 22:50:46,874 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-06 22:50:46,874 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-06 22:50:46,874 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-06 22:50:46,874 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-06 22:50:46,895 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-06 22:50:46,895 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-06 22:50:46,895 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-06 22:50:46,895 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-06 22:50:46,923 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-06 22:50:46,923 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-06 22:50:46,923 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-06 22:50:46,923 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-06 22:50:46,942 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-06 22:50:46,942 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-06 22:50:46,942 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-06 22:50:46,942 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-06 22:50:46,962 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-06 22:50:46,962 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-06 22:50:46,962 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-06 22:50:46,962 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-06 22:50:47,034 INFO curiosity_one_post checkposts The post published: horsepower-doesnt-mean-what-you-think-it-means-curiosity
+2019-10-06 22:50:47,034 INFO curiosity_one_post checkposts The post published: horsepower-doesnt-mean-what-you-think-it-means-curiosity
+2019-10-06 22:50:47,034 INFO curiosity_one_post checkposts The post published: horsepower-doesnt-mean-what-you-think-it-means-curiosity
+2019-10-06 22:50:47,034 INFO curiosity_one_post checkposts The post published: horsepower-doesnt-mean-what-you-think-it-means-curiosity
+2019-10-06 22:50:47,053 INFO curiosity_one_post checkposts The post published: the-elders-is-a-group-of-prominent-leaders-who-work-for-world-peace-curiosity
+2019-10-06 22:50:47,053 INFO curiosity_one_post checkposts The post published: the-elders-is-a-group-of-prominent-leaders-who-work-for-world-peace-curiosity
+2019-10-06 22:50:47,053 INFO curiosity_one_post checkposts The post published: the-elders-is-a-group-of-prominent-leaders-who-work-for-world-peace-curiosity
+2019-10-06 22:50:47,053 INFO curiosity_one_post checkposts The post published: the-elders-is-a-group-of-prominent-leaders-who-work-for-world-peace-curiosity
+2019-10-06 22:50:47,070 INFO curiosity_one_post checkposts The post published: facebook-has-invented-an-entirely-new-unit-of-time-curiosity
+2019-10-06 22:50:47,070 INFO curiosity_one_post checkposts The post published: facebook-has-invented-an-entirely-new-unit-of-time-curiosity
+2019-10-06 22:50:47,070 INFO curiosity_one_post checkposts The post published: facebook-has-invented-an-entirely-new-unit-of-time-curiosity
+2019-10-06 22:50:47,070 INFO curiosity_one_post checkposts The post published: facebook-has-invented-an-entirely-new-unit-of-time-curiosity
+2019-10-06 22:50:47,548 INFO curiosity_one_post django_db Доступно 442 новых постов.
+2019-10-06 22:50:47,548 INFO curiosity_one_post django_db Доступно 442 новых постов.
+2019-10-06 22:50:47,548 INFO curiosity_one_post django_db Доступно 442 новых постов.
+2019-10-06 22:50:47,548 INFO curiosity_one_post django_db Доступно 442 новых постов.
+2019-10-06 22:52:48,166 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-06 22:52:48,166 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-06 22:52:48,166 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-06 22:52:48,166 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-06 22:52:56,964 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-06 22:52:56,964 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-06 22:52:56,964 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-06 22:52:56,964 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-06 22:52:59,556 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-06 22:52:59,556 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-06 22:52:59,556 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-06 22:52:59,556 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-06 22:53:01,460 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-06 22:53:01,460 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-06 22:53:01,460 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-06 22:53:01,460 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-06 22:55:33,621 ERROR log log_response Internal Server Error: /curiosity/updatedb/
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 538, in get_or_create
+    return self.get(**kwargs), False
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+curiosity.models.Post.DoesNotExist: Post matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Facebook придумал совершенно новую единицу времени.) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 131, in updatedb
+    channel=check_channel(channel_ru))[0]
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 541, in get_or_create
+    return self._create_object_from_params(kwargs, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 583, in _create_object_from_params
+    raise e
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 575, in _create_object_from_params
+    obj = self.create(**params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Facebook придумал совершенно новую единицу времени.) already exists.
+
+2019-10-06 22:55:33,621 ERROR log log_response Internal Server Error: /curiosity/updatedb/
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 538, in get_or_create
+    return self.get(**kwargs), False
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+curiosity.models.Post.DoesNotExist: Post matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Facebook придумал совершенно новую единицу времени.) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 131, in updatedb
+    channel=check_channel(channel_ru))[0]
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 541, in get_or_create
+    return self._create_object_from_params(kwargs, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 583, in _create_object_from_params
+    raise e
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 575, in _create_object_from_params
+    obj = self.create(**params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Facebook придумал совершенно новую единицу времени.) already exists.
+
+2019-10-06 22:55:33,621 ERROR log log_response Internal Server Error: /curiosity/updatedb/
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 538, in get_or_create
+    return self.get(**kwargs), False
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+curiosity.models.Post.DoesNotExist: Post matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Facebook придумал совершенно новую единицу времени.) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 131, in updatedb
+    channel=check_channel(channel_ru))[0]
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 541, in get_or_create
+    return self._create_object_from_params(kwargs, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 583, in _create_object_from_params
+    raise e
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 575, in _create_object_from_params
+    obj = self.create(**params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Facebook придумал совершенно новую единицу времени.) already exists.
+
+2019-10-06 22:55:33,621 ERROR log log_response Internal Server Error: /curiosity/updatedb/
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 538, in get_or_create
+    return self.get(**kwargs), False
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+curiosity.models.Post.DoesNotExist: Post matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Facebook придумал совершенно новую единицу времени.) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 131, in updatedb
+    channel=check_channel(channel_ru))[0]
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 541, in get_or_create
+    return self._create_object_from_params(kwargs, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 583, in _create_object_from_params
+    raise e
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 575, in _create_object_from_params
+    obj = self.create(**params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Facebook придумал совершенно новую единицу времени.) already exists.
+
+2019-10-06 22:57:20,195 ERROR log log_response Internal Server Error: /curiosity/updatedb/
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 538, in get_or_create
+    return self.get(**kwargs), False
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+curiosity.models.Post.DoesNotExist: Post matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Колодец Иакова-это опасное природное чудо.) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 131, in updatedb
+    channel=check_channel(channel_ru))[0]
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 541, in get_or_create
+    return self._create_object_from_params(kwargs, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 583, in _create_object_from_params
+    raise e
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 575, in _create_object_from_params
+    obj = self.create(**params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Колодец Иакова-это опасное природное чудо.) already exists.
+
+2019-10-06 22:57:20,195 ERROR log log_response Internal Server Error: /curiosity/updatedb/
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 538, in get_or_create
+    return self.get(**kwargs), False
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+curiosity.models.Post.DoesNotExist: Post matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Колодец Иакова-это опасное природное чудо.) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 131, in updatedb
+    channel=check_channel(channel_ru))[0]
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 541, in get_or_create
+    return self._create_object_from_params(kwargs, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 583, in _create_object_from_params
+    raise e
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 575, in _create_object_from_params
+    obj = self.create(**params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Колодец Иакова-это опасное природное чудо.) already exists.
+
+2019-10-06 22:57:20,195 ERROR log log_response Internal Server Error: /curiosity/updatedb/
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 538, in get_or_create
+    return self.get(**kwargs), False
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+curiosity.models.Post.DoesNotExist: Post matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Колодец Иакова-это опасное природное чудо.) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 131, in updatedb
+    channel=check_channel(channel_ru))[0]
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 541, in get_or_create
+    return self._create_object_from_params(kwargs, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 583, in _create_object_from_params
+    raise e
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 575, in _create_object_from_params
+    obj = self.create(**params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Колодец Иакова-это опасное природное чудо.) already exists.
+
+2019-10-06 22:57:20,195 ERROR log log_response Internal Server Error: /curiosity/updatedb/
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 538, in get_or_create
+    return self.get(**kwargs), False
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+curiosity.models.Post.DoesNotExist: Post matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Колодец Иакова-это опасное природное чудо.) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 131, in updatedb
+    channel=check_channel(channel_ru))[0]
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 541, in get_or_create
+    return self._create_object_from_params(kwargs, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 583, in _create_object_from_params
+    raise e
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 575, in _create_object_from_params
+    obj = self.create(**params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1335, in execute_sql
+    cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "curiosity_post_title_e99ad7d6_uniq"
+DETAIL:  Key (title)=(Колодец Иакова-это опасное природное чудо.) already exists.
+
+2019-10-06 22:57:24,757 WARNING log log_response Not Found: /favicon.ico
+2019-10-06 22:57:24,757 WARNING log log_response Not Found: /favicon.ico
+2019-10-06 22:57:24,757 WARNING log log_response Not Found: /favicon.ico
+2019-10-06 22:57:24,757 WARNING log log_response Not Found: /favicon.ico
+2019-10-06 23:04:48,725 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-06 23:04:48,725 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-06 23:04:48,725 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-06 23:04:48,725 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-06 23:04:48,725 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-06 23:04:58,591 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-06 23:04:58,591 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-06 23:04:58,591 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-06 23:04:58,591 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-06 23:04:58,591 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-06 23:04:58,615 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-06 23:04:58,615 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-06 23:04:58,615 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-06 23:04:58,615 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-06 23:04:58,615 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-06 23:04:58,637 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-06 23:04:58,637 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-06 23:04:58,637 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-06 23:04:58,637 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-06 23:04:58,637 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-06 23:04:58,658 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-06 23:04:58,658 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-06 23:04:58,658 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-06 23:04:58,658 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-06 23:04:58,658 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-06 23:04:58,679 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-06 23:04:58,679 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-06 23:04:58,679 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-06 23:04:58,679 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-06 23:04:58,679 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-06 23:04:58,702 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-06 23:04:58,702 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-06 23:04:58,702 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-06 23:04:58,702 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-06 23:04:58,702 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-06 23:04:58,725 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-06 23:04:58,725 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-06 23:04:58,725 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-06 23:04:58,725 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-06 23:04:58,725 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-06 23:04:58,742 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-06 23:04:58,742 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-06 23:04:58,742 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-06 23:04:58,742 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-06 23:04:58,742 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-06 23:04:58,769 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-06 23:04:58,769 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-06 23:04:58,769 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-06 23:04:58,769 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-06 23:04:58,769 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-06 23:04:58,788 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-06 23:04:58,788 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-06 23:04:58,788 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-06 23:04:58,788 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-06 23:04:58,788 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-06 23:04:58,811 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-06 23:04:58,811 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-06 23:04:58,811 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-06 23:04:58,811 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-06 23:04:58,811 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-06 23:04:58,835 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-06 23:04:58,835 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-06 23:04:58,835 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-06 23:04:58,835 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-06 23:04:58,835 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-06 23:04:58,857 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-06 23:04:58,857 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-06 23:04:58,857 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-06 23:04:58,857 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-06 23:04:58,857 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-06 23:04:58,879 INFO curiosity_one_post checkposts The post published: horsepower-doesnt-mean-what-you-think-it-means-curiosity
+2019-10-06 23:04:58,879 INFO curiosity_one_post checkposts The post published: horsepower-doesnt-mean-what-you-think-it-means-curiosity
+2019-10-06 23:04:58,879 INFO curiosity_one_post checkposts The post published: horsepower-doesnt-mean-what-you-think-it-means-curiosity
+2019-10-06 23:04:58,879 INFO curiosity_one_post checkposts The post published: horsepower-doesnt-mean-what-you-think-it-means-curiosity
+2019-10-06 23:04:58,879 INFO curiosity_one_post checkposts The post published: horsepower-doesnt-mean-what-you-think-it-means-curiosity
+2019-10-06 23:04:58,901 INFO curiosity_one_post checkposts The post published: the-elders-is-a-group-of-prominent-leaders-who-work-for-world-peace-curiosity
+2019-10-06 23:04:58,901 INFO curiosity_one_post checkposts The post published: the-elders-is-a-group-of-prominent-leaders-who-work-for-world-peace-curiosity
+2019-10-06 23:04:58,901 INFO curiosity_one_post checkposts The post published: the-elders-is-a-group-of-prominent-leaders-who-work-for-world-peace-curiosity
+2019-10-06 23:04:58,901 INFO curiosity_one_post checkposts The post published: the-elders-is-a-group-of-prominent-leaders-who-work-for-world-peace-curiosity
+2019-10-06 23:04:58,901 INFO curiosity_one_post checkposts The post published: the-elders-is-a-group-of-prominent-leaders-who-work-for-world-peace-curiosity
+2019-10-06 23:04:58,935 INFO curiosity_one_post checkposts The post published: facebook-has-invented-an-entirely-new-unit-of-time-curiosity
+2019-10-06 23:04:58,935 INFO curiosity_one_post checkposts The post published: facebook-has-invented-an-entirely-new-unit-of-time-curiosity
+2019-10-06 23:04:58,935 INFO curiosity_one_post checkposts The post published: facebook-has-invented-an-entirely-new-unit-of-time-curiosity
+2019-10-06 23:04:58,935 INFO curiosity_one_post checkposts The post published: facebook-has-invented-an-entirely-new-unit-of-time-curiosity
+2019-10-06 23:04:58,935 INFO curiosity_one_post checkposts The post published: facebook-has-invented-an-entirely-new-unit-of-time-curiosity
+2019-10-06 23:04:58,956 INFO curiosity_one_post checkposts The post published: jacobs-well-is-a-dangerous-natural-wonder-curiosity
+2019-10-06 23:04:58,956 INFO curiosity_one_post checkposts The post published: jacobs-well-is-a-dangerous-natural-wonder-curiosity
+2019-10-06 23:04:58,956 INFO curiosity_one_post checkposts The post published: jacobs-well-is-a-dangerous-natural-wonder-curiosity
+2019-10-06 23:04:58,956 INFO curiosity_one_post checkposts The post published: jacobs-well-is-a-dangerous-natural-wonder-curiosity
+2019-10-06 23:04:58,956 INFO curiosity_one_post checkposts The post published: jacobs-well-is-a-dangerous-natural-wonder-curiosity
+2019-10-06 23:04:59,306 INFO curiosity_one_post django_db Доступно 441 новых постов.
+2019-10-06 23:04:59,306 INFO curiosity_one_post django_db Доступно 441 новых постов.
+2019-10-06 23:04:59,306 INFO curiosity_one_post django_db Доступно 441 новых постов.
+2019-10-06 23:04:59,306 INFO curiosity_one_post django_db Доступно 441 новых постов.
+2019-10-06 23:04:59,306 INFO curiosity_one_post django_db Доступно 441 новых постов.
+2019-10-06 23:05:03,440 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 105, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-10-06 23:05:03,440 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 105, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-10-06 23:05:03,440 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 105, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-10-06 23:05:03,440 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 105, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-10-06 23:05:03,440 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 105, in parser
+    "class": "js-media-player"})["data-src"]
+TypeError: 'NoneType' object is not subscriptable
+2019-10-06 23:05:06,525 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-06 23:05:06,525 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-06 23:05:06,525 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-06 23:05:06,525 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-06 23:05:06,525 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-06 23:05:14,102 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-06 23:05:14,102 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-06 23:05:14,102 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-06 23:05:14,102 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-06 23:05:14,102 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-06 23:05:14,102 INFO curiosity_one_post django_db ====================================================================================================
+2019-10-06 23:05:27,951 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-06 23:05:27,951 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-06 23:05:27,951 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-06 23:05:27,951 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-06 23:05:27,951 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-06 23:05:27,951 INFO curiosity_one_post checkposts The post published: how-do-you-qualify-for-the-winter-olympics-if-it-doesnt-snow-where-you-live-curiosity
+2019-10-06 23:05:27,984 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-06 23:05:27,984 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-06 23:05:27,984 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-06 23:05:27,984 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-06 23:05:27,984 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-06 23:05:27,984 INFO curiosity_one_post checkposts The post published: medical-science-has-answered-this-300-year-old-philosophy-question-curiosity
+2019-10-06 23:05:28,009 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-06 23:05:28,009 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-06 23:05:28,009 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-06 23:05:28,009 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-06 23:05:28,009 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-06 23:05:28,009 INFO curiosity_one_post checkposts The post published: for-better-productivity-work-in-90-minute-spurts-curiosity
+2019-10-06 23:05:28,036 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-06 23:05:28,036 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-06 23:05:28,036 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-06 23:05:28,036 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-06 23:05:28,036 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-06 23:05:28,036 INFO curiosity_one_post checkposts The post published: the-british-government-is-using-this-puzzle-to-recruit-young-spies-curiosity
+2019-10-06 23:05:28,059 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-06 23:05:28,059 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-06 23:05:28,059 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-06 23:05:28,059 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-06 23:05:28,059 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-06 23:05:28,059 INFO curiosity_one_post checkposts The post published: you-really-can-tell-someones-sick-just-by-looking-at-them-curiosity
+2019-10-06 23:05:28,085 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-06 23:05:28,085 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-06 23:05:28,085 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-06 23:05:28,085 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-06 23:05:28,085 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-06 23:05:28,085 INFO curiosity_one_post checkposts The post published: firehawk-raptors-are-predatory-birds-that-start-forest-fires-on-purpose-curiosity
+2019-10-06 23:05:28,109 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-06 23:05:28,109 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-06 23:05:28,109 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-06 23:05:28,109 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-06 23:05:28,109 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-06 23:05:28,109 INFO curiosity_one_post checkposts The post published: video-how-do-you-cure-the-hiccups-curiosity
+2019-10-06 23:05:28,129 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-06 23:05:28,129 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-06 23:05:28,129 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-06 23:05:28,129 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-06 23:05:28,129 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-06 23:05:28,129 INFO curiosity_one_post checkposts The post published: how-to-set-the-right-goals-and-actually-achieve-them-curiosity
+2019-10-06 23:05:28,157 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-06 23:05:28,157 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-06 23:05:28,157 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-06 23:05:28,157 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-06 23:05:28,157 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-06 23:05:28,157 INFO curiosity_one_post checkposts The post published: indonesias-kawah-ijen-volcano-burns-a-brilliant-blue-curiosity
+2019-10-06 23:05:28,179 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-06 23:05:28,179 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-06 23:05:28,179 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-06 23:05:28,179 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-06 23:05:28,179 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-06 23:05:28,179 INFO curiosity_one_post checkposts The post published: multitasking-is-impossible-so-batch-tasks-instead-curiosity
+2019-10-06 23:05:28,206 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-06 23:05:28,206 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-06 23:05:28,206 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-06 23:05:28,206 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-06 23:05:28,206 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-06 23:05:28,206 INFO curiosity_one_post checkposts The post published: this-picture-of-a-single-atom-just-won-a-science-photography-prize-curiosity
+2019-10-06 23:05:28,234 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-06 23:05:28,234 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-06 23:05:28,234 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-06 23:05:28,234 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-06 23:05:28,234 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-06 23:05:28,234 INFO curiosity_one_post checkposts The post published: the-method-of-loci-is-a-mnemonic-strategy-that-can-help-people-with-depression-curiosity
+2019-10-06 23:05:28,258 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-06 23:05:28,258 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-06 23:05:28,258 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-06 23:05:28,258 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-06 23:05:28,258 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-06 23:05:28,258 INFO curiosity_one_post checkposts The post published: what-words-like-fresh-really-tell-you-about-how-fancy-your-food-is-curiosity
+2019-10-06 23:05:28,280 INFO curiosity_one_post checkposts The post published: horsepower-doesnt-mean-what-you-think-it-means-curiosity
+2019-10-06 23:05:28,280 INFO curiosity_one_post checkposts The post published: horsepower-doesnt-mean-what-you-think-it-means-curiosity
+2019-10-06 23:05:28,280 INFO curiosity_one_post checkposts The post published: horsepower-doesnt-mean-what-you-think-it-means-curiosity
+2019-10-06 23:05:28,280 INFO curiosity_one_post checkposts The post published: horsepower-doesnt-mean-what-you-think-it-means-curiosity
+2019-10-06 23:05:28,280 INFO curiosity_one_post checkposts The post published: horsepower-doesnt-mean-what-you-think-it-means-curiosity
+2019-10-06 23:05:28,280 INFO curiosity_one_post checkposts The post published: horsepower-doesnt-mean-what-you-think-it-means-curiosity
+2019-10-06 23:05:28,307 INFO curiosity_one_post checkposts The post published: the-elders-is-a-group-of-prominent-leaders-who-work-for-world-peace-curiosity
+2019-10-06 23:05:28,307 INFO curiosity_one_post checkposts The post published: the-elders-is-a-group-of-prominent-leaders-who-work-for-world-peace-curiosity
+2019-10-06 23:05:28,307 INFO curiosity_one_post checkposts The post published: the-elders-is-a-group-of-prominent-leaders-who-work-for-world-peace-curiosity
+2019-10-06 23:05:28,307 INFO curiosity_one_post checkposts The post published: the-elders-is-a-group-of-prominent-leaders-who-work-for-world-peace-curiosity
+2019-10-06 23:05:28,307 INFO curiosity_one_post checkposts The post published: the-elders-is-a-group-of-prominent-leaders-who-work-for-world-peace-curiosity
+2019-10-06 23:05:28,307 INFO curiosity_one_post checkposts The post published: the-elders-is-a-group-of-prominent-leaders-who-work-for-world-peace-curiosity
+2019-10-06 23:05:28,330 INFO curiosity_one_post checkposts The post published: facebook-has-invented-an-entirely-new-unit-of-time-curiosity
+2019-10-06 23:05:28,330 INFO curiosity_one_post checkposts The post published: facebook-has-invented-an-entirely-new-unit-of-time-curiosity
+2019-10-06 23:05:28,330 INFO curiosity_one_post checkposts The post published: facebook-has-invented-an-entirely-new-unit-of-time-curiosity
+2019-10-06 23:05:28,330 INFO curiosity_one_post checkposts The post published: facebook-has-invented-an-entirely-new-unit-of-time-curiosity
+2019-10-06 23:05:28,330 INFO curiosity_one_post checkposts The post published: facebook-has-invented-an-entirely-new-unit-of-time-curiosity
+2019-10-06 23:05:28,330 INFO curiosity_one_post checkposts The post published: facebook-has-invented-an-entirely-new-unit-of-time-curiosity
+2019-10-06 23:05:28,353 INFO curiosity_one_post checkposts The post published: jacobs-well-is-a-dangerous-natural-wonder-curiosity
+2019-10-06 23:05:28,353 INFO curiosity_one_post checkposts The post published: jacobs-well-is-a-dangerous-natural-wonder-curiosity
+2019-10-06 23:05:28,353 INFO curiosity_one_post checkposts The post published: jacobs-well-is-a-dangerous-natural-wonder-curiosity
+2019-10-06 23:05:28,353 INFO curiosity_one_post checkposts The post published: jacobs-well-is-a-dangerous-natural-wonder-curiosity
+2019-10-06 23:05:28,353 INFO curiosity_one_post checkposts The post published: jacobs-well-is-a-dangerous-natural-wonder-curiosity
+2019-10-06 23:05:28,353 INFO curiosity_one_post checkposts The post published: jacobs-well-is-a-dangerous-natural-wonder-curiosity
+2019-10-06 23:05:28,379 INFO curiosity_one_post checkposts The post published: can-you-solve-the-superpower-pill-riddle-curiosity
+2019-10-06 23:05:28,379 INFO curiosity_one_post checkposts The post published: can-you-solve-the-superpower-pill-riddle-curiosity
+2019-10-06 23:05:28,379 INFO curiosity_one_post checkposts The post published: can-you-solve-the-superpower-pill-riddle-curiosity
+2019-10-06 23:05:28,379 INFO curiosity_one_post checkposts The post published: can-you-solve-the-superpower-pill-riddle-curiosity
+2019-10-06 23:05:28,379 INFO curiosity_one_post checkposts The post published: can-you-solve-the-superpower-pill-riddle-curiosity
+2019-10-06 23:05:28,379 INFO curiosity_one_post checkposts The post published: can-you-solve-the-superpower-pill-riddle-curiosity
+2019-10-06 23:05:28,673 INFO curiosity_one_post django_db Доступно 440 новых постов.
+2019-10-06 23:05:28,673 INFO curiosity_one_post django_db Доступно 440 новых постов.
+2019-10-06 23:05:28,673 INFO curiosity_one_post django_db Доступно 440 новых постов.
+2019-10-06 23:05:28,673 INFO curiosity_one_post django_db Доступно 440 новых постов.
+2019-10-06 23:05:28,673 INFO curiosity_one_post django_db Доступно 440 новых постов.
+2019-10-06 23:05:28,673 INFO curiosity_one_post django_db Доступно 440 новых постов.
+2019-10-06 23:05:36,591 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-06 23:05:36,591 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-06 23:05:36,591 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-06 23:05:36,591 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-06 23:05:36,591 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-06 23:05:36,591 ERROR curiosity_one_post parser Ошибка парсера: ссылка на видео не найдена - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\Projects\py\myblog-development\curiosity\worker\curiosity_one_post.py", line 104, in parser
+    contents.find("div", {"class": "first-video"}).find("div", {"class": "module-video"}).find("div", {
+AttributeError: 'NoneType' object has no attribute 'find'
+2019-10-06 23:05:41,384 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-06 23:05:41,384 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-06 23:05:41,384 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-06 23:05:41,384 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-06 23:05:41,384 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-06 23:05:41,384 INFO curiosity_one_post translater Переводчик выполнил свою работу
+2019-10-06 23:08:24,528 ERROR log log_response Internal Server Error: /curiosity/
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 54, in index
+    return render(request, 'index.html', context=context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2019-10-06 23:08:24,528 ERROR log log_response Internal Server Error: /curiosity/
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 54, in index
+    return render(request, 'index.html', context=context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2019-10-06 23:08:24,528 ERROR log log_response Internal Server Error: /curiosity/
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 54, in index
+    return render(request, 'index.html', context=context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2019-10-06 23:08:24,528 ERROR log log_response Internal Server Error: /curiosity/
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 54, in index
+    return render(request, 'index.html', context=context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2019-10-06 23:08:24,528 ERROR log log_response Internal Server Error: /curiosity/
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 54, in index
+    return render(request, 'index.html', context=context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2019-10-06 23:08:24,528 ERROR log log_response Internal Server Error: /curiosity/
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 54, in index
+    return render(request, 'index.html', context=context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2019-10-06 23:09:01,448 ERROR log log_response Internal Server Error: /curiosity/
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 54, in index
+    return render(request, 'curiosity/index.html', context=context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2019-10-06 23:09:01,448 ERROR log log_response Internal Server Error: /curiosity/
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 54, in index
+    return render(request, 'curiosity/index.html', context=context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2019-10-06 23:09:01,448 ERROR log log_response Internal Server Error: /curiosity/
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 54, in index
+    return render(request, 'curiosity/index.html', context=context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2019-10-06 23:09:01,448 ERROR log log_response Internal Server Error: /curiosity/
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 54, in index
+    return render(request, 'curiosity/index.html', context=context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2019-10-06 23:09:01,448 ERROR log log_response Internal Server Error: /curiosity/
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 54, in index
+    return render(request, 'curiosity/index.html', context=context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+2019-10-06 23:09:01,448 ERROR log log_response Internal Server Error: /curiosity/
+Traceback (most recent call last):
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Projects\py\myblog-development\curiosity\views.py", line 54, in index
+    return render(request, 'curiosity/index.html', context=context)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "d:\Projects\py\myblog-development\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
