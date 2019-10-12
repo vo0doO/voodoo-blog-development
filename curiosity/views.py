@@ -2,7 +2,8 @@ from django.utils import timezone
 from django.shortcuts import render, get_object_or_404
 from django.urls import reverse_lazy
 from django.http import HttpResponseRedirect
-from curiosity.models import Post, Tag, Channel
+from curiosity.models import Post, Tag, Channel, PostAuthor
+from django.contrib.auth.models import User
 from django.views.generic import ListView, DetailView
 from django.contrib.auth.decorators import permission_required
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
@@ -41,46 +42,6 @@ class PostDeleteView(DeleteView):
     fields = "__all__"
 
 
-class PostByAuthorListView(LoginRequiredMixin, ListView):
-    models = Post
-    query_pk_and_slug = True
-    queryset = Post.objects.all()
-    template_name = "curiosity/pubpost_list_author_user.html"
-    
-def index(request):
-    """Просмотр функции для главной страницы сайта."""
-
-    # Сформировать подсчеты некоторых из основных объектов
-    num_posts = Post.objects.all().count()
-    num_channels = Channel.objects.all().count()
-
-    # Опубликованные посты (status = 'a')
-    num_pub = len([post.status for post in Post.objects.all() if post.status == "Опубликован"])
-    num_new = len([post.status for post in Post.objects.all() if post.status == "Обнаружен"])
-    # «Все ()» подразумевается по умолчанию.    
-    num_tags = Tag.objects.count()
-
-    # Количество посещений этой cnhfybws, поскольку, подсчитанных в переменной сеанса.
-    num_visits = request.session.get('num_visits', 0)
-    request.session['num_visits'] = num_visits+1
-
-    context = {
-        'num_new': num_new,
-        'num_posts': num_posts,
-        'num_channels': num_channels,
-        'num_pub': num_pub,
-        'num_tags': num_tags,
-        'num_visits': num_visits,
-    }
-
-    # Рендер шаблон HTML index.html с данными в переменном контексте
-    return render(request, 'curiosity/index.html', context=context)
-    paginate_by=10
-
-    def get_queryset(self):
-        return self.queryset.filter(author=self.request.user)
-
-
 class PostAuthorListView(ListView):
     models = PostAuthor
     fields = "__all__"
@@ -90,6 +51,7 @@ class PostAuthorListView(ListView):
         context['author'] = get_object_or_404(PostAuthor, pk=self.kwargs['pk'])
         return context
     paginate_by=10
+
 
 class TagListView(ListView):
     models = Post
@@ -211,7 +173,55 @@ class PostAuthorDeleteView(DeleteView):
     fields = "__all__"
 
 
+class PostByChannelListView(ListView):
+    model = Post
+
+
+class PostByTagListView(ListView):
+    model = Post
+
+
+class PostByAuthorListView(LoginRequiredMixin, ListView):
+    models = Post
+    query_pk_and_slug = True
+    queryset = Post.objects.all()
+    template_name = "curiosity/pubpost_list_author_user.html"
+
+    paginate_by=10
+
+    def get_queryset(self):
+        return self.queryset.filter(author_id=self.request.user.id)
+    
+
 def index(request):
+    """Просмотр функции для главной страницы сайта."""
+
+    # Сформировать подсчеты некоторых из основных объектов
+    num_posts = Post.objects.all().count()
+    num_channels = Channel.objects.all().count()
+
+    # Опубликованные посты (status = 'a')
+    num_pub = len([post.status for post in Post.objects.all() if post.status == "Опубликован"])
+    num_new = len([post.status for post in Post.objects.all() if post.status == "Обнаружен"])
+    # «Все ()» подразумевается по умолчанию.    
+    num_tags = Tag.objects.count()
+
+    # Количество посещений этой cnhfybws, поскольку, подсчитанных в переменной сеанса.
+    num_visits = request.session.get('num_visits', 0)
+    request.session['num_visits'] = num_visits+1
+
+    context = {
+        'num_new': num_new,
+        'num_posts': num_posts,
+        'num_channels': num_channels,
+        'num_pub': num_pub,
+        'num_tags': num_tags,
+        'num_visits': num_visits,
+    }
+
+    # Рендер шаблон HTML index.html с данными в переменном контексте
+    return render(request, 'curiosity/index.html', context=context)
+
 
 def magic_publishe(self, request):
     context = { "user" : request.user }

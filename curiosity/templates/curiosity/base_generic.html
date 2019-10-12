@@ -21,7 +21,7 @@
            {% if user.is_authenticated %}
             <ul>
               <li>User: {{ user.get_username }}</li>
-              <li><a href="{% url 'curiosity:my-posts' %}">Мои посты</a></li>
+              <li><a href="{% url 'curiosity:author-post-list' user.id %}">Мои посты</a></li>
               {% if user.is_staff %}
                 <li><a href="../../../admin/">Админка</a></li>
               {% endif %}
