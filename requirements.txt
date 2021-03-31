@@ -25,4 +25,4 @@ django-phonenumber-field==1.1.0
 phonenumbers==8.10.18
 Importable==0.2.2
 django-static-jquery==2.1.4
-lxml==4.4.1
+lxml==4.6.3
